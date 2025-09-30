@@ -19,3 +19,6 @@ logs/telemetry/
 
 # unstable files
 config/xaerominimap_entities.json
+
+# spam
+config/sliceanddice*.bak
