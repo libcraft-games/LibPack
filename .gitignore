@@ -16,3 +16,6 @@ logs/telemetry/
 
 # misc
 !.gitignore
+
+# unstable files
+config/xaerominimap_entities.json
