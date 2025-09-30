@@ -3,4 +3,3 @@
 overlayZVal = 250
 #Allowed Values: DISABLE, SHIFT_ONLY, ALWAYS
 addEnchantmentDescription = "ALWAYS"
-renderOverlayIcons = true
