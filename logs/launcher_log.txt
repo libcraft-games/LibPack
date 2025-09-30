@@ -1,67 +1,80 @@
-# Minecraft launcher log started at 2025-09-30 14:40:43
+# Minecraft launcher log started at 2025-09-30 14:49:11
 # Profile: LibPack 
 
 
-[14:40:44] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher running: args [--username, d9_m_5, --version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --assetIndex, 17, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.209, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
-[14:40:44] [main] [cpw.mods.modlauncher.Launcher/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[14:40:44] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[14:40:44] [main] [net.neoforged.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[14:40:44] [main] [EARLYDISPLAY/INFO]: Trying GL version 4.6
-[14:40:44] [main] [EARLYDISPLAY/INFO]: Requested GL version 4.6 got version 4.6
-[14:40:45] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
-[14:40:45] [pool-2-thread-1] [EARLYDISPLAY/INFO]: GL info: AMD Radeon RX 6700 XT GL version 4.6.0 Core Profile Context 24.30.18.241223, ATI Technologies Inc.
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.209:client]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-21.1.209-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\dninemfive\Games\Modrinth\AppData\meta\libraries\net\neoforged\neoforge\21.1.209\neoforge-21.1.209-universal.jar]], reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "emi-1.1.22+1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "fast-ip-ping-v1.0.7-mc1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Jade-1.21.1-NeoForge-15.10.3.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "loadsupport-neoforge-1.21.1-1.2.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "startuptime-1.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "wits-1.3.0+1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Xaeros_Minimap_25.2.10_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "XaerosWorldMap_1.39.12_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "XaeroZoomout-NeoForge-1.21-2.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/INFO]: Found 2 dependencies adding them to mods collection
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.209.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
-[14:40:45] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Mod List:
+[14:49:12] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher running: args [--username, d9_m_5, --version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --assetIndex, 17, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.209, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[14:49:12] [main] [cpw.mods.modlauncher.Launcher/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[14:49:12] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[14:49:12] [main] [net.neoforged.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[14:49:12] [main] [EARLYDISPLAY/INFO]: Trying GL version 4.6
+[14:49:12] [main] [EARLYDISPLAY/INFO]: Requested GL version 4.6 got version 4.6
+[14:49:12] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[14:49:12] [pool-2-thread-1] [EARLYDISPLAY/INFO]: GL info: AMD Radeon RX 6700 XT GL version 4.6.0 Core Profile Context 24.30.18.241223, ATI Technologies Inc.
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.209:client]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-21.1.209-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\dninemfive\Games\Modrinth\AppData\meta\libraries\net\neoforged\neoforge\21.1.209\neoforge-21.1.209-universal.jar]], reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create-1.21.1-6.0.6.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "emi-1.1.22+1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "fast-ip-ping-v1.0.7-mc1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Jade-1.21.1-NeoForge-15.10.3.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "jei-1.21.1-neoforge-19.25.0.321.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "loadsupport-neoforge-1.21.1-1.2.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ParCool-1.21.1-3.4.1.3-NF.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "startuptime-1.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "wits-1.3.0+1.21-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Xaeros_Minimap_25.2.10_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "XaerosWorldMap_1.39.12_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:12] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "XaeroZoomout-NeoForge-1.21-2.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/INFO]: Found 5 dependencies adding them to mods collection
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "flywheel-neoforge-1.21.1-1.0.4.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Ponder-NeoForge-1.21.1-1.0.56.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.209.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+62.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
+[14:49:13] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Mod List:
 		Name Version (Mod Id)
 
 		Better Advancements 0.4.3.21 (betteradvancements)
 		Cloth Config v15 API 15.0.140 (cloth_config)
+		Create 6.0.6 (create)
 		EMI 1.1.22+1.21.1+neoforge (emi)
 		Fast IP Ping 1.0.7 (fastipping)
+		Flywheel 1.0.4 (flywheel)
 		Jade 15.10.3+neoforge (jade)
+		Just Enough Items 19.25.0.321 (jei)
 		Load Support 1.2.1 (loadsupport)
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.209 (neoforge)
+		ParCool! 3.4.1.3 (parcool)
+		Ponder 1.0.56 (ponder)
 		Startup Time 1.0.0 (startuptime)
 		WITS 1.3.0+1.21-neoforge (wits)
 		Xaero's Minimap 25.2.10 (xaerominimap)
 		Xaero's World Map 1.39.12 (xaeroworldmap)
 		XaeroZoomout 2.0.0 (xaerozoomout)
-[14:40:45] [main] [net.neoforged.fml.loading.FMLServiceProvider/INFO]: Loading coremod script-engine for [xaerominimap, xaeroworldmap]
-[14:40:46] [main] [mixin/INFO]: Compatibility level set to JAVA_18
-[14:40:46] [main] [mixin/INFO]: Compatibility level set to JAVA_21
-[14:40:46] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --username, d9_m_5, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480]
-[14:40:46] [main] [mixin/WARN]: Reference map 'loadsupport.refmap.json' for loadsupport.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Reference map 'xaerozoomout.refmap.json' for xaerozoomout.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Reference map 'xaerozoomout.refmap.json' for xaerozoomout.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:40:46] [main] [mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
-[14:40:46] [main] [MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:49:13] [main] [net.neoforged.fml.loading.FMLServiceProvider/INFO]: Loading coremod script-engine for [xaerominimap, xaeroworldmap]
+[14:49:14] [main] [mixin/INFO]: Compatibility level set to JAVA_18
+[14:49:14] [main] [mixin/INFO]: Compatibility level set to JAVA_21
+[14:49:14] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --username, d9_m_5, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[14:49:14] [main] [mixin/WARN]: Reference map 'loadsupport.refmap.json' for loadsupport.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'xaerozoomout.refmap.json' for xaerozoomout.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'xaerozoomout.refmap.json' for xaerozoomout.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [mixin/WARN]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:49:14] [main] [MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
 WARN StatusConsoleListener Error parsing URI C:\Users\dninemfive\Games\Modrinth\AppData\meta\log_configs\client-1.12.xml
 WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[14:40:47] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 252 milliseconds
-[14:40:50] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
-[14:40:50] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
-[14:40:50] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:40:50] [Render thread/INFO] [minecraft/Minecraft]: Setting user: d9_m_5
-[14:40:50] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
-[14:40:50] [modloading-worker-0/INFO] [me.fa.fa.FastIpPingMod/]: ping
+[14:49:15] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 235 milliseconds
+[14:49:18] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23204!/assets/.mcassetsroot' uses unexpected schema
+[14:49:18] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23204!/data/.mcassetsroot' uses unexpected schema
+[14:49:18] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:49:18] [Render thread/INFO] [minecraft/Minecraft]: Setting user: d9_m_5
+[14:49:18] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[14:49:19] [modloading-worker-0/INFO] [me.fa.fa.FastIpPingMod/]: ping
 
 # Process exited with status: exit code: 0
