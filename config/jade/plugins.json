@@ -76,6 +76,17 @@
     "block_properties": false,
     "mod_name": true
   },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "balm": {
+    "jade": true
+  },
   "barbequesdelight": {
     "grill": true
   },
