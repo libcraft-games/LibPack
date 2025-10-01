@@ -13,6 +13,9 @@ logs/telemetry/
 !logs/latest.log
 !logs/launcher-log.txt
 
+# allow datapacks
+!datapacks/
+
 # misc
 !.gitignore
 
