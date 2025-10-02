@@ -1,4 +1,11 @@
 {
+  "toms_trading_network": {
+    "vending_machine": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -63,9 +70,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "immersiveengineering": {
-    "multiblock_icon": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -79,6 +83,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "petrolpark": {
+    "contamination": true
   },
   "cookingforblockheads": {
     "fridge": true,
