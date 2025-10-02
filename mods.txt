@@ -174,7 +174,6 @@ ctgui-neoforge-1.21.1-0.3.0.jar
 culturaldelights-0.17.7.jar
 curios-neoforge-9.5.1+1.21.1.jar
 darcenos-minecarts-1.4.jar.disabled
-deeperdarker-neoforge-1.21-1.3.4.jar
 defaultoptions-neoforge-1.21.1-21.1.5.jar.disabled
 deimos-1.21.1-neoforge-2.4.jar.disabled
 disguiseheads-neoforge-1.3.1-mc1.21.jar

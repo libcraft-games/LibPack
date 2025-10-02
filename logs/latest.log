@@ -7591,3 +7591,271 @@ java.lang.ClassCastException: class com.simibubi.create.content.kinetics.deploye
 [02Oct2025 10:16:28.935] [Render thread/INFO] [YetAnotherConfigLib/]: Generating YACL screen
 [02Oct2025 10:17:15.452] [Render thread/INFO] [structurify/]: Saving Structurify config...
 [02Oct2025 10:17:15.456] [Render thread/INFO] [structurify/]: Structurify config saved
+[02Oct2025 10:18:13.267] [Render thread/WARN] [mixin/]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
+[02Oct2025 10:18:28.665] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element #minecraft:ancient_city (minecraft:ancient_city) took 1038 ms
+[02Oct2025 10:18:28.692] [Render thread/WARN] [io.github.kituin.chatimage.ChatImage/]: 识别失败:class java.lang.String cannot be cast to class net.minecraft.network.chat.Component (java.lang.String is in module java.base of loader 'bootstrap'; net.minecraft.network.chat.Component is in module minecraft@1.21.1 of loader 'TRANSFORMER' @16d41725)
+[02Oct2025 10:18:28.694] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest #minecraft:ancient_city (minecraft:ancient_city) is at [-30864, ~, 3648] (4988 blocks away)
+[02Oct2025 10:18:37.002] [c2me-worker-0/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-40 absolute--55 absolute]
+[02Oct2025 10:18:37.097] [c2me-worker-2/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method getBuryContribution in c2me-opts-worldgen-vanilla.mixins.json:structure_weight_sampler.MixinStructureWeightSampler from mod c2me_opts_worldgen_vanilla cannot reduce visibiliy of PROTECTED target method, visibility will be upgraded.
+[02Oct2025 10:18:38.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [d9_m_5: Teleported d9_m_5 to -30863.500000, 87.491040, 3648.500000]
+[02Oct2025 10:18:38.466] [Render thread/WARN] [io.github.kituin.chatimage.ChatImage/]: 识别失败:class java.lang.String cannot be cast to class net.minecraft.network.chat.Component (java.lang.String is in module java.base of loader 'bootstrap'; net.minecraft.network.chat.Component is in module minecraft@1.21.1 of loader 'TRANSFORMER' @16d41725)
+[02Oct2025 10:18:38.467] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported d9_m_5 to -30863.500000, 87.491040, 3648.500000
+[02Oct2025 10:18:38.834] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2291 advancements
+[02Oct2025 10:18:41.295] [pool-24-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_slopes], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_wooded_badlands], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_mediterranean], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_forest], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_taiga], ResourceKey[minecraft:worldgen/structure / natures_spirit:village_wisteria], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_grove]] from pos BlockPos{x=-30933, y=96, z=3733}
+[02Oct2025 10:18:43.440] [c2me-worker-4/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
+[02Oct2025 10:18:48.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: d9_m_5 has reached the goal [A Metropolis of Restless Souls]
+[02Oct2025 10:18:48.613] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] d9_m_5 has reached the goal [A Metropolis of Restless Souls]
+[02Oct2025 10:18:48.648] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2296 advancements
+[02Oct2025 10:18:53.529] [c2me-worker-8/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
+[02Oct2025 10:18:55.237] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2025 10:18:55.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:18:55.348] [Server thread/INFO] [de.bommels05.ctgui.ChangedRecipeManager/]: Saved 0 recipe changes
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/deeperdarker:otherside
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:18:55.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:18:57.895] [c2me-worker-3/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
+[02Oct2025 10:19:00.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [d9_m_5: Set own game mode to Creative Mode]
+[02Oct2025 10:19:00.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[02Oct2025 10:19:01.739] [Render thread/WARN] [Sodium-VertexConsumerTracker/]: Class dev.emi.emi.screen.StackBatcher$UnlitFacade$Consumer does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[02Oct2025 10:19:47.220] [c2me-worker-7/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=203, y=48, z=159}
+[02Oct2025 10:21:11.665] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2297 advancements
+[02Oct2025 10:21:19.277] [Server thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Server
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "io.wispforest.accessories.api.slot.SlotTypeReference.get(net.minecraft.world.level.Level)" because "ref" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:872) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:170) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "io.wispforest.accessories.api.slot.SlotTypeReference.get(net.minecraft.world.level.Level)" because "ref" is null
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.lambda$adjustTypes$0(AccessoriesSlotGenerator.java:135) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.adjustTypes(AccessoriesSlotGenerator.java:142) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.of(AccessoriesSlotGenerator.java:53) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.inventory.menu.AetherAccessoriesMenu.<init>(AetherAccessoriesMenu.java:67) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.inventory.menu.AetherAccessoriesMenu.<init>(AetherAccessoriesMenu.java:42) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.network.packet.serverbound.OpenAccessoriesPacket.lambda$execute$0(OpenAccessoriesPacket.java:36) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.SimpleMenuProvider.createMenu(SimpleMenuProvider.java:25) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1132) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1116) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.network.packet.serverbound.OpenAccessoriesPacket.execute(OpenAccessoriesPacket.java:36) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/neoforge@21.1.209/net.neoforged.neoforge.network.handling.MainThreadPayloadHandler.lambda$handle$0(MainThreadPayloadHandler.java:16) ~[neoforge-21.1.209-universal.jar%23367!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 14 more
+[02Oct2025 10:21:19.279] [Server thread/ERROR] [net.neoforged.neoforge.network.registration.NetworkRegistry/]: Failed to process a synchronized task of the payload: aether:open_accessories
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "io.wispforest.accessories.api.slot.SlotTypeReference.get(net.minecraft.world.level.Level)" because "ref" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.TickTask.run(TickTask.java:18) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:872) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:170) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "io.wispforest.accessories.api.slot.SlotTypeReference.get(net.minecraft.world.level.Level)" because "ref" is null
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.lambda$adjustTypes$0(AccessoriesSlotGenerator.java:135) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.adjustTypes(AccessoriesSlotGenerator.java:142) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at TRANSFORMER/accessories@1.1.0-beta.52+1.21.1/io.wispforest.accessories.api.menu.AccessoriesSlotGenerator.of(AccessoriesSlotGenerator.java:53) ~[accessories-neoforge-1.1.0-beta.52+1.21.1.jar%23368!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.inventory.menu.AetherAccessoriesMenu.<init>(AetherAccessoriesMenu.java:67) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.inventory.menu.AetherAccessoriesMenu.<init>(AetherAccessoriesMenu.java:42) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.network.packet.serverbound.OpenAccessoriesPacket.lambda$execute$0(OpenAccessoriesPacket.java:36) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.SimpleMenuProvider.createMenu(SimpleMenuProvider.java:25) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1132) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1116) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at TRANSFORMER/aether@1.5.10/com.aetherteam.aether.network.packet.serverbound.OpenAccessoriesPacket.execute(OpenAccessoriesPacket.java:36) ~[aether-1.21.1-1.5.10-neoforge.jar%23372!/:?]
+	at TRANSFORMER/neoforge@21.1.209/net.neoforged.neoforge.network.handling.MainThreadPayloadHandler.lambda$handle$0(MainThreadPayloadHandler.java:16) ~[neoforge-21.1.209-universal.jar%23367!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:60) ~[client-1.21.1-20240808.144430-srg.jar%23366!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 14 more
+[02Oct2025 10:21:32.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: d9_m_5 has made the advancement [Noise Complaint]
+[02Oct2025 10:21:32.462] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] d9_m_5 has made the advancement [Noise Complaint]
+[02Oct2025 10:21:32.493] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2298 advancements
+[02Oct2025 10:21:39.187] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2025 10:21:39.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:21:39.247] [Server thread/INFO] [de.bommels05.ctgui.ChangedRecipeManager/]: Saved 0 recipe changes
+[02Oct2025 10:21:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:21:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:21:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:21:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/deeperdarker:otherside
+[02Oct2025 10:21:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:21:39.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:23:37.087] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2025 10:23:37.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:23:37.120] [Server thread/INFO] [de.bommels05.ctgui.ChangedRecipeManager/]: Saved 0 recipe changes
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/deeperdarker:otherside
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:23:37.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:23:37.468] [Render thread/INFO] [EMI/]: [EMI] Disconnecting from server, EMI data cleared
+[02Oct2025 10:23:37.468] [Render thread/INFO] [xaero.map.WorldMap/]: Finalizing world map session...
+[02Oct2025 10:23:37.468] [Thread-105/INFO] [EMI/]: [EMI] Clearing data
+[02Oct2025 10:23:37.515] [Thread-21/INFO] [xaero.map.WorldMap/]: World map cleaned normally!
+[02Oct2025 10:23:37.570] [Render thread/INFO] [xaero.map.WorldMap/]: World map session finalized.
+[02Oct2025 10:23:37.570] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Removed all overlays.
+[02Oct2025 10:23:37.570] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
+[02Oct2025 10:23:37.574] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_factory_logistics:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_factory_logistics:jei_plugin took 1ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: createdieselgenerators:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: createdieselgenerators:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: pointblank:jei...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: pointblank:jei took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: immersiveengineering:main...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: immersiveengineering:main took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: aether:jei...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: aether:jei took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: immersive_aircraft:extended_storage...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: immersive_aircraft:extended_storage took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sweety_archaeology:information...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sweety_archaeology:information took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sweety_archaeology:brewing_recipes...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sweety_archaeology:brewing_recipes took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: cookingforblockheads:jei...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: cookingforblockheads:jei took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_connected:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_connected:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: farmersdelight:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: farmersdelight:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: mynethersdelight:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: mynethersdelight:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: dungeonsdelight:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: dungeonsdelight:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: endersdelight:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: endersdelight:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: herbalbrews:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: herbalbrews:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: enchanted:jei_plugin...
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: enchanted:jei_plugin took 0ms
+[02Oct2025 10:23:37.575] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: tide:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: tide:jei_plugin took 1ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: map_atlases:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: map_atlases:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_winery:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_winery:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_winery:brewing_recipes...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_winery:brewing_recipes took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sliceanddice:jei...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: sliceanddice:jei took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_dragons_plus:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_dragons_plus:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: modopedia:modopedia...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: modopedia:modopedia took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: jade:main...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: jade:main took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: expandeddelight:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: expandeddelight:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: bibliocraft:jei_plugin...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: bibliocraft:jei_plugin took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: barbequesdelight:main...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: barbequesdelight:main took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_enchantment_industry:jei...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: create_enchantment_industry:jei took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: jei:internal...
+[02Oct2025 10:23:37.576] [Render thread/INFO] [EMI/]: [EMI] [TMRV] onRuntimeUnavailable: jei:internal took 0ms
+[02Oct2025 10:23:37.576] [Render thread/INFO] [toomanyrecipeviewers/]: onRuntimeUnavailable took 2ms
+[02Oct2025 10:23:37.588] [Render thread/INFO] [voicechat/]: [voicechat] Clearing audio channels
+[02Oct2025 10:23:37.594] [Render thread/INFO] [voicechat/]: [voicechat] Stopping microphone thread
+[02Oct2025 10:23:37.597] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: d9_m_5 lost connection: Disconnected
+[02Oct2025 10:23:37.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: d9_m_5 left the game
+[02Oct2025 10:23:37.600] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client d9_m_5
+[02Oct2025 10:23:37.615] [Render thread/INFO] [voicechat/]: [voicechat] Disconnecting voicechat
+[02Oct2025 10:23:37.624] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[02Oct2025 10:23:37.675] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping train listener...
+[02Oct2025 10:23:37.675] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping Advanced Display Data Manager...
+[02Oct2025 10:23:37.675] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
+[02Oct2025 10:23:37.679] [C2ME Storage #26/INFO] [C2ME Storage/]: Storage thread Thread[#224,C2ME Storage #26,8,SERVER] stopped
+[02Oct2025 10:23:37.680] [C2ME Storage #25/INFO] [C2ME Storage/]: Storage thread Thread[#223,C2ME Storage #25,8,SERVER] stopped
+[02Oct2025 10:23:37.679] [C2ME Storage #27/INFO] [C2ME Storage/]: Storage thread Thread[#225,C2ME Storage #27,8,SERVER] stopped
+[02Oct2025 10:23:37.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Oct2025 10:23:37.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Oct2025 10:23:37.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Oct2025 10:23:37.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ServerLevel[New World]/minecraft:overworld: waiting for 5718 chunks to unload
+[02Oct2025 10:23:37.883] [Advanced Display Data Manager/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Advanced Display Data Manager has been stopped.
+[02Oct2025 10:23:37.947] [CRN Train Listener/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Train listener has been stopped.
+[02Oct2025 10:23:38.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:23:38.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:23:38.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:23:38.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:23:38.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/deeperdarker:otherside
+[02Oct2025 10:23:38.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:23:38.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (starlight): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Oct2025 10:23:38.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Oct2025 10:23:38.456] [C2ME Storage #3/INFO] [C2ME Storage/]: Storage thread Thread[#191,C2ME Storage #3,8,SERVER] stopped
+[02Oct2025 10:23:38.846] [C2ME Storage #2/INFO] [C2ME Storage/]: Storage thread Thread[#190,C2ME Storage #2,8,SERVER] stopped
+[02Oct2025 10:23:38.883] [C2ME Storage #1/INFO] [C2ME Storage/]: Storage thread Thread[#189,C2ME Storage #1,8,SERVER] stopped
+[02Oct2025 10:23:38.897] [C2ME Storage #6/INFO] [C2ME Storage/]: Storage thread Thread[#197,C2ME Storage #6,8,SERVER] stopped
+[02Oct2025 10:23:38.908] [C2ME Storage #5/INFO] [C2ME Storage/]: Storage thread Thread[#196,C2ME Storage #5,8,SERVER] stopped
+[02Oct2025 10:23:38.912] [C2ME Storage #4/INFO] [C2ME Storage/]: Storage thread Thread[#195,C2ME Storage #4,8,SERVER] stopped
+[02Oct2025 10:23:38.913] [C2ME Storage #9/INFO] [C2ME Storage/]: Storage thread Thread[#201,C2ME Storage #9,8,SERVER] stopped
+[02Oct2025 10:23:38.914] [C2ME Storage #8/INFO] [C2ME Storage/]: Storage thread Thread[#200,C2ME Storage #8,8,SERVER] stopped
+[02Oct2025 10:23:38.917] [C2ME Storage #7/INFO] [C2ME Storage/]: Storage thread Thread[#199,C2ME Storage #7,8,SERVER] stopped
+[02Oct2025 10:23:38.926] [C2ME Storage #12/INFO] [C2ME Storage/]: Storage thread Thread[#204,C2ME Storage #12,8,SERVER] stopped
+[02Oct2025 10:23:38.934] [C2ME Storage #11/INFO] [C2ME Storage/]: Storage thread Thread[#203,C2ME Storage #11,8,SERVER] stopped
+[02Oct2025 10:23:38.937] [C2ME Storage #10/INFO] [C2ME Storage/]: Storage thread Thread[#202,C2ME Storage #10,8,SERVER] stopped
+[02Oct2025 10:23:38.939] [C2ME Storage #15/INFO] [C2ME Storage/]: Storage thread Thread[#208,C2ME Storage #15,8,SERVER] stopped
+[02Oct2025 10:23:38.942] [C2ME Storage #14/INFO] [C2ME Storage/]: Storage thread Thread[#207,C2ME Storage #14,8,SERVER] stopped
+[02Oct2025 10:23:38.945] [C2ME Storage #13/INFO] [C2ME Storage/]: Storage thread Thread[#206,C2ME Storage #13,8,SERVER] stopped
+[02Oct2025 10:23:38.946] [C2ME Storage #18/INFO] [C2ME Storage/]: Storage thread Thread[#211,C2ME Storage #18,8,SERVER] stopped
+[02Oct2025 10:23:38.948] [C2ME Storage #17/INFO] [C2ME Storage/]: Storage thread Thread[#210,C2ME Storage #17,8,SERVER] stopped
+[02Oct2025 10:23:38.951] [C2ME Storage #16/INFO] [C2ME Storage/]: Storage thread Thread[#209,C2ME Storage #16,8,SERVER] stopped
+[02Oct2025 10:23:38.956] [C2ME Storage #21/INFO] [C2ME Storage/]: Storage thread Thread[#214,C2ME Storage #21,8,SERVER] stopped
+[02Oct2025 10:23:38.963] [C2ME Storage #20/INFO] [C2ME Storage/]: Storage thread Thread[#213,C2ME Storage #20,8,SERVER] stopped
+[02Oct2025 10:23:38.966] [C2ME Storage #19/INFO] [C2ME Storage/]: Storage thread Thread[#212,C2ME Storage #19,8,SERVER] stopped
+[02Oct2025 10:23:38.967] [Server thread/INFO] [DragonLib/]: Stopping DragonLib Network Manager (Server) worker thread...
+[02Oct2025 10:23:38.967] [DragonLib Network Manager (Server)/INFO] [DragonLib/]: DragonLib Network Manager (Server) worker thread has been stopped!
+[02Oct2025 10:23:38.970] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config iteminteractions-server.toml
+[02Oct2025 10:23:38.970] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config illagerinvasion-server.toml
+[02Oct2025 10:23:38.971] [Server thread/INFO] [Puzzles Lib/]: Dispatching unloading event for config tradingpost-server.toml
+[02Oct2025 10:23:38.980] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[02Oct2025 10:23:39.919] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[02Oct2025 10:23:39.919] [Render thread/INFO] [DragonLib/]: Stopping DragonLib Network Manager (Client) worker thread...
+[02Oct2025 10:23:39.919] [DragonLib Network Manager (Client)/INFO] [DragonLib/]: DragonLib Network Manager (Client) worker thread has been stopped!
+[02Oct2025 10:23:39.919] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Removed all overlays.
+[02Oct2025 10:23:39.920] [Render thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
