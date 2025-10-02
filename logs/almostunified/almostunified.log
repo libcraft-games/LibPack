@@ -1,46 +1,21 @@
-[10:38:59.330] [INFO]: Loading config 'startup.json'.
-[10:38:59.333] [WARN]: Config 'startup.json' not found. Creating default config.
-[10:39:07.298] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common
-[10:39:22.651] [WARN]: Reload detected. Reconstructing runtime.
-[10:39:22.653] [INFO]: Loading config 'debug.json'.
-[10:39:22.654] [WARN]: Config 'debug.json' not found. Creating default config.
-[10:39:22.657] [INFO]: Loading config 'placeholders.json'.
-[10:39:22.659] [WARN]: Config 'placeholders.json' not found. Creating default config.
-[10:39:22.661] [INFO]: Loading config 'tags.json'.
-[10:39:22.663] [WARN]: Config 'tags.json' not found. Creating default config.
-[10:39:22.679] [WARN]: Config 'materials.json' not found. Creating default config.
-[10:39:22.705] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/diamond' -> [undergarden:shiverstone_diamond_ore, undergarden:depthrock_diamond_ore, natures_spirit:chert_diamond_ore]
-[10:39:22.705] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/iron' -> [undergarden:shiverstone_iron_ore, natures_spirit:chert_iron_ore, undergarden:depthrock_iron_ore]
-[10:39:22.705] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/copper' -> [natures_spirit:chert_copper_ore]
-[10:39:22.705] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/emerald' -> [natures_spirit:chert_emerald_ore]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [immersiveengineering:plate_gold]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 2/5 items for tag '#c:ores/gold' -> [natures_spirit:chert_gold_ore, undergarden:depthrock_gold_ore]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [immersiveengineering:plate_copper]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/lapis' -> [natures_spirit:chert_lapis_ore]
-[10:39:22.706] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iron' -> [immersiveengineering:plate_iron]
-[10:39:23.276] [INFO]: Loading config 'duplicates.json'.
-[10:39:23.277] [WARN]: Config 'duplicates.json' not found. Creating default config.
-[10:39:23.279] [INFO]: Recipe count: 32168
-[10:39:23.349] [INFO]: 20378 out of 32168 recipes were loaded for unification.
-[10:39:23.467] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
-[10:39:23.495] [INFO]: Recipe count afterwards: 32137 (done in 216.0 ms)
-[10:53:47.551] [WARN]: Reload detected. Reconstructing runtime.
-[10:53:47.551] [INFO]: Loading config 'debug.json'.
-[10:53:47.552] [INFO]: Loading config 'placeholders.json'.
-[10:53:47.553] [INFO]: Loading config 'tags.json'.
-[10:53:47.559] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/diamond' -> [undergarden:shiverstone_diamond_ore, undergarden:depthrock_diamond_ore, natures_spirit:chert_diamond_ore]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/iron' -> [undergarden:shiverstone_iron_ore, natures_spirit:chert_iron_ore, undergarden:depthrock_iron_ore]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/copper' -> [natures_spirit:chert_copper_ore]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/emerald' -> [natures_spirit:chert_emerald_ore]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [immersiveengineering:plate_gold]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 2/5 items for tag '#c:ores/gold' -> [natures_spirit:chert_gold_ore, undergarden:depthrock_gold_ore]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [immersiveengineering:plate_copper]
-[10:53:47.560] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/lapis' -> [natures_spirit:chert_lapis_ore]
-[10:53:47.561] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iron' -> [immersiveengineering:plate_iron]
-[10:53:48.301] [INFO]: Loading config 'duplicates.json'.
-[10:53:48.305] [INFO]: Recipe count: 32168
-[10:53:48.365] [INFO]: 20378 out of 32168 recipes were loaded for unification.
-[10:53:48.589] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
-[10:53:48.627] [INFO]: Recipe count afterwards: 32137 (done in 321.4 ms)
+[11:01:38.828] [INFO]: Loading config 'startup.json'.
+[11:01:46.387] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
+[11:02:01.942] [WARN]: Reload detected. Reconstructing runtime.
+[11:02:01.945] [INFO]: Loading config 'debug.json'.
+[11:02:01.949] [INFO]: Loading config 'placeholders.json'.
+[11:02:01.984] [INFO]: Loading config 'tags.json'.
+[11:02:02.051] [INFO]: [AutoHiding] Hiding 2/5 items for tag '#c:ores/gold' -> [undergarden:depthrock_gold_ore, natures_spirit:chert_gold_ore]
+[11:02:02.051] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper]
+[11:02:02.052] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/emerald' -> [natures_spirit:chert_emerald_ore]
+[11:02:02.052] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iron' -> [immersiveengineering:plate_iron]
+[11:02:02.052] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/iron' -> [undergarden:shiverstone_iron_ore, natures_spirit:chert_iron_ore, undergarden:depthrock_iron_ore]
+[11:02:02.052] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/diamond' -> [undergarden:shiverstone_diamond_ore, undergarden:depthrock_diamond_ore, natures_spirit:chert_diamond_ore]
+[11:02:02.052] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [immersiveengineering:plate_copper]
+[11:02:02.053] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/lapis' -> [natures_spirit:chert_lapis_ore]
+[11:02:02.053] [INFO]: [AutoHiding] Hiding 1/3 items for tag '#c:ores/copper' -> [natures_spirit:chert_copper_ore]
+[11:02:02.053] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [immersiveengineering:plate_gold]
+[11:02:02.586] [INFO]: Loading config 'duplicates.json'.
+[11:02:02.598] [INFO]: Recipe count: 32168
+[11:02:02.691] [INFO]: 20378 out of 32168 recipes were loaded for unification.
+[11:02:02.865] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
+[11:02:02.895] [INFO]: Recipe count afterwards: 32137 (done in 296.9 ms)
