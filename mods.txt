@@ -30,7 +30,7 @@ EasyMagic-v21.1.0-1.21.1-NeoForge.jar
 EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar
 Emojiful-Neoforge-1.21-5.2.1-all.jar
 Enchants+ 1.21 - 1.21.1 fabric-forge.jar.disabled
-EquipmentCompare-1.21.1-neoforge-1.3.13.jar.disabled
+EquipmentCompare-1.21.1-neoforge-1.3.13.jar
 FallingTree-1.21.1-1.21.1.11.jar
 FarmersDelight-1.21.1-1.2.9.jar
 Floral Enchantment-neoforge-1.21.1-1.1.0.jar.disabled
@@ -43,7 +43,7 @@ Handful-1.0.0-neoforge+mc1.21.1.jar.disabled
 Heads-1.21.1-2.1.1.jar.disabled
 HopperGadgetry-v21.1.2-1.21.1-NeoForge.jar.disabled
 HorseExpert-v21.1.0-1.21.1-NeoForge.jar.disabled
-Iceberg-1.21.1-neoforge-1.3.2.jar.disabled
+Iceberg-1.21.1-neoforge-1.3.2.jar
 IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar.disabled
 ImmersiveEngineering-1.21.1-12.4.2-194.jar.disabled
 Incantationem-2.0.3+1.21.jar.disabled
@@ -204,7 +204,7 @@ enchanted-neoforge-1.21.1-4.2.3.jar
 enchantmentlevelcapindicator-1.21.1-1.1.jar
 enchdesc-neoforge-1.21.1-21.1.9.jar
 endercon-2.4.jar
-enderscape-neoforge-1.0.9+mc1.21.1.jar.disabled
+enderscape-neoforge-1.0.9+mc1.21.1.jar
 endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar.disabled
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar.disabled
