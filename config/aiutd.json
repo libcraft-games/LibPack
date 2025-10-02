@@ -1,0 +1,16 @@
+{
+  "menuAlert": true,
+  "chatAlert": true,
+  "localVersion": "0.0.0",
+  "versionAPI": "https://api.modrinth.com/v2/project/\u003cid\u003e/version",
+  "changelogLink": "https://modrinth.com/modpack/\u003cmodpack-URL\u003e/changelog",
+  "maxChecks": 5,
+  "multiVersion": false,
+  "multiLoaderBool": false,
+  "multiLoader": "FABRIC",
+  "useModpackName": false,
+  "modpackName": "Default",
+  "useCustomMessage": false,
+  "customMessage": "This is a custom message!",
+  "linkChangelog": false
+}

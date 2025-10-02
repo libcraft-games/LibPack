@@ -287,11 +287,10 @@ moonlight-1.21-2.23.11-neoforge.jar
 more-enchantment-info-0.3.0.jar.disabled
 moreculling-neoforge-1.21.1-1.0.6.jar.disabled
 morediscs-1.21.1-neoforge-35.jar.disabled
-natures_spirit-2.2.5-1.21.1.jar
 neoforge-dungeonsdelight-1.21.1-1.3.7.jar
 neoforge-runiclib-1.21.1-4.3.9.jar
 netherite_horse_armor-neoforge-1.21.1-2.0a.jar
-netherportalfix-neoforge-1.21.1-21.1.1.jar.disabled
+netherportalfix-neoforge-1.21.1-21.1.1.jar
 noisium-neoforge-2.3.0+mc1.21-1.21.1.jar.disabled
 not_interested--mc1.21.1--neoforge--1.0.1.jar.disabled
 notenoughpots-1.21-neoforge-1.3.jar.disabled
