@@ -1,5 +1,5 @@
 [general]
-giveJournal = true
+giveJournal = false
 holdToCast = true
 showUnread = true
 showToasts = true
@@ -14,5 +14,5 @@ doSuccessSound = true
 doFailSound = true
 minigameDifficulty = 1.0
 [worldgen]
-disableFishingBoat = false
+disableFishingBoat = true
 disableEndOases = false
