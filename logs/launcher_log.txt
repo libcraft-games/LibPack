@@ -963,3 +963,5 @@ FastBoot mod is now active!
 [14:56:14] [modloading-worker-0/INFO] [Create: Numismatics/]: Registering block entities for Create: Numismatics
 [14:56:14] [modloading-worker-0/INFO] [Create: Numismatics/]: Registering blocks for Create: Numismatics
 [14:56:14] [modloading-worker-0/INFO] [me.fa.fa.FastIpPingMod/]: ping
+
+# Process exited with status: exit code: 0

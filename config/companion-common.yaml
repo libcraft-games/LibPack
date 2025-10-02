@@ -5,7 +5,7 @@ shoulderPets:
   dismountDamageThreshold: 0.5
   smartDismount: true
   dismountUnderWater: true
-  dismountWhileFlying: false
+  dismountWhileFlying: true
   dismountInWater: false
 follow:
   logIfTeleportingFailed: true
