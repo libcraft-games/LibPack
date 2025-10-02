@@ -204,7 +204,7 @@ enchanted-neoforge-1.21.1-4.2.3.jar
 enchantmentlevelcapindicator-1.21.1-1.1.jar
 enchdesc-neoforge-1.21.1-21.1.9.jar
 endercon-2.4.jar
-enderscape-neoforge-1.0.9+mc1.21.1.jar
+enderscape-neoforge-1.0.9+mc1.21.1.jar.disabled
 endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar.disabled
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar.disabled
@@ -214,7 +214,7 @@ expandeddelight-0.1.3.2.jar
 exposure-neoforge-1.21.1-1.9.11.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
-extended-wold-height-512-3.3.jar
+extended-wold-height-512-3.3.jar.disabled
 extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar.disabled
 extra_gauges-2.0.6.jar.disabled
 ezvcsurvival-neoforge-1.21.1-1.0.0.jar.disabled
