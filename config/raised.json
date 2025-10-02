@@ -286,6 +286,17 @@
       },
       "sync": "create:value_settings"
     },
+    "create_pattern_schematics:pattern_schematic": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create_pattern_schematics:pattern_schematic"
+    },
     "dungeonsdelight:ravenous_rush_vignette": {
       "displacement": {
         "x": 0,
