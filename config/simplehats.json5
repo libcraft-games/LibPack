@@ -5,7 +5,7 @@
 		"allowHatInHelmetSlot": false,
 		"entityLoot": {
 			"enableMobLoot": true,
-			"entityNoneWeight": 200,
+			"entityNoneWeight": 450,
 			"entityCommonWeight": 20,
 			"entityUncommonWeight": 15,
 			"entityRareWeight": 10,

@@ -4,7 +4,7 @@
 	#Hide minimap when holding the atlas in hand
 	hide_when_in_hand = true
 	#Only display y coordinates if atlas holds some slice maps
-	only_show_y_when_has_slices = true
+	only_show_y_when_has_slices = false
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
@@ -31,9 +31,9 @@
 	# Range: -4000 ~ 4000
 	active_potion_effects_vertical_offset = 26
 	#When enabled, the player's current Coords will be displayed
-	coordinate_text = true
+	coordinate_text = false
 	#Displays chunk coordinates
-	chunk_coordinate_text = false
+	chunk_coordinate_text = true
 	#When enabled, the player's current Biome will be displayed
 	biome_text = true
 	#Sets the scale of the text rendered for Coords and Biome mini-map data
@@ -61,13 +61,13 @@
 	#Only shows north cardinal direction
 	only_show_north_cardinal = false
 	#Shows map separation borders
-	map_borders = true
+	map_borders = false
 	#Use sky color for minimap
 	darken_at_night = false
 	#Plays page turn sound when current active map changes. Works best when paired with no rotation and no player follow
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
-	automatic_slice_change = false
+	automatic_slice_change = true
 
 [world_map]
 	#Adds a shear button to the atlas screen which allows you to cut maps

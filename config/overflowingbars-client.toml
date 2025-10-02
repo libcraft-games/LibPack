@@ -78,10 +78,10 @@
 	row_count_color = "WHITE"
 	#Only include completely filled rows for the row count.
 	#Default Value: false
-	count_full_rows_only = false
+	count_full_rows_only = true
 	#Force drawing row count using the font renderer, will make numbers display larger.
 	#Default Value: false
-	force_font_renderer = false
+	force_font_renderer = true
 	#Show row count also when only one row is present.
 	#Default Value: false
 	always_render_row_count = false
