@@ -29,7 +29,6 @@ EquipmentCompare-1.21.1-neoforge-1.3.13.jar
 FallingTree-1.21.1-1.21.1.11.jar
 FarmersDelight-1.21.1-1.2.9.jar
 ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar.disabled
-FpsReducer2-neoforge-1.21-2.10.jar.disabled
 FramedBlocks-10.4.0.jar
 GlitchCore-neoforge-1.21.1-2.1.0.0.jar
 Glow Banners-neoforge-2.0.0+1.21.jar
@@ -40,14 +39,14 @@ HorseExpert-v21.1.0-1.21.1-NeoForge.jar
 Iceberg-1.21.1-neoforge-1.3.2.jar
 IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar
 ImmersiveEngineering-1.21.1-12.4.2-194.jar
-Incantationem-2.0.3+1.21.jar.disabled
+Incantationem-2.0.3+1.21.jar
 Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar.disabled
 Jade-1.21.1-NeoForge-15.10.3.jar
 JustEnoughBeacons-NeoForge-1.21-1.3.0.jar.disabled
 JustEnoughProfessions-neoforge-1.21.1-4.0.4.jar.disabled
 JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar.disabled
 Kiwi-1.21.1-NeoForge-15.7.2.jar
-LeaveMyBarsAlone-v21.1.2-1.21.1-NeoForge.jar.disabled
+LeaveMyBarsAlone-v21.1.2-1.21.1-NeoForge.jar
 LeavesBeGone-v21.1.0-1.21.1-NeoForge.jar.disabled
 LetSleepingDogsLie-1.21-NeoForge-1.3.0.jar.disabled
 LibX-1.21.1-6.0.6.jar.disabled
@@ -108,11 +107,11 @@ baubley-heart-canisters-1.21.1-1.2.2.jar
 bcc-21.1.3+mc1.21.1.jar
 beautify-neoforge-1.21.1-2.0.2.jar
 bedspreads-neoforge-7.0.0+1.21.1.jar
-beekeeperhut-neoforge-3.0.1+mc1.21.1.jar.disabled
+beekeeperhut-neoforge-3.0.1+mc1.21.1.jar
 bellsandwhistles-0.4.7-1.21.1.jar
 better-clouds-1.7.17+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
-bibliocraft-1.21.1-1.6.1.jar
+bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
 blueprint-1.21.1-8.0.6.jar.disabled
 bobby-5.2.4+mc1.21.jar.disabled
@@ -124,7 +123,7 @@ c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar
 caelus-neoforge-7.0.1+1.21.1.jar.disabled
 carryon-neoforge-1.21.1-2.2.2.11.jar
 chalk-1.6.10.jar
-chat_heads-0.13.22-neoforge-1.21.jar
+chat_heads-0.14.0-neoforge-1.21.jar
 chatnotify-neoforge-2.5.2+1.21.1.jar
 chipped-neoforge-1.21.1-4.0.2.jar.disabled
 chisel-neoforge-2.0.0+mc1.21.1.jar.disabled
@@ -166,7 +165,7 @@ deimos-1.21.1-neoforge-2.4.jar.disabled
 disguiseheads-neoforge-1.3.1-mc1.21.jar
 dismountentity-1.21.1-3.6.jar
 displaydelight-1.3.0.jar
-distractingtrims-neoforge-1.21.1-21.1.1.jar.disabled
+distractingtrims-neoforge-1.21.1-21.1.1.jar
 distraction_free_recipes-neoforge-1.2.1-1.21.1.jar.disabled
 door_knocking-1.0.1+1.21-neoforge.jar
 dragonkind-evolved-1.5.3.jar.disabled
@@ -180,7 +179,7 @@ dungeons-and-taverns-swamp-hut-overhaul-v2.jar
 dungeons-and-taverns-v4.4.4.jar
 dungeons-and-taverns-woodland-mansion-replacement-v1.2.jar
 dyed-neoforge-1.21-1.2.0.jar
-dynamic-fps-3.9.5+minecraft-1.21.0-neoforge.jar.disabled
+dynamic-fps-3.9.5+minecraft-1.21.0-neoforge.jar
 ears-neoforge-1.21-1.4.7.jar
 elytra_physics-neoforge-2.3_mc1.20.5-1.21.1.jar
 elytratrims-neoforge-3.5.9+1.21.1.jar
@@ -195,7 +194,7 @@ enchantmentlevelcapindicator-1.21.1-1.1.jar
 enchdesc-neoforge-1.21.1-21.1.9.jar
 enderscape-neoforge-1.0.9+mc1.21.1.jar
 endersdelight-neoforge-1.21.1-1.1.0.jar
-engineeredcompatibility-4.3.0.jar.disabled
+engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.5.1+1.21.1+neoforge.jar
 everycomp-1.21-2.11.4-neoforge.jar.disabled
@@ -203,7 +202,7 @@ expandeddelight-0.1.3.2.jar
 exposure-neoforge-1.21.1-1.9.11.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
-extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar.disabled
+extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar
 extra_gauges-2.0.6.jar
 ezvcsurvival-neoforge-1.21.1-1.0.0.jar.disabled
 fabric-api-0.100.1+1.21.jar.disabled
@@ -211,10 +210,9 @@ fast-ip-ping-v1.0.7-mc1.21.1-neoforge.jar
 fastboot-1.21.x-v1.3neo.jar
 fastpaintings-1.21-1.3.0-neoforge.jar
 ferritecore-7.0.2-neoforge.jar
-flightassistant-neoforge-3.0.0-alpha.12+mc1.21.1.jar.disabled
 forgified-fabric-api-0.115.6+2.1.3+1.21.1.jar.disabled
 fowlplay-1.0.0+1.21.1-neoforge.jar
-friendsandfoes-neoforge-4.0.10+mc1.21.1.jar.disabled
+friendsandfoes-neoforge-4.0.10+mc1.21.1.jar
 fusion-1.2.11a-neoforge-mc1.21.jar.disabled
 fzzy_config-0.7.2+1.21+neoforge.jar
 geckolib-neoforge-1.21.1-4.8.2.jar
@@ -230,16 +228,13 @@ immersive_melodies-neoforge-0.6.2+1.21.1.jar
 immersive_paintings-neoforge-1.21.1-0.7.4.jar
 immersiveoverlays-neoforge-1.3.1+1.21.1.jar.disabled
 incontrol-1.21-10.1.3.jar.disabled
-inventory-tabs-1.4.3+1.21.jar.disabled
-iris-neoforge-1.8.12+mc1.21.1.jar.disabled
-jearchaeology-1.21.0-1.1.5.jar.disabled
+jearchaeology-1.21.0-1.1.5.jar
 jeed-1.21-2.3.0.jar.disabled
-jei-1.21.1-neoforge-19.25.0.321.jar.disabled
 jeimultiblocks-1.21.1-1.0.4.jar
 jinxedlib-neoforge-1.21.1-1.0.4.jar.disabled
 justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar.disabled
 justplayerheads-1.21.1-4.2.jar.disabled
-keybindbundles-1.3.1.jar.disabled
+keybindbundles-1.3.1.jar
 konkrete_neoforge_1.9.9_MC_1.21.jar.disabled
 kotlinforforge-5.10.0-all.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar.disabled
@@ -316,9 +311,9 @@ snowysniffer-neoforge-1.21.1-1.0.0.jar
 sodium-neoforge-0.6.13+mc1.21.1.jar
 sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar
 sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar.disabled
-sophisticatedbackpacks-1.21.1-3.25.8.1385.jar
+sophisticatedbackpacks-1.21.1-3.25.9.1390.jar
 sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23.jar
-sophisticatedcore-1.21.1-1.3.81.1200.jar
+sophisticatedcore-1.21.1-1.3.84.1214.jar
 soul-fire-d-neoforge-1.21-5.1.6.jar
 spyglass_improvements-1.5.7+mc1.21+neoforge.jar.disabled
 startuptime-1.0.0.jar
