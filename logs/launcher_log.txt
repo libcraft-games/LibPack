@@ -1,149 +1,172 @@
-# Minecraft launcher log started at 2025-10-02 12:17:27
+# Minecraft launcher log started at 2025-10-02 12:21:17
 # Profile: LibPack 
 
 
-[12:17:28] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher running: args [--username, d9_m_5, --version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --assetIndex, 17, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 1920, --height, 1080, --fml.neoForgeVersion, 21.1.209, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
-[12:17:28] [main] [cpw.mods.modlauncher.Launcher/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[12:17:28] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
-[12:17:28] [main] [net.neoforged.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[12:17:28] [main] [EARLYDISPLAY/INFO]: Trying GL version 4.6
-[12:17:28] [main] [EARLYDISPLAY/INFO]: Requested GL version 4.6 got version 4.6
-[12:17:28] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
-[12:17:28] [pool-2-thread-1] [EARLYDISPLAY/INFO]: GL info: AMD Radeon RX 6700 XT GL version 4.6.0 Core Profile Context 24.30.18.241223, ATI Technologies Inc.
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.209:client]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-21.1.209-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\dninemfive\Games\Modrinth\AppData\meta\libraries\net\neoforged\neoforge\21.1.209\neoforge-21.1.209-universal.jar]], reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "advancementdisable-neoforge-1.0.1+1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "advancementframes-1.21-2.2.10-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether-1.21.1-1.5.10-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_emissivity-1.21.1-1.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_protect_your_moa-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aiutd-1.0.8-1.21.1-Neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "almostunified-neoforge-1.21.1-1.3.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "amendments-1.21-2.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "appleskin-neoforge-mc1.21-3.0.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "balm-neoforge-1.21.1-21.0.52.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "banner-text-1.4.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "baubley-heart-canisters-1.21.1-1.2.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "beautify-neoforge-1.21.1-2.0.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BEB-NeoForge-1.21-5.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bedspreads-neoforge-7.0.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bellsandwhistles-0.4.7-1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "better-clouds-1.7.17+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliobiomes-1.21.1-1.6.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliocraft-1.21.1-1.6.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliowoods-1.21.1-1.6.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.12.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bowinfinityfix-1.21-neo-3.1.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bwncr-neoforge-1.21.1-3.20.3.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chalk-1.6.10.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chat_heads-0.13.22-neoforge-1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ChatImage-1.4.7+1.21.0+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chatnotify-neoforge-2.5.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "clickthrough-plus-neoforge-3.5.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "comforts-neoforge-9.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cookingforblockheads-neoforge-1.21.1-21.1.17.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "CraftTweaker-neoforge-1.21.1-21.0.34.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create-1.21.1-6.0.6.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_connected-1.1.6-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_factory_logistics-1.21.1-1.4.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "createdieselgenerators-1.21.1-1.3.5.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ctgui-neoforge-1.21.1-0.3.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Design-n-Decor-1.21.1-2.1.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "emi-1.1.22+1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Emojiful-Neoforge-1.21-5.2.1-all.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinforforge-5.10.0-all.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "letsdo-herbalbrews-neoforge-1.1.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "midnightlib-1.7.5-neoforge+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "moonlight-1.21-2.23.11-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "sliceanddice-forge-4.1.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "weaponmod-neoforge-1.21-1.24.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.jarjar.selection.JarSelector/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods\architectury-13.0.8-neoforge.jar
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/INFO]: Found 70 dependencies adding them to mods collection
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.52.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "ChatImageCode-0.12.2.jar" [parent: ChatImage-1.4.7+1.21.0+neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Ponder-NeoForge-1.21.1-1.0.56.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.209.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "MixinSquared-0.2.0.jar" [parent: mixinsquared-neoforge-0.2.0.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-general-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jctools-core-4.0.5.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-math-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "rxjava-3.1.12.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "whitenoise-1.21.1-neoforge-1.1.1.jar" [parent: actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-jdk7-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "reactive-streams-1.0.4.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-jdk8-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-base-mc1.21.1-0.3.0+alpha.0.79-all.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "yamlbeans-1.17.jar" [parent: Emojiful-Neoforge-1.21-5.2.1-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "exp4j-0.4.8.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jankson-1.2.2.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: create_factory_logistics-1.21.1-1.4.7.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "dragonlib-neoforge-1.21.1-2.2.24.jar" [parent: createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "api-5.0.0.jar" [parent: better-clouds-1.7.17+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinsquared-neoforge-0.2.0.jar" [parent: better-clouds-1.7.17+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "thedarkcolour.kfflang-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+62.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-server-utils-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: comforts-neoforge-9.0.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "thedarkcolour.kfflib-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "forgeconfigapiport-neoforge-21.1.1.jar" [parent: dragonlib-neoforge-1.21.1-2.2.24.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "thedarkcolour.kffmod-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-reflect-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "flywheel-neoforge-1.21.1-1.0.4.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-notickvd-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ActionLib-1.10.1-neoforge.jar" [parent: ChatImage-1.4.7+1.21.0+neoforge.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "accessories-neoforge-1.1.0-beta.48+1.21.1.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cumulus_menus-1.21.1-2.0.7-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "nitrogen_internals-1.21.1-1.1.25-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_factory_abstractions-1.21.1-1.4.7.jar" [parent: create_factory_logistics-1.21.1-1.4.7.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "asyncutil-0.1.0.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
-[12:17:29] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Mod List:
+[12:21:18] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher running: args [--username, d9_m_5, --version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --assetIndex, 17, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 1920, --height, 1080, --fml.neoForgeVersion, 21.1.209, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[12:21:18] [main] [cpw.mods.modlauncher.Launcher/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[12:21:18] [main] [cpw.mods.modlauncher.Launcher/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[12:21:18] [main] [net.neoforged.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[12:21:19] [main] [EARLYDISPLAY/INFO]: Trying GL version 4.6
+[12:21:19] [main] [EARLYDISPLAY/INFO]: Requested GL version 4.6 got version 4.6
+[12:21:19] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[12:21:19] [pool-2-thread-1] [EARLYDISPLAY/INFO]: GL info: AMD Radeon RX 6700 XT GL version 4.6.0 Core Profile Context 24.30.18.241223, ATI Technologies Inc.
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.209:client]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-21.1.209-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\dninemfive\Games\Modrinth\AppData\meta\libraries\net\neoforged\neoforge\21.1.209\neoforge-21.1.209-universal.jar]], reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "advancementdisable-neoforge-1.0.1+1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "advancementframes-1.21-2.2.10-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether-1.21.1-1.5.10-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_emissivity-1.21.1-1.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aether_protect_your_moa-1.21.1-1.0.0-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aethersdelight-0.1.4.1-1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "aiutd-1.0.8-1.21.1-Neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "almostunified-neoforge-1.21.1-1.3.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "amendments-1.21-2.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "appleskin-neoforge-mc1.21-3.0.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "balm-neoforge-1.21.1-21.0.52.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "banner-text-1.4.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "barbequesdelight-1.2.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "baubley-heart-canisters-1.21.1-1.2.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "beautify-neoforge-1.21.1-2.0.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BEB-NeoForge-1.21-5.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bedspreads-neoforge-7.0.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bellsandwhistles-0.4.7-1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "better-clouds-1.7.17+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliobiomes-1.21.1-1.6.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliocraft-1.21.1-1.6.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bibliowoods-1.21.1-1.6.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "BiomesOPlenty-neoforge-1.21.1-21.1.0.12.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bowinfinityfix-1.21-neo-3.1.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "bwncr-neoforge-1.21.1-3.20.3.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chalk-1.6.10.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chat_heads-0.13.22-neoforge-1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ChatImage-1.4.7+1.21.0+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "chatnotify-neoforge-2.5.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "clickthrough-plus-neoforge-3.5.0+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "comforts-neoforge-9.0.4+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cookingforblockheads-neoforge-1.21.1-21.1.17.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "CraftTweaker-neoforge-1.21.1-21.0.34.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create-1.21.1-6.0.6.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create-dragons-plus-1.8.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create-enchantment-industry-2.2.2b.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_connected-1.1.6-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_factory_logistics-1.21.1-1.4.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_power_loader-2.0.3-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_trimmed.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_vibrant_vaults-0.3.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_winery-1.7.0-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "createdieselgenerators-1.21.1-1.3.5.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "createfood-neoforge-1.21.1-2.0.0-beta-3.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ctgui-neoforge-1.21.1-0.3.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "culturaldelights-0.17.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Design-n-Decor-1.21.1-2.1.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "disguiseheads-neoforge-1.3.1-mc1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "displaydelight-1.3.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "emi-1.1.22+1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Emojiful-Neoforge-1.21-5.2.1-all.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "endersdelight-neoforge-1.21.1-1.1.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "expandeddelight-0.1.3.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "FarmersDelight-1.21.1-1.2.9.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinforforge-5.10.0-all.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "letsdo-herbalbrews-neoforge-1.1.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "midnightlib-1.7.5-neoforge+1.21.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "moonlight-1.21-2.23.11-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-dungeonsdelight-1.21.1-1.3.7.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-runiclib-1.21.1-4.3.9.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "sliceanddice-forge-4.1.1.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "TerraBlender-neoforge-1.21.1-4.1.0.8.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "weaponmod-neoforge-1.21-1.24.2.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods}, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.jarjar.selection.JarSelector/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\mods\architectury-13.0.8-neoforge.jar
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/INFO]: Found 76 dependencies adding them to mods collection
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.52.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "ChatImageCode-0.12.2.jar" [parent: ChatImage-1.4.7+1.21.0+neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jankson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "Ponder-NeoForge-1.21.1-1.0.56.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.209.jar" [parent: neoforge-21.1.209-universal.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "MixinSquared-0.2.0.jar" [parent: mixinsquared-neoforge-0.2.0.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "TRender-1.0.6-1.21-neoforge-SNAPSHOT.jar" [parent: disguiseheads-neoforge-1.3.1-mc1.21.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-general-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "netty-0.1.4.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "endec-0.1.8.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jctools-core-4.0.5.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-math-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "rxjava-3.1.12.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "whitenoise-1.21.1-neoforge-1.1.1.jar" [parent: actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-jdk7-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "reactive-streams-1.0.4.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-jdk8-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-base-mc1.21.1-0.3.0+alpha.0.79-all.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "yamlbeans-1.17.jar" [parent: Emojiful-Neoforge-1.21-5.2.1-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "exp4j-0.4.8.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "jankson-1.2.2.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "l2serial-3.0.9+5.jar" [parent: barbequesdelight-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: create_factory_logistics-1.21.1-1.4.7.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "dragonlib-neoforge-1.21.1-2.2.24.jar" [parent: createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "gson-0.1.5.1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "fabric-api-base-0.4.42+d1308dedd1.jar" [parent: owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "api-5.0.0.jar" [parent: better-clouds-1.7.17+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinsquared-neoforge-0.2.0.jar" [parent: better-clouds-1.7.17+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "thedarkcolour.kfflang-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-server-utils-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "spectrelib-neoforge-0.17.2+1.21.jar" [parent: comforts-neoforge-9.0.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "thedarkcolour.kfflib-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "forgeconfigapiport-neoforge-21.1.1.jar" [parent: dragonlib-neoforge-1.21.1-2.2.24.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "thedarkcolour.kffmod-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-stdlib-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlin-reflect-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "flywheel-neoforge-1.21.1-1.0.4.jar" [parent: create-1.21.1-6.0.6.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-notickvd-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "l2modularblocks-3.0.0+4.jar" [parent: barbequesdelight-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "ActionLib-1.10.1-neoforge.jar" [parent: ChatImage-1.4.7+1.21.0+neoforge.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "l2core-3.0.8+1.jar" [parent: barbequesdelight-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "accessories-neoforge-1.1.0-beta.48+1.21.1.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "cumulus_menus-1.21.1-2.0.7-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "conditional-mixin-neoforge-0.6.4.jar" [parent: create-dragons-plus-1.8.1.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "TRansition-1.0.4-1.21-neoforge-SNAPSHOT.jar" [parent: disguiseheads-neoforge-1.3.1-mc1.21.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "nitrogen_internals-1.21.1-1.1.25-neoforge.jar" [parent: aether-1.21.1-1.5.10-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: barbequesdelight-1.2.2.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "create_factory_abstractions-1.21.1-1.4.7.jar" [parent: create_factory_logistics-1.21.1-1.4.7.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.79.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar, reader: mod manifest]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "asyncutil-0.1.0.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar, locator: jarinjar]
+[12:21:19] [main] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Mod List:
 		Name Version (Mod Id)
 
 		[Let's Do] HerbalBrews 1.1.2 (herbalbrews)
@@ -152,6 +175,7 @@
 		ActuallyHarvest 1.1.3.6 (actuallyharvest)
 		Advancement Frames 1.21-2.2.10 (advancementframes)
 		AdvancementDisable 1.0.0 (advancementdisable)
+		Aethers Delight 0.1.4.1-1.21.1 (aethersdelight)
 		AlmostUnified 1.21.1-1.3.0 (almostunified)
 		Am I Up To Date? 1.0.8-1.21.1-Neoforge (aiutd)
 		Amendments 1.21-2.0.8 (amendments)
@@ -163,6 +187,7 @@
 		Balkon's WeaponMod: Legacy 1.24.2 (weaponmod)
 		Balm 21.0.52 (balm)
 		Banner Text 1.4.0 (mr_banner_text)
+		Barbeque's Delight 1.2.2 (barbequesdelight)
 		Baubley Heart Canisters 1.21.1-1.2.2 (bhc)
 		Beautiful Enchanted Books 5.0.0 (beb)
 		Beautify 2.0.2 (beautify)
@@ -202,6 +227,7 @@
 		Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.3.0+alpha.0.79+1.21.1 (c2me_rewrites_chunk_system)
 		Concurrent Chunk Management Engine (Server Utils) 0.3.0+alpha.0.79+1.21.1 (c2me_server_utils)
 		Concurrent Chunk Management Engine (Threading/Lighting) 0.3.0+alpha.0.79+1.21.1 (c2me_threading_lighting)
+		conditional mixin 0.6.4 (conditional_mixin)
 		Cooking for Blockheads 21.1.17 (cookingforblockheads)
 		CraftTweaker 21.0.34 (crafttweaker)
 		CraftTweaker GUI 0.3.0 (ctgui)
@@ -213,20 +239,35 @@
 		Create Slice & Dice 4.1.1 (sliceanddice)
 		Create: Bells & Whistles 0.4.7-1.21.1 (bellsandwhistles)
 		Create: Connected 1.1.6-mc1.21.1 (create_connected)
+		Create: Dragons Plus 1.8.1 (create_dragons_plus)
+		Create: Enchantment Industry 2.2.2b (create_enchantment_industry)
+		Create: Food 2.0.0-beta-3 (createfood)
+		Create: Power Loader 2.0.3-mc1.21.1 (create_power_loader)
+		Create: Trimmed 1.0.1 (create_trimmed)
+		Create: Vibrant Vaults 0.3.2 (create_vibrant_vaults)
+		Create: Winery 1.7.0 (create_winery)
+		Cultural Delights 0.17.7 (culturaldelights)
 		Cumulus 2.0.7 (cumulus_menus)
 		Curios API 9.5.1+1.21.1 (curios)
 		Design n' Decor 2.1.0 (dndecor)
+		DisguiseHeads 1.3.1 (disguiseheads)
+		Display Delight 1.3.0 (displaydelight)
 		DragonLib 1.21.1-2.2.24 (dragonlib)
+		Dungeon's Delight 1.3.7 (dungeonsdelight)
 		EMI 1.1.22+1.21.1+neoforge (emi)
 		Emissivity 1.0.2 (aether_emissivity)
 		Emojiful 5.2.1 (emojiful)
+		Ender's Delight 1.1.0 (endersdelight)
 		Enhanced Extinguishing 1.0.0 (aether_enhanced_extinguishing)
+		Expanded Delight 0.1.3.2 (expandeddelight)
+		Farmer's Delight 1.2.9 (farmersdelight)
 		Flywheel 1.0.4 (flywheel)
 		Forge Config API Port 21.1.1 (forgeconfigapiport)
 		Forgified Fabric API Base 0.4.42+d1308dedd1 (fabric_api_base)
 		GlitchCore 2.1.0.0 (glitchcore)
 		Kotlin For Forge 5.10.0 (kotlinforforge)
 		KumaAPI 21.0.7 (kuma_api)
+		L2Core 3.0.8+1 (l2core)
 		MidnightLib 1.7.5 (midnightlib)
 		Minecraft 1.21.1 (minecraft)
 		Moonlight Lib 1.21-2.23.11 (moonlight)
@@ -235,229 +276,251 @@
 		oωo 0.12.15.5-beta.1+1.21 (owo)
 		Ponder 1.0.56 (ponder)
 		Protect Your Moa 1.0.0 (aether_protect_your_moa)
+		RunicLib 4.3.9 (runiclib)
 		SpectreLib 0.17.2+1.21 (spectrelib)
 		TerraBlender 4.1.0.8 (terrablender)
 		The Aether 1.5.10 (aether)
+		TRansition 1.0.4 (transition)
+		TRender 1.0.6 (trender)
 		WhiteNoise 1.1.1 (whitenoise)
 		YetAnotherConfigLib 3.7.1+1.21.1-neoforge (yet_another_config_lib_v3)
-[12:17:30] [main] [mixin/INFO]: Compatibility level set to JAVA_21
-[12:17:30] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --username, d9_m_5, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 1920, --height, 1080]
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[12:17:30] [main] [C2ME Modules Manager/WARN]: Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'ChatImage.refmap.json' for chatimage.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'mixins.create_factory_logistics.refmap.json' for mixins.create_factory_logistics.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'createdieselgenerators.refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for chat_heads.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for chat_heads.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.base.mixin
-[12:17:30] [main] [C2ME Config System/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
-[12:17:30] [main] [mixin/WARN]: Reference map '' for betterclouds.required.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for betterclouds.optional.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for betterclouds.runtime.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'emojiful.refmap.json' for emojiful.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'chatnotify.refmap.json' for chatnotify.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'chatnotify.refmap.json' for chatnotify.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'ActionLib.refmap.json' for actionlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'aether_emissivity.refmap.json' for aether_emissivity.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'aether_protect_your_moa.refmap.json' for aether_protect_your_moa.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'ante.refmap.json' for ante.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'bedspreads.refmap.json' for bedspreads.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'dndecor.refmap.json' for dndecor.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [mixin/WARN]: Reference map 'sliceanddice.refmap.json' for sliceanddice.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[12:17:30] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[12:17:30] [main] [mixin/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:17:31] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
-[12:17:31] [main] [mixin/WARN]: @Mixin target com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer was not found chat_heads.mixins.json:compat.EmojifulMixin from mod chat_heads
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/ExtendedShader (java.lang.ClassNotFoundException: net.coderbot.iris.pipeline.newshader.ExtendedShader)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/fallback/FallbackShader (java.lang.ClassNotFoundException: net.coderbot.iris.pipeline.newshader.fallback.FallbackShader)
-[12:17:31] [main] [mixin/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[12:17:31] [main] [mixin/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[12:17:31] [main] [mixin/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[12:17:31] [main] [mixin/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[12:17:31] [main] [mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/minecraft/client/gui/components/MultilineTextField/StringView (java.lang.ClassNotFoundException: net.minecraft.client.gui.components.MultilineTextField.StringView)
-[12:17:31] [main] [mixin/WARN]: @Mixin target net.minecraft.client.gui.components.MultilineTextField.StringView was not found chatnotify.mixins.json:accessor.StringViewAccessor from mod chatnotify
-[12:17:31] [main] [mixin/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net.vulkanmod.config.option.Options)
-[12:17:31] [main] [mixin/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.thread.SchedulingUtil)
-[12:17:31] [main] [mixin/WARN]: Error loading class: vectorwing/farmersdelight/common/block/StandingCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.StandingCanvasSignBlock)
-[12:17:31] [main] [mixin/WARN]: Error loading class: vectorwing/farmersdelight/common/block/WallCanvasSignBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.WallCanvasSignBlock)
-[12:17:31] [main] [mixin/WARN]: Error loading class: vectorwing/farmersdelight/client/renderer/HangingCanvasSignRenderer (java.lang.ClassNotFoundException: vectorwing.farmersdelight.client.renderer.HangingCanvasSignRenderer)
-[12:17:31] [main] [mixin/WARN]: Error loading class: vectorwing/farmersdelight/client/renderer/CanvasSignRenderer (java.lang.ClassNotFoundException: vectorwing.farmersdelight.client.renderer.CanvasSignRenderer)
-[12:17:31] [main] [mixin/WARN]: Error loading class: vectorwing/farmersdelight/client/gui/CanvasSignEditScreen (java.lang.ClassNotFoundException: vectorwing.farmersdelight.client.gui.CanvasSignEditScreen)
-[12:17:31] [main] [mixin/WARN]: Error loading class: net/mehvahdjukaar/supplementaries/common/entities/SlimeBallEntity (java.lang.ClassNotFoundException: net.mehvahdjukaar.supplementaries.common.entities.SlimeBallEntity)
-[12:17:31] [main] [mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
-[12:17:31] [main] [mixin/WARN]: Error loading class: mezz/jei/gui/recipes/RecipesGui (java.lang.ClassNotFoundException: mezz.jei.gui.recipes.RecipesGui)
-[12:17:31] [main] [mixin/WARN]: @Mixin target mezz.jei.gui.recipes.RecipesGui was not found ctgui.mixins.json:RecipesGuiMixin from mod ctgui
-[12:17:31] [main] [mixin/WARN]: Error loading class: mezz/jei/library/gui/helpers/CraftingGridHelper (java.lang.ClassNotFoundException: mezz.jei.library.gui.helpers.CraftingGridHelper)
-[12:17:31] [main] [mixin/WARN]: @Mixin target mezz.jei.library.gui.helpers.CraftingGridHelper was not found ctgui.mixins.json:CraftingGridHelperMixin from mod ctgui
-[12:17:31] [main] [mixin/WARN]: Error loading class: mezz/jei/gui/recipes/RecipeGuiLayouts (java.lang.ClassNotFoundException: mezz.jei.gui.recipes.RecipeGuiLayouts)
-[12:17:31] [main] [mixin/WARN]: @Mixin target mezz.jei.gui.recipes.RecipeGuiLayouts was not found ctgui.mixins.json:RecipeGuiLayoutsAccessor from mod ctgui
-[12:17:31] [main] [mixin/WARN]: Error loading class: mekanism/client/recipe_viewer/emi/recipe/MekanismEmiRecipe (java.lang.ClassNotFoundException: mekanism.client.recipe_viewer.emi.recipe.MekanismEmiRecipe)
-[12:17:31] [main] [mixin/WARN]: @Mixin target mekanism.client.recipe_viewer.emi.recipe.MekanismEmiRecipe was not found ctgui.neoforge.mixins.json:MekanismEmiRecipeMixin from mod ctgui
-[12:17:31] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
-[12:17:31] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
-[12:17:31] [main] [mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[12:17:31] [main] [mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[12:17:31] [main] [MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[12:21:20] [main] [mixin/INFO]: Compatibility level set to JAVA_21
+[12:21:20] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack, --assetsDir, C:\Users\dninemfive\Games\Modrinth\AppData\meta\assets, --uuid, d1e1af2bfd7d4b43adad6a600fb1b3c9, --username, d9_m_5, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 1920, --height, 1080]
+[12:21:20] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12:21:20] [main] [mixin/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:20] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:21:20] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[12:21:21] [main] [C2ME Modules Manager/WARN]: Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'ChatImage.refmap.json' for chatimage.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'mixins.create_factory_logistics.refmap.json' for mixins.create_factory_logistics.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'createdieselgenerators.refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for chat_heads.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for chat_heads.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.base.mixin
+[12:21:21] [main] [C2ME Config System/INFO]: Global Executor Parallelism: 9 configured, 9 evaluated, 9 default evaluated
+[12:21:21] [main] [mixin/WARN]: Reference map '' for betterclouds.required.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for betterclouds.optional.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for betterclouds.runtime.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'emojiful.refmap.json' for emojiful.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'chatnotify.refmap.json' for chatnotify.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'chatnotify.refmap.json' for chatnotify.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'ActionLib.refmap.json' for actionlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'aether_emissivity.refmap.json' for aether_emissivity.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'aether_protect_your_moa.refmap.json' for aether_protect_your_moa.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'ante.refmap.json' for ante.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'runiclib.refmap.json' for runiclib.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'runiclib.refmap.json' for runiclib.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'bedspreads.refmap.json' for bedspreads.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'terrablender.refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'terrablender.refmap.json' for terrablender_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'display.refmap.json' for displaydelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'dndecor.refmap.json' for dndecor.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'sliceanddice.refmap.json' for sliceanddice.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12:21:21] [main] [C2ME Modules Manager/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12:21:21] [main] [mixin/WARN]: Reference map 'create_vibrant_vaults.mixins.refmap.json' for create_vibrant_vaults.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'create_power_loader.refmap.json' for create_power_loader.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Reference map 'createfood.refmap.json' for createfood.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:21:21] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
+[12:21:21] [main] [mixin/WARN]: @Mixin target com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer was not found chat_heads.mixins.json:compat.EmojifulMixin from mod chat_heads
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/ExtendedShader (java.lang.ClassNotFoundException: net.coderbot.iris.pipeline.newshader.ExtendedShader)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/coderbot/iris/pipeline/newshader/fallback/FallbackShader (java.lang.ClassNotFoundException: net.coderbot.iris.pipeline.newshader.fallback.FallbackShader)
+[12:21:21] [main] [mixin/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[12:21:21] [main] [mixin/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[12:21:21] [main] [mixin/WARN]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[12:21:21] [main] [mixin/WARN]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[12:21:21] [main] [mixin/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/minecraft/client/gui/components/MultilineTextField/StringView (java.lang.ClassNotFoundException: net.minecraft.client.gui.components.MultilineTextField.StringView)
+[12:21:21] [main] [mixin/WARN]: @Mixin target net.minecraft.client.gui.components.MultilineTextField.StringView was not found chatnotify.mixins.json:accessor.StringViewAccessor from mod chatnotify
+[12:21:21] [main] [mixin/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net.vulkanmod.config.option.Options)
+[12:21:21] [main] [mixin/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.thread.SchedulingUtil)
+[12:21:21] [main] [mixin/WARN]: Error loading class: net/mehvahdjukaar/supplementaries/common/entities/SlimeBallEntity (java.lang.ClassNotFoundException: net.mehvahdjukaar.supplementaries.common.entities.SlimeBallEntity)
+[12:21:21] [main] [mixin/WARN]: Error loading class: mezz/jei/library/load/PluginCaller (java.lang.ClassNotFoundException: mezz.jei.library.load.PluginCaller)
+[12:21:21] [main] [mixin/WARN]: Error loading class: mezz/jei/gui/recipes/RecipesGui (java.lang.ClassNotFoundException: mezz.jei.gui.recipes.RecipesGui)
+[12:21:21] [main] [mixin/WARN]: @Mixin target mezz.jei.gui.recipes.RecipesGui was not found ctgui.mixins.json:RecipesGuiMixin from mod ctgui
+[12:21:21] [main] [mixin/WARN]: Error loading class: mezz/jei/library/gui/helpers/CraftingGridHelper (java.lang.ClassNotFoundException: mezz.jei.library.gui.helpers.CraftingGridHelper)
+[12:21:21] [main] [mixin/WARN]: @Mixin target mezz.jei.library.gui.helpers.CraftingGridHelper was not found ctgui.mixins.json:CraftingGridHelperMixin from mod ctgui
+[12:21:21] [main] [mixin/WARN]: Error loading class: mezz/jei/gui/recipes/RecipeGuiLayouts (java.lang.ClassNotFoundException: mezz.jei.gui.recipes.RecipeGuiLayouts)
+[12:21:21] [main] [mixin/WARN]: @Mixin target mezz.jei.gui.recipes.RecipeGuiLayouts was not found ctgui.mixins.json:RecipeGuiLayoutsAccessor from mod ctgui
+[12:21:21] [main] [mixin/WARN]: Error loading class: mekanism/client/recipe_viewer/emi/recipe/MekanismEmiRecipe (java.lang.ClassNotFoundException: mekanism.client.recipe_viewer.emi.recipe.MekanismEmiRecipe)
+[12:21:21] [main] [mixin/WARN]: @Mixin target mekanism.client.recipe_viewer.emi.recipe.MekanismEmiRecipe was not found ctgui.neoforge.mixins.json:MekanismEmiRecipeMixin from mod ctgui
+[12:21:21] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
+[12:21:21] [main] [mixin/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer)
+[12:21:21] [main] [mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[12:21:21] [main] [mixin/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[12:21:21] [main] [MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
 WARN StatusConsoleListener Error parsing URI C:\Users\dninemfive\Games\Modrinth\AppData\meta\log_configs\client-1.12.xml
 WARN StatusConsoleListener Advanced terminal features are not available in this environment
-[12:17:33] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 235 milliseconds
-[12:17:36] [pool-19-thread-1/INFO] [io.gi.ki.ac.ActionLib/]: Add New HoverEvent: 1
-[12:17:36] [pool-19-thread-1/INFO] [io.gi.ki.ac.ActionLib/]: Register All HoverEvent Counts: 4
-[12:17:36] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23249!/assets/.mcassetsroot' uses unexpected schema
-[12:17:36] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23249!/data/.mcassetsroot' uses unexpected schema
-[12:17:36] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:17:36] [Render thread/INFO] [minecraft/Minecraft]: Setting user: d9_m_5
-[12:17:36] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
-[12:17:36] [Render thread/INFO] [BetterClouds/PreLaunch/]: [BetterClouds/PreLaunch] Initializing OpenGL compat
-[12:17:36] [modloading-worker-0/INFO] [BowInfinityFix/]: Fix Registered!
-[12:17:36] [modloading-worker-0/INFO] [io.gi.ki.ac.ActionLib/]: ActionLib loaded
-[12:17:36] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.209, for MC 1.21.1
-[12:17:36] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing Config from 'C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\betterclouds-v1.json'
-[12:17:37] [modloading-worker-0/INFO] [owo/]: blod: I think I need to take a book out of your page
-[12:17:37] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\yacl.json5'
-[12:17:37] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
-[12:17:37] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
-[12:17:37] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
-[12:17:38] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
-[12:17:38] [Smaug/INFO] [DragonLib/]:                              +++ ? +++                             
-[12:17:38] [Smaug/INFO] [DragonLib/]: ---------------------------------------------------------------------
-[12:17:38] [Smaug/INFO] [DragonLib/]:             Loaded DragonLib v1.21.1-2.2.24 by MrJulsen!            
-[12:17:38] [Smaug/INFO] [DragonLib/]:                       Minecraft NeoForge 1.21.1                      
-[12:17:38] [Smaug/INFO] [DragonLib/]: 
-[12:17:38] [Smaug/INFO] [DragonLib/]:                Discord: https://discord.gg/AeSbNgvc7f               
-[12:17:38] [Smaug/INFO] [DragonLib/]:                            GitHub: unknown                           
-[12:17:38] [Smaug/INFO] [DragonLib/]:   Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2/issues  
-[12:17:38] [Smaug/INFO] [DragonLib/]: ---------------------------------------------------------------------
-[12:17:38] [Smaug/INFO] [DragonLib/]:                              +++ ? +++                             
-[12:17:38] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
-[12:17:38] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on create_connected.mixins.json:sequencedgearshift.SequencedGearshiftScreenMixin from mod create_connected::handler$zif000$create_connected$updateParamsOfRow exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[12:17:39] [modloading-sync-worker/INFO] [AlmostUnified/]: Loading config 'startup.json'.
-[12:17:40] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 9ms
-[12:17:41] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{tooltip_hints=true, custom_configured_screen=true}}, sign=SynchronizedConfig{DataHolder:{pixel_consistent=true, text_color_multiplier=1.2}}, projectiles=SynchronizedConfig{DataHolder:{snowball_3d=true, fireball_3d=true, ghast_fireball_trail=true, dragon_fireball_trail=true, charges_tumble=true, projectiles_tumble=false, dragon_fireball=SynchronizedConfig{DataHolder:{dragon_breath_emissive=true}}}}, lily_pad=SynchronizedConfig{DataHolder:{y_offset=-0.016625}}, bell=SynchronizedConfig{DataHolder:{chain_attachment=true}}, brewing_stand=SynchronizedConfig{DataHolder:{brewing_stand_colors=true}}, arrows=SynchronizedConfig{DataHolder:{crossbows_colors=true}}, tripwire_hook=SynchronizedConfig{DataHolder:{fast_hooks=false}}, hanging_sign=SynchronizedConfig{DataHolder:{item_pixel_scale=10.0, swinging_signs=true, sign_attachment=true, swing_physics=SynchronizedConfig{DataHolder:{min_angle=0.7999999523162842, collision_force=15.0, damping=0.5249999761581421, collision_inertia=1.0, collision_considers_entity_hitbox=true, frequency=0.6000000238418579, max_angle=60.0}}}}, lantern=SynchronizedConfig{DataHolder:{fast_lanterns=false, lantern_item_size=0.625, lantern_item_holding=true, lantern_item_holding_up=false, swing_physics=SynchronizedConfig{DataHolder:{min_angle=0.7999999523162842, collision_force=15.0, damping=0.5249999761581421, collision_inertia=1.0, collision_considers_entity_hitbox=true, frequency=0.6000000238418579, max_angle=60.0}}}}, cauldron=SynchronizedConfig{DataHolder:{potion_texture=true}}, jukebox=SynchronizedConfig{DataHolder:{new_model=true, disc_spin=true}}, misc=SynchronizedConfig{DataHolder:{torch_item_holding=true, torch_item_size=1.0, candle_holder_item_holding=true, handle_holder_item_size=0.625, fixed_holding_animations=false, campfire_smoke_through_blocks=false}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\amendments-client.toml, modConfig=net.neoforged.fml.config.ModConfig@2e87fcbf] at path amendments-client.toml
-[12:17:41] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{merge_dynamic_resource_packs=true, lazy_map_upload=true, maps_mipmap=3, consistent_entity_renderer_shading=NO_GUI}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\moonlight-client.toml, modConfig=net.neoforged.fml.config.ModConfig@4a008323] at path moonlight-client.toml
-[12:17:41] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{lectern=SynchronizedConfig{DataHolder:{improved_screen=true}}, fireball=SynchronizedConfig{DataHolder:{thrown_cooldown=10, dragon_charge=true, gravity=true, deflectable=false, fire_charges_throwable=true, fire_charges_dispenser_behavior=true, improved_explosions=true}}, snowball=SynchronizedConfig{DataHolder:{freeze_ticks=35}}, hanging_signs=SynchronizedConfig{DataHolder:{items_on_signs=true}}, cauldron=SynchronizedConfig{DataHolder:{enhanced_cauldron=true, hand_crafting=true, in_world_crafting=true, dye_water=true, dye_recipes_per_layer=4, potion_recipes_per_layer=2, potions_mixing=ON, potion_mixing_limit=8, connect_to_fences=true, consistent_lava_layers=false, inverse_potions=SynchronizedConfig{DataHolder:{minecraft:mining_fatigue=minecraft:haste, minecraft:instant_health=minecraft:instant_damage, minecraft:unluck=minecraft:luck, minecraft:instant_damage=minecraft:instant_health, minecraft:weakness=minecraft:strength, minecraft:slowness=minecraft:speed, minecraft:haste=minecraft:mining_fatigue, minecraft:strength=minecraft:weakness, minecraft:speed=minecraft:slowness, minecraft:luck=minecraft:unluck}}}}, tripwire_hook=SynchronizedConfig{DataHolder:{tool_hook=true}}, carpets=SynchronizedConfig{DataHolder:{carpeted_stairs=true, carpeted_slabs=true}}, cake=SynchronizedConfig{DataHolder:{double_cake=true, directional_cake=true}}, mob_head=SynchronizedConfig{DataHolder:{skull_piles=true, skull_candles=true, multiple_candles=true}}, flower_pot=SynchronizedConfig{DataHolder:{hanging_pot=true}}, lantern=SynchronizedConfig{DataHolder:{wall_lanterns=true, high_priority=true, mod_blacklist=[bbb, extlights, betterendforge, spelunkery, galosphere, tconstruct, enigmaticlegacy, beautify], id_whitelist=[enlightened_end:xenon_lantern], falling_lanterns=ON}}, bell=SynchronizedConfig{DataHolder:{chain_ringing=true, chain_length=16}}, banners=SynchronizedConfig{DataHolder:{ceiling_banners=true}}, misc=SynchronizedConfig{DataHolder:{dye_blocks=false}}, torch=SynchronizedConfig{DataHolder:{torch_fire=true, torch_fire_offhand=false, torch_fire_duration=2}}, lily_pad=SynchronizedConfig{DataHolder:{better_lilypads=true}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\amendments-common.toml, modConfig=net.neoforged.fml.config.ModConfig@7297c271] at path amendments-common.toml
-[12:17:41] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{extra_debug=false, extra_children_debug=false, faster_cache_search=true}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\moonlight-common.toml, modConfig=net.neoforged.fml.config.ModConfig@25846747] at path moonlight-common.toml
-[12:17:41] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/CONFIG]: Configuration file C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\sliceanddice-common.toml is not correct. Correcting
-[12:17:41] [Render thread/INFO] [Moonlight/]: Merging 2 images using mode MIN_AREA_NO_UPSCALE
-[12:17:41] [Render thread/WARN] [minecraft/Options]: Removed resource pack mod/seamless:resourcepacks/default_seamless from options because it doesn't seem to exist anymore
-[12:17:41] [Render thread/INFO] [io.gi.ki.ch.ChatImage/]: KeyBindings Register
-[12:17:42] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/aether_enhanced_extinguishing, mod/c2me_fixes_worldgen_threading_issues, mod/kuma_api, mod/beautify, mod/c2me_rewrites_chunk_serializer, mod/aether, mod/c2me_opts_natives_math, mod/bowinfinityfix, mod/chatimage, mod/clickthrough, mod/c2me_fixes_general_threading_issues, mod/advancementframes, mod/cookingforblockheads, mod/neoforge, mod/create_factory_logistics, mod/c2me_opts_math, mod/createdieselgenerators, mod/c2me, mod/balm, mod/chat_heads, mod/c2me_base, mod/cloth_config, mod/betterclouds, mod/c2me_fixes_worldgen_vanilla_bugs, mod/emojiful, mod/create_connected, mod/chatnotify, mod/c2me_fixes_chunkio_threading_issues, mod/c2me_client_uncapvd, mod/c2me_opts_dfc, mod/curios, mod/actionlib, mod/aether_emissivity, mod/accessories, mod/cumulus_menus, mod/aether_protect_your_moa, mod/createrailwaysnavigator, mod/architectury, mod/weaponmod, mod/herbalbrews, mod/nitrogen_internals, mod/ante, mod/bwncr, mod/c2me_rewrites_chunkio, mod/create_factory_abstractions, mod/bibliowoods, mod/c2me_opts_allocs, mod/beb, mod/betteradvancements, mod/advancementdisable, mod/bellsandwhistles, mod/c2me_threading_lighting, mod/owo, mod/amendments, mod/actuallyharvest, mod/comforts, mod/armortrimitemfix, mod/glitchcore, mod/midnightlib, mod/c2me_rewrites_chunk_system, mod/whitenoise, mod/bedspreads, mod/crafttweaker, mod/c2me_opts_worldgen_vanilla, mod/chalk, mod/c2me_opts_scheduling, mod/emi, mod/ctgui, mod/dragonlib, mod/terrablender, mod/biomesoplenty, mod/bibliobiomes, mod/bibliocraft, mod/moonlight, mod/fabric_api_base, mod/mr_banner_text, mod/c2me_server_utils, mod/spectrelib, mod/forgeconfigapiport, mod/kotlinforforge, mod/flywheel, mod/ponder, mod/create, mod/dndecor, mod/sliceanddice, mod/bhc, mod/c2me_notickvd, mod/almostunified, mod/c2me_opts_worldgen_general, mod/c2me_opts_chunkio, mod/appleskin, mod/yet_another_config_lib_v3, mod/aiutd, builtin/emissivity_model_override, moonlight:merged_pack
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Starting Legacy Runtime Resource Generation for pack type CLIENT_RESOURCES with generators from mods [amendments]: [net.mehvahdjukaar.amendments.client.ClientResourceGenerator@57f6552]
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Generating runtime assets for pack amendments:generated_pack (amendments)
-[12:17:42] [Render thread/INFO] [DragonLib/]: Starting DragonLib Network Manager (Client) worker thread...
-[12:17:42] [DragonLib Network Manager (Client)/INFO] [DragonLib/]: DragonLib Network Manager (Client) worker thread has been started.
-[12:17:42] [Worker-Main-1/INFO] [Amendments/]: Generated runtime CLIENT_RESOURCES for pack amendments:generated_pack (amendments) in: 46 ms (multithreaded)
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Finished Legacy Runtime Resources Generation for 1 packs in a total of 46 ms
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Resource cache state for CLIENT_RESOURCES: needs regeneration
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators [moonlight:dynamic_resources]
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [moonlight:dynamic_resources], requested by strategy REGEN_ON_EVERY_RELOAD
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack moonlight:dynamic_resources in 2.142 ms
-[12:17:42] [Worker-Main-1/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 2.664 ms 
-[12:17:42] [Worker-Main-15/INFO] [de.mr.cr.CreateRailwaysNavigator/]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break1.ogg does not exist, cannot add it to event dndecor:large_chain_break
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break2.ogg does not exist, cannot add it to event dndecor:large_chain_break
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break3.ogg does not exist, cannot add it to event dndecor:large_chain_break
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break4.ogg does not exist, cannot add it to event dndecor:large_chain_break
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_step
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break1.ogg does not exist, cannot add it to event dndecor:large_chain_place
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break2.ogg does not exist, cannot add it to event dndecor:large_chain_place
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break3.ogg does not exist, cannot add it to event dndecor:large_chain_place
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break4.ogg does not exist, cannot add it to event dndecor:large_chain_place
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_hit
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [Worker-Main-3/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_fall
-[12:17:42] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_enhanced_extinguishing] Starting version check at https://github.com/The-Aether-Team/Enhanced-Extinguishing/raw/1.21.1-develop/update.json
-[12:17:42] [Worker-Main-10/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
-[12:17:42] [Worker-Main-6/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
-[12:17:42] [Worker-Main-1/ERROR] [minecraft/Util]: Invalid path in pack: dndecor:textures/block/old/zinc_catwalk - kopie.png, ignoring
-[12:17:42] [Worker-Main-7/ERROR] [minecraft/Util]: Invalid path in pack: dndecor:textures/block/old/zinc_catwalk - kopie.png, ignoring
-[12:17:42] [Thread-15/INFO] [Emojiful/]: Loaded 1911 emojis
-[12:17:42] [Worker-Main-7/WARN] [minecraft/SpriteLoader]: Texture beautify:block/trellis_weeping_vines_hanging with size 20x16 limits mip level from 4 to 2
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_enhanced_extinguishing] Found status: UP_TO_DATE Current: 1.0.0 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
-[12:17:43] [Render thread/INFO] [Moonlight/]: Initialized color sets in 29ms
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[12:17:43] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[12:17:43] [Render thread/INFO] [AlmostUnified/]: Loaded plugins: almostunified:neoforge, almostunified:common
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 1.1.6-mc1.21.1 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_emissivity] Starting version check at https://github.com/The-Aether-Team/Emissivity/raw/1.21.1-develop/update.json
-[12:17:43] [Worker-Main-8/INFO] [io.gi.ki.ch.ChatImage/]: [ChatImage]Client start
-[12:17:43] [Worker-Main-2/WARN] [de.ar.re.cl.ke.fo.KeyMappingRegistryImpl/]: Key mapping key.createrailwaysnavigator.route_overlay_options registered after event
+[12:21:23] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 215 milliseconds
+[12:21:26] [pool-19-thread-1/INFO] [io.gi.ki.ac.ActionLib/]: Add New HoverEvent: 1
+[12:21:26] [pool-19-thread-1/INFO] [io.gi.ki.ac.ActionLib/]: Register All HoverEvent Counts: 4
+[12:21:26] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23266!/assets/.mcassetsroot' uses unexpected schema
+[12:21:26] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dninemfive/Games/Modrinth/AppData/meta/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23266!/data/.mcassetsroot' uses unexpected schema
+[12:21:26] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:21:26] [Render thread/INFO] [minecraft/Minecraft]: Setting user: d9_m_5
+[12:21:27] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[12:21:27] [Render thread/INFO] [BetterClouds/PreLaunch/]: [BetterClouds/PreLaunch] Initializing OpenGL compat
+[12:21:27] [modloading-worker-0/INFO] [BowInfinityFix/]: Fix Registered!
+[12:21:27] [modloading-worker-0/INFO] [io.gi.ki.ac.ActionLib/]: ActionLib loaded
+[12:21:27] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.209, for MC 1.21.1
+[12:21:27] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing Config from 'C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\betterclouds-v1.json'
+[12:21:27] [modloading-worker-0/INFO] [owo/]: blod: he her
+[LibGui] Initializing Client...
+[12:21:28] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
+[12:21:28] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
+[12:21:28] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class ckathode.weaponmod.PlayerWeaponData
+[12:21:28] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\yacl.json5'
+[12:21:28] [modloading-worker-0/INFO] [co.si.cr.Create/]: Create 6.0.6 initializing! Commit hash: 20ad05b5e525166018d21e88c96986f867c7088f
+[12:21:28] [Dragon/INFO] [DragonLib/]:                              +++ ? +++                             
+[12:21:28] [Dragon/INFO] [DragonLib/]: ---------------------------------------------------------------------
+[12:21:28] [Dragon/INFO] [DragonLib/]:             Loaded DragonLib v1.21.1-2.2.24 by MrJulsen!            
+[12:21:28] [Dragon/INFO] [DragonLib/]:                       Minecraft NeoForge 1.21.1                      
+[12:21:28] [Dragon/INFO] [DragonLib/]: 
+[12:21:28] [Dragon/INFO] [DragonLib/]:                Discord: https://discord.gg/AeSbNgvc7f               
+[12:21:28] [Dragon/INFO] [DragonLib/]:                            GitHub: unknown                           
+[12:21:28] [Dragon/INFO] [DragonLib/]:   Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2/issues  
+[12:21:28] [Dragon/INFO] [DragonLib/]: ---------------------------------------------------------------------
+[12:21:28] [Dragon/INFO] [DragonLib/]:                              +++ ? +++                             
+[12:21:28] [modloading-worker-0/INFO] [de.av.ne.CreateFood/]: Create: Food - Registering Items
+[12:21:28] [modloading-worker-0/INFO] [de.av.ne.CreateFood/]: Create: Food - Registering Blocks
+[12:21:28] [modloading-worker-0/INFO] [de.av.ne.CreateFood/]: Create: Food - Registering Fluids
+[12:21:28] [modloading-worker-0/INFO] [de.av.ne.CreateFood/]: Create: Food - Registering Creative Tabs
+[12:21:28] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on create_connected.mixins.json:sequencedgearshift.SequencedGearshiftScreenMixin from mod create_connected::handler$zif000$create_connected$updateParamsOfRow exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:21:28] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[12:21:29] [modloading-worker-0/INFO] [ne.zl.cr.CreateVibrantVaults/]: Create addon mod [Create: Vibrant Vaults] is loading alongside Create [6.0.6]!
+[12:21:29] [modloading-sync-worker/INFO] [AlmostUnified/]: Loading config 'startup.json'.
+[12:21:31] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 11ms
+[12:21:32] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{tooltip_hints=true, custom_configured_screen=true}}, sign=SynchronizedConfig{DataHolder:{pixel_consistent=true, text_color_multiplier=1.2}}, projectiles=SynchronizedConfig{DataHolder:{snowball_3d=true, fireball_3d=true, ghast_fireball_trail=true, dragon_fireball_trail=true, charges_tumble=true, projectiles_tumble=false, dragon_fireball=SynchronizedConfig{DataHolder:{dragon_breath_emissive=true}}}}, lily_pad=SynchronizedConfig{DataHolder:{y_offset=-0.016625}}, bell=SynchronizedConfig{DataHolder:{chain_attachment=true}}, brewing_stand=SynchronizedConfig{DataHolder:{brewing_stand_colors=true}}, arrows=SynchronizedConfig{DataHolder:{crossbows_colors=true}}, tripwire_hook=SynchronizedConfig{DataHolder:{fast_hooks=false}}, hanging_sign=SynchronizedConfig{DataHolder:{item_pixel_scale=10.0, swinging_signs=true, sign_attachment=true, swing_physics=SynchronizedConfig{DataHolder:{min_angle=0.7999999523162842, collision_force=15.0, damping=0.5249999761581421, collision_inertia=1.0, collision_considers_entity_hitbox=true, frequency=0.6000000238418579, max_angle=60.0}}}}, lantern=SynchronizedConfig{DataHolder:{fast_lanterns=false, lantern_item_size=0.625, lantern_item_holding=true, lantern_item_holding_up=false, swing_physics=SynchronizedConfig{DataHolder:{min_angle=0.7999999523162842, collision_force=15.0, damping=0.5249999761581421, collision_inertia=1.0, collision_considers_entity_hitbox=true, frequency=0.6000000238418579, max_angle=60.0}}}}, cauldron=SynchronizedConfig{DataHolder:{potion_texture=true}}, jukebox=SynchronizedConfig{DataHolder:{new_model=true, disc_spin=true}}, misc=SynchronizedConfig{DataHolder:{torch_item_holding=true, torch_item_size=1.0, candle_holder_item_holding=true, handle_holder_item_size=0.625, fixed_holding_animations=false, campfire_smoke_through_blocks=false}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\amendments-client.toml, modConfig=net.neoforged.fml.config.ModConfig@343d759e] at path amendments-client.toml
+[12:21:32] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{merge_dynamic_resource_packs=true, lazy_map_upload=true, maps_mipmap=3, consistent_entity_renderer_shading=NO_GUI}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\moonlight-client.toml, modConfig=net.neoforged.fml.config.ModConfig@78d9062c] at path moonlight-client.toml
+[12:21:32] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{lectern=SynchronizedConfig{DataHolder:{improved_screen=true}}, fireball=SynchronizedConfig{DataHolder:{thrown_cooldown=10, dragon_charge=true, gravity=true, deflectable=false, fire_charges_throwable=true, fire_charges_dispenser_behavior=true, improved_explosions=true}}, snowball=SynchronizedConfig{DataHolder:{freeze_ticks=35}}, hanging_signs=SynchronizedConfig{DataHolder:{items_on_signs=true}}, cauldron=SynchronizedConfig{DataHolder:{enhanced_cauldron=true, hand_crafting=true, in_world_crafting=true, dye_water=true, dye_recipes_per_layer=4, potion_recipes_per_layer=2, potions_mixing=ON, potion_mixing_limit=8, connect_to_fences=true, consistent_lava_layers=false, inverse_potions=SynchronizedConfig{DataHolder:{minecraft:mining_fatigue=minecraft:haste, minecraft:instant_health=minecraft:instant_damage, minecraft:unluck=minecraft:luck, minecraft:instant_damage=minecraft:instant_health, minecraft:weakness=minecraft:strength, minecraft:slowness=minecraft:speed, minecraft:haste=minecraft:mining_fatigue, minecraft:strength=minecraft:weakness, minecraft:speed=minecraft:slowness, minecraft:luck=minecraft:unluck}}}}, tripwire_hook=SynchronizedConfig{DataHolder:{tool_hook=true}}, carpets=SynchronizedConfig{DataHolder:{carpeted_stairs=true, carpeted_slabs=true}}, cake=SynchronizedConfig{DataHolder:{double_cake=true, directional_cake=true}}, mob_head=SynchronizedConfig{DataHolder:{skull_piles=true, skull_candles=true, multiple_candles=true}}, flower_pot=SynchronizedConfig{DataHolder:{hanging_pot=true}}, lantern=SynchronizedConfig{DataHolder:{wall_lanterns=true, high_priority=true, mod_blacklist=[bbb, extlights, betterendforge, spelunkery, galosphere, tconstruct, enigmaticlegacy, beautify], id_whitelist=[enlightened_end:xenon_lantern], falling_lanterns=ON}}, bell=SynchronizedConfig{DataHolder:{chain_ringing=true, chain_length=16}}, banners=SynchronizedConfig{DataHolder:{ceiling_banners=true}}, misc=SynchronizedConfig{DataHolder:{dye_blocks=false}}, torch=SynchronizedConfig{DataHolder:{torch_fire=true, torch_fire_offhand=false, torch_fire_duration=2}}, lily_pad=SynchronizedConfig{DataHolder:{better_lilypads=true}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\amendments-common.toml, modConfig=net.neoforged.fml.config.ModConfig@771f96e5] at path amendments-common.toml
+[12:21:32] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{extra_debug=false, extra_children_debug=false, faster_cache_search=true}}}}, path=C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\moonlight-common.toml, modConfig=net.neoforged.fml.config.ModConfig@93d7579] at path moonlight-common.toml
+[12:21:32] [modloading-sync-worker/WARN] [ne.ne.fm.co.ConfigTracker/CONFIG]: Configuration file C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\sliceanddice-common.toml is not correct. Correcting
+[12:21:32] [Render thread/INFO] [Moonlight/]: Merging 2 images using mode MIN_AREA_NO_UPSCALE
+[12:21:32] [Render thread/WARN] [minecraft/Options]: Removed resource pack mod/seamless:resourcepacks/default_seamless from options because it doesn't seem to exist anymore
+[12:21:33] [Render thread/INFO] [io.gi.ki.ch.ChatImage/]: KeyBindings Register
+[12:21:33] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/aether_enhanced_extinguishing, mod/c2me_fixes_worldgen_threading_issues, mod/kuma_api, mod/beautify, mod/c2me_rewrites_chunk_serializer, mod/aether, mod/c2me_opts_natives_math, mod/bowinfinityfix, mod/chatimage, mod/clickthrough, mod/c2me_fixes_general_threading_issues, mod/advancementframes, mod/cookingforblockheads, mod/neoforge, mod/create_factory_logistics, mod/c2me_opts_math, mod/createdieselgenerators, mod/c2me, mod/balm, mod/chat_heads, mod/c2me_base, mod/cloth_config, mod/betterclouds, mod/c2me_fixes_worldgen_vanilla_bugs, mod/emojiful, mod/create_connected, mod/farmersdelight, mod/chatnotify, mod/endersdelight, mod/c2me_fixes_chunkio_threading_issues, mod/c2me_client_uncapvd, mod/disguiseheads, mod/c2me_opts_dfc, mod/curios, mod/actionlib, mod/aether_emissivity, mod/accessories, mod/cumulus_menus, mod/aether_protect_your_moa, mod/createrailwaysnavigator, mod/architectury, mod/weaponmod, mod/herbalbrews, mod/conditional_mixin, mod/transition, mod/nitrogen_internals, mod/ante, mod/bwncr, mod/c2me_rewrites_chunkio, mod/create_factory_abstractions, mod/c2me_opts_allocs, mod/beb, mod/betteradvancements, mod/advancementdisable, mod/bellsandwhistles, mod/c2me_threading_lighting, mod/owo, mod/culturaldelights, mod/amendments, mod/aethersdelight, mod/trender, mod/actuallyharvest, mod/comforts, mod/armortrimitemfix, mod/glitchcore, mod/midnightlib, mod/runiclib, mod/c2me_rewrites_chunk_system, mod/whitenoise, mod/bedspreads, mod/create_trimmed, mod/crafttweaker, mod/c2me_opts_worldgen_vanilla, mod/chalk, mod/c2me_opts_scheduling, mod/emi, mod/ctgui, mod/create_winery, mod/dragonlib, mod/terrablender, mod/biomesoplenty, mod/bibliobiomes, mod/moonlight, mod/fabric_api_base, mod/mr_banner_text, mod/displaydelight, mod/c2me_server_utils, mod/spectrelib, mod/forgeconfigapiport, mod/kotlinforforge, mod/flywheel, mod/ponder, mod/create, mod/dndecor, mod/sliceanddice, mod/create_dragons_plus, mod/expandeddelight, mod/bibliowoods, mod/bibliocraft, mod/bhc, mod/barbequesdelight, mod/c2me_notickvd, mod/almostunified, mod/l2core, mod/c2me_opts_worldgen_general, mod/c2me_opts_chunkio, mod/create_vibrant_vaults, mod/appleskin, mod/yet_another_config_lib_v3, mod/create_power_loader, mod/aiutd, mod/dungeonsdelight, mod/create_enchantment_industry, mod/createfood, builtin/emissivity_model_override, moonlight:merged_pack
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Starting Legacy Runtime Resource Generation for pack type CLIENT_RESOURCES with generators from mods [amendments]: [net.mehvahdjukaar.amendments.client.ClientResourceGenerator@11a33b86]
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Generating runtime assets for pack amendments:generated_pack (amendments)
+[12:21:33] [Render thread/INFO] [DragonLib/]: Starting DragonLib Network Manager (Client) worker thread...
+[12:21:33] [DragonLib Network Manager (Client)/INFO] [DragonLib/]: DragonLib Network Manager (Client) worker thread has been started.
+[12:21:33] [pool-21-thread-2/ERROR] [Amendments/]: Failed to generate model for double cake dungeonsdelight:monster_cake,
+[12:21:33] [Worker-Main-1/INFO] [Amendments/]: Generated runtime CLIENT_RESOURCES for pack amendments:generated_pack (amendments) in: 76 ms (multithreaded)
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Finished Legacy Runtime Resources Generation for 1 packs in a total of 76 ms
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Resource cache state for CLIENT_RESOURCES: needs regeneration
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators [moonlight:dynamic_resources]
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [moonlight:dynamic_resources], requested by strategy REGEN_ON_EVERY_RELOAD
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack moonlight:dynamic_resources in 2.664 ms
+[12:21:33] [Worker-Main-1/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 2.918 ms 
+[12:21:33] [Worker-Main-11/INFO] [de.mr.cr.CreateRailwaysNavigator/]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
+[12:21:33] [Worker-Main-4/INFO] [de.av.ne.CreateFood/]: Create: Food - Startup
+[12:21:33] [Worker-Main-8/INFO] [co.jk.di.DisplayDelight/]: HELLO FROM COMMON SETUP
+[12:21:33] [Worker-Main-13/INFO] [ne.zj.ae.AethersDelight/]: HELLO FROM COMMON SETUP
+[12:21:33] [Worker-Main-13/INFO] [ne.zj.ae.AethersDelight/]: DIRT BLOCK >> minecraft:dirt
+[12:21:33] [Worker-Main-13/INFO] [ne.zj.ae.AethersDelight/]: The magic number is... 42
+[12:21:33] [Worker-Main-13/INFO] [ne.zj.ae.AethersDelight/]: ITEM >> minecraft:iron_ingot
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break1.ogg does not exist, cannot add it to event dndecor:large_chain_break
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break2.ogg does not exist, cannot add it to event dndecor:large_chain_break
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break3.ogg does not exist, cannot add it to event dndecor:large_chain_break
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break4.ogg does not exist, cannot add it to event dndecor:large_chain_break
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_step
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break1.ogg does not exist, cannot add it to event dndecor:large_chain_place
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break2.ogg does not exist, cannot add it to event dndecor:large_chain_place
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break3.ogg does not exist, cannot add it to event dndecor:large_chain_place
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/break4.ogg does not exist, cannot add it to event dndecor:large_chain_place
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_hit
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place1.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place2.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place3.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place4.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place5.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [Worker-Main-10/WARN] [minecraft/SoundManager]: File design_decor:sounds/large_chain/place6.ogg does not exist, cannot add it to event dndecor:large_chain_fall
+[12:21:33] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_enhanced_extinguishing] Starting version check at https://github.com/The-Aether-Team/Enhanced-Extinguishing/raw/1.21.1-develop/update.json
+[12:21:33] [Worker-Main-3/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[12:21:33] [Worker-Main-8/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[12:21:33] [Worker-Main-1/ERROR] [minecraft/Util]: Invalid path in pack: dndecor:textures/block/old/zinc_catwalk - kopie.png, ignoring
+[12:21:33] [Worker-Main-12/ERROR] [minecraft/Util]: Invalid path in pack: dndecor:textures/block/old/zinc_catwalk - kopie.png, ignoring
+[12:21:33] [Thread-15/INFO] [Emojiful/]: Loaded 1911 emojis
+[12:21:34] [Worker-Main-12/WARN] [minecraft/SpriteLoader]: Texture displaydelight:block/ctd_pufferfish_roll with size 4x7 limits mip level from 4 to 0
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_enhanced_extinguishing] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [create_connected] Found status: UP_TO_DATE Current: 1.1.6-mc1.21.1 Target: null
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_emissivity] Starting version check at https://github.com/The-Aether-Team/Emissivity/raw/1.21.1-develop/update.json
+[12:21:34] [Render thread/INFO] [Moonlight/]: Initialized color sets in 36ms
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[12:21:34] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[12:21:34] [Render thread/INFO] [AlmostUnified/]: Loaded plugins: almostunified:common, almostunified:neoforge
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_emissivity] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_protect_your_moa] Starting version check at https://github.com/The-Aether-Team/Protect-Your-Moa/raw/1.21.1-develop/update.json
+[12:21:34] [Worker-Main-2/INFO] [io.gi.ki.ch.ChatImage/]: [ChatImage]Client start
+[12:21:34] [Worker-Main-6/INFO] [ne.zj.ae.AethersDelight/]: HELLO FROM CLIENT SETUP
+[12:21:34] [Worker-Main-11/INFO] [DisguiseHeads/]: Loading DisguiseHeads!
+[12:21:34] [Worker-Main-6/INFO] [ne.zj.ae.AethersDelight/]: MINECRAFT NAME >> d9_m_5
+[12:21:34] [Worker-Main-15/WARN] [de.ar.re.cl.ke.fo.KeyMappingRegistryImpl/]: Key mapping key.createrailwaysnavigator.route_overlay_options registered after event
 java.lang.RuntimeException: null
-	at TRANSFORMER/architectury@13.0.8/dev.architectury.registry.client.keymappings.forge.KeyMappingRegistryImpl.register(KeyMappingRegistryImpl.java:50) ~[architectury-13.0.8-neoforge.jar%23263!/:?] {re:classloading}
-	at TRANSFORMER/architectury@13.0.8/dev.architectury.registry.client.keymappings.KeyMappingRegistry.register(KeyMappingRegistry.java) ~[architectury-13.0.8-neoforge.jar%23263!/:?] {re:classloading,pl:runtimedistcleaner:A}
-	at TRANSFORMER/createrailwaysnavigator@1.21.1-beta-0.8.4/de.mrjulsen.crn.client.input.ModKeys.init(ModKeys.java:24) ~[createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar%23294!/:1.21.1-beta-0.8.4] {re:classloading}
-	at TRANSFORMER/createrailwaysnavigator@1.21.1-beta-0.8.4/de.mrjulsen.crn.event.ModClientEvents.lambda$init$0(ModClientEvents.java:32) ~[createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar%23294!/:1.21.1-beta-0.8.4] {re:classloading}
-	at TRANSFORMER/architectury@13.0.8/dev.architectury.event.forge.EventHandlerImplClient$ModBasedEventHandler.event(EventHandlerImplClient.java:345) ~[architectury-13.0.8-neoforge.jar%23263!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/architectury@13.0.8/dev.architectury.registry.client.keymappings.forge.KeyMappingRegistryImpl.register(KeyMappingRegistryImpl.java:50) ~[architectury-13.0.8-neoforge.jar%23281!/:?] {re:classloading}
+	at TRANSFORMER/architectury@13.0.8/dev.architectury.registry.client.keymappings.KeyMappingRegistry.register(KeyMappingRegistry.java) ~[architectury-13.0.8-neoforge.jar%23281!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/createrailwaysnavigator@1.21.1-beta-0.8.4/de.mrjulsen.crn.client.input.ModKeys.init(ModKeys.java:24) ~[createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar%23320!/:1.21.1-beta-0.8.4] {re:classloading}
+	at TRANSFORMER/createrailwaysnavigator@1.21.1-beta-0.8.4/de.mrjulsen.crn.event.ModClientEvents.lambda$init$0(ModClientEvents.java:32) ~[createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar%23320!/:1.21.1-beta-0.8.4] {re:classloading}
+	at TRANSFORMER/architectury@13.0.8/dev.architectury.event.forge.EventHandlerImplClient$ModBasedEventHandler.event(EventHandlerImplClient.java:345) ~[architectury-13.0.8-neoforge.jar%23281!/:?] {re:classloading,pl:runtimedistcleaner:A}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23155!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23155!/:?] {}
 	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:158) ~[loader-4.0.41.jar%23152!/:4.0] {re:mixin}
@@ -471,22 +534,22 @@ java.lang.RuntimeException: null
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?] {re:computing_frames}
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?] {re:computing_frames}
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?] {}
-[12:17:43] [Worker-Main-4/INFO] [SpectreLib/]: Registering config screens for mod comforts with 2 config(s)
-[12:17:43] [Worker-Main-6/INFO] [WhiteNoise/]: Registering config screens for mod actuallyharvest with 1 config(s)
-[12:17:43] [Worker-Main-6/INFO] [WhiteNoise/]: Registering config screens for mod whitenoise with 1 config(s)
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] YACL: initializing compat
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] DistantHorizons: not loaded
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] Iris: not loaded
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] SereneSeasons: not loaded
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] FabricSeasons: not loaded
-[12:17:43] [Render thread/INFO] [BetterClouds/]: [BetterClouds] EnhancedCelestials: not loaded
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_emissivity] Found status: UP_TO_DATE Current: 1.0.2 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_protect_your_moa] Starting version check at https://github.com/The-Aether-Team/Protect-Your-Moa/raw/1.21.1-develop/update.json
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_protect_your_moa] Found status: UP_TO_DATE Current: 1.0.0 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [weaponmod] Starting version check at https://raw.githubusercontent.com/ThexXTURBOXx/UpdateJSONs/master/weaponmod.json
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [weaponmod] Found status: UP_TO_DATE Current: 1.24.2 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [actuallyharvest] Starting version check at https://raw.githubusercontent.com/wendall911/ActuallyHarvest/1.21.1/files/updates.json
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [actuallyharvest] Found status: UP_TO_DATE Current: 1.1.3.6 Target: null
-[12:17:43] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] YACL: initializing compat
+[12:21:34] [Worker-Main-9/INFO] [co.jk.di.DisplayDelight/]: HELLO FROM CLIENT SETUP
+[12:21:34] [Worker-Main-9/INFO] [co.jk.di.DisplayDelight/]: MINECRAFT NAME >> d9_m_5
+[12:21:34] [Worker-Main-10/INFO] [WhiteNoise/]: Registering config screens for mod actuallyharvest with 1 config(s)
+[12:21:34] [Worker-Main-9/INFO] [SpectreLib/]: Registering config screens for mod comforts with 2 config(s)
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] DistantHorizons: not loaded
+[12:21:34] [Worker-Main-10/INFO] [WhiteNoise/]: Registering config screens for mod whitenoise with 1 config(s)
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] Iris: not loaded
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] SereneSeasons: not loaded
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] FabricSeasons: not loaded
+[12:21:34] [Render thread/INFO] [BetterClouds/]: [BetterClouds] EnhancedCelestials: not loaded
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [aether_protect_your_moa] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[12:21:34] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [weaponmod] Starting version check at https://raw.githubusercontent.com/ThexXTURBOXx/UpdateJSONs/master/weaponmod.json
+[12:21:35] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [weaponmod] Found status: UP_TO_DATE Current: 1.24.2 Target: null
+[12:21:35] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [actuallyharvest] Starting version check at https://raw.githubusercontent.com/wendall911/ActuallyHarvest/1.21.1/files/updates.json
+[12:21:35] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [actuallyharvest] Found status: UP_TO_DATE Current: 1.1.3.6 Target: null
+[12:21:35] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker
 
 # Process exited with status: exit code: 0
