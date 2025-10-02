@@ -8946,3 +8946,5 @@ java.util.NoSuchElementException: No value present
 [02Oct2025 13:15:46.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
 [02Oct2025 13:15:46.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
 [02Oct2025 13:15:52.695] [Render thread/INFO] [YetAnotherConfigLib/]: Generating YACL screen
+[02Oct2025 13:16:17.360] [Render thread/INFO] [structurify/]: Saving Structurify config...
+[02Oct2025 13:16:17.365] [Render thread/INFO] [structurify/]: Structurify config saved
