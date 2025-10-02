@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-02_10-42-40",
+  "config_datetime": "2025-10-02_10-49-26",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -43,6 +43,27 @@
       ],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
+    },
+    {
+      "name": "eternal_starlight:portal_ruins_common",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 50,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 50,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:savanna_plateau"
+      ]
     },
     {
       "name": "eternal_starlight:portal_ruins_desert",
@@ -100,7 +121,7 @@
       "is_disabled": false,
       "enable_flatness_check": true,
       "flatness_check_distance": 15,
-      "flatness_check_threshold": 10,
+      "flatness_check_threshold": 3,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
@@ -135,6 +156,40 @@
       "enable_flatness_check": true,
       "flatness_check_distance": 10,
       "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 110,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",

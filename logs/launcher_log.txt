@@ -712,3 +712,31 @@ WARN StatusConsoleListener Advanced terminal features are not available in this 
 [10:38:57] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for illagerinvasion:main
 [10:38:57] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing Config from 'C:\Users\dninemfive\Games\Modrinth\AppData\profiles\LibPack\config\betterclouds-v1.json'
 [10:38:57] [modloading-worker-0/INFO] [me.fa.fa.FastIpPingMod/]: ping
+(PointBlankMod.java:16)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153)
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.file.worldsave.WorldDataReader.handleTileChunkOutsideRegion(WorldDataReader.java:651)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.file.worldsave.WorldDataReader.buildRegion(WorldDataReader.java:157)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.file.worldsave.WorldDataHandler.buildRegion(WorldDataHandler.java:77)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.file.MapSaveLoad.loadRegion(MapSaveLoad.java:746)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.file.MapSaveLoad.run(MapSaveLoad.java:993)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.MapProcessor.run(MapProcessor.java:344)
+	at TRANSFORMER/xaeroworldmap@1.39.12/xaero.map.MapRunner.run(MapRunner.java:18)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+# Process exited with status: exit code: 0

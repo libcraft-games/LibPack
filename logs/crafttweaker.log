@@ -21,3 +21,15 @@
 [10:39:25.368][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
 [10:39:25.373][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
 [10:39:25.374][INFO][CraftTweaker]: CraftTweaker reload complete!
+[10:53:48.236][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[10:53:48.236][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:53:48.266][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:53:48.272][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[10:53:48.280][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[10:53:50.006][INFO][CraftTweaker]: CraftTweaker reload starting!
+[10:53:50.014][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[10:53:50.014][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:53:50.028][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:53:50.138][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[10:53:50.145][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[10:53:50.145][INFO][CraftTweaker]: CraftTweaker reload complete!
