@@ -1,6 +1,6 @@
 !!!Graphene-1.6.0hotfix-1.21-1.21.1-NeoForge-S.jar.disabled
-AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar.disabled
-ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar.disabled
+AnvilNeverTooExpensive-neoforge-1.21+-1.2.1.jar
+ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar
 AsyncParticles-3.3.8+1.21.1.jar.disabled
 BEB-NeoForge-1.21-5.0.0.jar.disabled
 BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar.disabled
@@ -105,7 +105,7 @@ aiutd-1.0.8-1.21.1-Neoforge.jar
 almanac-1.21.x-neoforge-1.0.2.jar.disabled
 almostunified-neoforge-1.21.1-1.3.0.jar
 amendments-1.21-2.0.8-neoforge.jar
-appleskin-neoforge-mc1.21-3.0.7.jar.disabled
+appleskin-neoforge-mc1.21-3.0.7.jar
 architectury-13.0.8-neoforge.jar
 athena-neoforge-1.21-4.0.2.jar.disabled
 azurelib-neo-1.21.1-3.0.32.jar.disabled
