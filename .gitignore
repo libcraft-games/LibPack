@@ -5,16 +5,20 @@
 # allow config items
 !config/
 
-# allow logs &c
-!crash-reports/
+# allow log files which update every time
 !logs/
 logs/*.gz
 logs/telemetry/
 !logs/latest.log
 !logs/launcher-log.txt
+!logs/debug.log
 
 # allow datapacks
 !datapacks/
+
+# record enabled mods
+# tied to a .git/hooks/pre-commit file which does `ls mods > mods.txt`
+!mods.txt
 
 # misc
 !.gitignore
