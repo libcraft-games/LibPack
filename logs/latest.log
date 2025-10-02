@@ -9402,3 +9402,21 @@ java.util.NoSuchElementException: No value present
 [02Oct2025 10:32:26.706] [Render thread/INFO] [C2ME ClientExtNetworking/]: Changing view distance to 23 (play stage)
 [02Oct2025 10:32:52.812] [Render thread/INFO] [structurify/]: Saving Structurify config...
 [02Oct2025 10:32:52.814] [Render thread/INFO] [structurify/]: Structurify config saved
+[02Oct2025 10:33:17.998] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 8 advancements
+[02Oct2025 10:33:22.381] [c2me-worker-7/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[02Oct2025 10:33:22.381] [c2me-worker-7/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[02Oct2025 10:33:22.752] [pool-24-thread-3/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_slopes], ResourceKey[minecraft:worldgen/structure / natures_spirit:village_coconut], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_flower_forest], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / natures_spirit:village_cypress], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_forest], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_ocean]] from pos BlockPos{x=-197, y=71, z=-1771}
+[02Oct2025 10:33:26.968] [c2me-worker-7/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
+[02Oct2025 10:33:43.082] [c2me-worker-8/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=217, y=48, z=159}
+[02Oct2025 10:33:46.517] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Structure(s) at your location:\n - nova_structures:wild_ruin
+[02Oct2025 10:33:47.339] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2025 10:33:47.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:33:47.365] [Server thread/INFO] [de.bommels05.ctgui.ChangedRecipeManager/]: Saved 0 recipe changes
+[02Oct2025 10:33:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:33:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:33:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:33:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:33:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:33:49.579] [Render thread/INFO] [C2ME ClientExtNetworking/]: Changing view distance to 23 (play stage)
+[02Oct2025 10:34:01.765] [Render thread/INFO] [structurify/]: Saving Structurify config...
+[02Oct2025 10:34:01.767] [Render thread/INFO] [structurify/]: Structurify config saved
