@@ -1,11 +1,20 @@
-[12:11:02.480] [INFO]: Loading config 'startup.json'.
-[12:11:04.722] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
-[12:11:15.117] [WARN]: Reload detected. Reconstructing runtime.
-[12:11:15.120] [INFO]: Loading config 'debug.json'.
-[12:11:15.125] [INFO]: Loading config 'placeholders.json'.
-[12:11:15.131] [INFO]: Loading config 'tags.json'.
-[12:11:15.172] [WARN]: The following mods are used in unification settings, but are not loaded: [crafttweaker, immersiveengineering, create]
-[12:11:15.474] [INFO]: Loading config 'duplicates.json'.
-[12:11:15.476] [INFO]: Recipe count: 16967
-[12:11:15.513] [INFO]: 5396 out of 16967 recipes were loaded for unification.
-[12:11:15.600] [INFO]: Recipe count afterwards: 16953 (done in 123.8 ms)
+[12:13:34.943] [INFO]: Loading config 'startup.json'.
+[12:13:37.189] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common
+[12:13:45.235] [WARN]: Reload detected. Reconstructing runtime.
+[12:13:45.238] [INFO]: Loading config 'debug.json'.
+[12:13:45.242] [INFO]: Loading config 'placeholders.json'.
+[12:13:45.245] [INFO]: Loading config 'tags.json'.
+[12:13:45.307] [WARN]: The following mods are used in unification settings, but are not loaded: [crafttweaker, immersiveengineering, create]
+[12:13:45.609] [INFO]: Loading config 'duplicates.json'.
+[12:13:45.611] [INFO]: Recipe count: 17050
+[12:13:45.658] [INFO]: 5478 out of 17050 recipes were loaded for unification.
+[12:13:45.753] [INFO]: Recipe count afterwards: 17036 (done in 142.3 ms)
+[12:13:59.334] [WARN]: Reload detected. Reconstructing runtime.
+[12:13:59.334] [INFO]: Loading config 'debug.json'.
+[12:13:59.334] [INFO]: Loading config 'placeholders.json'.
+[12:13:59.335] [INFO]: Loading config 'tags.json'.
+[12:13:59.336] [WARN]: The following mods are used in unification settings, but are not loaded: [crafttweaker, immersiveengineering, create]
+[12:13:59.687] [INFO]: Loading config 'duplicates.json'.
+[12:13:59.688] [INFO]: Recipe count: 17050
+[12:13:59.718] [INFO]: 5478 out of 17050 recipes were loaded for unification.
+[12:13:59.756] [INFO]: Recipe count afterwards: 17036 (done in 68.06 ms)
