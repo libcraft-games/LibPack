@@ -106,7 +106,7 @@ almanac-1.21.x-neoforge-1.0.2.jar.disabled
 almostunified-neoforge-1.21.1-1.3.0.jar.disabled
 amendments-1.21-2.0.8-neoforge.jar.disabled
 appleskin-neoforge-mc1.21-3.0.7.jar.disabled
-architectury-13.0.8-neoforge.jar.disabled
+architectury-13.0.8-neoforge.jar
 athena-neoforge-1.21-4.0.2.jar.disabled
 azurelib-neo-1.21.1-3.0.32.jar.disabled
 baguettelib-1.21.1-NeoForge-1.1.2.jar.disabled
