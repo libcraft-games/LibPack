@@ -517,6 +517,28 @@
       },
       "sync": "immersive_aircraft:ia_overlay"
     },
+    "immersiveengineering:blocks": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveengineering:blocks"
+    },
+    "immersiveengineering:items": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveengineering:items"
+    },
     "minecraft:bossbar": {
       "displacement": {
         "x": 0,

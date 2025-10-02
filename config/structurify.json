@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-02_15-03-35",
+  "config_datetime": "2025-10-02_16-11-20",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -8,6 +8,23 @@
     "global_spacing_and_separation_modifier": 1.5
   },
   "structures": [
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 7,
+      "flatness_check_threshold": 0,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
     {
       "name": "minecraft:mansion",
       "is_disabled": false,
@@ -129,6 +146,43 @@
         "#is_beach"
       ],
       "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "illagerinvasion:illager_fort",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 20,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "illagerinvasion:illusioner_tower",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 10,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [
+        "biomesoplenty:mystic_grove",
+        "biomesoplenty:auroral_garden"
+      ],
       "blacklisted_biomes": []
     },
     {
@@ -395,6 +449,23 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "nova_structures:remnant_school_remnant",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 12,
+      "flatness_check_threshold": 1,
+      "enable_biome_check": false,
+      "biome_check_distance": 110,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "nova_structures:ruin_town",
       "is_disabled": true,
       "enable_flatness_check": false,
@@ -539,11 +610,62 @@
       "blacklisted_biomes": []
     },
     {
-      "name": "nova_structures:tavern_jungle",
+      "name": "nova_structures:tavern_desert",
       "is_disabled": false,
-      "enable_flatness_check": false,
+      "enable_flatness_check": true,
       "flatness_check_distance": 20,
       "flatness_check_threshold": 2,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_jungle",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 30,
+      "flatness_check_threshold": 2,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_oak",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 30,
+      "flatness_check_threshold": 2,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:tavern_snowy",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 30,
+      "flatness_check_threshold": 3,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
@@ -692,11 +814,96 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "sweety_archaeology:desert_outpost",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 20,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 64,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "tide:fishing_boat",
       "is_disabled": true,
       "enable_flatness_check": false,
       "flatness_check_distance": 80,
       "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:exclusives/pillager_outpost_oriental",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 20,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 35,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:pillager_outpost_desert",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 20,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:pillager_outpost_jungle",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 15,
+      "flatness_check_threshold": 3,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
@@ -748,6 +955,23 @@
       "enable_flatness_check": false,
       "flatness_check_distance": 116,
       "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:village_snowy_taiga",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 9,
       "enable_biome_check": false,
       "biome_check_distance": 116,
       "biome_check_mode": "BLACKLIST",
