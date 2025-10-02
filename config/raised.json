@@ -539,6 +539,17 @@
       },
       "sync": "immersiveengineering:items"
     },
+    "keybindbundles:keybind_selection": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "keybindbundles:keybind_selection"
+    },
     "minecraft:bossbar": {
       "displacement": {
         "x": 0,
