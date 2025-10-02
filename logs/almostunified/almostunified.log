@@ -1,22 +1,12 @@
-[12:45:07.790] [INFO]: Loading config 'startup.json'.
-[12:45:14.771] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
-[12:45:25.405] [WARN]: Reload detected. Reconstructing runtime.
-[12:45:25.407] [INFO]: Loading config 'debug.json'.
-[12:45:25.412] [INFO]: Loading config 'placeholders.json'.
-[12:45:25.419] [INFO]: Loading config 'tags.json'.
-[12:45:25.488] [WARN]: The following mods are used in unification settings, but are not loaded: [immersiveengineering]
-[12:45:26.123] [INFO]: Loading config 'duplicates.json'.
-[12:45:26.127] [INFO]: Recipe count: 27404
-[12:45:26.194] [INFO]: 16057 out of 27404 recipes were loaded for unification.
-[12:45:26.332] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
-[12:45:26.346] [INFO]: Recipe count afterwards: 27390 (done in 219.3 ms)
-[12:45:43.764] [WARN]: Reload detected. Reconstructing runtime.
-[12:45:43.764] [INFO]: Loading config 'debug.json'.
-[12:45:43.765] [INFO]: Loading config 'placeholders.json'.
-[12:45:43.766] [INFO]: Loading config 'tags.json'.
-[12:45:43.768] [WARN]: The following mods are used in unification settings, but are not loaded: [immersiveengineering]
-[12:45:44.346] [INFO]: Loading config 'duplicates.json'.
-[12:45:44.348] [INFO]: Recipe count: 27404
-[12:45:44.397] [INFO]: 16057 out of 27404 recipes were loaded for unification.
-[12:45:44.440] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
-[12:45:44.452] [INFO]: Recipe count afterwards: 27390 (done in 104.5 ms)
+[12:48:34.752] [INFO]: Loading config 'startup.json'.
+[12:48:41.083] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common
+[12:48:52.636] [WARN]: Reload detected. Reconstructing runtime.
+[12:48:52.638] [INFO]: Loading config 'debug.json'.
+[12:48:52.643] [INFO]: Loading config 'placeholders.json'.
+[12:48:52.646] [INFO]: Loading config 'tags.json'.
+[12:48:52.685] [WARN]: The following mods are used in unification settings, but are not loaded: [immersiveengineering]
+[12:48:53.198] [INFO]: Loading config 'duplicates.json'.
+[12:48:53.201] [INFO]: Recipe count: 27554
+[12:48:53.277] [INFO]: 16207 out of 27554 recipes were loaded for unification.
+[12:48:53.412] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
+[12:48:53.428] [INFO]: Recipe count afterwards: 27540 (done in 226.7 ms)
