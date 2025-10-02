@@ -9384,3 +9384,21 @@ java.util.NoSuchElementException: No value present
 [02Oct2025 10:31:09.937] [Render thread/INFO] [YetAnotherConfigLib/]: Generating YACL screen
 [02Oct2025 10:31:24.195] [Render thread/INFO] [structurify/]: Saving Structurify config...
 [02Oct2025 10:31:24.200] [Render thread/INFO] [structurify/]: Structurify config saved
+[02Oct2025 10:32:03.036] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
+[02Oct2025 10:32:05.107] [pool-24-thread-2/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / natures_spirit:village_coconut], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_tudor], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_classic], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_swedish], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_mushroom_fields], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_rustic], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_grove]] from pos BlockPos{x=-171, y=72, z=-1195}
+[02Oct2025 10:32:09.959] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=216, y=47, z=211}
+[02Oct2025 10:32:22.086] [c2me-worker-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-33, y=-56, z=2355}
+[02Oct2025 10:32:22.399] [c2me-worker-0/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-43, y=-56, z=2340}
+[02Oct2025 10:32:23.355] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Structure(s) at your location:\n - nova_structures:bunker
+[02Oct2025 10:32:24.738] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Oct2025 10:32:24.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Oct2025 10:32:24.768] [Server thread/INFO] [de.bommels05.ctgui.ChangedRecipeManager/]: Saved 0 recipe changes
+[02Oct2025 10:32:24.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[02Oct2025 10:32:24.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/eternal_starlight:starlight
+[02Oct2025 10:32:24.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Oct2025 10:32:24.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/undergarden:undergarden
+[02Oct2025 10:32:24.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Oct2025 10:32:25.621] [c2me-worker-5/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=202, y=47, z=211}
+[02Oct2025 10:32:26.706] [Render thread/INFO] [C2ME ClientExtNetworking/]: Changing view distance to 23 (play stage)
+[02Oct2025 10:32:52.812] [Render thread/INFO] [structurify/]: Saving Structurify config...
+[02Oct2025 10:32:52.814] [Render thread/INFO] [structurify/]: Structurify config saved
