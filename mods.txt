@@ -15,7 +15,7 @@ Companion-1.21.1-NeoForge-6.1.1.jar.disabled
 ConvenientCuriosContainer-3.1_NeoForge-1.21.1.jar.disabled
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar.disabled
 CraftPresence-2.6.2+1.21.1-neoforge.jar.disabled
-CraftTweaker-neoforge-1.21.1-21.0.34.jar.disabled
+CraftTweaker-neoforge-1.21.1-21.0.34.jar
 CraterLib-NeoForge-1.21-2.1.5.jar.disabled
 Create Quality of Life-1.21.1-1.6.1.jar.disabled
 CreateNumismatics-1.0.18+neoforge-mc1.21.1.jar.disabled
@@ -161,7 +161,6 @@ create_power_loader-2.0.3-mc1.21.1.jar.disabled
 create_trimmed.jar
 create_vibrant_vaults-0.3.2.jar.disabled
 create_winery-1.7.0-neoforge-1.21.1.jar
-createcontraptionterminals-1.21-1.2.0.jar.disabled
 createdieselgenerators-1.21.1-1.3.5.jar
 createenchantablemachinery-3.4.2+mc1.21.1-neoforge.jar.disabled
 createentitycontroller-1.21.1-0.2.7-neoforge.jar.disabled
@@ -171,7 +170,7 @@ createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar
 cristellib-neoforge-1.2.8.jar
 crittersandcompanions-neoforge-1.21.1-2.3.2.jar.disabled
 cryonicconfig-neoforge-1.0.0+mc1.21.8.jar.disabled
-ctgui-neoforge-1.21.1-0.3.0.jar.disabled
+ctgui-neoforge-1.21.1-0.3.0.jar
 culturaldelights-0.17.7.jar
 curios-neoforge-9.5.1+1.21.1.jar
 darcenos-minecarts-1.4.jar.disabled
