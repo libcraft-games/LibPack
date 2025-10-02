@@ -93,9 +93,9 @@ XaerosWorldMap_1.39.12_NeoForge_1.21.jar.disabled
 Xaeros_Minimap_25.2.10_NeoForge_1.21.jar.disabled
 accessories-neoforge-1.1.0-beta.52+1.21.1.jar.disabled
 accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar.disabled
-actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar.disabled
-advancementdisable-neoforge-1.0.1+1.21.jar.disabled
-advancementframes-1.21-2.2.10-neoforge.jar.disabled
+actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar
+advancementdisable-neoforge-1.0.1+1.21.jar
+advancementframes-1.21-2.2.10-neoforge.jar
 aether-1.21.1-1.5.10-neoforge.jar.disabled
 aether_emissivity-1.21.1-1.0.2-neoforge.jar.disabled
 aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar.disabled
@@ -283,7 +283,7 @@ modernnetworking-neoforge-1.2.0+1.21.1.jar.disabled
 modmenu-11.0.3.jar.disabled
 modopedia-neoforge-1.21.1-1.1.5.jar.disabled
 monsters_in_the_closet-1.0.3+1.21-forge.jar.disabled
-moonlight-1.21-2.23.11-neoforge.jar.disabled
+moonlight-1.21-2.23.11-neoforge.jar
 more-enchantment-info-0.3.0.jar.disabled
 moreculling-neoforge-1.21.1-1.0.6.jar.disabled
 morediscs-1.21.1-neoforge-35.jar.disabled
