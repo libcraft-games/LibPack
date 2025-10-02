@@ -28,3 +28,4 @@ config/xaerominimap_entities.json
 
 # spam
 *.bak
+config/structurify/
