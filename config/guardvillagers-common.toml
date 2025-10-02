@@ -44,7 +44,7 @@
 	# Default: 1.0
 	# Range: -999.9000244140625 ~ 999.0
 	"Chance for guards to lose durability" = 1.0
-	"Allow guards to teleport if following the player" = true
+	"Allow guards to teleport if following the player" = false
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
 	"Have guards attempt to avoid firing into other friendlies?" = true
@@ -66,4 +66,4 @@
 	# Default: -100
 	# Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
-	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = false
+	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = true
