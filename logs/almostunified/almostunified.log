@@ -1,11 +1,11 @@
-[12:07:21.534] [INFO]: Loading config 'startup.json'.
-[12:07:23.319] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
-[12:07:32.559] [WARN]: Reload detected. Reconstructing runtime.
-[12:07:32.562] [INFO]: Loading config 'debug.json'.
-[12:07:32.567] [INFO]: Loading config 'placeholders.json'.
-[12:07:32.572] [INFO]: Loading config 'tags.json'.
-[12:07:32.634] [WARN]: The following mods are used in unification settings, but are not loaded: [crafttweaker, immersiveengineering, create]
-[12:07:32.681] [INFO]: Loading config 'duplicates.json'.
-[12:07:32.684] [INFO]: Recipe count: 1797
-[12:07:32.691] [INFO]: 1790 out of 1797 recipes were loaded for unification.
-[12:07:32.727] [INFO]: Recipe count afterwards: 1783 (done in 42.49 ms)
+[12:11:02.480] [INFO]: Loading config 'startup.json'.
+[12:11:04.722] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
+[12:11:15.117] [WARN]: Reload detected. Reconstructing runtime.
+[12:11:15.120] [INFO]: Loading config 'debug.json'.
+[12:11:15.125] [INFO]: Loading config 'placeholders.json'.
+[12:11:15.131] [INFO]: Loading config 'tags.json'.
+[12:11:15.172] [WARN]: The following mods are used in unification settings, but are not loaded: [crafttweaker, immersiveengineering, create]
+[12:11:15.474] [INFO]: Loading config 'duplicates.json'.
+[12:11:15.476] [INFO]: Recipe count: 16967
+[12:11:15.513] [INFO]: 5396 out of 16967 recipes were loaded for unification.
+[12:11:15.600] [INFO]: Recipe count afterwards: 16953 (done in 123.8 ms)
