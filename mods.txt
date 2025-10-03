@@ -105,8 +105,6 @@ chalk-1.6.10.jar
 charmofundying-neoforge-9.1.0+1.21.1.jar.disabled
 chat_heads-0.14.0-neoforge-1.21.jar
 chatnotify-neoforge-2.5.2+1.21.1.jar
-chipped-neoforge-1.21.1-4.0.2.jar.disabled
-chisel-neoforge-2.0.0+mc1.21.1.jar.disabled
 clickthrough-plus-neoforge-3.5.0+1.21.1.jar
 cloth-config-15.0.140-neoforge.jar
 cobweb-neoforge-1.21-1.3.3.jar
@@ -133,6 +131,7 @@ createfood-neoforge-1.21.1-2.0.0-beta-3.jar
 createrailwaysnavigator-neoforge-1.21.1-beta-0.8.4.jar
 cristellib-neoforge-1.2.8.jar
 crittersandcompanions-neoforge-1.21.1-2.3.2.jar
+cryonicconfig-neoforge-1.0.0+mc1.21.9.jar
 ctgui-neoforge-1.21.1-0.3.0.jar
 culturaldelights-0.17.7.jar
 curios-neoforge-9.5.1+1.21.1.jar.disabled
@@ -140,7 +139,6 @@ darcenos-minecarts-1.4.jar
 defaultoptions-neoforge-1.21.1-21.1.5.jar.disabled
 disguiseheads-neoforge-1.3.1-mc1.21.jar
 dismountentity-1.21.1-3.6.jar
-displaydelight-1.3.0.jar.disabled
 distractingtrims-neoforge-1.21.1-21.1.1.jar
 door_knocking-1.0.1+1.21-neoforge.jar
 dungeons-and-taverns-ancient-city-overhaul-v2.jar
@@ -171,7 +169,7 @@ endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.5.1+1.21.1+neoforge.jar
-everycomp-1.21-2.11.4-neoforge.jar.disabled
+everycomp-1.21-2.11.4-neoforge.jar
 expandeddelight-0.1.3.2.jar
 exposure-neoforge-1.21.1-1.9.11.jar
 exposure_expanded-neoforge-1.0.1.jar
@@ -184,6 +182,7 @@ fastboot-1.21.x-v1.3neo.jar
 fastpaintings-1.21-1.3.0-neoforge.jar
 ferritecore-7.0.2-neoforge.jar
 fowlplay-1.0.0+1.21.1-neoforge.jar
+fusion-1.2.11a-neoforge-mc1.21.jar
 fzzy_config-0.7.2+1.21+neoforge.jar
 geckolib-neoforge-1.21.1-4.8.2.jar
 getittogetherdrops-neoforge-1.21.5-1.4.jar.disabled
@@ -232,9 +231,8 @@ polymorph-neoforge-1.1.0+1.21.1.jar
 potteddelight-1.21.1-neoforge-1.0.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 ramel-neoforge-1.2.2+mc1.21.1.jar
-rechiseled-1.1.6a-neoforge-mc1.21.jar.disabled
-rechiseled_chipped-1.2.jar.disabled
-rechiseledcreate-1.0.2a-neoforge-mc1.21.jar.disabled
+rechiseled-1.1.6a-neoforge-mc1.21.jar
+rechiseledcreate-1.0.2a-neoforge-mc1.21.jar
 recipe_modification-neoforge-1.21.1-0.1.1.jar
 redstonepen-1.21-neoforge-1.11.42.jar
 reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar
@@ -269,9 +267,11 @@ sophisticatedcore-1.21.1-1.3.84.1214.jar
 soul-fire-d-neoforge-1.21-5.1.6.jar
 startuptime-1.0.0.jar
 stateobserver-neoforge-1.21.1-1.6.3.jar
-stonezone-1.21-2.11.3-neoforge.jar.disabled
+stonezone-1.21-2.11.3-neoforge.jar
 structure_layout_optimizer-neoforge-1.0.10.jar
 structurify-neoforge-1.0.21+mc1.21.1.jar
+supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
+supermartijn642corelib-1.1.18a-neoforge-mc1.21.jar
 supplementaries-1.21-3.4.16-neoforge.jar
 suppsquared-1.21-1.2.13-neoforge.jar
 sweety_archaeology-1.0.9b-neoforge-1.21.1.jar
