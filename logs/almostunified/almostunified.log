@@ -1,18 +1,18 @@
-[08:46:24.972] [INFO]: Loading config 'startup.json'.
-[08:46:35.575] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge
-[08:46:51.527] [WARN]: Reload detected. Reconstructing runtime.
-[08:46:51.529] [INFO]: Loading config 'debug.json'.
-[08:46:51.533] [INFO]: Loading config 'placeholders.json'.
-[08:46:51.537] [INFO]: Loading config 'tags.json'.
-[08:46:51.585] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper]
-[08:46:51.585] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/iron' -> [undergarden:shiverstone_iron_ore, undergarden:depthrock_iron_ore]
-[08:46:51.586] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [immersiveengineering:plate_gold]
-[08:46:51.586] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [immersiveengineering:plate_copper]
-[08:46:51.586] [INFO]: [AutoHiding] Hiding 1/4 items for tag '#c:ores/gold' -> [undergarden:depthrock_gold_ore]
-[08:46:51.586] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iron' -> [immersiveengineering:plate_iron]
-[08:46:51.586] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/diamond' -> [undergarden:shiverstone_diamond_ore, undergarden:depthrock_diamond_ore]
-[08:46:52.182] [INFO]: Loading config 'duplicates.json'.
-[08:46:52.185] [INFO]: Recipe count: 32045
-[08:46:52.282] [INFO]: 20265 out of 32045 recipes were loaded for unification.
-[08:46:52.473] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
-[08:46:52.514] [INFO]: Recipe count afterwards: 32014 (done in 329.7 ms)
+[08:56:20.115] [INFO]: Loading config 'startup.json'.
+[08:56:32.567] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common
+[08:56:51.114] [WARN]: Reload detected. Reconstructing runtime.
+[08:56:51.117] [INFO]: Loading config 'debug.json'.
+[08:56:51.121] [INFO]: Loading config 'placeholders.json'.
+[08:56:51.125] [INFO]: Loading config 'tags.json'.
+[08:56:51.193] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/iron' -> [undergarden:shiverstone_iron_ore, undergarden:depthrock_iron_ore]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/iron' -> [immersiveengineering:plate_iron]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [immersiveengineering:plate_copper]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/diamond' -> [undergarden:shiverstone_diamond_ore, undergarden:depthrock_diamond_ore]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 1/4 items for tag '#c:ores/gold' -> [undergarden:depthrock_gold_ore]
+[08:56:51.194] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [immersiveengineering:plate_gold]
+[08:56:51.881] [INFO]: Loading config 'duplicates.json'.
+[08:56:51.885] [INFO]: Recipe count: 32046
+[08:56:51.989] [INFO]: 20266 out of 32046 recipes were loaded for unification.
+[08:56:52.188] [WARN]: Could not detect crafting recipe output for recipe 'dungeonsdelight:integration/twilightforest/wilderness_luncheon'.
+[08:56:52.225] [INFO]: Recipe count afterwards: 32015 (done in 339.8 ms)
