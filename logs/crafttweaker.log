@@ -1,13 +1,13 @@
-[20:17:24.078][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
-[20:17:24.127][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[20:17:24.203][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
-[20:17:24.211][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
-[20:17:24.252][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
-[20:17:24.257][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[20:17:26.398][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
-[20:17:26.401][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
-[20:17:26.401][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
-[20:17:37.565][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[20:17:38.471][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[20:17:38.555][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[20:17:38.770][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[20:34:40.364][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
+[20:34:40.485][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[20:34:40.524][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
+[20:34:40.530][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
+[20:34:40.582][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
+[20:34:40.586][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[20:34:42.970][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
+[20:34:42.973][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
+[20:34:42.973][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
+[20:34:54.318][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[20:34:55.146][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[20:34:55.247][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[20:34:55.504][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
