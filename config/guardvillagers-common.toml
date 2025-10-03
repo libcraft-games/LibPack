@@ -12,7 +12,7 @@
 	#Hostiles attack guards, by default only illagers and zombies will attack guards, the mob blacklist below will effect this option
 	"All mobs attack guards" = false
 	#Guards won't attack mobs in this list at all, for example, putting "minecraft:creeper" in this list will make guards ignore creepers.
-	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:creeper", "minecraft:enderman"]
+	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:creeper", "minecraft:enderman", "minecraft:slime"]
 	#Guards will additionally attack mobs ids put in this list, for example, putting "minecraft:cow" in this list will make guards attack cows.
 	"Mob Whitelist" = []
 
@@ -61,7 +61,7 @@
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	# Default: 15
 	# Range: > -2147483648
-	"Minimum reputation requirement for guards to give you access to their inventories" = 15
+	"Minimum reputation requirement for guards to give you access to their inventories" = 0
 	"Have guards only follow the player if they have hero of the village?" = true
 	# Default: -100
 	# Range: -9999 ~ 9999
