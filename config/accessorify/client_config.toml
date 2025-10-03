@@ -10,7 +10,7 @@ scrollableZoom = true
 rememberZoomLevel = true
 
 [infoOverlaySettings]
-position = "TOP_LEFT"
+position = "BOTTOM_RIGHT"
 offsetX = 0
 offsetY = 0
 textBackground = true
