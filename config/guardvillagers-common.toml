@@ -1,6 +1,6 @@
 ["raids and illagers"]
 	#Illagers In Raids Attack Animals?
-	"Illagers in raids attack animals?" = true
+	"Illagers in raids attack animals?" = false
 	#Witches Attack Villagers?
 	"Witches attack villagers?" = true
 	#This makes Illagers run from polar bears, as anyone with common sense would.

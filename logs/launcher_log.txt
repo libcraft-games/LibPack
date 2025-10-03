@@ -1059,3 +1059,5 @@ FastBoot mod is now active!
 [15:01:34] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
 [15:01:34] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for plentyplates:main
 [15:01:34] [modloading-worker-0/INFO] [me.fa.fa.FastIpPingMod/]: ping
+
+# Process exited with status: exit code: 0

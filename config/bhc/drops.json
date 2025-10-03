@@ -1,16 +1,37 @@
 {
   "heartEntries": {
     "red": {
-      "hostile": 0.005
+      "aether:fire_minion": 0.05,
+      "aether:mimic": 0.05,
+      "aether:valkyrie": 0.05,
+      "dungeonsdelight:monster_yam": 1.0,
+      "eternal_starlight:tangled_hatred": 1.0,
+      "eternal_starlight:the_gatekeeper": 1.0,
+      "illagerinvasion:inquisitor": 1.0,
+      "immersivengineering:bulwark": 0.01,
+      "minecraft:breeze": 0.01,
+      "minecraft:elder_guardian": 1.0,
+      "minecraft:evoker": 0.01,
+      "minecraft:guardian": 0.01,
+      "minecraft:ravager": 0.1,
+      "minecraft:zoglin": 1.0
     },
     "green": {
-      "dragon": 1.0
+      "eternal_starlight:lunar_monstrosity": 1.0,
+      "eternal_starlight:starlight_golem": 1.0,
+      "aether:slider": 1.0,
+      "aether:valkyrie_queen": 1.0,
+      "illagerinvasion:invoker": 1.0,
+      "minecraft:ender_dragon": 1.0
     },
     "blue": {
-      "minecraft:warden": 1.0
+      "aether:sun_spirit": 1.0
     },
     "yellow": {
-      "boss": 1.0
+      "aether:golden_swet": 0.005,
+      "minecraft:wither": 1.0,
+      "undergarden:forgotten_guardian": 1.0,
+      "undergarden:rotbeast": 1.0
     }
   }
 }
