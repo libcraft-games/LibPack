@@ -1,35 +1,23 @@
-[11:20:03.874][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
-[11:20:04.019][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[11:20:04.062][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
-[11:20:04.068][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
-[11:20:04.104][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
-[11:20:04.109][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[11:20:06.206][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
-[11:20:06.208][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
-[11:20:06.208][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
-[11:20:17.468][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[11:20:18.413][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:20:18.484][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[11:20:18.746][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[11:20:35.459][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[11:20:35.476][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:20:35.489][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[11:20:35.495][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[11:20:37.227][INFO][CraftTweaker]: CraftTweaker reload starting!
-[11:20:37.237][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[11:20:37.248][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:20:37.521][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
-[11:20:37.525][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[11:20:37.527][INFO][CraftTweaker]: CraftTweaker reload complete!
-[11:21:13.536][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[11:21:13.536][INFO][CraftTweaker-ZenCode]: Undoing previous actions
-[11:21:13.572][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:21:13.578][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[11:21:13.586][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[11:21:15.116][INFO][CraftTweaker]: CraftTweaker reload starting!
-[11:21:15.125][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[11:21:15.125][INFO][CraftTweaker-ZenCode]: Undoing previous actions
-[11:21:15.138][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:21:15.213][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
-[11:21:15.219][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[11:21:15.219][INFO][CraftTweaker]: CraftTweaker reload complete!
+[11:23:50.685][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
+[11:23:50.722][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[11:23:50.774][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
+[11:23:50.782][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
+[11:23:50.820][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
+[11:23:50.824][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[11:23:52.921][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
+[11:23:52.924][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
+[11:23:52.924][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
+[11:24:03.296][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[11:24:05.118][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[11:24:05.198][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[11:24:05.466][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[11:24:23.703][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[11:24:23.718][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[11:24:23.729][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[11:24:23.733][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[11:24:25.349][INFO][CraftTweaker]: CraftTweaker reload starting!
+[11:24:25.359][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[11:24:25.369][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[11:24:25.631][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[11:24:25.636][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[11:24:25.637][INFO][CraftTweaker]: CraftTweaker reload complete!
