@@ -1,0 +1,180 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.dungeonsdelight]
+			monster_cake = true
+
+		[types.cake.createfood]
+			cream_cake_chorus_fruit = true
+			cream_cake_glow_berry = true
+			berry_cream_cake_sweet_berry = true
+			berry_cream_cake_chorus_fruit = true
+			berry_cream_cake_glow_berry = true
+			chocolate_cream_cake_butterscotch = true
+			chocolate_cream_cake_caramel = true
+			chocolate_cream_cake_chocolate = true
+			chocolate_cream_cake_dark_chocolate = true
+			chocolate_cream_cake_toffee = true
+			chocolate_cream_cake_white_chocolate = true
+			chorus_fruit_cream_cake_sweet_berry = true
+			chorus_fruit_cream_cake_chorus_fruit = true
+			chorus_fruit_cream_cake_glow_berry = true
+			glow_berry_cream_cake_sweet_berry = true
+			glow_berry_cream_cake_chorus_fruit = true
+			glow_berry_cream_cake_glow_berry = true
+
+		[types.cake.veggiesdelight]
+			carrot_cake = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.eternal_starlight]
+			lunar = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+			jinglestem = true
+
+		[types.wood_type.vanillabackport]
+			pale_oak = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.moresnifferflowers]
+			corrupted = true
+			vivicus = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.wood_type.enchanted]
+			alder = true
+			hawthorn = true
+			rowan = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
+
+		[types.wood_type.expandeddelight]
+			cinnamon = true
+
+		[types.leaves_type.eternal_starlight]
+			lunar = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
+
+		[types.leaves_type.biomesoplenty]
+			null = true
+			origin = true
+			flowering_oak = true
+			cypress = true
+			snowblossom = true
+			rainbow_birch = true
+			fir = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.moresnifferflowers]
+			corrupted = true
+			vivicus = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.culturaldelights]
+			avocado = true
+			fruiting_avocado = true
+
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.leaves_type.enchanted]
+			alder = true
+			hawthorn = true
+			rowan = true
+
+		[types.leaves_type.expandeddelight]
+			cinnamon = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.storagedrawers]
+			full_drawers_2 = true
+			half_drawers_1 = true
+			full_drawers_4 = true
+			half_drawers_4 = true
+			trim = true
+			half_drawers_2 = true
+			full_drawers_1 = true
+
+		[entries.wood_type.bibliocraft]
+			fancy_crafter = true
+			label = true
+			grandfather_clock = true
+			potion_shelf = true
+			table = true
+			bookcase = true
+			tool_rack = true
+			fancy_clock = true
+			shelf = true
+			fancy_armor_stand = true
+			fancy_sign = true
+
+		[entries.wood_type.beautify]
+			trellis = true
+			blinds = true
+			picture_frame = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true

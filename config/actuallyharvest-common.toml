@@ -7,7 +7,7 @@
 	autoConfigMods = true
 	#Chance of XP dropping on harvest.
 	#Range: 0 ~ 100
-	xpFromHarvestChance = 100
+	xpFromHarvestChance = 0
 	#Amount of XP dropped on harvest.
 	#Range: 0 ~ 10
 	xpFromHarvestAmount = 1
@@ -42,7 +42,7 @@
 	#Format: minecraft:wooden_hoe-0 (with number being tier)
 	hoeItems = []
 	#List of crops to blacklist from right-click harvest. Format: "modid:block"
-	blacklistCrops = []
+	blacklistCrops = ["enchanted:mandrake"]
 	#List of mods to blacklist from right-click harvest. Format: "modid"
 	blacklistMods = []
 	#Allow machines, like Create's deployer, to harvest crops.
