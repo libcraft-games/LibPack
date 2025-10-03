@@ -225,8 +225,6 @@ nyfsspiders-neoforge-1.21.1-2.3.2.jar
 observable-5.4.4.jar
 oceansdelight-neoforge-1.0.3-1.21.jar
 owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar
-petrolpark-1.21.1-1.4.18.jar
-petrolsparts-1.21.1-1.2.6.jar
 pipeorgans-0.6.4+1.21.1.jar
 platform-neoforge-1.21.1-1.2.10.2.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
