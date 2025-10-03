@@ -12,8 +12,14 @@
       },
       "currency_item": {
         "//": "The ID of the item used to buy this trade.",
-        "//default": "minecraft:emerald",
-        "value": "minecraft:emerald"
+        "//default": {
+          "namespace": "minecraft",
+          "path": "emerald"
+        },
+        "value": {
+          "namespace": "minecraft",
+          "path": "emerald"
+        }
       },
       "cost": {
         "//": "The amount of the currency item required.",

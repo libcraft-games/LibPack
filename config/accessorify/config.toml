@@ -1,17 +1,17 @@
 # Don't change this! Version used to track needed updates.
 version = 1
-slotMode = "DEFAULT_SLOT_NO_COPY"
+slotMode = "UNIQUE_SLOT"
 hideDebugInfoInSurvival = true
 
 [accessorySettings]
 clockAccessory = true
 compassAccessory = true
-recoveryCompassAccessory = true
+recoveryCompassAccessory = false
 calendarAccessory = true
 elytraAccessory = false
 spyglassAccessory = true
-lanternAccessory = true
-totemOfUndyingAccessory = false
+lanternAccessory = false
+totemOfUndyingAccessory = true
 enderChestAccessory = false
 shulkerBoxAccessory = false
 arrowAccessory = false
@@ -27,7 +27,7 @@ coordinates = true
 direction = true
 biome = false
 dayAndTime = true
-weather = true
-moonPhase = true
+weather = false
+moonPhase = false
 season = true
 lastDeathLocation = true
