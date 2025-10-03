@@ -45,7 +45,7 @@ MoreSnifferFlowers-1.21.1-neo-6.1.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
 MyNethersDelight-1.21.1-1.9.jar
 NoRealmsButton-2.0.2.jar
-PermanentSponges-v21.1.0-1.21.1-NeoForge.jar.disabled
+PermanentSponges-v21.1.0-1.21.1-NeoForge.jar
 Ping-Wheel-1.11.1-neoforge-1.21.1.jar
 PlentyPlates-v21.1.0-1.21.1-NeoForge.jar
 Pretty Rain-1.21.1-NeoForge-1.1.4.jar
