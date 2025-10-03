@@ -67,7 +67,7 @@ XaeroZoomout-NeoForge-1.21-2.0.0.jar
 XaerosWorldMap_1.39.12_NeoForge_1.21.jar
 Xaeros_Minimap_25.2.10_NeoForge_1.21.jar
 accessories-neoforge-1.1.0-beta.52+1.21.1.jar
-accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar.disabled
+accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar
 actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar
 advancementdisable-neoforge-1.0.1+1.21.jar
 advancementframes-1.21-2.2.10-neoforge.jar
@@ -89,7 +89,6 @@ baubley-heart-canisters-1.21.1-1.2.2.jar
 bcc-21.1.3+mc1.21.1.jar
 beautify-neoforge-1.21.1-2.0.2.jar
 bedspreads-neoforge-7.0.0+1.21.1.jar
-beekeeperhut-neoforge-3.0.1+mc1.21.1.jar
 bellsandwhistles-0.4.7-1.21.1.jar
 better-clouds-1.7.17+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
@@ -134,7 +133,7 @@ cristellib-neoforge-1.2.8.jar
 crittersandcompanions-neoforge-1.21.1-2.3.2.jar
 ctgui-neoforge-1.21.1-0.3.0.jar
 culturaldelights-0.17.7.jar
-curios-neoforge-9.5.1+1.21.1.jar
+curios-neoforge-9.5.1+1.21.1.jar.disabled
 darcenos-minecarts-1.4.jar
 defaultoptions-neoforge-1.21.1-21.1.5.jar.disabled
 disguiseheads-neoforge-1.3.1-mc1.21.jar
@@ -184,7 +183,6 @@ fastboot-1.21.x-v1.3neo.jar
 fastpaintings-1.21-1.3.0-neoforge.jar
 ferritecore-7.0.2-neoforge.jar
 fowlplay-1.0.0+1.21.1-neoforge.jar
-friendsandfoes-neoforge-4.0.10+mc1.21.1.jar
 fzzy_config-0.7.2+1.21+neoforge.jar
 geckolib-neoforge-1.21.1-4.8.2.jar
 getittogetherdrops-neoforge-1.21.5-1.4.jar.disabled
@@ -247,7 +245,7 @@ refinedstorage-emi-integration-neoforge-1.0.0.jar
 refinedstorage-neoforge-2.0.0.jar
 refinedstorage-quartz-arsenal-neoforge-1.0.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
-resourcefullib-neoforge-1.21-3.0.12.jar
+resourcefullib-neoforge-1.21-3.0.12.jar.disabled
 runelic-neoforge-1.21.1-21.1.3.jar
 saplanting-1.21-neoforge-1.3.1.jar
 sawmill-1.21-1.7.1-neoforge.jar
@@ -298,7 +296,6 @@ undergardendelight-1.2.1-neoforge-1.21.1.jar
 underlay-1.21-v0.9.7-f.jar
 usefulspyglass-neoforge-1.21.1-0.8.0.jar
 vanillabackport-neoforge-1.21.1-1.1.4.3.jar
-variantsandventures-neoforge-1.0.18+mc1.21.1.jar
 vegandelight-neoforge-1.21.1-2.0.0-beta2.jar
 veggiesdelight-1.8.3.jar
 veinmining-neoforge-5.0.0-beta.2+1.21.jar
