@@ -89,7 +89,7 @@ bcc-21.1.3+mc1.21.1.jar
 beautify-neoforge-1.21.1-2.0.2.jar
 bedspreads-neoforge-7.0.0+1.21.1.jar
 bellsandwhistles-0.4.7-1.21.1.jar
-better-clouds-1.7.18+1.21.1-neoforge.jar
+better-clouds-1.7.17+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
 bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
