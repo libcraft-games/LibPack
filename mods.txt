@@ -14,7 +14,6 @@ CraftTweaker-neoforge-1.21.1-21.0.34.jar
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 Design-n-Decor-1.21.1-2.1.0.jar
 DistantHorizons-2.3.4-b-1.21.1-fabric-neoforge.jar
-DistinguishedPotions-v21.1.1-1.21.1-NeoForge.jar
 EMIProfessions-neoforge-1.21.1-1.0.3.jar
 EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
 EasyMagic-v21.1.0-1.21.1-NeoForge.jar
