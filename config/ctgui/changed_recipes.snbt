@@ -122,14 +122,14 @@
                     i: {
                         tag: "c:ingots/iron"
                     },
-                    j: {
+                    k: {
                         item: "minecraft:blast_furnace"
                     }
                 },
                 pattern: [
                     "iii",
                     "ibi",
-                    "iji"
+                    "iki"
                 ],
                 result: {
                     count: 1,
@@ -196,14 +196,14 @@
                     h: {
                         item: "immersiveengineering:hemp_fabric"
                     },
-                    k: {
+                    z: {
                         item: "immersive_aircraft:hull"
                     }
                 },
                 pattern: [
                     "hhh",
                     "hhh",
-                    "kke"
+                    "zze"
                 ],
                 result: {
                     count: 1,
@@ -250,11 +250,11 @@
             recipe: {
                 category: "misc",
                 key: {
+                    a: {
+                        item: "immersive_aircraft:cargo_airship"
+                    },
                     c: {
                         item: "immersiveengineering:cushion"
-                    },
-                    d: {
-                        item: "immersive_aircraft:cargo_airship"
                     },
                     e: {
                         item: "immersive_aircraft:engine"
@@ -274,7 +274,7 @@
                 },
                 pattern: [
                     "cwc",
-                    "ede",
+                    "eae",
                     "pgh"
                 ],
                 result: {
@@ -409,20 +409,20 @@
             recipe: {
                 category: "misc",
                 key: {
-                    i: {
-                        tag: "c:plates/aluminum"
+                    e: {
+                        item: "create:shaft"
                     },
                     p: {
                         tag: "c:plates/constantan"
                     },
                     s: {
-                        item: "create:shaft"
+                        tag: "c:plates/aluminum"
                     }
                 },
                 pattern: [
                     " pp",
-                    "isp",
-                    "ii "
+                    "sep",
+                    "ss "
                 ],
                 result: {
                     count: 1,
@@ -494,17 +494,17 @@
                     c: {
                         item: "minecraft:cobblestone"
                     },
-                    g: {
-                        item: "immersive_aircraft:boiler"
-                    },
                     p: {
                         item: "minecraft:piston"
+                    },
+                    w: {
+                        item: "immersive_aircraft:boiler"
                     }
                 },
                 pattern: [
                     " c ",
                     "pbp",
-                    "cgc"
+                    "cwc"
                 ],
                 result: {
                     count: 1,
@@ -517,7 +517,7 @@
                     c: {
                         item: "immersiveengineering:component_steel"
                     },
-                    f: {
+                    o: {
                         item: "minecraft:piston"
                     },
                     p: {
@@ -529,7 +529,7 @@
                 },
                 pattern: [
                     " p ",
-                    "fcf",
+                    "oco",
                     "ptp"
                 ],
                 result: {
@@ -631,11 +631,11 @@
                     e: {
                         item: "immersive_aircraft:engine"
                     },
+                    h: {
+                        item: "minecraft:slime_block"
+                    },
                     i: {
                         item: "immersive_aircraft:industrial_gears"
-                    },
-                    m: {
-                        item: "minecraft:slime_block"
                     },
                     p: {
                         tag: "c:plates/nickel"
@@ -646,7 +646,7 @@
                 },
                 pattern: [
                     "sis",
-                    "mem",
+                    "heh",
                     "pcp"
                 ],
                 result: {
@@ -745,16 +745,16 @@
                     f: {
                         item: "create:fluid_pipe"
                     },
-                    h: {
-                        item: "immersiveengineering:pipe_valve"
-                    },
                     p: {
                         tag: "c:plates/copper"
+                    },
+                    r: {
+                        item: "immersiveengineering:pipe_valve"
                     }
                 },
                 pattern: [
                     "  f",
-                    "php",
+                    "prp",
                     "f  "
                 ],
                 result: {
@@ -773,14 +773,14 @@
             originalRecipe: {
                 category: "misc",
                 key: {
-                    d: {
+                    a: {
+                        item: "minecraft:glass_pane"
+                    },
+                    e: {
                         item: "immersive_aircraft:gyroscope"
                     },
                     g: {
                         tag: "c:nuggets/gold"
-                    },
-                    j: {
-                        tag: "c:ingots/gold"
                     },
                     l: {
                         item: "minecraft:lever"
@@ -791,14 +791,14 @@
                     r: {
                         item: "minecraft:redstone_lamp"
                     },
-                    u: {
-                        item: "minecraft:glass_pane"
+                    s: {
+                        tag: "c:ingots/gold"
                     }
                 },
                 pattern: [
-                    "gug",
-                    "jrj",
-                    "ndl"
+                    "gag",
+                    "srs",
+                    "nel"
                 ],
                 result: {
                     count: 1,
@@ -808,17 +808,17 @@
             recipe: {
                 category: "misc",
                 key: {
-                    a: {
-                        item: "immersive_aircraft:gyroscope"
-                    },
                     c: {
                         item: "immersiveengineering:component_electronic_adv"
                     },
                     g: {
                         item: "minecraft:glass_pane"
                     },
-                    l: {
+                    k: {
                         item: "minecraft:lever"
+                    },
+                    l: {
+                        item: "immersive_aircraft:gyroscope"
                     },
                     n: {
                         item: "create:nixie_tube"
@@ -826,14 +826,14 @@
                     p: {
                         tag: "c:plates/electrum"
                     },
-                    x: {
+                    q: {
                         item: "minecraft:note_block"
                     }
                 },
                 pattern: [
                     " gn",
                     "pcp",
-                    "xal"
+                    "qlk"
                 ],
                 result: {
                     count: 1,

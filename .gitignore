@@ -26,8 +26,8 @@
 
 # unstable files
 config/xaerominimap_entities.json
+config/ctgui/
 
 # spam
 *.bak
 config/structurify/
-config/ctgui/changed_recipes.snbt.old
