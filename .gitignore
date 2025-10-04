@@ -2,6 +2,11 @@
 # per https://stackoverflow.com/a/29932318
 /*
 
+# allow metadata files
+!LICENSE
+!README.md
+!version.txt
+
 # allow config items
 !config/
 !scripts/
