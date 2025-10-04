@@ -30,3 +30,4 @@ config/xaerominimap_entities.json
 # spam
 *.bak
 config/structurify/
+config/ctgui/changed_recipes.snbt.old
