@@ -60,6 +60,906 @@
             recipeType: "minecraft:crafting",
             serializer: "minecraft:crafting_shaped",
             type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/hull_0",
+            originalId: "immersive_aircraft:hull",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    I: {
+                        tag: "c:ingots/iron"
+                    },
+                    L: {
+                        tag: "minecraft:logs"
+                    }
+                },
+                pattern: [
+                    "LLL",
+                    "III",
+                    "LLL"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:hull"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    p: {
+                        tag: "c:plates/aluminum"
+                    },
+                    t: {
+                        item: "immersiveengineering:treated_scaffold"
+                    }
+                },
+                pattern: [
+                    "ttt",
+                    "ppp",
+                    "ttt"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:hull"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/steel_boiler_0",
+            originalId: "immersive_aircraft:steel_boiler",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    B: {
+                        item: "immersive_aircraft:boiler"
+                    },
+                    C: {
+                        tag: "c:ingots/iron"
+                    },
+                    F: {
+                        item: "minecraft:blast_furnace"
+                    }
+                },
+                pattern: [
+                    "CCC",
+                    "CBC",
+                    "CFC"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:steel_boiler"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    b: {
+                        item: "minecraft:blast_furnace"
+                    },
+                    p: {
+                        tag: "c:plates/steel"
+                    }
+                },
+                pattern: [
+                    "ppp",
+                    "p p",
+                    "pbp"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:steel_boiler"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/airship_0",
+            originalId: "immersive_aircraft:airship",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    E: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    H: {
+                        item: "immersive_aircraft:hull"
+                    },
+                    S: {
+                        item: "immersive_aircraft:sail"
+                    }
+                },
+                pattern: [
+                    "SSS",
+                    "SSS",
+                    "HHE"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:airship"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    e: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    h: {
+                        item: "immersiveengineering:hemp_fabric"
+                    },
+                    s: {
+                        item: "immersive_aircraft:hull"
+                    }
+                },
+                pattern: [
+                    "hhh",
+                    "hhh",
+                    "sse"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:airship"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/warship_0",
+            originalId: "immersive_aircraft:warship",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    A: {
+                        item: "immersive_aircraft:cargo_airship"
+                    },
+                    E: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    G: {
+                        item: "immersive_aircraft:industrial_gears"
+                    },
+                    H: {
+                        item: "immersive_aircraft:hull"
+                    },
+                    S: {
+                        item: "immersive_aircraft:sail"
+                    }
+                },
+                pattern: [
+                    "SHS",
+                    "EAE",
+                    "HGH"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:warship"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "immersiveengineering:cushion"
+                    },
+                    e: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    g: {
+                        tag: "c:glass_panes"
+                    },
+                    h: {
+                        item: "immersive_aircraft:heavy_crossbow"
+                    },
+                    k: {
+                        item: "immersive_aircraft:cargo_airship"
+                    },
+                    p: {
+                        tag: "c:plates/steel"
+                    },
+                    w: {
+                        item: "immersiveengineering:windmill_sail"
+                    }
+                },
+                pattern: [
+                    "cwc",
+                    "eke",
+                    "pgh"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:warship"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/propeller_0",
+            originalId: "immersive_aircraft:propeller",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    I: {
+                        tag: "c:ingots/iron"
+                    }
+                },
+                pattern: [
+                    "II ",
+                    " I ",
+                    " II"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:propeller"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    p: {
+                        tag: "c:plates/aluminum"
+                    },
+                    s: {
+                        tag: "c:rods/steel"
+                    }
+                },
+                pattern: [
+                    "pp ",
+                    " s ",
+                    " pp"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:propeller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/enhanced_propeller_0",
+            originalId: "immersive_aircraft:enhanced_propeller",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        tag: "c:ingots/copper"
+                    },
+                    P: {
+                        item: "immersive_aircraft:propeller"
+                    }
+                },
+                pattern: [
+                    "CC ",
+                    " P ",
+                    " CC"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:enhanced_propeller"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    i: {
+                        item: "immersive_aircraft:industrial_gears"
+                    },
+                    p: {
+                        item: "immersive_aircraft:propeller"
+                    }
+                },
+                pattern: [
+                    "p  ",
+                    " i ",
+                    "  p"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:enhanced_propeller"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/industrial_gears_0",
+            originalId: "immersive_aircraft:industrial_gears",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        tag: "c:ingots/copper"
+                    },
+                    I: {
+                        tag: "c:ingots/iron"
+                    },
+                    L: {
+                        item: "minecraft:lever"
+                    }
+                },
+                pattern: [
+                    " II",
+                    "CLI",
+                    "CC "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:industrial_gears"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    g: {
+                        tag: "c:plates/aluminum"
+                    },
+                    p: {
+                        tag: "c:plates/constantan"
+                    },
+                    s: {
+                        item: "create:shaft"
+                    }
+                },
+                pattern: [
+                    " pp",
+                    "gsp",
+                    "gg "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:industrial_gears"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/bomb_bay_0",
+            originalId: "immersive_aircraft:bomb_bay",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    I: {
+                        tag: "c:ingots/iron"
+                    },
+                    T: {
+                        item: "minecraft:tnt"
+                    }
+                },
+                pattern: [
+                    "ITI",
+                    "I I",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:bomb_bay"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    h: {
+                        item: "immersiveengineering:hatch"
+                    },
+                    p: {
+                        tag: "c:plates/aluminum"
+                    }
+                },
+                pattern: [
+                    "   ",
+                    "php",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:bomb_bay"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/engine_0",
+            originalId: "immersive_aircraft:engine",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        item: "minecraft:cobblestone"
+                    },
+                    F: {
+                        item: "minecraft:blast_furnace"
+                    },
+                    I: {
+                        item: "immersive_aircraft:boiler"
+                    },
+                    P: {
+                        item: "minecraft:piston"
+                    }
+                },
+                pattern: [
+                    " C ",
+                    "PFP",
+                    "CIC"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:engine"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "immersiveengineering:component_steel"
+                    },
+                    f: {
+                        item: "minecraft:piston"
+                    },
+                    p: {
+                        tag: "c:plates/aluminum"
+                    },
+                    t: {
+                        item: "immersiveengineering:toolupgrade_drill_capacity"
+                    }
+                },
+                pattern: [
+                    " p ",
+                    "fcf",
+                    "ptp"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:engine"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/improved_landing_gear_0",
+            originalId: "immersive_aircraft:improved_landing_gear",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        item: "minecraft:coal"
+                    },
+                    I: {
+                        tag: "c:ingots/iron"
+                    }
+                },
+                pattern: [
+                    " II",
+                    "CCI",
+                    "CC "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:improved_landing_gear"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    h: {
+                        item: "immersiveengineering:hemp_fabric"
+                    },
+                    s: {
+                        item: "create:shaft"
+                    },
+                    t: {
+                        item: "immersiveengineering:treated_wallmount"
+                    }
+                },
+                pattern: [
+                    " ht",
+                    "hsh",
+                    " h "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:improved_landing_gear"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/eco_engine_0",
+            originalId: "immersive_aircraft:eco_engine",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        item: "minecraft:slime_ball"
+                    },
+                    E: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    N: {
+                        tag: "c:ingots/gold"
+                    },
+                    R: {
+                        item: "minecraft:brick"
+                    }
+                },
+                pattern: [
+                    "CNC",
+                    "NEN",
+                    "RRR"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:eco_engine"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "minecraft:calibrated_sculk_sensor"
+                    },
+                    e: {
+                        item: "immersive_aircraft:engine"
+                    },
+                    i: {
+                        item: "immersive_aircraft:industrial_gears"
+                    },
+                    j: {
+                        item: "minecraft:slime_block"
+                    },
+                    p: {
+                        tag: "c:plates/nickel"
+                    },
+                    s: {
+                        item: "create:sturdy_sheet"
+                    }
+                },
+                pattern: [
+                    "sis",
+                    "jej",
+                    "pcp"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:eco_engine"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/rotary_cannon_0",
+            originalId: "immersive_aircraft:rotary_cannon",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        tag: "c:ingots/copper"
+                    },
+                    D: {
+                        item: "minecraft:dispenser"
+                    },
+                    G: {
+                        item: "immersive_aircraft:industrial_gears"
+                    }
+                },
+                pattern: [
+                    " D ",
+                    " G ",
+                    " C "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:rotary_cannon"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "create:copper_valve_handle"
+                    },
+                    i: {
+                        item: "immersive_aircraft:industrial_gears"
+                    },
+                    m: {
+                        item: "weaponmod:musket-ironpart"
+                    },
+                    p: {
+                        tag: "c:plates/copper"
+                    }
+                },
+                pattern: [
+                    "cmm",
+                    "imm",
+                    "p  "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:rotary_cannon"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/sturdy_pipes_0",
+            originalId: "immersive_aircraft:sturdy_pipes",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        tag: "c:ingots/copper"
+                    },
+                    I: {
+                        tag: "c:ingots/iron"
+                    }
+                },
+                pattern: [
+                    "  C",
+                    "ICI",
+                    "C  "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:sturdy_pipes"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    f: {
+                        item: "create:fluid_pipe"
+                    },
+                    p: {
+                        tag: "c:plates/copper"
+                    },
+                    u: {
+                        item: "immersiveengineering:pipe_valve"
+                    }
+                },
+                pattern: [
+                    "  f",
+                    "pup",
+                    "f  "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:sturdy_pipes"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/gyroscope_hud_0",
+            originalId: "immersive_aircraft:gyroscope_hud",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    G: {
+                        item: "immersive_aircraft:gyroscope"
+                    },
+                    I: {
+                        tag: "c:ingots/gold"
+                    },
+                    L: {
+                        item: "minecraft:redstone_lamp"
+                    },
+                    N: {
+                        tag: "c:nuggets/gold"
+                    },
+                    P: {
+                        item: "minecraft:glass_pane"
+                    },
+                    S: {
+                        item: "minecraft:note_block"
+                    },
+                    V: {
+                        item: "minecraft:lever"
+                    }
+                },
+                pattern: [
+                    "NPN",
+                    "ILI",
+                    "SGV"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyroscope_hud"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    c: {
+                        item: "immersiveengineering:component_electronic_adv"
+                    },
+                    d: {
+                        item: "minecraft:note_block"
+                    },
+                    g: {
+                        item: "minecraft:glass_pane"
+                    },
+                    l: {
+                        item: "immersive_aircraft:gyroscope"
+                    },
+                    n: {
+                        item: "create:nixie_tube"
+                    },
+                    p: {
+                        tag: "c:plates/electrum"
+                    },
+                    u: {
+                        item: "minecraft:lever"
+                    }
+                },
+                pattern: [
+                    " gn",
+                    "pcp",
+                    "dlu"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyroscope_hud"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/gyrodyne_0",
+            originalId: "immersive_aircraft:gyrodyne",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    H: {
+                        item: "immersive_aircraft:hull"
+                    },
+                    P: {
+                        item: "immersive_aircraft:propeller"
+                    },
+                    S: {
+                        item: "immersive_aircraft:sail"
+                    }
+                },
+                pattern: [
+                    " S ",
+                    "HPH",
+                    " S "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyrodyne"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    h: {
+                        item: "immersive_aircraft:hull"
+                    },
+                    p: {
+                        item: "immersive_aircraft:propeller"
+                    },
+                    w: {
+                        item: "immersiveengineering:windmill_sail"
+                    }
+                },
+                pattern: [
+                    "   ",
+                    " p ",
+                    "whw"
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyrodyne"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        },
+        {
+            exported: 1b,
+            id: "ctgui/new/immersive_aircraft/gyroscope_dials_0",
+            originalId: "immersive_aircraft:gyroscope_dials",
+            originalRecipe: {
+                category: "misc",
+                key: {
+                    C: {
+                        item: "minecraft:clock"
+                    },
+                    G: {
+                        item: "immersive_aircraft:gyroscope"
+                    },
+                    S: {
+                        item: "minecraft:note_block"
+                    },
+                    V: {
+                        item: "minecraft:lever"
+                    }
+                },
+                pattern: [
+                    "CCC",
+                    "SGV",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyroscope_dials"
+                }
+            },
+            recipe: {
+                category: "misc",
+                key: {
+                    a: {
+                        item: "supplementaries:altimeter"
+                    },
+                    g: {
+                        item: "immersive_aircraft:gyroscope"
+                    },
+                    l: {
+                        item: "minecraft:lever"
+                    },
+                    n: {
+                        item: "minecraft:note_block"
+                    },
+                    p: {
+                        item: "create:precision_mechanism"
+                    }
+                },
+                pattern: [
+                    " ap",
+                    "ngl",
+                    "   "
+                ],
+                result: {
+                    count: 1,
+                    id: "immersive_aircraft:gyroscope_dials"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
         }
     ]
 }

@@ -1,13 +1,119 @@
-[09:30:02.609][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
-[09:30:02.639][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[09:30:02.680][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
-[09:30:02.687][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
-[09:30:02.733][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
-[09:30:02.737][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[09:30:04.856][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
-[09:30:04.858][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
-[09:30:04.859][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
-[09:30:16.131][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[09:30:19.632][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[09:30:19.804][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[09:30:20.028][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[09:38:09.838][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.21.1 production client modded with platform NeoForge
+[09:38:09.893][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[09:38:09.950][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:neoforge
+[09:38:09.958][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:common
+[09:38:10.041][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:compatibility
+[09:38:10.047][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[09:38:12.172][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support, provided through the CraftTweaker compatibility plugin:
+[09:38:12.175][INFO][CraftTweaker]: - 'crafttweaker' version '21.0.34', supporting mods vanilla
+[09:38:12.175][INFO][CraftTweaker]: - 'farmersdelight' version '1.2.9'
+[09:38:24.607][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[09:38:25.310][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[09:38:25.387][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[09:38:25.746][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[09:38:48.905][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[09:38:48.923][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[09:38:48.937][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[09:38:48.943][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[09:38:50.926][INFO][CraftTweaker]: CraftTweaker reload starting!
+[09:38:50.937][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[09:38:50.948][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[09:38:51.244][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[09:38:51.245][INFO][CraftTweaker-ZenCode]: Loading file 'ctgui_generated.zs' with priority 0
+[09:38:51.277][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[weaponmod:katana.stone]'
+[09:38:51.299][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/weaponmod/katana.stone_0' that outputs: '<item:weaponmod:katana.stone>'
+[09:38:51.299][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[09:38:51.304][INFO][CraftTweaker]: CraftTweaker reload complete!
+[09:38:51.305][INFO][CraftTweaker]: This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[10:58:16.944][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[10:58:16.945][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:58:16.978][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:58:16.994][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[10:58:17.009][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[10:58:18.756][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[10:58:18.756][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:58:18.768][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:58:19.068][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[10:58:19.068][INFO][CraftTweaker-ZenCode]: Loading file 'ctgui_generated.zs' with priority 0
+[10:58:19.091][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[weaponmod:katana.stone]'
+[10:58:19.096][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/weaponmod/katana.stone_0' that outputs: '<item:weaponmod:katana.stone>'
+[10:58:19.096][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:hull]'
+[10:58:19.099][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/hull_0' that outputs: '<item:immersive_aircraft:hull>'
+[10:58:19.099][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:steel_boiler]'
+[10:58:19.100][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/steel_boiler_0' that outputs: '<item:immersive_aircraft:steel_boiler>'
+[10:58:19.100][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:airship]'
+[10:58:19.101][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/airship_0' that outputs: '<item:immersive_aircraft:airship>'
+[10:58:19.101][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:warship]'
+[10:58:19.102][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/warship_0' that outputs: '<item:immersive_aircraft:warship>'
+[10:58:19.102][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:propeller]'
+[10:58:19.103][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/propeller_0' that outputs: '<item:immersive_aircraft:propeller>'
+[10:58:19.103][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:enhanced_propeller]'
+[10:58:19.104][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/enhanced_propeller_0' that outputs: '<item:immersive_aircraft:enhanced_propeller>'
+[10:58:19.104][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:industrial_gears]'
+[10:58:19.104][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/industrial_gears_0' that outputs: '<item:immersive_aircraft:industrial_gears>'
+[10:58:19.104][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:bomb_bay]'
+[10:58:19.105][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/bomb_bay_0' that outputs: '<item:immersive_aircraft:bomb_bay>'
+[10:58:19.105][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:engine]'
+[10:58:19.106][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/engine_0' that outputs: '<item:immersive_aircraft:engine>'
+[10:58:19.106][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:improved_landing_gear]'
+[10:58:19.107][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/improved_landing_gear_0' that outputs: '<item:immersive_aircraft:improved_landing_gear>'
+[10:58:19.107][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:eco_engine]'
+[10:58:19.108][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/eco_engine_0' that outputs: '<item:immersive_aircraft:eco_engine>'
+[10:58:19.108][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:rotary_cannon]'
+[10:58:19.108][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/rotary_cannon_0' that outputs: '<item:immersive_aircraft:rotary_cannon>'
+[10:58:19.108][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:sturdy_pipes]'
+[10:58:19.109][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/sturdy_pipes_0' that outputs: '<item:immersive_aircraft:sturdy_pipes>'
+[10:58:19.109][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyroscope_dials]'
+[10:58:19.110][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyroscope_dials_0' that outputs: '<item:immersive_aircraft:gyroscope_dials>'
+[10:58:19.110][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyroscope_hud]'
+[10:58:19.111][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyroscope_hud_0' that outputs: '<item:immersive_aircraft:gyroscope_hud>'
+[10:58:19.111][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyrodyne]'
+[10:58:19.112][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyrodyne_0' that outputs: '<item:immersive_aircraft:gyrodyne>'
+[10:58:19.112][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[10:58:19.113][INFO][CraftTweaker]: This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[10:59:52.580][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[10:59:52.580][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:59:52.593][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:59:52.595][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[10:59:52.601][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[10:59:53.309][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[10:59:53.309][INFO][CraftTweaker-ZenCode]: Undoing previous actions
+[10:59:53.319][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[10:59:53.397][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, vanilla/api/network/NetworkContext, vanilla/api/network/NetworkReceiver, crafttweaker, expansions]
+[10:59:53.397][INFO][CraftTweaker-ZenCode]: Loading file 'ctgui_generated.zs' with priority 0
+[10:59:53.422][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[weaponmod:katana.stone]'
+[10:59:53.427][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/weaponmod/katana.stone_0' that outputs: '<item:weaponmod:katana.stone>'
+[10:59:53.427][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:hull]'
+[10:59:53.429][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/hull_0' that outputs: '<item:immersive_aircraft:hull>'
+[10:59:53.429][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:steel_boiler]'
+[10:59:53.430][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/steel_boiler_0' that outputs: '<item:immersive_aircraft:steel_boiler>'
+[10:59:53.430][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:airship]'
+[10:59:53.431][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/airship_0' that outputs: '<item:immersive_aircraft:airship>'
+[10:59:53.431][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:warship]'
+[10:59:53.432][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/warship_0' that outputs: '<item:immersive_aircraft:warship>'
+[10:59:53.432][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:propeller]'
+[10:59:53.434][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/propeller_0' that outputs: '<item:immersive_aircraft:propeller>'
+[10:59:53.434][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:enhanced_propeller]'
+[10:59:53.434][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/enhanced_propeller_0' that outputs: '<item:immersive_aircraft:enhanced_propeller>'
+[10:59:53.435][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:industrial_gears]'
+[10:59:53.435][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/industrial_gears_0' that outputs: '<item:immersive_aircraft:industrial_gears>'
+[10:59:53.435][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:bomb_bay]'
+[10:59:53.436][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/bomb_bay_0' that outputs: '<item:immersive_aircraft:bomb_bay>'
+[10:59:53.436][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:engine]'
+[10:59:53.437][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/engine_0' that outputs: '<item:immersive_aircraft:engine>'
+[10:59:53.437][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:improved_landing_gear]'
+[10:59:53.438][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/improved_landing_gear_0' that outputs: '<item:immersive_aircraft:improved_landing_gear>'
+[10:59:53.438][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:eco_engine]'
+[10:59:53.439][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/eco_engine_0' that outputs: '<item:immersive_aircraft:eco_engine>'
+[10:59:53.439][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:rotary_cannon]'
+[10:59:53.440][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/rotary_cannon_0' that outputs: '<item:immersive_aircraft:rotary_cannon>'
+[10:59:53.440][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:sturdy_pipes]'
+[10:59:53.441][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/sturdy_pipes_0' that outputs: '<item:immersive_aircraft:sturdy_pipes>'
+[10:59:53.441][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyroscope_hud]'
+[10:59:53.442][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyroscope_hud_0' that outputs: '<item:immersive_aircraft:gyroscope_hud>'
+[10:59:53.442][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyrodyne]'
+[10:59:53.443][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyrodyne_0' that outputs: '<item:immersive_aircraft:gyrodyne>'
+[10:59:53.443][INFO][CraftTweaker]: Removing 'minecraft:crafting' recipe(s) with name(s): '[immersive_aircraft:gyroscope_dials]'
+[10:59:53.444][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:ctgui/new/immersive_aircraft/gyroscope_dials_0' that outputs: '<item:immersive_aircraft:gyroscope_dials>'
+[10:59:53.444][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[10:59:53.445][INFO][CraftTweaker]: This reload was made possible by Spencer Gilbert and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

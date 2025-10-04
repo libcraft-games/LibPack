@@ -15,7 +15,7 @@
   "fuelConsumption": 1.0,
   "windClearWeather": 1.0,
   "windRainWeather": 3.0,
-  "windThunderWeather": 3.0,
+  "windThunderWeather": 5.0,
   "repairSpeed": 0.025,
   "repairExhaustion": 0.5,
   "collisionDamage": true,

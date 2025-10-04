@@ -4,6 +4,7 @@
 
 # allow config items
 !config/
+!scripts/
 
 # allow log files which update every time
 !logs/
