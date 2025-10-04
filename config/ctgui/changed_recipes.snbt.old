@@ -9,7 +9,10 @@
             originalRecipe: {
                 category: "equipment",
                 key: {
-                    "#": [
+                    c: {
+                        tag: "minecraft:stone_tool_materials"
+                    },
+                    s: [
                         {
                             item: "minecraft:stick"
                         },
@@ -22,15 +25,12 @@
                         {
                             tag: "forge:rods/wooden"
                         }
-                    ],
-                    X: {
-                        tag: "minecraft:stone_tool_materials"
-                    }
+                    ]
                 },
                 pattern: [
-                    "  X",
-                    " X ",
-                    "#  "
+                    "  c",
+                    " c ",
+                    "s  "
                 ],
                 result: {
                     count: 1,
