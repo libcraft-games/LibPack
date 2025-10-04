@@ -55,7 +55,6 @@ craftingTable.addShaped("ctgui/new/immersive_aircraft/industrial_gears_0", <item
 
 <recipetype:minecraft:crafting>.removeByName("immersive_aircraft:bomb_bay");
 craftingTable.addShaped("ctgui/new/immersive_aircraft/bomb_bay_0", <item:immersive_aircraft:bomb_bay>, [
-    [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()],
     [<tag:item:c:plates/aluminum>, <item:immersiveengineering:hatch>, <tag:item:c:plates/aluminum>]]);
 
 <recipetype:minecraft:crafting>.removeByName("immersive_aircraft:engine");
@@ -96,7 +95,6 @@ craftingTable.addShaped("ctgui/new/immersive_aircraft/gyroscope_hud_0", <item:im
 
 <recipetype:minecraft:crafting>.removeByName("immersive_aircraft:gyrodyne");
 craftingTable.addShaped("ctgui/new/immersive_aircraft/gyrodyne_0", <item:immersive_aircraft:gyrodyne>, [
-    [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()],
     [IIngredientEmpty.getInstance(), <item:immersive_aircraft:propeller>, IIngredientEmpty.getInstance()],
     [<item:immersiveengineering:windmill_sail>, <item:immersive_aircraft:hull>, <item:immersiveengineering:windmill_sail>]]);
 
@@ -104,4 +102,10 @@ craftingTable.addShaped("ctgui/new/immersive_aircraft/gyrodyne_0", <item:immersi
 craftingTable.addShaped("ctgui/new/immersive_aircraft/gyroscope_dials_0", <item:immersive_aircraft:gyroscope_dials>, [
     [IIngredientEmpty.getInstance(), <item:supplementaries:altimeter>, <item:create:precision_mechanism>],
     [<item:minecraft:note_block>, <item:immersive_aircraft:gyroscope>, <item:minecraft:lever>]]);
+
+<recipetype:minecraft:crafting>.removeByName("beautify:rope");
+craftingTable.addShaped("ctgui/new/beautify/rope_0", <item:beautify:rope>, [
+    [<item:immersiveengineering:hemp_fiber>],
+    [<item:immersiveengineering:hemp_fiber>],
+    [<item:immersiveengineering:hemp_fiber>]]);
 
