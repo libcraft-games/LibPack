@@ -1,4 +1,11 @@
 {
+  "toms_trading_network": {
+    "vending_machine": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -52,10 +59,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -65,9 +68,6 @@
   },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -80,6 +80,22 @@
     "block_properties": false,
     "mod_name": true
   },
+  "balm": {
+    "jade": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "petrolpark": {
+    "contamination": true
+  },
+  "corpse": {
+    "corpse": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
@@ -87,9 +103,6 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
-  },
-  "balm": {
-    "jade": true
   },
   "barbequesdelight": {
     "grill": true

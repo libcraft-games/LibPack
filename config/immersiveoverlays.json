@@ -1,7 +1,7 @@
 {
-  "compass_enable": false,
+  "compass_enable": true,
   "compass_vertical_position": 140,
-  "compass_horizontal_position_left": false,
+  "compass_horizontal_position_left": true,
   "compass_x_colour": "Red",
   "compass_y_colour": "Green",
   "compass_z_colour": "Blue",
@@ -25,9 +25,10 @@
   "clock_enable": true,
   "clock_current_time": true,
   "clock_day_count": false,
-  "clock_24_hour": true,
-  "clock_vertical_position": 90,
-  "clock_horizontal_position_left": false,
+  "clock_24_hour": false,
+  "clock_seasons": true,
+  "clock_vertical_position": 85,
+  "clock_horizontal_position_left": true,
   "clock_items": [
     "minecraft:clock"
   ],
@@ -39,8 +40,8 @@
   "moved_by_effects": true,
   "require_item": true,
   "require_item_in_hand": false,
-  "search_containers": false,
-  "search_containers_for_containers": false,
+  "search_containers": true,
+  "search_containers_for_containers": true,
   "render_background": true,
   "hide_from_debug": true,
   "compat_playerlocatorplus": true,
@@ -50,13 +51,12 @@
   "compat_oreganized_temperature": true,
   "compat_tough_as_nails_temperature": true,
   "compat_cold_sweat_temperature": true,
-  "compat_seasons": true,
-  "biome_enable": false,
-  "biome_icons": false,
+  "biome_enable": true,
+  "biome_icons": true,
   "biome_reduced_info": false,
   "biome_text_tinted": true,
   "biome_vertical_position": 112,
-  "biome_horizontal_position_left": false,
+  "biome_horizontal_position_left": true,
   "biome_items": [
     "minecraft:map",
     "minecraft:empty_map",
@@ -66,7 +66,8 @@
   ],
   "season_items": [
     "sereneseasons:calendar",
-    "seasonsextras:season_calendar"
+    "seasonsextras:season_calendar",
+    "eclipticseasons:calendar"
   ],
   "temperature_enable": true,
   "temperature_icons": true,
@@ -81,7 +82,7 @@
     "legendarysurvivaloverhaul:thermometer",
     "cold_sweat:thermometer"
   ],
-  "version": 0,
+  "version": 1,
   "compat_legendary_survival_overhaul_temperature": true,
   "speed_enable": true,
   "speed_vertical_position": 140,
@@ -92,5 +93,9 @@
     "oreganized:speedometer",
     "speedometer:speedometer"
   ],
-  "compat_jade": false
+  "compat_jade": false,
+  "compat_serene_seasons": true,
+  "compat_simple_seasons": true,
+  "compat_tfc_seasons": true,
+  "compat_ecliptic_seasons": true
 }

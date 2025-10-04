@@ -1,0 +1,279 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.dungeonsdelight]
+			monster_cake = true
+
+		[types.cake.createfood]
+			cream_cake_chorus_fruit = true
+			cream_cake_glow_berry = true
+			berry_cream_cake_sweet_berry = true
+			berry_cream_cake_chorus_fruit = true
+			berry_cream_cake_glow_berry = true
+			chocolate_cream_cake_butterscotch = true
+			chocolate_cream_cake_caramel = true
+			chocolate_cream_cake_chocolate = true
+			chocolate_cream_cake_dark_chocolate = true
+			chocolate_cream_cake_toffee = true
+			chocolate_cream_cake_white_chocolate = true
+			chorus_fruit_cream_cake_sweet_berry = true
+			chorus_fruit_cream_cake_chorus_fruit = true
+			chorus_fruit_cream_cake_glow_berry = true
+			glow_berry_cream_cake_sweet_berry = true
+			glow_berry_cream_cake_chorus_fruit = true
+			glow_berry_cream_cake_glow_berry = true
+
+		[types.cake.veggiesdelight]
+			carrot_cake = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.eternal_starlight]
+			lunar = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+			jinglestem = true
+
+		[types.wood_type.vanillabackport]
+			pale_oak = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.moresnifferflowers]
+			corrupted = true
+			vivicus = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.wood_type.enchanted]
+			alder = true
+			hawthorn = true
+			rowan = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
+
+		[types.leaves_type.eternal_starlight]
+			lunar = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
+
+		[types.leaves_type.biomesoplenty]
+			null = true
+			origin = true
+			flowering_oak = true
+			cypress = true
+			snowblossom = true
+			rainbow_birch = true
+			fir = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.moresnifferflowers]
+			corrupted = true
+			vivicus = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.culturaldelights]
+			avocado = true
+			fruiting_avocado = true
+
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.leaves_type.enchanted]
+			alder = true
+			hawthorn = true
+			rowan = true
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.biomesoplenty]
+			black_sandstone = true
+			orange_sandstone = true
+			white_sandstone = true
+			brimstone = true
+
+		[types.stone_type.eternal_starlight]
+			grimstone = true
+			voidstone = true
+			nebulaite = true
+			radianite = true
+			stellagmite = true
+			abysslate = true
+			thermabysslate = true
+			cryobysslate = true
+			toxite = true
+			springstone = true
+			flowglaze = true
+
+		[types.stone_type.aether]
+			holystone = true
+
+		[types.stone_type.undergarden]
+			depthrock = true
+			shiverstone = true
+			dreadrock = true
+			tremblecrust = true
+
+		[types.stone_type.dndecor]
+			cut_stone = true
+
+		[types.stone_type.enderscape]
+			mirestone = true
+			veradite = true
+			kurodite = true
+
+		[types.mud_type.eternal_starlight]
+			nightfall_mud = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.storagedrawers]
+			full_drawers_2 = true
+			half_drawers_1 = true
+			full_drawers_4 = true
+			half_drawers_4 = true
+			trim = true
+			half_drawers_2 = true
+			full_drawers_1 = true
+
+		[entries.wood_type.bibliocraft]
+			fancy_crafter = true
+			label = true
+			grandfather_clock = true
+			potion_shelf = true
+			table = true
+			bookcase = true
+			tool_rack = true
+			fancy_clock = true
+			shelf = true
+			fancy_armor_stand = true
+			fancy_sign = true
+
+		[entries.wood_type.beautify]
+			trellis = true
+			blinds = true
+			picture_frame = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			polished_cut_stairs = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			polished_cut_wall = true
+			cut_slab = true
+
+		[entries.stone_type.rechiseled]
+			squares = true
+			smooth_large_tiles = true
+			brick_paving_connecting = true
+			brick_pattern_connecting = true
+			brick_pattern = true
+			waves_connecting = true
+			small_bricks = true
+			smooth_large_tiles_connecting = true
+			small_bricks_connecting = true
+			path_connecting = true
+			bordered = true
+			rotated_bricks_connecting = true
+			smooth_rotated_bricks = true
+			rotated_bricks = true
+			big_tiles_connecting = true
+			smooth_brick_paving = true
+			diagonal_bricks = true
+			big_tiles = true
+			smooth_rotated_bricks_connecting = true
+			tiles_connecting = true
+			brick_paving = true
+			small_tiles_connecting = true
+			bordered_connecting = true
+			waves = true
+			crushed_connecting = true
+			tiles = true
+			squares_connecting = true
+			path = true
+			smooth_tiles_connecting = true
+			diagonal_bricks_connecting = true
+			smooth_tiles = true
+			crushed = true
+			small_tiles = true
+			smooth_brick_paving_connecting = true
+			slated = true

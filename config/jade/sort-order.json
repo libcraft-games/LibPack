@@ -7,8 +7,11 @@
   "cookingforblockheads:preservation_chamber": null,
   "cookingforblockheads:sink": null,
   "cookingforblockheads:toaster": null,
+  "corpse:corpse": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "immersiveengineering:multiblock_icon": null,
   "immersiveengineering:multiblock_inventory": null,
   "immersiveengineering:multiblock_tank": null,
@@ -72,8 +75,10 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "petrolpark:contamination": null,
   "storagedrawers:main": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "toms_trading_network:vending_machine": null
 }

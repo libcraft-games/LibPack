@@ -1,5 +1,65 @@
 {
     data: [],
     palette: [],
-    changes: []
+    changes: [
+        {
+            exported: 1b,
+            id: "ctgui/new/weaponmod/katana.stone_0",
+            originalId: "weaponmod:katana.stone",
+            originalRecipe: {
+                category: "equipment",
+                key: {
+                    c: {
+                        tag: "minecraft:stone_tool_materials"
+                    },
+                    s: [
+                        {
+                            item: "minecraft:stick"
+                        },
+                        {
+                            tag: "c:rods/wooden"
+                        },
+                        {
+                            tag: "c:wooden_rods"
+                        },
+                        {
+                            tag: "forge:rods/wooden"
+                        }
+                    ]
+                },
+                pattern: [
+                    "  c",
+                    " c ",
+                    "s  "
+                ],
+                result: {
+                    count: 1,
+                    id: "weaponmod:katana.stone"
+                }
+            },
+            recipe: {
+                category: "equipment",
+                key: {
+                    c: {
+                        tag: "minecraft:stone_tool_materials"
+                    },
+                    s: {
+                        tag: "c:rods/wooden"
+                    }
+                },
+                pattern: [
+                    "  c",
+                    " c ",
+                    "s  "
+                ],
+                result: {
+                    count: 1,
+                    id: "weaponmod:katana.stone"
+                }
+            },
+            recipeType: "minecraft:crafting",
+            serializer: "minecraft:crafting_shaped",
+            type: "CHANGED"
+        }
+    ]
 }

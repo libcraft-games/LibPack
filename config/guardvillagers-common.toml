@@ -1,6 +1,6 @@
 ["raids and illagers"]
 	#Illagers In Raids Attack Animals?
-	"Illagers in raids attack animals?" = true
+	"Illagers in raids attack animals?" = false
 	#Witches Attack Villagers?
 	"Witches attack villagers?" = true
 	#This makes Illagers run from polar bears, as anyone with common sense would.
@@ -12,7 +12,7 @@
 	#Hostiles attack guards, by default only illagers and zombies will attack guards, the mob blacklist below will effect this option
 	"All mobs attack guards" = false
 	#Guards won't attack mobs in this list at all, for example, putting "minecraft:creeper" in this list will make guards ignore creepers.
-	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:creeper", "minecraft:enderman"]
+	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:creeper", "minecraft:enderman", "minecraft:slime"]
 	#Guards will additionally attack mobs ids put in this list, for example, putting "minecraft:cow" in this list will make guards attack cows.
 	"Mob Whitelist" = []
 
@@ -44,7 +44,7 @@
 	# Default: 1.0
 	# Range: -999.9000244140625 ~ 999.0
 	"Chance for guards to lose durability" = 1.0
-	"Allow guards to teleport if following the player" = true
+	"Allow guards to teleport if following the player" = false
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
 	"Have guards attempt to avoid firing into other friendlies?" = true
@@ -61,9 +61,9 @@
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	# Default: 15
 	# Range: > -2147483648
-	"Minimum reputation requirement for guards to give you access to their inventories" = 15
+	"Minimum reputation requirement for guards to give you access to their inventories" = 0
 	"Have guards only follow the player if they have hero of the village?" = true
 	# Default: -100
 	# Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
-	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = false
+	"Allow guards to naturally patrol villages? This feature can cause lag if a lot of guards are spawned" = true
