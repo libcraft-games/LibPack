@@ -286,7 +286,6 @@ trimmed-neo-1.21-3.0.0.jar
 twilightdelight-3.0.7.jar.disabled
 undergardendelight-1.2.1-neoforge-1.21.1.jar
 underlay-1.21-v0.9.7-f.jar
-usefulspyglass-neoforge-1.21.1-0.8.0.jar
 vanillabackport-neoforge-1.21.1-1.1.4.3.jar
 vegandelight-neoforge-1.21.1-2.0.0-beta2.jar
 veggiesdelight-1.8.3.jar
