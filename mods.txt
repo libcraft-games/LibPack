@@ -123,7 +123,6 @@ create_pattern_schematics-2.0.9.jar
 create_power_loader-2.0.3-mc1.21.1.jar
 create_trimmed.jar
 create_vibrant_vaults-0.3.2.jar
-create_winery-1.7.0-neoforge-1.21.1.jar
 createenchantablemachinery-3.4.2+mc1.21.1-neoforge.jar
 createentitycontroller-1.21.1-0.2.7-neoforge.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
