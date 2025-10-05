@@ -9,8 +9,8 @@
     },
     "texture": {
         "cropTrims": true,
-        "useDarkerTrim": false,
-        "useBannerTextures": false,
+        "useDarkerTrim": true,
+        "useBannerTextures": true,
         "useElytraModel": true
     },
     "compat": {

@@ -17,7 +17,7 @@
 
 	[blocks.clock_block]
 		#Display 24h time format. False for 12h format
-		24h_format = true
+		24h_format = false
 
 	[blocks.pedestal]
 		#Enable displayed item spin
@@ -77,7 +77,7 @@
 		#Lower value = faster oscillation
 		# Default: 100
 		# Range: 0 ~ 10000
-		slowness = 100
+		slowness = 80
 		#How wavy the animation will be in pixels. (Wavelength)
 		# Default: 4.0
 		# Range: 0.001 ~ 100.0
@@ -85,11 +85,11 @@
 		#How tall the wave lobes will be. (Wave amplitude)
 		# Default: 1.0
 		# Range: 0.0 ~ 100.0
-		intensity = 1.0
+		intensity = 2.0
 		#How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
 		# Default: 0.3
 		# Range: 0.0 ~ 10.0
-		intensity_increment = 0.3
+		intensity_increment = 0.6
 		#At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
 		#Allowed Values: FAST, FANCY, FABULOUS
 		fanciness = "FABULOUS"
@@ -145,7 +145,7 @@
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disables Amendments suggestion screen
-	no_amendments_screen = false
+	no_amendments_screen = true
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
@@ -178,9 +178,9 @@
 #Game tweaks
 [tweaks]
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
-	projectile_weapon_overlay = true
+	projectile_weapon_overlay = false
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
-	placeable_books_glint = false
+	placeable_books_glint = true
 	#Enables banner pattern tooltip image preview
 	banner_pattern_tooltip = true
 	#Enables paintings tooltip image preview

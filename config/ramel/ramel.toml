@@ -1,0 +1,15 @@
+# The amount of extra range beyond the camel's normal hitbox, in blocks, that the ramming effect will apply.
+# Value will be halved for baby camels.
+# range: 0.0 - 2.5
+# default: 0.5
+additionalRammingRange = 0.5
+# The amount of damage dealt to entities rammed, in half-hearts.
+# Value will be halved for baby camels.
+# range: 0.0 - 10.0
+# default: 2.0
+rammingDamage = 2.0
+# The knockback multiplier applied to entities rammed. 0.0 will be no knockback, 2.0 will be twice the normal knockback.
+# Value will be halved for baby camels.
+# range: 0.0 - 5.0
+# default: 1.0
+knockbackMultiplier = 1.0

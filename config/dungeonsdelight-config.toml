@@ -7,6 +7,6 @@
 		#Force enable all mod integration? (even if the corresponding mods are not installed), mostly useful for modpacks wanting to repurpose the items (default: false)
 		forceEnableIntegrationFeatures = false
 		#Should trial spawner blocks emit green flame particles? (default: true)
-		trialSpawnersEmitGreenFlames = true
+		trialSpawnersEmitGreenFlames = false
 		#Should vault blocks emit green flame particles? (default: true)
-		vaultsEmitGreenFlames = true
+		vaultsEmitGreenFlames = false

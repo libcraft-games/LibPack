@@ -75,7 +75,7 @@
 	#BLACKLIST: can only summon when the player is NOT in one of the dimensions defined in 'dimensions' list.
 	#Default: ANY
 	#Allowed Values: ANY, SAME, WHITELIST, BLACKLIST
-	dimension_handling = "ANY"
+	dimension_handling = "SAME"
 	#Dimensions whitelist or blacklist, depending on the 'dimension_handling' setting.
 	#Format: ["minecraft:overworld", "minecraft:the_end"]
 	#Default: [] (empty)

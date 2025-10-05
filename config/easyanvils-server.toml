@@ -47,7 +47,7 @@
 	#NONE: Penalty is disabled by staying at 0 and does not increase.
 	#Default Value: LIMITED
 	#Allowed Values: NONE, VANILLA, LIMITED
-	prior_work_penalty = "LIMITED"
+	prior_work_penalty = "VANILLA"
 	#Prevents the prior work penalty from increasing when combining two enchanted books.
 	#Default Value: true
 	penalty_free_enchants_for_books = true

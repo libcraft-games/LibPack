@@ -1,6 +1,6 @@
 [Config]
 	#Amount of Experience obtained from brushing a Suspicious Block
-	"Experience Drop" = 3.0
+	"Experience Drop" = 0.0
 	#The amount of time the Spider Amulet will be cooldowned for when used (in seconds)
 	"Spider Amulet Cooldown" = 30.0
 	#The level of Poison that will be applied to targets hit by a Player with the Poisonous effect.

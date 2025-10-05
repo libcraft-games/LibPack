@@ -7,7 +7,7 @@
 	true_infinity = true
 	#Looting and fortune also affect dropped experience points.
 	#Default Value: true
-	loot_bonus_boosts_xp = true
+	loot_bonus_boosts_xp = false
 	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once (mainly useful for the multishot enchantment).
 	#Default Value: true
 	no_projectile_immunity = true
