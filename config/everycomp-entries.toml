@@ -221,15 +221,6 @@
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
-		[entries.wood_type.another_furniture]
-			flower_box = true
-			shelf = true
-			shutter = true
-			bench = true
-			table = true
-			drawer = true
-			chair = true
-
 		[entries.stone_type.create]
 			small_brick_wall = true
 			cut_wall = true
