@@ -109,3 +109,15 @@ craftingTable.addShaped("ctgui/new/beautify/rope_0", <item:beautify:rope>, [
     [<item:immersiveengineering:hemp_fiber>],
     [<item:immersiveengineering:hemp_fiber>]]);
 
+<recipetype:minecraft:crafting>.removeByName("weaponmod:bullet");
+craftingTable.addShaped("ctgui/new/weaponmod/bullet_0", <item:weaponmod:bullet> * 8, [
+    [<tag:item:c:nuggets/lead>],
+    [<item:minecraft:gunpowder>],
+    [<item:minecraft:paper>]]);
+
+<recipetype:minecraft:crafting>.removeByName("weaponmod:cannonball");
+craftingTable.addShaped("ctgui/new/weaponmod/cannonball_0", <item:weaponmod:cannonball> * 4, [
+    [IIngredientEmpty.getInstance(), <tag:item:c:ingots/lead>, IIngredientEmpty.getInstance()],
+    [<tag:item:c:ingots/lead>, <tag:item:c:ingots/lead>, <tag:item:c:ingots/lead>],
+    [IIngredientEmpty.getInstance(), <tag:item:c:ingots/lead>, IIngredientEmpty.getInstance()]]);
+
