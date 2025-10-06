@@ -63,7 +63,7 @@ UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
 WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT.jar.disabled
 XaeroZoomout-NeoForge-1.21-2.0.0.jar
 XaerosWorldMap_1.39.12_NeoForge_1.21.jar
-Xaeros_Minimap_25.2.10_NeoForge_1.21.jar
+Xaeros_Minimap_25.2.10_NeoForge_1.21.jar.disabled
 accessories-neoforge-1.1.0-beta.52+1.21.1.jar
 accessories_cclayer-9.3.1-beta.28+1.21.1-neoforge.jar.disabled
 accessorify-2.2.1+1.21.1.jar
@@ -93,7 +93,7 @@ bibliobiomes-1.21.1-1.6.0.jar
 bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
 bookshelf-neoforge-1.21.1-21.1.69.jar
-brandedlogs-neoforge-2.2.0+1.21.1.jar
+brandedlogs-neoforge-2.2.0+1.21.1.jar.disabled
 bwncr-neoforge-1.21.1-3.20.3.jar
 c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar
 carryon-neoforge-1.21.1-2.2.2.11.jar
@@ -208,7 +208,6 @@ noisium-neoforge-2.3.0+mc1.21-1.21.1.jar
 not_interested--mc1.21.1--neoforge--1.0.1.jar
 nyfsspiders-neoforge-1.21.1-2.3.2.jar
 observable-5.4.4.jar
-oceansdelight-neoforge-1.0.3-1.21.jar
 owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar
 platform-neoforge-1.21.1-1.2.10.2.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
@@ -270,7 +269,7 @@ trimmed-neo-1.21-3.0.0.jar
 undergardendelight-1.2.1-neoforge-1.21.1.jar
 underlay-1.21-v0.9.7-f.jar
 vanillabackport-neoforge-1.21.1-1.1.4.3.jar
-vegandelight-neoforge-1.21.1-2.0.0-beta2.jar
+vegandelight-neoforge-1.21.1-2.0.0-beta3.jar
 veggiesdelight-1.8.3.jar
 veinmining-neoforge-5.0.0-beta.2+1.21.jar
 villager-trading-plus-1.1+1.21.jar
