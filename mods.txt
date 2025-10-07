@@ -43,7 +43,6 @@ MouseTweaks-neoforge-mc1.21-2.26.1.jar
 MyNethersDelight-1.21.1-1.9.jar
 Necronomicon-NeoForge-1.6.0+1.21.jar
 NoRealmsButton-2.0.2.jar
-Oreganized 1.21.1-5.0.3.jar
 PermanentSponges-v21.1.0-1.21.1-NeoForge.jar
 Ping-Wheel-1.11.1-neoforge-1.21.1.jar
 PlentyPlates-v21.1.0-1.21.1-NeoForge.jar
@@ -61,7 +60,6 @@ The_Undergarden-1.21.1-0.9.3.jar
 TradingPost-v21.1.0-1.21.1-NeoForge.jar
 UniLib-1.1.1+1.21.1-neoforge.jar
 UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
-WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT.jar.disabled
 XaeroZoomout-NeoForge-1.21-2.0.0.jar
 XaerosWorldMap_1.39.12_NeoForge_1.21.jar
 Xaeros_Minimap_25.2.10_NeoForge_1.21.jar.disabled
@@ -92,7 +90,6 @@ better-clouds-1.7.17+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
 bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
-blueprint-1.21.1-8.0.6.jar
 bookshelf-neoforge-1.21.1-21.1.69.jar
 brandedlogs-neoforge-2.2.0+1.21.1.jar.disabled
 bwncr-neoforge-1.21.1-3.20.3.jar
