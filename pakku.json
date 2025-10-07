@@ -1,0 +1,13 @@
+{
+  "name": "LibPack",
+  "version": "1.0.0-beta",
+  "description": "Custom modpack for the LibCraft server",
+  "author": "dninemfive",
+  "overrides": [
+    "config",
+    "!config/xaerominimap_entities.json",
+    "!config/ctgui",
+    "!**/*.bak",
+    "!config/structurify"
+  ]
+}
