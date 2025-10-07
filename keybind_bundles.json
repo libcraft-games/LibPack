@@ -1,0 +1,40 @@
+[
+  {
+    "id": "63b21d97-71fe-4c7f-81c7-8f3b133becb9",
+    "name": "config",
+    "entries": [
+      {
+        "key": "key.advancements",
+        "title": "Advancements"
+      },
+      {
+        "key": "key.corpse.death_history",
+        "title": "Open Player Death History"
+      },
+      {
+        "key": "key.socialInteractions",
+        "title": "Social Interactions Screen"
+      },
+      {
+        "key": "accessories.key.open_accessories_screen",
+        "title": "Open Accessories Screen"
+      },
+      {
+        "key": "key.aether.open_accessories.desc",
+        "title": "Open/Close Accessories Inventory"
+      },
+      {
+        "key": "key.createrailwaysnavigator.route_overlay_options",
+        "title": "Show Route Overlay Options"
+      },
+      {
+        "key": "key.observable.profile",
+        "title": "Show profiler screen"
+      },
+      {
+        "key": "ping-wheel.key.open-settings",
+        "title": "Open Settings"
+      }
+    ]
+  }
+]

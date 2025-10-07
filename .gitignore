@@ -5,15 +5,18 @@
 # allow metadata files
 !LICENSE
 !README.md
-!version.txt
 !pakku-lock.json
+!pakku.json
 
 # allow workflows
 !.github/
 
 # allow config items
 !config/
+!defaultconfigs/
 !scripts/
+!keybind_bundles.json
+options.txt
 
 # allow datapacks
 !datapacks/
