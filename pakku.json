@@ -1,6 +1,6 @@
 {
     "name": "LibPack",
-    "version": "1.0.0-beta",
+    "version": "0.0.0-beta",
     "description": "Custom modpack for the LibCraft server",
     "author": "dninemfive",
     "overrides": [
