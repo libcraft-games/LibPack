@@ -181,6 +181,9 @@
 			veradite = true
 			kurodite = true
 
+		[types.stone_type.oreganized]
+			glance = true
+
 		[types.mud_type.eternal_starlight]
 			nightfall_mud = true
 

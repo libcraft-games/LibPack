@@ -69,12 +69,6 @@ craftingTable.addShaped("ctgui/new/immersive_aircraft/eco_engine_0", <item:immer
     [<item:minecraft:slime_block>, <item:immersive_aircraft:engine>, <item:minecraft:slime_block>],
     [<tag:item:c:plates/nickel>, <item:minecraft:calibrated_sculk_sensor>, <tag:item:c:plates/nickel>]]);
 
-<recipetype:minecraft:crafting>.removeByName("immersive_aircraft:rotary_cannon");
-craftingTable.addShaped("ctgui/new/immersive_aircraft/rotary_cannon_0", <item:immersive_aircraft:rotary_cannon>, [
-    [<item:create:copper_valve_handle>, <item:weaponmod:musket-ironpart>, <item:weaponmod:musket-ironpart>],
-    [<item:immersive_aircraft:industrial_gears>, <item:weaponmod:musket-ironpart>, <item:weaponmod:musket-ironpart>],
-    [<tag:item:c:plates/copper>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
-
 <recipetype:minecraft:crafting>.removeByName("immersive_aircraft:sturdy_pipes");
 craftingTable.addShaped("ctgui/new/immersive_aircraft/sturdy_pipes_0", <item:immersive_aircraft:sturdy_pipes>, [
     [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <item:create:fluid_pipe>],
