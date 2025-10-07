@@ -80,6 +80,13 @@
     "block_properties": false,
     "mod_name": true
   },
+  "superbwarfare": {
+    "dps_generator": true,
+    "vehicle_deployer": true,
+    "container_entity": true,
+    "vehicle_health": true,
+    "c4_info": true
+  },
   "balm": {
     "jade": true
   },

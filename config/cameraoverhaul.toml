@@ -21,7 +21,7 @@ configVersion = 2
 	turningRollSmoothing = 1.0
 	# Strength of smooth random sway that kicks in when the player idles for enough time.
 	# Default: 0.6
-	cameraSwayIntensity = 0.6
+	cameraSwayIntensity = 0.0
 	# Frequency of smooth random sway that kicks in when the player idles for enough time.
 	# Default: 0.16
 	cameraSwayFrequency = 0.16
@@ -48,7 +48,7 @@ configVersion = 2
 	thunderTrauma = 0.05
 	# A [0..1] value linked to the strength of screen shaking caused by any actions that swing the player's arm. Best kept very low.
 	# Default: 0.03
-	handSwingTrauma = 0.03
+	handSwingTrauma = 0.005
 
 [walking]
 

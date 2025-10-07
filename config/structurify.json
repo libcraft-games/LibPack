@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-06_09-45-39",
+  "config_datetime": "2025-10-07_08-44-28",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -252,6 +252,23 @@
       "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 100,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 128,
+      "flatness_check_threshold": 16,
+      "enable_biome_check": false,
+      "biome_check_distance": 128,
       "biome_check_mode": "BLACKLIST",
       "biome_check_blacklisted_biomes": [
         "#is_river",
@@ -644,6 +661,23 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "nova_structures:tavern_dark_oak",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 3,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "nova_structures:tavern_desert",
       "is_disabled": false,
       "enable_flatness_check": true,
@@ -933,6 +967,23 @@
       "blacklisted_biomes": []
     },
     {
+      "name": "towns_and_towers:exclusives/village_swedish",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 5,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
       "name": "towns_and_towers:pillager_outpost_desert",
       "is_disabled": false,
       "enable_flatness_check": true,
@@ -1023,6 +1074,23 @@
       "enable_flatness_check": true,
       "flatness_check_distance": 116,
       "flatness_check_threshold": 9,
+      "enable_biome_check": false,
+      "biome_check_distance": 116,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "towns_and_towers:village_sunflower_plains",
+      "is_disabled": false,
+      "enable_flatness_check": true,
+      "flatness_check_distance": 116,
+      "flatness_check_threshold": 5,
       "enable_biome_check": false,
       "biome_check_distance": 116,
       "biome_check_mode": "BLACKLIST",
