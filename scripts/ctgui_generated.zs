@@ -5,12 +5,6 @@
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredient;
 
-<recipetype:minecraft:crafting>.removeByName("weaponmod:katana.stone");
-craftingTable.addShaped("ctgui/new/weaponmod/katana.stone_0", <item:weaponmod:katana.stone>, [
-    [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <tag:item:minecraft:stone_tool_materials>],
-    [IIngredientEmpty.getInstance(), <tag:item:minecraft:stone_tool_materials>, IIngredientEmpty.getInstance()],
-    [<tag:item:c:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]]);
-
 <recipetype:minecraft:crafting>.removeByName("immersive_aircraft:hull");
 craftingTable.addShaped("ctgui/new/immersive_aircraft/hull_0", <item:immersive_aircraft:hull>, [
     [<item:immersiveengineering:treated_scaffold>, <item:immersiveengineering:treated_scaffold>, <item:immersiveengineering:treated_scaffold>],
@@ -108,16 +102,4 @@ craftingTable.addShaped("ctgui/new/beautify/rope_0", <item:beautify:rope>, [
     [<item:immersiveengineering:hemp_fiber>],
     [<item:immersiveengineering:hemp_fiber>],
     [<item:immersiveengineering:hemp_fiber>]]);
-
-<recipetype:minecraft:crafting>.removeByName("weaponmod:bullet");
-craftingTable.addShaped("ctgui/new/weaponmod/bullet_0", <item:weaponmod:bullet> * 8, [
-    [<tag:item:c:nuggets/lead>],
-    [<item:minecraft:gunpowder>],
-    [<item:minecraft:paper>]]);
-
-<recipetype:minecraft:crafting>.removeByName("weaponmod:cannonball");
-craftingTable.addShaped("ctgui/new/weaponmod/cannonball_0", <item:weaponmod:cannonball> * 4, [
-    [IIngredientEmpty.getInstance(), <tag:item:c:ingots/lead>, IIngredientEmpty.getInstance()],
-    [<tag:item:c:ingots/lead>, <tag:item:c:ingots/lead>, <tag:item:c:ingots/lead>],
-    [IIngredientEmpty.getInstance(), <tag:item:c:ingots/lead>, IIngredientEmpty.getInstance()]]);
 
