@@ -3707,12 +3707,9 @@
             ]
         },
         {
-            "pakku_id": "NlZE5pviqKIWGH4k",
-            "pakku_links": [
-                "32PWRyJHQ8zJaw6H"
-            ],
+            "pakku_id": "Y6PRdRmfDKo17NVj",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "extra-mod-integrations"
             },
@@ -5233,7 +5230,7 @@
         {
             "pakku_id": "DK5Vy9VYTNFsnV7L",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "geckolib"
             },

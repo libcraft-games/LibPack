@@ -18,8 +18,8 @@
         "keybind_bundles.json"
     ],
     "projects": {
-      "geckolib": {
-        "side": "BOTH"
-      }
+        "geckolib": {
+            "side": "BOTH"
+        }
     }
 }
