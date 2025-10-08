@@ -16,5 +16,10 @@
     ],
     "client_overrides": [
         "keybind_bundles.json"
-    ]
+    ],
+    "projects": {
+      "geckolib": {
+        "side": "BOTH"
+      }
+    }
 }
