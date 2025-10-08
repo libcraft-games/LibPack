@@ -77,6 +77,9 @@
 			celestial = true
 			murublight = true
 
+		[types.wood_type.expandeddelight]
+			cinnamon = true
+
 		[types.leaves_type.eternal_starlight]
 			lunar = true
 			northland = true
@@ -135,6 +138,9 @@
 			alder = true
 			hawthorn = true
 			rowan = true
+
+		[types.leaves_type.expandeddelight]
+			cinnamon = true
 
 		[types.stone_type.create]
 			limestone = true
