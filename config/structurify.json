@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-07_18-42-01",
+  "config_datetime": "2025-10-08_23-52-46",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -1137,5 +1137,14 @@
       "blacklisted_biomes": []
     }
   ],
-  "structure_sets": []
+  "structure_sets": [
+    {
+      "name": "nova_structures:shrines",
+      "salt": 78409300,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 119,
+      "separation": 52
+    }
+  ]
 }

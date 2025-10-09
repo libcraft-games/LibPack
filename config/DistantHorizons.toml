@@ -17,7 +17,7 @@ _version = 3
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "HIGH"
+				horizontalQuality = "EXTREME"
 				#
 				# What is the maximum detail LODs should be drawn at? 
 				# Higher settings will increase memory and GPU usage. 
@@ -69,7 +69,7 @@ _version = 3
 				# ENABLED: Simulates Minecraft's block shading for LODs. 
 				#               Can be used to force LOD shading when using some shaders. 
 				# DISABLED: All LOD sides will be rendered with the same brightness.
-				lodShading = "AUTO"
+				lodShading = "ENABLED"
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 
