@@ -49,7 +49,7 @@
 	# Range: 0.0 ~ 10.0
 	map_markers_text_scale = 1.0
 	#Allows minimap to follow player movement instead of only displaying current map
-	follow_player = false
+	follow_player = true
 	#When enabled the map will align itself with the player
 	rotate_with_player = false
 	#Draw cardinal directions on minimap

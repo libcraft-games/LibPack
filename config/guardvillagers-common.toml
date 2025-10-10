@@ -61,7 +61,7 @@
 	"Allow players to set guard patrol points only if they have hero of the village" = false
 	# Default: 15
 	# Range: > -2147483648
-	"Minimum reputation requirement for guards to give you access to their inventories" = 0
+	"Minimum reputation requirement for guards to give you access to their inventories" = 5
 	"Have guards only follow the player if they have hero of the village?" = true
 	# Default: -100
 	# Range: -9999 ~ 9999

@@ -80,19 +80,16 @@
     "block_properties": false,
     "mod_name": true
   },
-  "superbwarfare": {
-    "dps_generator": true,
-    "vehicle_deployer": true,
-    "container_entity": true,
-    "vehicle_health": true,
-    "c4_info": true
-  },
   "balm": {
     "jade": true
   },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true

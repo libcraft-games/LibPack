@@ -80,6 +80,16 @@
 		[types.wood_type.expandeddelight]
 			cinnamon = true
 
+		[types.wood_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
 		[types.leaves_type.eternal_starlight]
 			lunar = true
 			northland = true
@@ -142,6 +152,22 @@
 		[types.leaves_type.expandeddelight]
 			cinnamon = true
 
+		[types.leaves_type.twilightforest]
+			thorn = true
+			beanstalk = true
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			rainbow_oak = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.leaves_type.twilightdelight]
+			ironwood = true
+
 		[types.stone_type.create]
 			limestone = true
 			asurine = true
@@ -187,6 +213,10 @@
 			veradite = true
 			kurodite = true
 
+		[types.stone_type.twilightforest]
+			deadrock = true
+			mazestone = true
+
 		[types.mud_type.eternal_starlight]
 			nightfall_mud = true
 
@@ -226,6 +256,12 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.twilightforest]
+			hollow_log_horizontal = true
+			hollow_log_vertical = true
+			banister = true
+			hollow_log_climbable = true
 
 		[entries.stone_type.create]
 			small_brick_wall = true

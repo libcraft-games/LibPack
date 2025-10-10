@@ -27,7 +27,7 @@
   "clock_day_count": false,
   "clock_24_hour": false,
   "clock_seasons": true,
-  "clock_vertical_position": 85,
+  "clock_vertical_position": 200,
   "clock_horizontal_position_left": true,
   "clock_items": [
     "minecraft:clock"
