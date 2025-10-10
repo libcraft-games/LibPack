@@ -54,7 +54,6 @@ TF_Lost_Blocks-1.21.1-1.5.0.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 The_Undergarden-1.21.1-0.9.3.jar
 TradingPost-v21.1.0-1.21.1-NeoForge.jar
-UniLib-1.1.1+1.21.1-neoforge.jar
 UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
 accessories-neoforge-1.1.0-beta.52+1.21.1.jar
 actuallyharvest-1.21.1-1.1.3.6-NEOFORGE.jar
@@ -106,7 +105,6 @@ create_factory_logistics-1.21.1-1.4.7.jar
 create_hypertube-0.2.5-NEOFORGE.jar
 create_pattern_schematics-2.0.9.jar
 create_power_loader-2.0.3-mc1.21.1.jar
-create_vibrant_vaults-0.3.2.jar
 createentitycontroller-1.21.1-0.2.7-neoforge.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
 cristellib-neoforge-1.2.8.jar
@@ -164,7 +162,6 @@ getittogetherdrops-neoforge-1.21.5-1.4.jar
 globalpacks-neoforge-1.21.1-21.0.6.jar
 guardvillagers-2.3.2-1.21.1.jar
 horseman-neoforge-1.21.1-1.5.5.jar
-horseshoes-neoforge-1.21.1-1.3.2.jar
 immersive_aircraft-1.4.1+1.21.1-neoforge.jar
 immersive_melodies-neoforge-0.6.2+1.21.1.jar
 immersive_paintings-neoforge-1.21.1-0.7.4.jar
@@ -207,7 +204,6 @@ refinedstorage-emi-integration-neoforge-1.0.0.jar
 refinedstorage-neoforge-2.0.0.jar
 refinedstorage-quartz-arsenal-neoforge-1.0.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
-runelic-neoforge-1.21.1-21.1.3.jar.disabled
 sawmill-1.21-1.7.1-neoforge.jar
 scaffoldingdropsnearby-1.21.1-3.4.jar
 scholar-neoforge-1.21.1-1.1.7.jar
