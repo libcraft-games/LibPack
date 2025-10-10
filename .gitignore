@@ -35,3 +35,4 @@ config/ctgui/
 # spam
 *.bak
 config/structurify/
+config/worldedit/.archive-unpack/

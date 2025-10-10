@@ -1,5 +1,5 @@
 {
-  "compass_enable": true,
+  "compass_enable": false,
   "compass_vertical_position": 140,
   "compass_horizontal_position_left": true,
   "compass_x_colour": "Red",
@@ -27,7 +27,7 @@
   "clock_day_count": false,
   "clock_24_hour": false,
   "clock_seasons": true,
-  "clock_vertical_position": 85,
+  "clock_vertical_position": 200,
   "clock_horizontal_position_left": true,
   "clock_items": [
     "minecraft:clock"
@@ -51,7 +51,7 @@
   "compat_oreganized_temperature": true,
   "compat_tough_as_nails_temperature": true,
   "compat_cold_sweat_temperature": true,
-  "biome_enable": true,
+  "biome_enable": false,
   "biome_icons": true,
   "biome_reduced_info": false,
   "biome_text_tinted": true,
