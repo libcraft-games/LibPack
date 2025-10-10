@@ -136,7 +136,6 @@ emi_loot-0.7.6+1.21+neoforge.jar
 emi_ores-1.2+1.21.1+neoforge.jar
 emiffect-neoforge-2.1.6+mc1.21.1.jar
 enchanted-neoforge-1.21.1-4.2.3.jar
-enchantmentlevelcapindicator-1.21.1-1.1.jar
 enchdesc-neoforge-1.21.1-21.1.9.jar
 enderscape-neoforge-1.0.9+mc1.21.1.jar
 endersdelight-neoforge-1.21.1-1.1.0.jar

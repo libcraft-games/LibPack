@@ -4,7 +4,7 @@ schematicVersion = 2
 # This category holds configs that define ship behaviour.
 [Ship]
 	#Set the speed indication: 0 = km/h, 1 = m/s, 2 = knots, 3 = mph
-	shipModSpeedUnit = 1
+	shipModSpeedUnit = 0
 
 	#This category holds configs that define general ship behaviour.
 	[Ship.General]

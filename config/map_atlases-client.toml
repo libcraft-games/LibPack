@@ -2,7 +2,7 @@
 	#Shows a background texture for each map, useful to see where each map ends
 	shows_map_background = false
 	#Hide minimap when holding the atlas in hand
-	hide_when_in_hand = true
+	hide_when_in_hand = false
 	#Only display y coordinates if atlas holds some slice maps
 	only_show_y_when_has_slices = false
 	#Global scale of entire minimap HUD. Keep at 1 for pixel perfect consistency
@@ -14,7 +14,7 @@
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
 	# Default: 1.0
 	# Range: 0.001 ~ 100.0
-	zoom_multiplier = 1.0
+	zoom_multiplier = 0.5
 	#Controls anchor position of mini-map
 	#Allowed Values: UPPER_LEFT, UPPER_RIGHT, LOWER_LEFT, LOWER_RIGHT
 	anchoring = "UPPER_LEFT"
@@ -47,7 +47,7 @@
 	#Scale multiplier for Map Markers text on the mini-map
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
-	map_markers_text_scale = 1.0
+	map_markers_text_scale = 0.0
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
 	#When enabled the map will align itself with the player
@@ -78,7 +78,7 @@
 	clock_icon = false
 	crossair = false
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
-	alternative_texture = false
+	alternative_texture = true
 	#Pan smoothly. When off it will pan in map increments instead
 	smooth_panning = true
 	#Makes zooming work smoothly instead of in 2 maps increments
@@ -89,7 +89,7 @@
 	#Global scale of the entire world map GUI. Keep at 1 for pixel perfect consistency
 	# Default: 1.25
 	# Range: 0.0 ~ 20.0
-	scale = 1.25
+	scale = 1.0
 	#Global scale of the entire world map GUI when opening from lectern. Keep at 1 for pixel perfect consistency
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
@@ -139,6 +139,6 @@
 	#Uses yellow markers for all mobs
 	radar_single_color = false
 	#Recolors map texture at night to make them use night lightmap. Requires light_map config in common configs
-	night_lightmap = true
+	night_lightmap = false
 	#Turn on to convert Xaeros minimap waypoints. Conversion will happen on world boot. Remember to turn back off
 	convert_xaeros_waypoints = false
