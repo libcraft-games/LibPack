@@ -37,7 +37,7 @@
 	#
 	# Default: 12
 	# Range: 1 ~ 64
-	spawner_activation_range = 16
+	spawner_activation_range = 24
 	#----------------------------------------------------------------------------------------------------+
 	# The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
 	#
