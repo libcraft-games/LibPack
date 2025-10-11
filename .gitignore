@@ -31,6 +31,7 @@ options.txt
 # unstable files
 config/xaerominimap_entities.json
 config/ctgui/
+config/worldedit/worldedit.properties
 
 # spam
 *.bak
