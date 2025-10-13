@@ -94,6 +94,9 @@
 			mining = true
 			sorting = true
 
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
 		[types.leaves_type.eternal_starlight]
 			lunar = true
 			northland = true
