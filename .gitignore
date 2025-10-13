@@ -32,6 +32,8 @@ options.txt
 config/xaerominimap_entities.json
 config/ctgui/
 config/worldedit/worldedit.properties
+config/voicechat/voicechat-client.properties
+config/scriptor_cost.cfg
 
 # spam
 *.bak

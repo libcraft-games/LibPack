@@ -6,6 +6,7 @@ CameraOverhaul-v2.0.4-neoforge+mc[1.21.0-1.21.1].jar
 ChatImage-1.4.7+1.21.0+neoforge.jar
 Companion-1.21.1-NeoForge-6.1.1.jar
 CraftTweaker-neoforge-1.21.1-21.0.34.jar
+CreativeCore_NEOFORGE_v2.13.13_mc1.21.1.jar.disabled
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 Design-n-Decor-1.21.1-2.1.0.jar
 DistantHorizons-2.3.4-b-1.21.1-fabric-neoforge.jar
@@ -49,6 +50,7 @@ ScalableLux-0.1.0.1+neoforge.1cb1e91-all.jar
 ServerChatSync-neoforge-1.0.0.jar
 SimpleBackups-1.21-4.0.20.jar
 SmartBrainLib-neoforge-1.21.1-1.16.11.jar
+Spice of Life Onion_NEOFORGE_v1.5.2_mc1.21.1.jar.disabled
 StorageDrawers-neoforge-1.21.1-13.11.4.jar
 TF_Lost_Blocks-1.21.1-1.5.0.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
@@ -69,6 +71,7 @@ amendments-1.21-2.0.8-neoforge.jar
 appleskin-neoforge-mc1.21-3.0.7.jar
 architectury-13.0.8-neoforge.jar
 artifacts-neoforge-13.0.7.jar
+attributefix-neoforge-1.21.1-21.1.2.jar
 baguettelib-1.21.1-NeoForge-1.1.2.jar
 balm-neoforge-1.21.1-21.0.52.jar
 barbequesdelight-1.2.2.jar
@@ -237,7 +240,6 @@ supplementaries-1.21-3.4.16-neoforge.jar
 suppsquared-1.21-1.2.13-neoforge.jar
 sweety_archaeology-1.0.9b-neoforge-1.21.1.jar
 t_and_t-neoforge-fabric-1.13.2.jar
-tameablefoxes-1.1.0-neoforge-1.21.jar
 threatengl-neoforge-2.0.4-release.9.jar
 through_the_lilypads_gently--mc1.21.1--nf--1.2.2.jar
 tide-neoforge-1.21-1.6.4.jar

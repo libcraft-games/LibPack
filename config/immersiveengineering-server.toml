@@ -425,7 +425,7 @@
 
 [ores]
 	#Set to true to generate excavator veins in chunks not generated with IE
-	retrogen_excavator_veins = true
+	retrogen_excavator_veins = false
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
 	#Change this in combination with the retrogen booleans to regen only some of the ores.
 	retrogen_key = "DEFAULT"
@@ -460,7 +460,7 @@
 		# Range: > 0
 		attempts_per_chunk = 16
 		#Set this to true to allow retro-generation of bauxite Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - lead
 	[ores.lead]
@@ -488,7 +488,7 @@
 		# Range: > 0
 		attempts_per_chunk = 12
 		#Set this to true to allow retro-generation of lead Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - silver
 	[ores.silver]
@@ -516,7 +516,7 @@
 		# Range: > 0
 		attempts_per_chunk = 10
 		#Set this to true to allow retro-generation of silver Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - nickel
 	[ores.nickel]
@@ -544,7 +544,7 @@
 		# Range: > 0
 		attempts_per_chunk = 7
 		#Set this to true to allow retro-generation of nickel Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - deep_nickel
 	[ores.deep_nickel]
@@ -572,7 +572,7 @@
 		# Range: > 0
 		attempts_per_chunk = 11
 		#Set this to true to allow retro-generation of deep_nickel Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 	#Ore generation config - uranium
 	[ores.uranium]
@@ -600,7 +600,7 @@
 		# Range: > 0
 		attempts_per_chunk = 9
 		#Set this to true to allow retro-generation of uranium Ore.
-		retrogen_enable = true
+		retrogen_enable = false
 
 [tools]
 	#The maximum durability of the Engineer's Hammer. Used up when hammering ingots into plates.
