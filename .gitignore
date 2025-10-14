@@ -39,3 +39,4 @@ config/scriptor_cost.cfg
 *.bak
 config/structurify/
 config/worldedit/.archive-unpack/
+config/minihud/
