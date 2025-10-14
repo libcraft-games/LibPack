@@ -9,8 +9,8 @@ Controlling-neoforge-1.21.1-19.0.5.jar
 CraftTweaker-neoforge-1.21.1-21.0.34.jar
 CreativeCore_NEOFORGE_v2.13.13_mc1.21.1.jar.disabled
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
+DeathFinder-v21.1.1-1.21.1-NeoForge.jar
 Design-n-Decor-1.21.1-2.1.0.jar
-DistantHorizons-2.3.5-b-1.21.1-fabric-neoforge.jar
 DungeonCrawl-NeoForge-1.21-2.3.15.jar
 EMIProfessions-neoforge-1.21.1-1.0.3.jar
 EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
@@ -86,6 +86,7 @@ better-clouds-1.7.17+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
 bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
+bocchud-0.4.0+mc1.21.1.jar
 bookshelf-neoforge-1.21.1-21.1.69.jar
 bwncr-neoforge-1.21.1-3.20.3.jar
 c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar
@@ -182,6 +183,7 @@ letsdo-herbalbrews-neoforge-1.1.2.jar
 lighty-neoforge-3.0.0-beta.8+1.21.1.jar
 lithium-neoforge-0.15.0+mc1.21.1.jar
 luckysshowcase-neoforge-1.21.1-21.1.0.jar
+mafglib-0.4.1+mc1.21.1.jar
 map_atlases-1.21-6.3.6-neoforge.jar
 midnightlib-1.7.5-neoforge+1.21.1.jar
 modelfix-1.21-1.10.jar
@@ -203,7 +205,6 @@ polymorph-neoforge-1.1.0+1.21.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 rechiseled-1.1.6a-neoforge-mc1.21.jar
 rechiseledcreate-1.0.2a-neoforge-mc1.21.jar
-recipe_modification-neoforge-1.21.1-0.1.1.jar
 redstonepen-1.21-neoforge-1.11.42.jar
 reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar
 refinedstorage-emi-integration-neoforge-1.0.0.jar
@@ -257,7 +258,6 @@ undergardendelight-1.2.1-neoforge-1.21.1.jar
 underlay-1.21-v0.9.7-f.jar
 unfocused-neoforge-0.2.2-1.21.1-sgd.jar
 vanillabackport-neoforge-1.21.1-1.1.4.3.jar
-vegandelight-neoforge-1.21.1-2.0.0-beta3.jar
 veggiesdelight-1.8.3.jar
 veinmining-neoforge-5.0.0-beta.2+1.21.jar
 villager-trading-plus-1.1+1.21.jar
