@@ -24,7 +24,7 @@
 	#Operators can teleport to any death position without limitations, if enabled.
 	#Default Value: OPERATORS_ONLY
 	#Allowed Values: NO_ONE, OPERATORS_ONLY, EVERYONE
-	allow_teleporting = "OPERATORS_ONLY"
+	allow_teleporting = "EVERYONE"
 	#Add distance component to death messages.
 	#Default Value: true
 	distance_component = true

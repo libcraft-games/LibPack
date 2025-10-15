@@ -89,7 +89,7 @@ bibliowoods-1.21.1-1.6.0.jar
 bocchud-0.4.0+mc1.21.1.jar
 bookshelf-neoforge-1.21.1-21.1.69.jar
 bwncr-neoforge-1.21.1-3.20.3.jar
-c2me-neoforge-mc1.21.1-0.3.0+alpha.0.79.jar
+c2me-neoforge-mc1.21.1-0.3.0+alpha.0.80.jar
 carryon-neoforge-1.21.1-2.2.2.11.jar
 chalk-1.6.10.jar
 chat_heads-0.14.0-neoforge-1.21.jar
@@ -111,10 +111,10 @@ create_connected-1.1.6-mc1.21.1.jar
 create_factory_logistics-1.21.1-1.4.7.jar
 create_pattern_schematics-2.0.9.jar
 create_power_loader-2.0.3-mc1.21.1.jar
-createaddition-1.5.4.jar
+createaddition-1.5.5.jar
 createentitycontroller-1.21.1-0.2.7-neoforge.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
-cristellib-neoforge-1.2.8.jar
+cristellib-neoforge-1.21.1-3.0.0.jar
 crittersandcompanions-neoforge-1.21.1-2.3.3.jar
 cryonicconfig-neoforge-1.0.0+mc1.21.9.jar
 ctgui-neoforge-1.21.1-0.3.0.jar
@@ -171,7 +171,7 @@ horseman-neoforge-1.21.1-1.5.5.jar
 immersive_aircraft-1.4.1+1.21.1-neoforge.jar
 immersive_melodies-neoforge-0.6.2+1.21.1.jar
 immersive_paintings-neoforge-1.21.1-0.7.4.jar
-immersiveoverlays-neoforge-1.3.2+1.21.1.jar
+immersiveoverlays-1.4.1+1.21.1-neoforge.jar
 incontrol-1.21-10.1.4.jar
 invtweaks-1.21.1-1.2.0.jar
 justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar
@@ -213,7 +213,7 @@ refinedstorage-quartz-arsenal-neoforge-1.0.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
 sawmill-1.21-1.7.1-neoforge.jar
 scaffoldingdropsnearby-1.21.1-3.4.jar
-scholar-neoforge-1.21.1-1.1.7.jar
+scholar-neoforge-1.21.1-1.1.8.jar
 scriptor-neoforge-1.4.13-sgd.jar
 signcopy-neoforge-2.0.2+1.21.jar
 simple_music_control-1.3.7+1.21.1.jar
@@ -227,7 +227,7 @@ smithingtemplateviewer-1.0.3.jar
 sneak_through_berries-neoforge-21.1.0.jar
 sodium-neoforge-0.6.13+mc1.21.1.jar
 sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar
-sophisticatedbackpacks-1.21.1-3.25.9.1390.jar
+sophisticatedbackpacks-1.21.1-3.25.9.1395.jar
 sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23.jar
 sophisticatedcore-1.21.1-1.3.87.1229.jar
 soul-fire-d-neoforge-1.21-5.1.6.jar
