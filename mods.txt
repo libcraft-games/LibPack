@@ -114,7 +114,7 @@ create_power_loader-2.0.3-mc1.21.1.jar
 createaddition-1.5.5.jar
 createentitycontroller-1.21.1-0.2.7-neoforge.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
-cristellib-neoforge-1.21.1-3.0.0.jar
+cristellib-neoforge-1.2.8.jar
 crittersandcompanions-neoforge-1.21.1-2.3.3.jar
 cryonicconfig-neoforge-1.0.0+mc1.21.9.jar
 ctgui-neoforge-1.21.1-0.3.0.jar
