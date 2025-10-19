@@ -16,7 +16,20 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item"
+    "copycats:copycat_folding_door",
+    "copycats:copycat_sliding_door",
+    "enchanted:garlic",
+    "notenoughwands:light",
+    "notenoughwands:illumination_wand",
+    "notenoughwands:advanced_wand_core",
+    "notenoughwands:acceleration_wand",
+    "notenoughwands:capturing_wand",
+    "notenoughwands:teleportation_wand",
+    "notenoughwands:protection_wand",
+    "notenoughwands:master_protection_wand",
+    "notenoughwands:displacement_wand",
+    "notenoughwands:moving_wand",
+    "!supplementaries:stone_tile_*"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

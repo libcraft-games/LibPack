@@ -2,10 +2,6 @@
   "toms_trading_network": {
     "vending_machine": true
   },
-  "framedblocks": {
-    "framed_item_frame": true,
-    "framed_block_generic": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -94,11 +90,11 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "petrolpark": {
+    "contamination": true
+  },
   "corpse": {
     "corpse": true
-  },
-  "barbequesdelight": {
-    "grill": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

@@ -1,3 +1,0 @@
-/*CraftTweaker GUI generated script
-  Not intended for manual editing
-  Changes will be overridden when exporting again*/

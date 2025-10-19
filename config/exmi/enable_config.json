@@ -1,7 +1,9 @@
 {
   "enabledIntegrations": {
-    "farmersdelight": true,
+    "farmersdelight": false,
     "irons_spellbooks": true,
-    "rechiseled": true
+    "actuallyadditions": true,
+    "rechiseled": true,
+    "chipped": true
   }
 }
