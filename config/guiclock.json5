@@ -18,11 +18,11 @@
 	// Show the days played in the world.
 	"showDaysPlayedWorld": true,
 	// Places the GUI clock on the left.
-	"clockPositionIsLeft": true,
+	"clockPositionIsLeft": false,
 	// Places the GUI clock in the middle.
 	"clockPositionIsCenter": false,
 	// Places the GUI clock on the right.
-	"clockPositionIsRight": false,
+	"clockPositionIsRight": true,
 	// The vertical offset (y coord) for the Clock. This determines how far down the time should be on the screen. Can be changed to prevent GUIs from overlapping.
 	// min: 0, max: 3000
 	"clockHeightOffset": 500,

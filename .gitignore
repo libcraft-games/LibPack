@@ -5,8 +5,7 @@
 # allow metadata files
 !LICENSE
 !README.md
-!pakku-lock.json
-!pakku.json
+!.gitattributes
 
 # allow workflows
 !.github/
