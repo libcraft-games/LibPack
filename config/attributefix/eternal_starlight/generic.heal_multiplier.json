@@ -12,6 +12,6 @@
   "max": {
     "//": "The highest possible value for the attribute.",
     "//default": 1024.0,
-    "value": 5.0
+    "value": 1024.0
   }
 }

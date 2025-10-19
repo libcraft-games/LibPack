@@ -37,6 +37,7 @@
 			scarlet = true
 			torreya = true
 			jinglestem = true
+			cradlewood = true
 
 		[types.wood_type.vanillabackport]
 			pale_oak = true
@@ -94,6 +95,7 @@
 			starlight_mangrove = true
 			scarlet = true
 			torreya = true
+			cradlewood = true
 
 		[types.leaves_type.vanillabackport]
 			pale_oak = true
