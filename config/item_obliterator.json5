@@ -29,7 +29,9 @@
     "notenoughwands:master_protection_wand",
     "notenoughwands:displacement_wand",
     "notenoughwands:moving_wand",
-    "!supplementaries:stone_tile_*"
+    "!supplementaries:stone_tile_*",
+    "bibliocraft:tape_measure",
+    "bibliocraft:tape_reel"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
