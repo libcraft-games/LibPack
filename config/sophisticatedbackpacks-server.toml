@@ -41,7 +41,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Backpack Settings
 	[server.ironBackpack]
@@ -52,7 +52,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 2
 		# Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Gold Backpack Settings
 	[server.goldBackpack]
@@ -63,7 +63,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 3
 		# Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 4
 
 	#Diamond Backpack Settings
 	[server.diamondBackpack]
@@ -74,7 +74,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 5
 		# Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 8
 
 	#Netherite Backpack Settings
 	[server.netheriteBackpack]
@@ -85,7 +85,7 @@
 		#Number of upgrade slots in the backpack
 		# Default: 7
 		# Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 10
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]
@@ -103,7 +103,7 @@
 		#Number of Advanced Compacting Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
@@ -125,7 +125,7 @@
 		#Number of Advanced Deposit Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
@@ -169,7 +169,7 @@
 		#Number of Advanced Filter Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
@@ -221,11 +221,11 @@
 		#Number of Advanced Pickup Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
-		slotsInRow = 4
+		slotsInRow = 5
 
 	#Refill Upgrade Settings
 	[server.refillUpgrade]
@@ -247,7 +247,7 @@
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
-		slotsInRow = 4
+		slotsInRow = 3
 
 	#Restock Upgrade Settings
 	[server.restockUpgrade]
@@ -289,7 +289,7 @@
 		#Number of Advanced Void Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
@@ -486,7 +486,7 @@
 		#Number of slots for discs in jukebox upgrade
 		# Default: 12
 		# Range: 1 ~ 16
-		numberOfSlots = 12
+		numberOfSlots = 16
 		#Number of lots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
@@ -511,7 +511,7 @@
 		#Chance of an entity spawning with Backpack
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		chance = 0.0001
+		chance = 1.0E-4
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.

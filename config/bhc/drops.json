@@ -96,9 +96,9 @@
       "minecraft:elder_guardian": 1.0,
       "minecraft:evoker": 1.0,
       "minecraft:ravager": 1.0,
+      "twilightforest:alpha_yeti": 1.0,
       "twilightforest:armored_giant": 1.0,
       "twilightforest:naga": 1.0,
-      "twilightforest:lich": 1.0,
       "twilightforest:minoshroom": 1.0,
       "twilightforest:hydra": 1.0,
       "twilightforest:knight_phantom": 0.5,
@@ -108,8 +108,7 @@
     "green": {
       "eternal_starlight:starlight_golem": 1.0,
       "aether:valkyrie_queen": 1.0,
-      "minecraft:ender_dragon": 1.0,
-      "twilightforest:alpha_yeti": 1.0
+      "minecraft:ender_dragon": 1.0
     },
     "blue": {
       "aether:sun_spirit": 1.0,
@@ -119,10 +118,9 @@
     "yellow": {
       "illagerinvasion:invoker": 1.0,
       "minecraft:wither": 1.0,
-      "undergarden:forgotten_guardian": 1.0,
-      "undergarden:rotbeast": 1.0,
       "twilightforest:ur_ghast": 1.0,
-      "aether:slider": 1.0
+      "aether:slider": 1.0,
+      "twilightforest:lich": 1.0
     }
   }
 }

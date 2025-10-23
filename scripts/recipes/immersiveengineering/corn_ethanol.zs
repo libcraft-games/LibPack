@@ -1,0 +1,1 @@
+<recipetype:immersiveengineering:fermenter>.addJsonRecipe("libcraft/immersiveengineering/fermenter/corn_to_ethanol", {type: "immersiveengineering:fermenter", energy: 6400, input: {item: "culturaldelights:corn_kernels"}, fluid: {id: "immersiveengineering:ethanol", amount: 50}});

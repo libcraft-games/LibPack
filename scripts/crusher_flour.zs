@@ -1,5 +1,0 @@
-// returns 50% chance of 1 extra flour to have effectively the same yield as Create's 25% chance of 2
-// tried just doing that, but it doesn't show properly in the UI (not sure if it even works)
-// also tried using basePredicate in the secondaries map but it didn't seem to work
-<recipetype:immersiveengineering:crusher>.addJsonRecipe("libcraft/misc/ie/crusher/wheat_flour", {type: "immersiveengineering:crusher", energy: 3200, input: {item: "minecraft:wheat"}, result: {item: "create:wheat_flour"}, secondaries: [{output: {item: "create:wheat_flour"}, chance: 0.5}, {output: {item: "minecraft:wheat_seeds"}, chance: 0.25}]});
-<recipetype:immersiveengineering:crusher>.addJsonRecipe("libcraft/misc/ie/crusher/corn_flour", {type: "immersiveengineering:crusher", energy: 3200, input: {item: "culturaldelights:corn_kernels"}, result: {basePredicate: {item: "createfood:corn_flour"}, count: 2}, secondaries: [{output: {item: "createfood:corn_flour"}, chance: 0.5}]});

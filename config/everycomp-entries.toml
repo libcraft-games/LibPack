@@ -57,10 +57,6 @@
 			hellbark = true
 			empyreal = true
 
-		[types.wood_type.moresnifferflowers]
-			corrupted = true
-			vivicus = true
-
 		[types.wood_type.aether]
 			skyroot = true
 
@@ -122,10 +118,6 @@
 			umbran = true
 			hellbark = true
 			empyreal = true
-
-		[types.leaves_type.moresnifferflowers]
-			corrupted = true
-			vivicus = true
 
 		[types.leaves_type.aether]
 			skyroot = true
@@ -269,9 +261,6 @@
 			shiverstone = true
 			dreadrock = true
 			tremblecrust = true
-
-		[types.stone_type.dndecor]
-			cut_stone = true
 
 		[types.stone_type.enderscape]
 			mirestone = true
