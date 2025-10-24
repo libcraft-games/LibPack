@@ -33,6 +33,7 @@ config/ctgui/
 config/worldedit/worldedit.properties
 config/voicechat/voicechat-client.properties
 config/scriptor_cost.cfg
+config/scalablelux.properties
 
 # spam
 *.bak
