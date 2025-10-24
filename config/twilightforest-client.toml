@@ -23,7 +23,7 @@ fortificationShieldIndicatorInCreative = false
 # Range: > -1
 cloudBlockPrecipitationDistance = -1
 #List of player UUIDs whose skins the Giants should use. Leave the list empty to use the skin of the player viewing them.
-giantSkinUUIDs = []
+giantSkinUUIDs = ["d1e1af2b-fd7d-4b43-adad-6a600fb1b3c9", "2d693c0b-1393-46da-9d18-c3714517d1fe", "2667c7bc-aed1-470d-879e-e55b65cdce3e"]
 #Defines which biomes the aurora shader effect will appear in. Leave the list empty to disable the effect.
 auroraBiomes = ["twilightforest:glacier"]
 #Lines up the dashes and percentages in the Ore Meter GUI.
