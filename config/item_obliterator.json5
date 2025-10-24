@@ -16,11 +16,11 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "bibliocraft:clipboard",
     "bibliocraft:tape_measure",
     "bibliocraft:tape_reel",
     "copycats:copycat_folding_door",
     "copycats:copycat_sliding_door",
-    "enchanted:garlic",
     "immersive_aircraft:boiler",
     "immersive_aircraft:sail",
     "notenoughwands:light",

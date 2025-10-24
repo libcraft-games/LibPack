@@ -1,5 +1,10 @@
 {
-  "custom_tags": {},
+  "custom_tags": {
+    "libcraft:unify/garlic": [
+      "enchanted:garlic",
+      "veggiesdelight:garlic_clove"
+    ]
+  },
   "tag_substitutions": {},
   "item_tag_inheritance_mode": "ALLOW",
   "item_tag_inheritance": {},
