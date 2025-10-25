@@ -287,7 +287,7 @@
 			full_drawers_1 = true
 
 		[entries.wood_type.bibliocraft]
-			fancy_crafter = true
+			fancy_crafter = false
 			label = true
 			grandfather_clock = true
 			potion_shelf = true
@@ -296,7 +296,7 @@
 			tool_rack = true
 			fancy_clock = true
 			shelf = true
-			fancy_armor_stand = true
+			fancy_armor_stand = false
 			fancy_sign = true
 
 		[entries.wood_type.beautify]

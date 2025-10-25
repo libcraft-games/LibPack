@@ -10,7 +10,7 @@
 	#Allowed Values: NEVER, RUN_ONCE, CACHED, CACHED_ZIPPED, ALWAYS
 	server_assets_generation_mode = "ALWAYS"
 	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
-	creative_tab = true
+	creative_tab = false
 	#Allow the item_search or searchBar to be visible.
 	tab_item_search = true
 	#Sends a packet to verify all dependencies mod versions are the same on connect. DIsable if it causes issues
