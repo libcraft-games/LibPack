@@ -1,0 +1,1 @@
+<recipetype:immersiveengineering:thermoelectric_source>.addJsonRecipe("libcraft/immersiveengineering/thermoelectric/enderscape/void_shale", {type: "immersiveengineering:thermoelectric_source", singleBlock: "enderscape:void_shale", tempKelvin: 0});

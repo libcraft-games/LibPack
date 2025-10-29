@@ -1,0 +1,10 @@
+<tag:block:smarterfarmers:harvest_blacklist>.add([
+  <block:enchanted:belladonna>,
+  <block:enchanted:mandrake>,
+  <block:enchanted:snowbell>,
+  <block:enchanted:water_artichoke>,
+  <block:enchanted:wolfsbane>,
+  <block:immersiveengineering:hemp>,
+  <block:minecraft:pitcher_crop>,
+  <block:minecraft:torchflower>
+]);
