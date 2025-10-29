@@ -1,5 +1,6 @@
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.recipe.MirrorAxis;
 
 // note: these items are not unified bc they each have unique behavior on right-click and stuff
 
@@ -19,9 +20,29 @@ craftingTable.addShaped("ctgui/new/farmersdelight/safety_net_0", <item:farmersde
     [<tag:item:c:ropes>, <tag:item:c:ropes>],
     [<tag:item:c:ropes>, <tag:item:c:ropes>]]);
 
-// make Beautify rope use hemp instead of string
+// make Supplementaries rope use hemp instead of string. make Beautify rope just a convertible variant thereof.
 <recipetype:minecraft:crafting>.removeByName("beautify:rope");
-craftingTable.addShaped("ctgui/new/beautify/rope_0", <item:beautify:rope>, [
-    [<item:immersiveengineering:hemp_fiber>],
-    [<item:immersiveengineering:hemp_fiber>],
-    [<item:immersiveengineering:hemp_fiber>]]);
+<recipetype:minecraft:crafting>.removeByName("supplementaries:rope_2");
+
+val _ = IIngredientEmpty.getInstance();
+val h = <item:immersiveengineering:hemp_fiber>;
+
+craftingTable.addShapedMirrored(
+  "libcraft/supplementaries/rope_from_hemp", 
+  MirrorAxis.ALL,
+  <item:supplementaries:rope>, 
+  [
+    [_, _, h],
+    [_, h, _],
+    [h, _, _]
+  ]);
+  
+craftingTable.addShapeless(
+  "libcraft/beautify/rope_from_supplementaries",
+  <item:beautify:rope>,
+  [<item:supplementaries:rope>]);
+  
+craftingTable.addShapeless(
+  "libcraft/supplementaries/rope_from_beautify",
+  <item:supplementaries:rope>,
+  [<item:beautify:rope>]);
