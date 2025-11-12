@@ -15,6 +15,7 @@
 !defaultconfigs/
 !scripts/
 !keybind_bundles.json
+!kubejs
 options.txt
 
 # allow datapacks
