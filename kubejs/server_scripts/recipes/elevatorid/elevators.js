@@ -5,7 +5,7 @@ function magnia_sprout(type) {
 }
 
 ServerEvents.recipes(e => {
-    global.colors.forEach(color => {
+    global.libcraft.colors.forEach(color => {
         let elevator = `${elevatorid}:elevator_${color}`;
         let wool = `minecraft:${color}_wool`;
         e.remove({output: elevator});
