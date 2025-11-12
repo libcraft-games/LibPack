@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
     e.remove({output: modular_accumulator});
     // Create mechanical crafting recipes are just normal crafting recipes which don't fit in a 3x3 square
     e.shaped(
-        Item.of(beautify_light_bulb),
+        Item.of(modular_accumulator),
         [
             ' ABA ',
             'ACDCA',
