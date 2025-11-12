@@ -1,4 +1,4 @@
-let file = "recipes/create/rose_quartz.js";
+let file = "recipes/createfood/pasta.js";
 
 let raw_pasta = 'c:raw_pasta'; // `#` omitted as it is implied by the `tag:` field in the json
 let pasta = 'createfood:pasta';

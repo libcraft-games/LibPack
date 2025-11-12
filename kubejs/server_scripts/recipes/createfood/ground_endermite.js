@@ -1,4 +1,4 @@
-let file = "recipes/create/rose_quartz.js";
+let file = "recipes/createfood/ground_endermite.js";
 
 let ground_endermite = 'createfood:ground_endermite';
 let mite_crust = 'endersdelight:mite_crust';
