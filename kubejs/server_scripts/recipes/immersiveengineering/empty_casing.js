@@ -4,6 +4,7 @@ let ie = 'immersiveengineering'
 let empty_casing = `${ie}:empty_casing`
 
 ServerEvents.recipes(e => {
+    // TODO: ensure this removes both the crafting table and metal press recipes
     e.remove({output: empty_casing});
     e.custom({
         type: `${ie}:blueprint`,
