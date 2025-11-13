@@ -13,7 +13,7 @@ ServerEvents.recipes(e => {
         [
             ' HH',
             'HHH',
-            'HH'
+            'HH '
         ],
         {
             H: `${ie}:hemp_fiber`

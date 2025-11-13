@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
         ],
         {
             P: '#c:plates/steel',
-            R: 'minecraft:blast_furnace'
+            F: 'minecraft:blast_furnace'
         }
     );
     
