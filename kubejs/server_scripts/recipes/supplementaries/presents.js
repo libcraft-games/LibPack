@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
     e.remove({output: present, not: {input: cardboard}})
 
     global.libcraft.colors.forEach(color => {
-        let dye = `minecraft:${color}_dye`
+        let dye = `#c:dyes/${color}`
         
         e.shaped(
             `supplementaries:present_${color}`,
