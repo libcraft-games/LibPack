@@ -1,4 +1,4 @@
-let file = 'tags/lc/magnets.js'
+let file = 'tags/item/lc/magnets.js'
 ServerEvents.tags('item', e => {
     let tag = 'lc:magnets/portable'
     let items = [
