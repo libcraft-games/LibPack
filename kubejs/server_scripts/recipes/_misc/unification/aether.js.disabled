@@ -1,0 +1,41 @@
+// removes separate Aether-added recipes where tags are now used instead 
+// see #35, #51, #111
+ServerEvents.recipes(e => {
+    let file = 'recipes/_misc/unification/aether.js'
+    // skyroot planks should be interchangeable with planks,
+    // except:
+    // where #minecraft:planks is normally used but Skyroot has a different yield
+    // - Stick vs Skyroot Stick
+    e.remove({
+        input: '#minecraft:planks',
+        output: 'minecraft:stick'
+    })
+    e.shaped(
+        '4x minecraft:stick',
+        [ 
+            'P',
+            'P'
+        ],
+        { P: Ingredient.of('#minecraft:planks') }
+    )
+    // - Skyroot Bookshelf
+    // - Skyroot Bed
+    // - Skyroot tools
+    //   remove and replace with Ingredient.of('#minecraft:planks').not('aether:skyroot_planks')
+    // where #minecraft:planks is not normally used
+    // - Skyroot Slab
+    // - Skyroot Stairs
+    // - Skyroot Fence (Gate)
+    // - Freezer
+    // - Skyroot Sign
+    return;
+    inputs.forEach(inputItem => {
+        e.remove({
+            input: `aether:${inputItem}`,
+            not: [
+                {input: '#minecraft:planks'}
+            ]
+        })
+    })
+    console.log(`applied changes from ${file}`);
+});
