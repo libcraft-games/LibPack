@@ -1,10 +1,8 @@
-let file = 'recipes/measurements/tape_measure.js'
-
-let tape_measure = 'measurements:tape_measure'
-
 ServerEvents.recipes(e => {
-    e.remove({output: tape_measure})
-    e.shaped(tape_measure,
+    let file = 'recipes/measurements/tape_measure.js'
+    let item = 'measurements:tape_measure'
+    e.remove({output: item})
+    e.shaped(item,
         [
             ' IY',
             'INI',
