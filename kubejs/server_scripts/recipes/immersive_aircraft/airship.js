@@ -24,4 +24,4 @@ ServerEvents.recipes(e => {
     );
 
     console.log(`applied changes from ${file}`);
-});
+}); 

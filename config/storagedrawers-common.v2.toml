@@ -378,4 +378,4 @@
 		stackRemainder = true
 		# 
 		# When true, does not show current quantities unless quantify key was used
-		respectQuantifyKey = false
+		respectQuantifyKey = true

@@ -18,5 +18,5 @@ The Config for Cristel Lib's automated structure config generation.
 	// Disable automatic screen generation for structure configs.
 	"disableAutoConfigScreens": false,
 	// Set the default sub path of all automatically generated configs. Requires a RESTART to apply!
-	"autoConfigSubPath": ""
+	"autoConfigSubPath": "cristellib/auto_config"
 }

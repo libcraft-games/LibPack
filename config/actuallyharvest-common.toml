@@ -28,16 +28,16 @@
 	expandHoeRange = true
 	#Regular hoe (gold, wood, iron) expansion range.
 	#Range: 1 ~ 5
-	smallTierExpansionRange = 2
+	smallTierExpansionRange = 1
 	#Regular hoe (gold, wood, iron) expansion range.
 	#Range: 1 ~ 5
-	highTierExpansionRange = 3
+	highTierExpansionRange = 2
 	#Expand hoe range by 1 for each level of efficiency enchantment level.
 	expandHoeRangeEnchanted = true
 	#Maximum range hoe can expand for harvesting.
 	#This is the maximum of tier + efficiency enchantment.
 	#Range: 1 ~ 11
-	maxHoeExpansionRange = 11
+	maxHoeExpansionRange = 5
 	#List of individual hoe tools and their harvest tier. This is for modded items not covered.
 	#Format: minecraft:wooden_hoe-0 (with number being tier)
 	hoeItems = []

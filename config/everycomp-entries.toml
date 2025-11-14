@@ -85,6 +85,9 @@
 			mining = true
 			sorting = true
 
+		[types.wood_type.silentgear]
+			netherwood = true
+
 		[types.leaves_type.eternal_starlight]
 			lunar = true
 			northland = true
@@ -224,6 +227,9 @@
 			orange_spruce = true
 			red_spruce = true
 			white_flower_spruce = true
+
+		[types.leaves_type.silentgear]
+			netherwood = true
 
 		[types.stone_type.create]
 			limestone = true
