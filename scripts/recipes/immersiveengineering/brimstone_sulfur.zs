@@ -1,5 +1,0 @@
-// <recipetype:create:crushing>.addJsonRecipe("create:crushing/leather_horse_armor", {type: "create:crushing", processing_time: 200, results: [{id: "immersiveengineering:dust_sulfur", count: 2}, {id: "immersiveengineering:dust_sulfur", count: 2, chance: 0.5}], ingredients: [{item: "minecraft:leather_horse_armor"}]});
-
-<recipetype:create:milling>.addJsonRecipe("libcraft/create/milling/brimstone_sulfur", {type: "create:milling", processing_time: 200, results: [{id: "immersiveengineering:dust_sulfur", count: 1}, {id: "immersiveengineering:dust_sulfur", count: 1, chance: 0.85}], ingredients: [{item: "biomesoplenty:brimstone"}]});
-
-<recipetype:immersiveengineering:crusher>.addJsonRecipe("libcraft/immersiveengineering/crusher/brimstone_sulfur", {type: "immersiveengineering:crusher", energy: 2400, input: {item: "biomesoplenty:brimstone"}, result: {count: 2, id: "immersiveengineering:dust_sulfur"}, secondaries: [{output: {id: "immersiveengineering:dust_sulfur"}, chance: 0.1}]});

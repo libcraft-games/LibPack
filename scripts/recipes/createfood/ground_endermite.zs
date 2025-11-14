@@ -1,2 +1,0 @@
-craftingTable.addShapeless("libcraft/misc/ground_endermite_from_crafting", <item:createfood:ground_endermite>, [<item:endersdelight:mite_crust>]);
-<recipetype:create:pressing>.addJsonRecipe("libcraft/misc/create/ground_endermite_from_pressing", {type: "create:pressing", results: [{id: "createfood:ground_endermite", count: 2}], ingredients: [{item: "endersdelight:mite_crust"}]});

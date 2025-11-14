@@ -13,8 +13,8 @@
 # allow config items
 !config/
 !defaultconfigs/
-!scripts/
 !keybind_bundles.json
+!kubejs
 options.txt
 
 # allow datapacks
@@ -43,3 +43,4 @@ config/minihud/
 # i have no idea what keeps generating this file, fabric is not installed
 # hopefully i remember to unban it if i ever add fabric
 config/fabric/indigo-renderer.properties
+.probe

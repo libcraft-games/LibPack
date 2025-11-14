@@ -6,7 +6,6 @@ CameraOverhaul-v2.0.4-neoforge+mc[1.21.0-1.21.1].jar.disabled
 ChatImage-1.4.7+1.21.0+neoforge.jar
 Companion-1.21.1-NeoForge-6.1.1.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
-CraftTweaker-neoforge-1.21.1-21.0.34.jar
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 DeathFinder-v21.1.1-1.21.1-NeoForge.jar
 DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar.disabled
@@ -42,6 +41,7 @@ PermanentSponges-v21.1.0-1.21.1-NeoForge.jar
 Ping-Wheel-1.12.0-neoforge-1.21.1.jar
 PlentyPlates-v21.1.0-1.21.1-NeoForge.jar
 Pretty Rain-1.21.1-NeoForge-1.1.4.jar
+ProbeJS-7.7.2.jar
 PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar
 ScalableLux-0.1.0.1+neoforge.1cb1e91-all.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
@@ -113,7 +113,6 @@ createfood-neoforge-1.21.1-2.0.0-beta-3.jar
 cristellib-neoforge-1.21.1-3.0.2.jar
 crittersandcompanions-neoforge-1.21.1-2.3.4.jar
 cryonicconfig-neoforge-1.0.0+mc1.21.10.jar
-ctgui-neoforge-1.21.1-0.3.0.jar
 culturaldelights-0.17.7.jar
 curios-neoforge-9.5.1+1.21.1.jar
 darcenos-minecarts-1.4.jar
@@ -170,9 +169,12 @@ justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar
 justplayerheads-1.21.1-4.2.jar
 keybindbundles-1.3.1.jar
 kotlinforforge-5.10.0-all.jar
+kubejs-create-neoforge-2101.3.1-build.18.jar.disabled
+kubejs-neoforge-2101.7.2-build.321.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar
 lighty-neoforge-3.0.0-beta.8+1.21.1.jar
 lithium-neoforge-0.15.0+mc1.21.1.jar
+lootjs-neoforge-1.21.1-3.6.0.jar
 luckysshowcase-neoforge-1.21.1-21.1.0.jar
 mafglib-0.4.1+mc1.21.1.jar
 map_atlases-1.21-6.3.6-neoforge.jar
@@ -183,6 +185,7 @@ modopedia-neoforge-1.21.1-1.1.5.jar
 monsters_in_the_closet-1.0.3+1.21-forge.jar
 moonlight-1.21-2.25.4-neoforge.jar
 moreculling-neoforge-1.21.1-1.0.6.jar
+morejs-neoforge-1.21.1-0.16.0.jar
 neoforge-runiclib-1.21.1-4.3.9.jar
 netherite_horse_armor-neoforge-1.21.1-2.0a.jar
 netherportalfix-neoforge-1.21.1-21.1.1.jar
@@ -206,6 +209,7 @@ resourcefulconfig-neoforge-1.21-3.0.11.jar
 resourcefullib-neoforge-1.21-3.0.12.jar
 responsiveknockback-1.0-neoforge-mc1.20.4-1.21.5.jar
 responsiveshields-2.4-neoforge-mc1.21.x.jar
+rhino-2101.2.7-build.81.jar
 scaffoldingdropsnearby-1.21.1-3.4.jar
 scholar-neoforge-1.21.1-1.1.9.jar
 scriptor-neoforge-1.4.13-sgd.jar

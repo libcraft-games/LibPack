@@ -1,0 +1,30 @@
+ServerEvents.recipes(e => {
+    let file = `recipes/supplementaries/awnings.js`
+    
+    let awning = 'supplementaries:awning'
+    let stick = '#c:rods/wooden'
+    let fabric = `${ie}:hemp_fabric`
+
+    e.shaped(`2x ${awning}`,
+        [ 'FFF',
+          'S S'
+         ],
+        {
+            S: stick,
+            F: fabric
+        }
+    )
+
+    global.libcraft.colors.forEach(color => {
+        let dye = `#c:dyes/${color}`
+        let color_awning = `${awning}_${color}`
+        e.shapeless(
+            color_awning,
+            [
+                awning, dye
+            ]
+        )
+    })
+
+    console.log(`applied changes from ${file}`);
+});
