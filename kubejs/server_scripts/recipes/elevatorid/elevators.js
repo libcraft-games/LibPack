@@ -1,4 +1,4 @@
-let file = 'recipes/elevatorid/elevators.js';
+
 let elevatorid = 'elevatorid';
 function magnia_sprout(type) {
     return `enderscape:${type}_magnia_sprout`;
@@ -25,5 +25,5 @@ ServerEvents.recipes(e => {
             }
         );
     });
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

@@ -1,4 +1,4 @@
-let file = 'recipes/_misc/unification/rope.js'
+
 
 let ie = 'immersiveengineering'
 let b_rope = 'beautify:rope'
@@ -21,5 +21,5 @@ ServerEvents.recipes(e => {
     );
     e.shapeless(b_rope, [s_rope])
     e.shapeless(s_rope, [b_rope])
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

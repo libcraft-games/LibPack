@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     let type = 'cog'
-    let file = `recipes/${ss}/${type}.js`
+    
     
     vanilla_woods.forEach(wood => {
         let ship = shipOf(wood, type)
@@ -18,5 +18,5 @@ ServerEvents.recipes(e => {
         )
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

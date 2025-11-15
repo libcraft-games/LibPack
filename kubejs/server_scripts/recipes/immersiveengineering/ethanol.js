@@ -1,4 +1,4 @@
-let file = "recipes/immersiveengineering/ethanol.js";
+
 
 let ie = 'immersiveengineering'
 
@@ -9,5 +9,5 @@ ServerEvents.recipes(e => {
         input: {item: 'culturaldelights:corn_kernels'},
         fluid: {id: `${ie}:ethanol`, amount: 50}
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 }); 

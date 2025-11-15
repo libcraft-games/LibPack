@@ -1,4 +1,4 @@
-let file = "recipes/createaddition/modular_accumulator.js";
+
 
 let ie = 'immersiveengineering';
 let modular_accumulator = 'createaddition:modular_accumulator';
@@ -30,5 +30,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

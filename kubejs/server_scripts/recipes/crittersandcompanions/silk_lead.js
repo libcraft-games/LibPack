@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    let file = 'recipes/crittersandcompanions/silk_lead.js'
+    
     let item = 'crittersandcompanions:silk_lead'
     e.remove({output: item})
     e.shaped(item,
@@ -12,5 +12,5 @@ ServerEvents.recipes(e => {
             S: 'crittersandcompanions:silk'
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

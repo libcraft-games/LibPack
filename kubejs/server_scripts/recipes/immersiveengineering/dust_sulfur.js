@@ -1,4 +1,4 @@
-let file = "recipes/immersiveengineering/dust_sulfur.js";
+
 
 let ie = 'immersiveengineering'
 let brimstone = 'biomesoplenty:brimstone'
@@ -24,5 +24,5 @@ ServerEvents.recipes(e => {
         ]
     })
     
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 }); 

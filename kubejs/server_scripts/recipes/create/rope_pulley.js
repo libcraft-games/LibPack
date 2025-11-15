@@ -1,4 +1,4 @@
-let file = "recipes/create/rope_pulley.js";
+
 
 let rope_pulley = 'create:rope_pulley';
 
@@ -18,5 +18,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

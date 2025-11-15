@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     let item = `${ss}:sail`
-    let file = `recipes/${ss}/${item}.js`
+    
 
     e.remove({output: item})
     e.shaped(
@@ -17,5 +17,5 @@ ServerEvents.recipes(e => {
         }
     )
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

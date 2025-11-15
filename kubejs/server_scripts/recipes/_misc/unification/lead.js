@@ -1,4 +1,4 @@
-let file = 'recipes/_misc/unification/lead.js'
+
 
 ServerEvents.recipes(e => {
     // remove the 5 (!) conflicting lead recipes
@@ -14,5 +14,5 @@ ServerEvents.recipes(e => {
             R: '#c:ropes'
         }
     );
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

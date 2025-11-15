@@ -1,4 +1,4 @@
-let file = "recipes/immersiveengineering/empty_casing.js";
+
 
 let ie = 'immersiveengineering'
 let empty_casing = `${ie}:empty_casing`
@@ -25,5 +25,5 @@ ServerEvents.recipes(e => {
             count: 4
         }
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 }); 

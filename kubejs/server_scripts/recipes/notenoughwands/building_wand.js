@@ -1,4 +1,4 @@
-let file = "recipes/notenoughwands/building_wand.js";
+
 
 let nw = 'notenoughwands'
 let building_wand = `${nw}:building_wand`
@@ -19,5 +19,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
     let item = `${sb}:xp_pump_upgrade`
-    let file = `recipes/${sb}/${item}.js`
+    
     let ee = 'create_enchantment_industry'
 
     e.remove({output: item})
@@ -20,5 +20,5 @@ ServerEvents.recipes(e => {
             C: `${ee}:experience_hatch`
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

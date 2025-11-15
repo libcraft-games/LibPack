@@ -1,4 +1,4 @@
-let file = "recipes/enchanted/wolfsbane_yellow_dye.js";
+
 
 let yellow_dye = 'minecraft:yellow_dye';
 let wolfsbane = 'enchanted:wolfsbane_flower';
@@ -26,5 +26,5 @@ ServerEvents.recipes(e => {
         ]
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

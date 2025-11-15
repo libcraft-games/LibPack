@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
     let item = `${sb}:advanced_pump_upgrade`
-    let file = `recipes/${sb}/${item}.js`
+    
     let bound = 'scriptor:bound_'
 
     e.remove({output: item})
@@ -20,5 +20,5 @@ ServerEvents.recipes(e => {
             C: 'create:hose_pulley'
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

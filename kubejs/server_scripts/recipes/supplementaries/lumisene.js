@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     let s = 'supplementaries'
-    let file = `recipes/${s}/lumisene.js`
+    
     let lumisene_bucket = `${s}:lumisene_bucket`
     let lumisene_bottle = `${s}:lumisene_bottle`
     let lumisene = `${s}:lumisene`
@@ -34,5 +34,5 @@ ServerEvents.recipes(e => {
         results: [{id: lumisene_bottle}]
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

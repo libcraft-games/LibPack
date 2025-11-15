@@ -1,5 +1,5 @@
 ServerEvents.tags('block', e => {
-    let file = 'tags/block/smarterfarmers/harvest_blacklist.js'
+    
     let tag = 'smarterfarmers:harvest_blacklist'
     let ec = 'enchanted', ie = 'immersiveengineering', mc = 'minecraft'
     let items = [
@@ -15,5 +15,5 @@ ServerEvents.tags('block', e => {
     items.forEach(item => {
         e.add(tag, item)
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 })

@@ -1,7 +1,7 @@
 // removes separate Aether-added recipes where tags are now used instead 
 // see #35, #51, #111
 ServerEvents.recipes(e => {
-    let file = 'recipes/_misc/unification/aether.js'
+    
     // skyroot planks should be interchangeable with planks,
     // except:
     // where #minecraft:planks is normally used but Skyroot has a different yield
@@ -37,5 +37,5 @@ ServerEvents.recipes(e => {
             ]
         })
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

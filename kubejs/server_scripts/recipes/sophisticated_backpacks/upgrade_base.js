@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
     let item = `${sb}:upgrade_base`
-    let file = `recipes/${sb}/${item}.js`
+    
 
     e.remove({output: item})
     e.shaped(
@@ -19,5 +19,5 @@ ServerEvents.recipes(e => {
         }
     )
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

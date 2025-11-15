@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
     let item = `${sb}:filter_upgrade`
-    let file = `recipes/${sb}/${item}.js`
+    
 
     let upgrade_base = `${sb}:upgrade_base`
 
@@ -36,5 +36,5 @@ ServerEvents.recipes(e => {
         }
     )
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

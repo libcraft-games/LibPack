@@ -1,4 +1,4 @@
-let file = "recipes/exposure_polaroid/instant_camera.js";
+
 
 let ie = 'immersiveengineering'
 let polaroid = 'exposure_polaroid:instant_camera'
@@ -21,5 +21,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

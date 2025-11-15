@@ -1,5 +1,5 @@
 ServerEvents.tags('item', e => {
-    let file = 'tags/item/chalk/glowings.js'
+    
     let tag = 'chalk:glowings'
     let bop = 'biomesoplenty', 
         es = 'eternal_starlight', 
@@ -21,5 +21,5 @@ ServerEvents.tags('item', e => {
     items.forEach(item => {
         e.add(tag, item)
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 })

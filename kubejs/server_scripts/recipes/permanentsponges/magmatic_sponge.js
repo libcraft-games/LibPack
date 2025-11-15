@@ -1,4 +1,4 @@
-let file = "recipes/permanentsponges/magmatic_sponge.js";
+
 
 let ps = 'permanentsponges'
 
@@ -18,5 +18,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

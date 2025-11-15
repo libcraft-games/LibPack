@@ -1,4 +1,4 @@
-let file = "recipes/beautify/lightbulb.js";
+
 
 let ie = 'immersiveengineering';
 let ie_light_bulb = `${ie}:light_bulb`;
@@ -55,5 +55,5 @@ ServerEvents.recipes(e => {
         }
     )
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

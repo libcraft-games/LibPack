@@ -1,4 +1,4 @@
-let file = "recipes/beautify/hanging_pot.js";
+
 
 let hanging_pot = 'beautify:hanging_pot'
 
@@ -15,5 +15,5 @@ ServerEvents.recipes(e => {
             P: 'minecraft:flower_pot'
         }
     );
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

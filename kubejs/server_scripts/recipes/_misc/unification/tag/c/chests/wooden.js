@@ -6,7 +6,7 @@
 // while i'm at it, also replaces recipes which only accept vanilla chests with the same tag, except
 // recipes which produce another `#c:chests/wooden` item.
 ServerEvents.recipes(e => {
-    let file = 'recipes/_misc/unification/c/chests/wooden.js'
+    
     e.replaceInput(
         {input: '#c:chests'},
         '#c:chests',
@@ -17,5 +17,5 @@ ServerEvents.recipes(e => {
         'minecraft:chest',
         '#c:chests/wooden'
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

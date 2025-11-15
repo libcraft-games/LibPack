@@ -1,4 +1,4 @@
-let file = "recipes/createfood/pasta.js";
+
 
 let raw_pasta = 'c:raw_pasta'; // `#` omitted as it is implied by the `tag:` field in the json
 let pasta = 'createfood:pasta';
@@ -15,5 +15,5 @@ ServerEvents.recipes(e => {
         result: {id: pasta, count: 1}
     });
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

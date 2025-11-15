@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
     let item = `${sb}:advanced_tool_swapper_upgrade`
-    let file = `recipes/${sb}/${item}.js`
+    
     let bound = 'scriptor:bound_'
 
     e.remove({output: item})
@@ -24,5 +24,5 @@ ServerEvents.recipes(e => {
                          .or(`${bound}sword`)
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

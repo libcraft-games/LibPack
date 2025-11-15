@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    let file = 'recipes/crittersandcompanions/grappling_hook.js'
+    
     let item = 'crittersandcompanions:grappling_hook'
     e.remove({output: item})
     e.shaped(item,
@@ -14,5 +14,5 @@ ServerEvents.recipes(e => {
             B: 'crittersandcompanions:sea_bunny_slime_block'
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

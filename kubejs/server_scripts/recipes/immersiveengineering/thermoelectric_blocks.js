@@ -1,4 +1,4 @@
-let file = "recipes/immersiveengineering/thermoelectric_blocks.js";
+
 
 let ens = 'enderscape'
 let ets = 'eternal_starlight'
@@ -40,5 +40,5 @@ ServerEvents.recipes(e => {
             tempKelvin: temp
         });
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

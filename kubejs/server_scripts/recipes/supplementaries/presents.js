@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    let file = `recipes/supplementaries/presents.js`
+    
     
     let present = 'supplementaries:present'
     let cardboard = 'create:cardboard'
@@ -23,5 +23,5 @@ ServerEvents.recipes(e => {
         )
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

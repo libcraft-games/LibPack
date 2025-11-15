@@ -1,4 +1,4 @@
-let file = "recipes/createfood/ground_endermite.js";
+
 
 let ground_endermite = 'createfood:ground_endermite';
 let mite_crust = 'endersdelight:mite_crust';
@@ -16,5 +16,5 @@ ServerEvents.recipes(e => {
         results: [{id: ground_endermite, count: 2}]
     });
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

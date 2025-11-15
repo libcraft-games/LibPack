@@ -1,4 +1,4 @@
-let file = 'recipes/farmersdelight/safety_net.js'
+
 
 let fd = 'farmersdelight'
 let safety_net = `${fd}:safety_net`
@@ -16,5 +16,5 @@ ServerEvents.recipes(e => {
             R: '#c:ropes'
         }
     )
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

@@ -1,4 +1,4 @@
-let file = "recipes/immersive_aircraft/airship.js";
+
 
 let ia = 'immersive_aircraft'
 let ie = 'immersiveengineering'
@@ -23,5 +23,5 @@ ServerEvents.recipes(e => {
         }
     );
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 }); 

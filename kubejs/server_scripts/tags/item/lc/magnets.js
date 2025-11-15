@@ -1,4 +1,4 @@
-let file = 'tags/item/lc/magnets.js'
+
 ServerEvents.tags('item', e => {
     let tag = 'lc:magnets/portable'
     let items = [
@@ -9,5 +9,5 @@ ServerEvents.tags('item', e => {
     items.forEach(item => {
         e.add(tag, item)
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 })

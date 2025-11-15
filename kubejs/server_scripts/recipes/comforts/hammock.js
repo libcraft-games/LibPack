@@ -1,4 +1,4 @@
-let file = 'recipes/comforts/hammock.js';
+
 
 ServerEvents.recipes(e => {
     global.libcraft.colors.forEach(color => {
@@ -19,5 +19,5 @@ ServerEvents.recipes(e => {
             }
         );
     });
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

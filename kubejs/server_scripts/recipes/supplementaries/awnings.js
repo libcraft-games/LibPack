@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    let file = `recipes/supplementaries/awnings.js`
+    
     
     let awning = 'supplementaries:awning'
     let stick = '#c:rods/wooden'
@@ -26,5 +26,5 @@ ServerEvents.recipes(e => {
         )
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

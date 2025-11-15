@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
-    let file = `recipes/${sb}/auto_smelting_&c_upgrades.js`
+    
 
     let types = ['smelting', 'smoking', 'blasting']
 
@@ -25,5 +25,5 @@ ServerEvents.recipes(e => {
         )
     })
 
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 });

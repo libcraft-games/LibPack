@@ -1,5 +1,5 @@
 ServerEvents.tags('item', e => {
-    let file = 'tags/item/_hide/flax.js'
+    
     let flax = 'supplementaries:flax'
     let items = [
         flax,
@@ -9,5 +9,5 @@ ServerEvents.tags('item', e => {
     items.forEach(item => {
         e.removeAllTagsFrom(item)
     })
-    console.log(`applied changes from ${file}`);
+    console.log(`applied all changes successfully!`);
 })
