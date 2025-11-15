@@ -6,6 +6,7 @@ CameraOverhaul-v2.0.4-neoforge+mc[1.21.0-1.21.1].jar.disabled
 ChatImage-1.4.7+1.21.0+neoforge.jar
 Companion-1.21.1-NeoForge-6.1.1.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
+CreateEntityControl-0.2.8-6.0.x-neoforge-1.21.1.jar
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 DeathFinder-v21.1.1-1.21.1-NeoForge.jar
 DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar.disabled
@@ -97,14 +98,13 @@ coroutil-neoforge-1.21.0-1.3.8.jar
 corpse-neoforge-1.21.1-1.1.13.jar
 corpsecurioscompat-1.21.1-NeoForge-3.1.2.jar
 crawl-0.14.9.jar
-create-1.21.1-6.0.6.jar
-create-central-kitchen-2.2.4.jar
-create-dragons-plus-1.8.1.jar
-create-enchantment-industry-2.2.3.jar
-create_connected-1.1.6-mc1.21.1.jar
-create_pattern_schematics-2.0.9.jar
-createaddition-1.5.5.jar
-createentitycontroller-1.21.1-0.2.7-neoforge.jar
+create-1.21.1-6.0.8.jar
+create-central-kitchen-2.2.6.jar
+create-dragons-plus-1.8.4.jar
+create-enchantment-industry-2.2.5b.jar
+create_connected-1.1.9-mc1.21.1.jar
+create_pattern_schematics-2.0.10.jar
+createaddition-1.5.8.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
 cristellib-neoforge-1.21.1-3.0.2.jar
 crittersandcompanions-neoforge-1.21.1-2.3.4.jar
@@ -124,7 +124,6 @@ ears-neoforge-1.21-1.4.7.jar
 elevatorid-neoforge-1.21.1-1.11.4.jar
 elytratrims-neoforge-3.9.3+1.21.1.jar
 emi-1.1.22+1.21.1+neoforge.jar
-emi_create_schematics-1.0.2.jar
 emi_enchanting-0.1.2+1.21+neoforge.jar
 emi_loot-0.7.6+1.21+neoforge.jar
 emi_ores-1.2+1.21.1+neoforge.jar
@@ -137,7 +136,7 @@ engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.6.2+1.21.1+neoforge.jar
 everycomp-1.21-2.11.17-neoforge.jar
-exposure-neoforge-1.21.1-1.9.11.jar
+exposure-neoforge-1.21.1-1.9.12.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
 extra_gauges-2.0.6.jar
@@ -190,7 +189,7 @@ notenoughwands-1.21-7.0.3.jar
 nyfsspiders-neoforge-1.21.1-2.3.2.jar
 observable-5.4.4.jar
 owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar
-petrolpark-1.21.1-1.4.20.jar
+petrolpark-1.21.1-1.4.22.jar
 petrolsparts-1.21.1-1.2.6.jar
 platform-neoforge-1.21.1-1.2.10.2.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
@@ -218,7 +217,7 @@ sneak_through_berries-neoforge-21.1.0.jar
 sodium-neoforge-0.6.13+mc1.21.1.jar
 sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar
 sophisticatedbackpacks-1.21.1-3.25.12.1403.jar
-sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23.jar
+sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar
 sophisticatedcore-1.21.1-1.3.87.1229.jar
 soul-fire-d-neoforge-1.21-5.1.6.jar
 spyglass_improvements-1.5.7+mc1.21+neoforge.jar
@@ -236,7 +235,7 @@ tipoftheloom-neoforge-1.21.1-21.1.3.jar
 toms_trading_network-1.21-0.3.3.jar
 toofast-1.21.0-0.4.3.5.jar
 toomanyrecipeviewers-0.6.4+mc.21.1.jar
-trading_floor-3.0.11.jar
+trading_floor-3.0.14.jar
 trimmed-neo-1.21-3.0.0.jar
 twilightdelight-3.0.7.jar
 twilightforest-1.21.1-4.7.3196-universal.jar

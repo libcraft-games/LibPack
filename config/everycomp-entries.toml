@@ -1,6 +1,13 @@
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
+		[types.cake.veggiesdelight]
+			carrot_cake = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
 		[types.cake.createfood]
 			cream_cake_chorus_fruit = true
 			cream_cake_glow_berry = true
@@ -19,13 +26,6 @@
 			glow_berry_cream_cake_sweet_berry = true
 			glow_berry_cream_cake_chorus_fruit = true
 			glow_berry_cream_cake_glow_berry = true
-
-		[types.cake.veggiesdelight]
-			carrot_cake = true
-
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
 
 		[types.wood_type.mynethersdelight]
 			powdery = true
