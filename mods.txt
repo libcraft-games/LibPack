@@ -189,8 +189,8 @@ notenoughwands-1.21-7.0.3.jar
 nyfsspiders-neoforge-1.21.1-2.3.2.jar
 observable-5.4.4.jar
 owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar
-petrolpark-1.21.1-1.4.22.jar
-petrolsparts-1.21.1-1.2.6.jar
+petrolpark-1.21.1-1.4.22.jar.disabled
+petrolsparts-1.21.1-1.2.6.jar.disabled
 platform-neoforge-1.21.1-1.2.10.2.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
