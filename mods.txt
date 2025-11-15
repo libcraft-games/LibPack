@@ -135,7 +135,7 @@ endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.6.2+1.21.1+neoforge.jar
-everycomp-1.21-2.11.17-neoforge.jar
+everycomp-1.21-2.11.15-neoforge.jar
 exposure-neoforge-1.21.1-1.9.12.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar

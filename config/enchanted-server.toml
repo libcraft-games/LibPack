@@ -18,7 +18,7 @@
 
 ["Miscellaneous Options"]
 	#Only drop modded seeds when a hoe is used to break grass.
-	hoe_seeds = true
+	hoe_seeds = false
 	#Disable totems of undying (to make poppets more useful)
 	disable_totems = false
 
