@@ -55,7 +55,7 @@ The_Undergarden-1.21.1-0.9.3.jar
 TradingPost-v21.1.1-1.21.1-NeoForge.jar
 UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
 VeggiesDelight-1.21.1-1.9.jar
-actuallyharvest-1.21.1-1.1.3.7-NEOFORGE.jar
+actuallyharvest-1.21.1-1.1.6.1-NEOFORGE.jar
 advancementframes-1.21-2.2.10-neoforge.jar
 aether-1.21.1-1.5.10-neoforge.jar
 aether_emissivity-1.21.1-1.0.2-neoforge.jar
@@ -71,11 +71,11 @@ athena-neoforge-1.21-4.0.2.jar
 attributefix-neoforge-1.21.1-21.1.3.jar
 baguettelib-1.21.1-NeoForge-1.1.2.jar
 balm-neoforge-1.21.1-21.0.54.jar
-bcc-21.1.4+mc1.21.1.jar
+bcc-21.1.5+mc1.21.1.jar
 beautify-neoforge-1.21.1-2.0.2.jar
 bedspreads-neoforge-7.0.0+1.21.1.jar
 bellsandwhistles-0.4.7-1.21.1.jar
-better-clouds-1.7.17+1.21.1-neoforge.jar
+better-clouds-1.7.19+1.21.1-neoforge.jar
 bibliobiomes-1.21.1-1.6.0.jar
 bibliocraft-1.21.1-1.6.2.jar
 bibliowoods-1.21.1-1.6.0.jar
@@ -84,12 +84,12 @@ bookshelf-neoforge-1.21.1-21.1.78.jar
 bwncr-neoforge-1.21.1-3.20.3.jar
 carryon-neoforge-1.21.1-2.2.2.11.jar
 chalk-1.6.10.jar
-chat_heads-0.14.0-neoforge-1.21.jar
-chatnotify-neoforge-2.6.1+1.21.1.jar
+chat_heads-0.14.2-neoforge-1.21.jar
+chatnotify-neoforge-2.6.2+1.21.1.jar
 chipped-neoforge-1.21.1-4.0.2.jar
 clickthrough-plus-neoforge-3.5.0+1.21.1.jar
 cloth-config-15.0.140-neoforge.jar
-cobweb-neoforge-1.21-1.3.3.jar
+cobweb-neoforge-1.21-1.4.0.jar
 collective-1.21.1-8.13.jar
 comforts-neoforge-9.0.4+1.21.1.jar
 copycats-3.0.2+mc.1.21.1-neoforge.jar
@@ -122,7 +122,7 @@ dyed-neoforge-1.21.1-1.2.1.jar
 dynamic-fps-3.9.5+minecraft-1.21.0-neoforge.jar
 ears-neoforge-1.21-1.4.7.jar
 elevatorid-neoforge-1.21.1-1.11.4.jar
-elytratrims-neoforge-3.9.1+1.21.1.jar
+elytratrims-neoforge-3.9.3+1.21.1.jar
 emi-1.1.22+1.21.1+neoforge.jar
 emi_create_schematics-1.0.2.jar
 emi_enchanting-0.1.2+1.21+neoforge.jar
@@ -135,8 +135,8 @@ enderscape-neoforge-1.0.9+mc1.21.1.jar
 endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
-eternalstarlight-0.6.1-hotfix+1.21.1+neoforge.jar
-everycomp-1.21-2.11.13-neoforge.jar
+eternalstarlight-0.6.2+1.21.1+neoforge.jar
+everycomp-1.21-2.11.17-neoforge.jar
 exposure-neoforge-1.21.1-1.9.11.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
@@ -211,7 +211,6 @@ scriptor-neoforge-1.4.13-sgd.jar
 simple_music_control-1.3.7+1.21.1.jar
 simplest_excavators-1.21.1-1.2.1.jar
 simplest_hammers-1.21.1-1.2.0.jar
-sliceanddice-forge-4.1.2.jar.disabled
 smallships-neoforge-1.21.1-2.0.0-b2.1.jar
 smarterfarmers-1.21-2.2.4-neoforge.jar
 smithingtemplateviewer-1.0.3.jar
