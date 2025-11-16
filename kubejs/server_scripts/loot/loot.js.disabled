@@ -1,0 +1,7 @@
+LootJS.lootTables(e => {
+    console.log("======= BEGIN LOOT TABLE LIST =======")
+    e.getLootTableIds().forEach(id => {
+        console.log(id)
+    })
+    console.log("=======  END LOOT TABLE LIST   =======")
+})
