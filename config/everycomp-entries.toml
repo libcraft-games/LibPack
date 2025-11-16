@@ -39,9 +39,6 @@
 			jinglestem = true
 			cradlewood = true
 
-		[types.wood_type.vanillabackport]
-			pale_oak = true
-
 		[types.wood_type.biomesoplenty]
 			fir = true
 			pine = true
@@ -92,9 +89,6 @@
 			scarlet = true
 			torreya = true
 			cradlewood = true
-
-		[types.leaves_type.vanillabackport]
-			pale_oak = true
 
 		[types.leaves_type.biomesoplenty]
 			null = true
