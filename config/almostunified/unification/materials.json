@@ -30,7 +30,7 @@
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
     "c:wires/{material}",
-    "libcraft:unify/garlic"
+    "lc:unify/garlic"
   ],
   "ignored_tags": [],
   "ignored_items": [],

@@ -12,7 +12,7 @@
 	#----------------------------------------------------------------------------------------------------+
 	# Whether falling blocks like sand or gravel should drop down after being placed during dungeon generation.
 	#
-	tick_falling_blocks = true
+	tick_falling_blocks = false
 
 ["Dungeon Settings"]
 	#----------------------------------------------------------------------------------------------------+
