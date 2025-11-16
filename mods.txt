@@ -1,4 +1,4 @@
-AdvancedLootInfo-neoforge-1.21.1-1.5.1.jar
+AdvancedLootInfo-neoforge-1.21.1-1.5.2.jar
 Almanac-1.21.1-2-neoforge-1.5.0.jar
 ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar
 BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar
