@@ -1,3 +1,4 @@
+AdvancedLootInfo-neoforge-1.21.1-1.5.1.jar
 Almanac-1.21.1-2-neoforge-1.5.0.jar
 ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar
 BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar
@@ -125,7 +126,6 @@ elevatorid-neoforge-1.21.1-1.11.4.jar
 elytratrims-neoforge-3.9.3+1.21.1.jar
 emi-1.1.22+1.21.1+neoforge.jar
 emi_enchanting-0.1.2+1.21+neoforge.jar
-emi_loot-0.7.6+1.21+neoforge.jar
 emi_ores-1.2+1.21.1+neoforge.jar
 emiffect-neoforge-2.1.6+mc1.21.1.jar
 enchanted-neoforge-1.21.1-4.2.3.jar
@@ -135,7 +135,7 @@ endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.6.2+1.21.1+neoforge.jar
-everycomp-1.21-2.11.15-neoforge.jar
+everycomp-1.21-2.11.17-neoforge.jar
 exposure-neoforge-1.21.1-1.9.12.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
@@ -177,7 +177,7 @@ midnightlib-1.7.5-neoforge+1.21.1.jar
 modelfix-1.21-1.10.jar
 modopedia-neoforge-1.21.1-1.1.5.jar
 monsters_in_the_closet-1.0.3+1.21-forge.jar
-moonlight-1.21-2.26.3-neoforge.jar
+moonlight-1.21-2.25.5-neoforge.jar
 moreculling-neoforge-1.21.1-1.0.6.jar
 morejs-neoforge-1.21.1-0.16.0.jar
 neoforge-runiclib-1.21.1-4.3.9.jar
