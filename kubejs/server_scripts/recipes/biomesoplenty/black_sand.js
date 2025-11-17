@@ -1,13 +1,7 @@
 ServerEvents.recipes(e => {
     let item = 'create:powdered_obsidian', block = 'biomesoplenty:black_sand'
-    e.shaped(
+    e.shapeless(
         `${block}`,
-        [
-            'OO',
-            'OO'
-        ],
-        {
-            O: item
-        }
+        [`4x ${item}`]
     )
 })
