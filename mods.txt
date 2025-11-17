@@ -55,6 +55,7 @@ TF_Lost_Blocks-1.21.1-1.5.0.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 The_Undergarden-1.21.1-0.9.3.jar
 TradingPost-v21.1.1-1.21.1-NeoForge.jar
+TwilightTreehouses-1.0.2-1.21.1-neoforge.jar
 UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
 VeggiesDelight-1.21.1-1.9.1.jar
 actuallyharvest-1.21.1-1.1.6.1-NEOFORGE.jar
@@ -101,7 +102,7 @@ corpsecurioscompat-1.21.1-NeoForge-3.1.2.jar
 crawl-0.14.9.jar
 create-1.21.1-6.0.8.jar
 create-central-kitchen-2.2.6.jar
-create-dragons-plus-1.8.4.jar
+create-dragons-plus-1.8.5.jar
 create-enchantment-industry-2.2.5b.jar
 create_connected-1.1.9-mc1.21.1.jar
 create_pattern_schematics-2.0.10.jar
@@ -129,6 +130,7 @@ emi_enchanting-0.1.2+1.21+neoforge.jar
 emi_ores-1.2+1.21.1+neoforge.jar
 emiffect-neoforge-2.1.6+mc1.21.1.jar
 enchanted-neoforge-1.21.1-4.2.3.jar
+enchantedbookredesign-neoforge-1.21.1-0.jar
 enchdesc-neoforge-1.21.1-21.1.9.jar
 enderscape-neoforge-1.0.9+mc1.21.1.jar
 endersdelight-neoforge-1.21.1-1.1.0.jar
@@ -136,6 +138,7 @@ engineeredcompatibility-4.3.0.jar
 escalated-1.1.0+create.6.0.6-mc.1.21.1-neoforge.jar
 eternalstarlight-0.6.2+1.21.1+neoforge.jar
 everycomp-1.21-2.11.17-neoforge.jar
+explore_ruins_aether-1.0.0-neoforge-1.21.1.jar
 exposure-neoforge-1.21.1-1.9.12.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
@@ -172,7 +175,7 @@ lootjs-neoforge-1.21.1-3.6.0.jar
 luckysshowcase-neoforge-1.21.1-21.1.0.jar
 mafglib-0.4.1+mc1.21.1.jar
 map_atlases-1.21-6.3.6-neoforge.jar
-mcjtylib-1.21-9.0.16.jar
+mcjtylib-1.21-9.0.17.jar
 midnightlib-1.7.5-neoforge+1.21.1.jar
 modelfix-1.21-1.10.jar
 modopedia-neoforge-1.21.1-1.1.5.jar
