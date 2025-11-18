@@ -44,7 +44,7 @@
     {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
-      "icon": "minecraft:spawner",
+      "icon": "minecraft:trial_key",
       "hide": false,
       "pattern": [
         "^.*:chests/trial_chambers/.*$",
