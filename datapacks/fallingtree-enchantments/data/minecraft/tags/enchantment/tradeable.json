@@ -1,9 +1,6 @@
 {
   "values": [
-    "fallingtree:tools/chopper",
-    "fallingtree:tools/chopper_fall_all_block",
-    "fallingtree:tools/chopper_fall_block",
-    "fallingtree:tools/chopper_fall_item"
+    "fallingtree:tools/chopper"
   ],
   "replace": false
 }
