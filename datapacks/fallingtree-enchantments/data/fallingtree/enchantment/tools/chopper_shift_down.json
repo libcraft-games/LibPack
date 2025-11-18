@@ -1,8 +1,8 @@
 {
   "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.fallingtree.chopper",
-    "fallback": "Chopper"
+    "translate": "enchantment.fallingtree.chopper_shift_down",
+    "fallback": "Chopper (shift down)"
   },
   "effects": {
     "minecraft:block_experience": [

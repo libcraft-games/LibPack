@@ -2,7 +2,7 @@
   "pack" : {
     "pack_format" : 32,
     "description" : {
-      "text" : "Adds the Chopper enchantment for the FallingTree mod."
+      "text" : "Add FallingTree enchantments"
     }
   }
 }
