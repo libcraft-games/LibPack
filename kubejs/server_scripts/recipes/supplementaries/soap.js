@@ -41,7 +41,7 @@ ServerEvents.recipes(ev => {
             {
                 "item": quicklime
             },
-            {
+            { 
                 "type": "neoforge:tag",
                 "amount": 500,
                 "tag": "c:plantoil"
