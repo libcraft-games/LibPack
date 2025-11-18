@@ -1,7 +1,6 @@
 ServerEvents.recipes(e => {
     let s = 'supplementaries'
-    let item = `${s}:wicker_fence`
-    
+    let item = `${s}:wicker_fence`    
 
     e.remove({output: item})
     e.shaped(

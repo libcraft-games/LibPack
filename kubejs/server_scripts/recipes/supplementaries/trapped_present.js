@@ -1,6 +1,4 @@
 ServerEvents.recipes(e => {
-    
-    
     let present = 'supplementaries:trapped_present'
     let cardboard = 'create:cardboard'
 

@@ -1,6 +1,4 @@
 ServerEvents.recipes(e => {
-    
-    
     let awning = 'supplementaries:awning'
     let stick = '#c:rods/wooden'
     let fabric = `${ie}:hemp_fabric`

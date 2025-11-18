@@ -325,7 +325,7 @@
 		door-like_gates = false
 
 	[building.item_shelf]
-		enabled = true
+		enabled = false
 		#Makes item shelves climbable
 		climbable_shelves = false
 
@@ -346,9 +346,9 @@
 	[building.notice_board]
 		enabled = true
 		#Allows notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
+		allow_any_item = true
 		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
-		gui = true
+		gui = false
 
 	[building.pedestal]
 		enabled = true
@@ -358,7 +358,7 @@
 		crystal_enchanting = 3.0
 
 	[building.ash]
-		enabled = true
+		enabled = false
 		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
@@ -409,7 +409,7 @@
 	[building.hat_stand]
 		enabled = true
 		#Allow all items to go on hat stand
-		unrestricted = false
+		unrestricted = true
 
 	[building.awning]
 		enabled = true
@@ -454,7 +454,7 @@
 		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
 		quiver_skeleton_spawn_depend_on_global_difficulty = true
 		#Allows quiver to only be used when in offhand or in curio invSlot
-		only_works_in_curio = false
+		only_works_in_curio = true
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
 		quiver_pickup = true
 

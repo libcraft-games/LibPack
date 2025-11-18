@@ -55,6 +55,11 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "workshop_for_handsome_adventurer": {
+    "jade_plugin2": true,
+    "jade_plugin3": true,
+    "jade_plugin1": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
@@ -86,9 +91,6 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "petrolpark": {
-    "contamination": true
   },
   "corpse": {
     "corpse": true
