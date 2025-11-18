@@ -32,90 +32,19 @@
   ],
   "gameplayCategories": [
     {
-      "key": "lc:inject",
+      "key": "ali:chest_loot",
       "type": "GAMEPLAY",
-      "icon": "enchanted:bone_needle",
+      "icon": "minecraft:chest",
       "hide": false,
       "pattern": [
-        "^.*:inject.*$"
-      ]
-    },
-    {
-      "key": "lc:exposure",
-      "type": "GAMEPLAY",
-      "icon": "exposure:camera",
-      "hide": false,
-      "pattern": [
-        "^exposure.+:.+$"
-      ]
-    },
-    {
-      "key": "lc:fd",
-      "type": "GAMEPLAY",
-      "icon": "farmersdelight:iron_knife",
-      "hide": false,
-      "pattern": [
-        "^farmersdelight:.+$"
-      ]
-    },
-    {
-      "key": "lc:vd",
-      "type": "GAMEPLAY",
-      "icon": "veggiesdelight:turnip",
-      "hide": false,
-      "pattern": [
-        "^veggiesdelight:.+$"
-      ]
-    },
-    {
-      "key": "lc:iv",
-      "type": "GAMEPLAY",
-      "icon": "illagerinvasion:platinum_infused_hatchet",
-      "hide": false,
-      "pattern": [
-        "^illagerinvasion:.+$"
-      ]
-    },
-    {
-      "key": "lc:tf",
-      "type": "GAMEPLAY",
-      "icon": "twilightforest:transformation_powder",
-      "hide": false,
-      "pattern": [
-        "^twilightforest:.+$"
-      ]
-    },
-    {
-      "key": "lc:ns",
-      "type": "GAMEPLAY",
-      "icon": "supplementaries:goblet",
-      "hide": false,
-      "pattern": [
-        "^nova_structures:.+$"
-      ]
-    },
-    {
-      "key": "lc:dc",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:iron_sword",
-      "hide": false,
-      "pattern": [
-        "^dungeoncrawl:.+$"
-      ]
-    },
-    {
-      "key": "lc:aether",
-      "type": "GAMEPLAY",
-      "icon": "aether:ambrosium_shard",
-      "hide": false,
-      "pattern": [
-        "^aether:.+$"
+        "^.*:chests/[a-z_]*$",
+        "^.*:chests/village/[a-z_]*$"
       ]
     },
     {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
-      "icon": "minecraft:trial_key",
+      "icon": "minecraft:spawner",
       "hide": false,
       "pattern": [
         "^.*:chests/trial_chambers/.*$",
@@ -124,25 +53,6 @@
         "^.*:spawners/ominous/trial_chamber/.*$",
         "^.*:spawners/trial_chamber/.*$",
         "^.*:equipment/.*$"
-      ]
-    },
-    {
-      "key": "lc:illager_mansion",
-      "type": "GAMEPLAY",
-      "icon": "heads:pillager_head",
-      "hide": false,
-      "pattern": [
-        "^.*:chests/illager_mansion/.*$",
-        "^.*:chests/woodland_mansion/.*$"
-      ]
-    },
-    {
-      "key": "ali:chest_loot",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:chest",
-      "hide": false,
-      "pattern": [
-        "^.*:chests/.*$"
       ]
     },
     {
@@ -160,7 +70,7 @@
       "icon": "minecraft:decorated_pot",
       "hide": false,
       "pattern": [
-        "^.*:arch.{2,3}logy/.*$"
+        "^.*:archaeology/.*$"
       ]
     },
     {
