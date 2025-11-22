@@ -44,10 +44,10 @@ autocraftingPreviewStyle = "LIST"
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
 	energyUsage = 10
-	synchronizer = ""
+	synchronizer = "refinedstorage_emi_integration:emi_two_way"
 	resourceType = ""
 	#Allowed Values: ASCENDING, DESCENDING
-	sortingDirection = "ASCENDING"
+	sortingDirection = "DESCENDING"
 	#Allowed Values: QUANTITY, NAME, ID, LAST_MODIFIED
 	sortingType = "QUANTITY"
 	#Allowed Values: ALL, AUTOCRAFTABLE, NON_AUTOCRAFTABLE

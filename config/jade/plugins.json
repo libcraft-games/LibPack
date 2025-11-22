@@ -55,11 +55,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "workshop_for_handsome_adventurer": {
-    "jade_plugin2": true,
-    "jade_plugin3": true,
-    "jade_plugin1": true
-  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
@@ -70,6 +65,10 @@
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "toms_storage": {
+    "inventory_config": true,
+    "inventory_connector": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
