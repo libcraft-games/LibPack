@@ -20,8 +20,13 @@ ServerEvents.recipes(e => {
                 "tag": "minecraft:wool"
             },
             {
-                "tag": "c:rods/wooden",
-                "count": 3
+                "tag": "c:rods/wooden"
+            },
+            {
+                "tag": "c:rods/wooden"
+            },
+            {
+                "tag": "c:rods/wooden"
             },
             {
                 "type": "neoforge:tag",
