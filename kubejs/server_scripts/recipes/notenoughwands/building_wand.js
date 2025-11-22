@@ -1,12 +1,9 @@
-
-
-let nw = 'notenoughwands'
-let building_wand = `${nw}:building_wand`
-
 ServerEvents.recipes(e => {
-    e.remove({output: building_wand});
+    let nw = 'notenoughwands'
+    let item = `${nw}:building_wand`
+    e.remove({output: item});
     e.shaped(
-        Item.of(building_wand),
+        Item.of(item),
         [
             'EB ',
             'BR ',

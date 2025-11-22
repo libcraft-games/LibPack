@@ -1,12 +1,9 @@
-
-
-let nw = 'notenoughwands'
-let building_wand = `${nw}:building_wand`
-
 ServerEvents.recipes(e => {
-    e.remove({output: building_wand});
+    let nw = 'notenoughwands'
+    let item = `${nw}:swapping_wand`
+    e.remove({output: item});
     e.shaped(
-        Item.of(building_wand),
+        Item.of(item),
         [
             'EC ',
             'CR ',
@@ -18,6 +15,5 @@ ServerEvents.recipes(e => {
             R: 'createaddition:electrum_rod'
         }
     );
-
     console.log(`applied all changes successfully!`);
 });
