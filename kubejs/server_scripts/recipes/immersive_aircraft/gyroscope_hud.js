@@ -2,16 +2,16 @@
 
 let ia = 'immersive_aircraft'
 let ie = 'immersiveengineering'
-let gyroscope_dials = `${ia}:gyroscope_dials`
+let item = `${ia}:gyroscope_hud`
 let glass_pane = '#c:glass_panes/colorless'
 let nixie_tube = 'create:nixie_tube'
 let electrum_plate = '#c:plates/electrum'
 let electronic_component = `${ie}:component_electronic_adv`
 
 ServerEvents.recipes(e => {
-    e.remove({output: gyroscope_dials});
+    e.remove({output: item});
     e.shaped(
-        Item.of(gyroscope_dials),
+        Item.of(item),
         [
             ' PT',
             'ECE',
