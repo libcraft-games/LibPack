@@ -2,6 +2,10 @@
   "toms_trading_network": {
     "vending_machine": true
   },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -55,10 +59,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -66,19 +66,8 @@
     "entity": true,
     "entity_variant": true
   },
-  "toms_storage": {
-    "inventory_config": true,
-    "inventory_connector": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "twilightforest": {
-    "chiseled_bookshelf_spawner": true,
-    "quest_ram_wool": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -91,11 +80,26 @@
     "block_properties": false,
     "mod_name": true
   },
-  "corpse": {
-    "corpse": true
-  },
   "balm": {
     "jade": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "toms_storage": {
+    "inventory_config": true,
+    "inventory_connector": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

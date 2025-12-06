@@ -1,7 +1,7 @@
 {
   "enablePlayerDisguise": true,
   "changeNameToDisguise": false,
-  "enableArmorstandDisguise": false,
+  "enableArmorstandDisguise": true,
   "hideArmorstandHead": true,
   "enableArmorstandCapes": true,
   "enableEverythingDisguise": false

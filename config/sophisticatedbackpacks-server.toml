@@ -227,7 +227,7 @@
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6
-		slotsInRow = 5
+		slotsInRow = 4
 
 	#Refill Upgrade Settings
 	[server.refillUpgrade]
@@ -267,7 +267,7 @@
 		#Number of Advanced Restock Upgrade's filter slots
 		# Default: 16
 		# Range: 1 ~ 20
-		filterSlots = 16
+		filterSlots = 20
 		#Number of filter slots displayed in a row
 		# Default: 4
 		# Range: 1 ~ 6

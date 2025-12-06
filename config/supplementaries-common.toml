@@ -425,7 +425,7 @@
 	[building.flower_box]
 		enabled = true
 		#Makes so flower boxes can only contain one tall flower item per block
-		simple_mode = false
+		simple_mode = true
 
 	[building.netherite_doors]
 		door = true
