@@ -98,6 +98,9 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "petrolpark": {
+    "contamination": true
+  },
   "corpse": {
     "corpse": true
   },

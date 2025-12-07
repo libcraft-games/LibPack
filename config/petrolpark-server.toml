@@ -71,3 +71,17 @@ syncChiseledBookshelves = true
 			#.
 			#Pressing, Deploying, Washing and all Mechanical Fan Recipes propagate the Contaminants of the input to the outputs
 			propagateOther = true
+
+		#.
+		[compatibility.create.redstoneProgrammer]
+			#.
+			#Maximum number of channels in a single Redstone Programmer
+			# Default: 20
+			# Range: 1 ~ 256
+			maxChannels = 20
+			#.
+			#The shortest length (in ticks) a Redstone Programmer can change signal over.
+			#The lower this is, the greater the potential for players to cause lag.
+			# Default: 2
+			# Range: 1 ~ 20
+			minTicksPerBeat = 2
