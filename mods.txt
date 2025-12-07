@@ -8,7 +8,6 @@ CameraOverhaul-v2.0.5-neoforge+mc[1.21.0-1.21.1].jar.disabled
 ChatImage-1.4.7+1.21.0+neoforge.jar
 Companion-1.21.1-NeoForge-6.1.1.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
-CreateEntityControl-0.2.8.2-6.0.x-neoforge-1.21.1.jar
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 DeathFinder-v21.1.1-1.21.1-NeoForge.jar
 DisplayNotches-1.21.1-1.0.3.jar
@@ -42,7 +41,6 @@ MouseTweaks-neoforge-mc1.21-2.26.1.jar
 MyNethersDelight-1.21.1-1.9.jar
 Necronomicon-NeoForge-1.6.0+1.21.jar
 NoRealmsButton-2.0.2.jar
-OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
 PermanentSponges-v21.1.0-1.21.1-NeoForge.jar
 Ping-Wheel-1.12.0-neoforge-1.21.1.jar
 Pretty Rain-1.21.1-NeoForge-1.1.4.jar
@@ -118,6 +116,7 @@ createcontraptionterminals-1.21-1.2.0.jar
 createdeco-2.1.1-1.21.1-neo.jar
 createfood-neoforge-1.21.1-2.0.0-beta-3.jar
 createnuclear-1.3.2-beta.2-neoforge.jar
+createtransmission-1.0.4+neoforge-create6-1.21.1.jar
 cristellib-neoforge-1.21.1-3.0.2.1.jar
 crittersandcompanions-neoforge-1.21.1-2.3.4.jar
 cryonicconfig-neoforge-1.0.0+mc1.21.10.jar
@@ -215,7 +214,6 @@ rhino-2101.2.7-build.81.jar
 scaffoldingdropsnearby-1.21.1-3.4.jar
 scholar-neoforge-1.21.1-1.1.11.1.jar
 scriptor-neoforge-1.4.15-sgd.jar
-shelfmod-1.21.1-neoforge-3.1.jar
 showcaseitem-1.21.1-1.1.0.jar
 simple_music_control-1.3.7+1.21.1.jar
 simplest_excavators-1.21.1-1.2.1.jar
@@ -223,7 +221,6 @@ simplest_hammers-1.21.1-1.2.0.jar
 slabstoblocks-neoforge-1.21.1-2.3.jar
 smallships-neoforge-1.21.1-2.0.0-b2.1.jar
 smarterfarmers-1.21-2.2.4-neoforge.jar
-smithingtemplateviewer-1.0.3.jar
 sneak_through_berries-neoforge-21.1.0.jar
 sodium-neoforge-0.6.13+mc1.21.1.jar
 sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar

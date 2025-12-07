@@ -83,6 +83,11 @@
   "balm": {
     "jade": true
   },
+  "workshop_for_handsome_adventurer": {
+    "jade_plugin2": true,
+    "jade_plugin3": true,
+    "jade_plugin1": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
