@@ -12,7 +12,7 @@
 	#Makes fire & dragon charges have gravity
 	gravity = true
 	#Makes fire charges deflectable by punching
-	deflectable = false
+	deflectable = true
 	#Allows throwing fire & dragon charges
 	fire_charges_throwable = true
 	#Makes dispensers shoot fire charges (the ones with gravity added by the mod) instead of blaze charges. Technically a breaking changes as it could break existing contraptions while allowing for new ones
@@ -55,9 +55,9 @@
 	# Range: 1 ~ 64
 	potion_mixing_limit = 8
 	#Makes cauldrons connect to fences
-	connect_to_fences = true
+	connect_to_fences = false
 	#Makes it so a dripstone drop only increments a cauldron by 1 layer(buttle) instead of a full bottle, making it just like a water cauldron
-	consistent_lava_layers = false
+	consistent_lava_layers = true
 
 	#Map of potion ids to their inverse ids. Used for potion mixing
 	[cauldron.inverse_potions]
