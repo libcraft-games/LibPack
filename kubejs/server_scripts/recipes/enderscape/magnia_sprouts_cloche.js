@@ -1,26 +1,16 @@
-
-
-let es = 'enderscape'
-let ie = 'immersiveengineering'
-
 ServerEvents.recipes(e => {
-    ['alluring', 'repulsive'].forEach(sproutType => {
+    let es = 'enderscape'
+    let ie = 'immersiveengineering'
+    let bop = 'biomesoplenty'
+    for(let sproutType of ['alluring', 'repulsive']) {
         let sprout = `${es}:${sproutType}_magnia_sprout`
         let substrate = `${es}:${sproutType}_magnia`
-        global.libcraft.potion_fluids.forEach(fluid => {
-            e.custom({
+        e.custom({
                 type: `${ie}:cloche`,
                 fluid: {
-                    type: 'neoforge:components', 
-                    components: 
-                    {
-                        'minecraft:potion_contents': {
-                            potion: `${es}:low_gravity`,
-                        }
-                    },
-                    fluids: fluid
+                    fluid: `${bop}:liquid_null`
                 },
-                input: {item: 'endersdelight:ender_shard'},
+                input: {item: sprout},
                 time: 1000,
                 render:
                 {
@@ -30,7 +20,6 @@ ServerEvents.recipes(e => {
                 results: [{id: sprout}],
                 soil: {item: substrate}
             });
-        }); 
-    });
+    }
     console.log(`applied all changes successfully!`);
 });
