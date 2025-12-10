@@ -24,6 +24,9 @@ ServerEvents.recipes(e => {
                 L: 'supplementaries:lumisene_bucket'
             }
         );
+        e.shapeless(elevator,
+            [`#${elevatorid}:elevators`, `#c:dyes/${color}`]
+        )
     });
     console.log(`applied all changes successfully!`);
 });
