@@ -12,8 +12,8 @@ ServerEvents.recipes(e => {
     e.custom({
         type: `${ie}:refinery`,
         energy: 600,
-        input0: {fluid: 'createfood:glow_berry_juice', amount: 17},
-        input1: {fluid: `${ie}:creosote`,                  amount:  8},
+        input0: {fluid: 'createfood:glow_berry_juice', amount: 15},
+        input1: {fluid: `${ie}:acetaldehyde`,          amount: 10},
         catalyst: {item: "undergardendelight:shimmerpearl"},
         result: {id: lumisene, amount: 25}
     })
