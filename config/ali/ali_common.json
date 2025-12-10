@@ -30,7 +30,7 @@
       ]
     }
   ],
-  "gameplayCategories": [  
+  "gameplayCategories": [
     {
       "key": "lc:ali/ae/silver_dungeon",
       "type": "GAMEPLAY",
@@ -473,7 +473,7 @@
       "icon": "undergarden:forgotten_nugget",
       "hide": false,
       "pattern": [
-        "^.*:.*catacomb.*"
+        "^undergarden:.*catacomb.*"
       ]
     },
     {
@@ -501,7 +501,12 @@
       "icon": "minecraft:trial_key",
       "hide": false,
       "pattern": [
-        "^.*:.*trial_chamber.*$",
+        "^.*:chests/trial_chambers/.*$",
+        "^.*:pots/trial_chambers/.*$",
+        "^.*:dispensers/trial_chambers/.*$",
+        "^.*:spawners/ominous/trial_chamber/.*$",
+        "^.*:spawners/trial_chamber/.*$",
+        "^.*:equipment/.*$"
       ]
     },
     {
