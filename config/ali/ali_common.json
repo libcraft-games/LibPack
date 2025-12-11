@@ -32,12 +32,30 @@
   ],
   "gameplayCategories": [
     {
+      "key": "lc:ali/ae/bronze_dungeon",
+      "type": "GAMEPLAY",
+      "icon": "aether:boss_doorway_carved_stone",
+      "hide": false,
+      "pattern": [
+        "^aether:.*bronze.*"
+      ]
+    },
+    {
       "key": "lc:ali/ae/silver_dungeon",
       "type": "GAMEPLAY",
       "icon": "aether:holystone_sword",
       "hide": false,
       "pattern": [
         "^aether:.*silver.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ae/gold_dungeon",
+      "type": "GAMEPLAY",
+      "icon": "aether:phoenix_helmet",
+      "hide": false,
+      "pattern": [
+        "^aether:.*gold.*"
       ]
     },
     {
@@ -56,6 +74,15 @@
       "hide": false,
       "pattern": [
         "^dungeoncrawl:.*"
+      ]
+    },
+    {
+      "key": "lc:ali/es/mirestone_ruins",
+      "type": "GAMEPLAY",
+      "icon": "enderscape:chiseled_mirestone",
+      "hide": false,
+      "pattern": [
+        "^.*:.*mirestone.*"
       ]
     },
     {
@@ -201,7 +228,7 @@
       "pattern": [
         "^.*:.*nether_fortress.*",
         "^.*:.*nether_bridge.*",
-        "^.*:.*nether_keep.*"        
+        "^.*:.*keep.*"     
       ]
     },
     {
@@ -250,13 +277,103 @@
       ]
     },
     {
+      "key": "lc:ali/ns/village/birch",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:birch_sapling",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*birch.*",
+        "veggiesdelight:.*birch.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/desert",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:cactus",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*desert.*",
+        "veggiesdelight:.*desert.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/jungle",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:jungle_sapling",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*jungle.*",
+        "veggiesdelight:.*jungle.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/plains",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:short_grass",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*plains.*",
+        "veggiesdelight:.*plains.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/savanna",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:acacia_sapling",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*savanna.*",
+        "veggiesdelight:.*savanna.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/snowy",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:snow",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*snowy.*",
+        "veggiesdelight:.*snowy.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/swamp",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:blue_orchid",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*swamp.*",
+        "veggiesdelight:.*swamp.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/taiga",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:spruce_sapling",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*taiga.*",
+        "veggiesdelight:.*taiga.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/village/misc",
+      "type": "GAMEPLAY",
+      "icon": "artifacts:villager_hat",
+      "hide": false,
+      "pattern": [
+        "^.*:.*village.*"
+      ]
+    },
+    {
       "key": "lc:ali/mc/woodland_mansion",
       "type": "GAMEPLAY",
       "icon": "minecraft:totem_of_undying",
       "hide": false,
       "pattern": [
         "^.*:.*woodland_mansion.*",
-        "^.*:.*illager_mansion.*"
+        "^.*:.*illager_mansion.*",
+        "^.*:.*illager_manor.*"
       ]
     },
     {
@@ -272,7 +389,7 @@
       "key": "lc:ali/ns/bunker",
       "type": "GAMEPLAY",
       "icon": "minecraft:iron_trapdoor",
-      "hide": false,
+      "hide": true,
       "pattern": [
         "^.*:.*bunker.*"
       ]
@@ -301,7 +418,7 @@
       "icon": "minecraft:chiseled_sandstone",
       "hide": false,
       "pattern": [
-        "^.*:.*desert_ruins.*"
+        "^.*:.*desert_ruin.*"
       ]
     },
     {
@@ -314,12 +431,48 @@
       ]
     },
     {
+      "key": "lc:ali/ns/end_lighthouse",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:elytra",
+      "hide": false,
+      "pattern": [
+        "^.*:.*end_lighthouse.*"
+      ]
+    },
+    {
       "key": "lc:ali/ns/firewatch_tower",
       "type": "GAMEPLAY",
       "icon": "minecraft:spyglass",
       "hide": false,
       "pattern": [
         "^.*:.*firewatch_tower.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/hamlet",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:piglin_head",
+      "hide": false,
+      "pattern": [
+        "^.*:.*hamlet.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/jungle_ruins",
+      "type": "GAMEPLAY",
+      "icon": "chipped:creeper_mossy_cobblestone_carving",
+      "hide": false,
+      "pattern": [
+        "^.*:.*jungle_ruin.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/illager_camp",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:light_gray_wool",
+      "hide": false,
+      "pattern": [
+        "^.*:.*illager_camp.*"
       ]
     },
     {
@@ -338,6 +491,15 @@
       "hide": false,
       "pattern": [
         "^.*:.*lone_citadel.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/nether_port",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:blaze_powder",
+      "hide": false,
+      "pattern": [
+        "^.*:.*nether_port.*"
       ]
     },
     {
@@ -377,18 +539,36 @@
       ]
     },
     {
+      "key": "lc:ali/ns/skeleton_tower",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:coal",
+      "hide": false,
+      "pattern": [
+        "^.*:.*skeleton_tower.*"
+      ]
+    },
+    {
       "key": "lc:ali/ns/stray_fort",
       "type": "GAMEPLAY",
       "icon": "heads:stray_head",
-      "hide": false,
+      "hide": true,
       "pattern": [
         "^.*:.*stray_fort.*"
       ]
     },
     {
+      "key": "lc:ali/ns/tavern",
+      "type": "GAMEPLAY",
+      "icon": "farmersdelight:chicken_soup",
+      "hide": false,
+      "pattern": [
+        "^.*:.*tavern.*"
+      ]
+    },
+    {
       "key": "lc:ali/ns/toxic_lair",
       "type": "GAMEPLAY",
-      "icon": "heads:cave_spider_head",
+      "icon": "minecraft:slime_block",
       "hide": false,
       "pattern": [
         "^.*:.*toxic.*"
@@ -409,7 +589,7 @@
       "icon": "minecraft:spruce_door",
       "hide": false,
       "pattern": [
-        "^.*:.*undead_crypts.*"
+        "^.*:.*undead_crypt.*"
       ]
     },
     {
@@ -419,6 +599,24 @@
       "hide": false,
       "pattern": [
         "^.*:.*witch_villa.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/misc",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:decorated_pot",
+      "hide": false,
+      "pattern": [
+        "nova_structures:.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/aurora",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:aurora_block",
+      "hide": false,
+      "pattern": [
+        "^twilightforest:.*aurora.*"
       ]
     },
     {
@@ -437,7 +635,26 @@
       "icon": "twilightforest:carminite",
       "hide": false,
       "pattern": [
-        "^twilightforest:.*darktower.*"
+        "^twilightforest:.*darktower.*",
+        "^twilightdelight:scrap_115$"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/hedge_maze",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:hedge",
+      "hide": false,
+      "pattern": [
+        "^twilightforest:.*hedge.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/hollow_hill",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:ore_magnet",
+      "hide": false,
+      "pattern": [
+        "^twilightforest:.*hill.*"
       ]
     },
     {
@@ -447,6 +664,15 @@
       "hide": false,
       "pattern": [
         "^twilightforest:.*labyrinth.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/questing_ram",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:crumble_horn",
+      "hide": false,
+      "pattern": [
+        "^twilightforest:.*quest.*"
       ]
     },
     {
@@ -464,7 +690,26 @@
       "icon": "twilightforest:magic_beans",
       "hide": false,
       "pattern": [
-        "^twilightforest:.*troll_garden.*"
+        "^twilightforest:.*troll_garden.*",
+        "^twilightforest:.*troll_vault.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/treehouses",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:canopy_sapling",
+      "hide": false,
+      "pattern": [
+        "^twilight_treehouses:.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tt/outpost",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:beehive",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*outpost.*"
       ]
     },
     {
@@ -486,6 +731,24 @@
       ]
     },
     {
+      "key": "lc:ali/ug/depleted_mine",
+      "type": "GAMEPLAY",
+      "icon": "undergarden:cloggrum_pickaxe",
+      "hide": false,
+      "pattern": [
+        "^.*:.*depleted_mine.*"
+      ]
+    },
+    {
+      "key": "ali:trial_chambers",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:trial_key",
+      "hide": false,
+      "pattern": [
+        "^.*:.*trial_chamber.*$"
+      ]
+    },
+    {
       "key": "ali:chest_loot",
       "type": "GAMEPLAY",
       "icon": "minecraft:chest",
@@ -501,12 +764,7 @@
       "icon": "minecraft:trial_key",
       "hide": false,
       "pattern": [
-        "^.*:chests/trial_chambers/.*$",
-        "^.*:pots/trial_chambers/.*$",
-        "^.*:dispensers/trial_chambers/.*$",
-        "^.*:spawners/ominous/trial_chamber/.*$",
-        "^.*:spawners/trial_chamber/.*$",
-        "^.*:equipment/.*$"
+        "^.*:trial_chamber.*$"
       ]
     },
     {
@@ -521,10 +779,10 @@
     {
       "key": "ali:archaeology_loot",
       "type": "GAMEPLAY",
-      "icon": "minecraft:decorated_pot",
+      "icon": "minecraft:brush",
       "hide": false,
       "pattern": [
-        "^.*:archaeology/.*$"
+        "^.*:arch.{2,3}logy/.*$"
       ]
     },
     {
