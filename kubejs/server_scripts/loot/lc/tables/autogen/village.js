@@ -7,7 +7,7 @@
 function create_group_fixed_ct(items, max_ct) {
     let entries = []
     for(let item of items) {
-        entries.add(LootEntry.of(item, [1, max_ct]))
+        entries.push(LootEntry.of(item, [1, max_ct]))
     }
     return LootEntry.group(entries)
 }
@@ -19,7 +19,7 @@ function create_group_fixed_ct(items, max_ct) {
 function create_group(items) {
     let entries = []
     for(let [item, ct] of items) {
-        entries.add(LootEntry.of(item, [1, ct]))
+        entries.push(LootEntry.of(item, [1, ct]))
     }
     return LootEntry.group(entries)
 }
@@ -29,18 +29,18 @@ function create_subtreasure_subtable(e, village_name, colors, tools) {
      .createPool(pool => {
         let chalks = [], sacks = [LootEntry.of('supplementaries:sack')], bundles = [LootEntry.of('minecraft:bundle').withWeight(2)]
         for(let color of colors) {
-            chalks.add(LootEntry.of(`chalk:${color}_chalk`).withWeight(30))
-            bundles.add(LootEntry.of(`minecraft:${color}_bundle`).withWeight(20))
-            sacks.add(LootEntry.of(`supplementaries:sack_${color}`.withWeight(10)))
+            chalks.push(LootEntry.of(`chalk:${color}_chalk`).withWeight(3))
+            bundles.push(LootEntry.of(`minecraft:${color}_bundle`).withWeight(2))
+            sacks.push(LootEntry.of(`suppsquared:sack_${color}`).withWeight(1))
         }
         pool.addEntry(LootEntry.group(chalks))
         pool.addEntry(LootEntry.group(sacks))
         pool.addEntry(LootEntry.group(bundles))
-        let tools = []
+        let tool_grp = []
         for(let [tool, weight] of tools) {
-            tools.add(LootEntry.of(tool).damage([0.3, 0.6]).withWeight(weight))
+            tool_grp.push(LootEntry.of(tool).damage([0.3, 0.6]).withWeight(weight))
         }
-        pool.addEntry(LootEntry.group(tools))
+        pool.addEntry(LootEntry.group(tool_grp))
      })
     return table_path
 }
@@ -71,7 +71,7 @@ function create_artifacts_subtable(e, village_name, artifacts) {
 function assembleVillageLoot(e, table, name, crops, flora, food, products, colors, artifacts, tools) {
     table.clear()
     table.createPool(pool => {
-        pool.rolls(3, 8)
+        pool.rolls([3, 8])
         pool.addEntry(create_group_fixed_ct(crops, 5))
         pool.addEntry(create_group(flora))
         pool.addEntry(create_group(food))
@@ -81,7 +81,7 @@ function assembleVillageLoot(e, table, name, crops, flora, food, products, color
     table.createPool(pool => {
         pool.addEntry(LootEntry.empty()                                                         .withWeight(12))
         pool.addEntry(LootEntry.reference(create_subtreasure_subtable(e, name, colors, tools))  .withWeight(5))
-        pool.addEntry(LootEntry.reference(create_artifacts_subtable(e, artifacts))              .withWeight(1))
+        pool.addEntry(LootEntry.reference(create_artifacts_subtable(e, name, artifacts))        .withWeight(1))
     })
     return table
 }

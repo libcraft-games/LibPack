@@ -2,6 +2,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let af = 'artifacts'
+    let vd = 'veggiesdelight'
     // e                LootTableEventJS    the event to create tables in
     // table            MutableLootTable    the parent table to modify
     // name             string              the village name used to create identifiers
@@ -28,6 +29,6 @@ LootJS.lootTables(e => {
          [`${af}:cowboy_hat`, 2], 
          [`${af}:lucky_scarf`, 1],
          [`${af}:running_shoes`, 1]],
-        [[`${mc}:shears`, 2], [`${mc}:stone_hoe`, 1]]
+        [[`${mc}:shears`, 5], [`${mc}:stone_hoe`, 4]]
     )
 })
