@@ -2,7 +2,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft', ex = 'exposure', ee = 'exposure_expanded'
     function photo(image_name, weight) {
         return LootEntry.of(`${ex}:photograph`)
-            .addFunction({
+            .jsonFunction({
                 function: `${mc}:set_components`,
                 components: {
                     'exposure:photograph_frame': {
