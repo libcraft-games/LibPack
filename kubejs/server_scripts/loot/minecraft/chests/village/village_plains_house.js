@@ -23,7 +23,7 @@ LootJS.lootTables(e => {
         [[`${mc}:bread`, 6], [`${mc}:cooked_beef`, 2], [`${mc}:cooked_porkchop`, 3], [`${mc}:cooked_mutton`, 4]], // todo: more
         [[`supplementaries:rope`, 8], [`${mc}:lead`, 3]], // todo: products
         ['green', 'blue', 'brown', 'light_blue'],
-        [[`${af}:everlasting_beef`, 4], [`${af}:eternal_steak`, 1], 
+        [[`${af}:everlasting_beef`, 4], 
          [`${af}:villager_hat`, 5], 
          [`${af}:superstitious_hat`, 2], 
          [`${af}:cowboy_hat`, 2], 

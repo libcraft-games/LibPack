@@ -79,6 +79,7 @@ function assembleVillageLoot(e, table, name, crops, flora, food, products, color
         pool.addEntry(LootEntry.of('minecraft:emerald', [1, 4]))
     })
     table.createPool(pool => {
+        pool.rolls([1, 2])
         pool.addEntry(LootEntry.empty()                                                         .withWeight(12))
         pool.addEntry(LootEntry.reference(create_subtreasure_subtable(e, name, colors, tools))  .withWeight(5))
         pool.addEntry(LootEntry.reference(create_artifacts_subtable(e, name, artifacts))        .withWeight(1))

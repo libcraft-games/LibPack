@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let ie = 'immersiveengineering', mc = 'minecraft', af = 'artifacts'
     e.create('lc:tables/structure/mineshaft/artifacts').createPool(pool => {
-        pool.addEntry(LootEntry.of(`${af}:night_vision_goggles`).withWeight(2))
         pool.addEntry(LootEntry.of(`${af}:lucky_scarf`).withWeight(3))
         pool.addEntry(LootEntry.of(`${af}:charm_of_shrinking`).withWeight(2))
         pool.addEntry(LootEntry.of(`${af}:universal_attractor`).withWeight(1))
