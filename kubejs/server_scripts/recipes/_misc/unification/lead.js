@@ -1,5 +1,3 @@
-
-
 ServerEvents.recipes(e => {
     // remove the 5 (!) conflicting lead recipes
     e.remove({output: 'minecraft:lead'});

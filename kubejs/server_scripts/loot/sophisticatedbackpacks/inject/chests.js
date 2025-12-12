@@ -1,3 +1,4 @@
-LootJS.lootTables(e => {
-    e.clearLootTables(/sophisticatedbackpacks.inject.+/)
+
+LootJS.modifiers(e => {
+    e.removeGlobalModifiers(/sophisticatedbackpacks:.*/)
 })

@@ -32,6 +32,25 @@
   ],
   "gameplayCategories": [
     {
+      "key": "lc:ali/hidden",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:emperors_cloth",
+      "hide": false,
+      "pattern": [
+        "^chalk:chests/abandoned_mineshaft_chalks$",
+        "^exposure:chests/abandoned_mineshaft$",
+        "^exposure_expanded:chests/abandoned_mineshaft$",
+        "^sophisticated_backpacks:inject/chests/abandoned_mineshaft$",
+        "^artifacts:inject/chests/abandoned_mineshaft$",
+        "^supplementaries:inject/test",
+        "^supplementaries:blocks/urn_loot.*",
+        "^petrolpark:badge.*",
+        "^lc:tables/general/.*",
+        "^sweety_archaeology:blocks/mineshaft_map$",
+        "^supplementaries:inject/.*mineshaft.*"
+      ]
+    },
+    {
       "key": "lc:ali/ae/bronze_dungeon",
       "type": "GAMEPLAY",
       "icon": "aether:boss_doorway_carved_stone",
@@ -227,8 +246,7 @@
       "hide": false,
       "pattern": [
         "^.*:.*nether_fortress.*",
-        "^.*:.*nether_bridge.*",
-        "^.*:.*keep.*"     
+        "^.*:.*nether_bridge.*"
       ]
     },
     {
@@ -238,6 +256,15 @@
       "hide": false,
       "pattern": [
         "^.*:.*pillager_outpost.*"
+      ]
+    },
+    {
+      "key": "lc:ali/mc/ruined_portal",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:obsidian",
+      "hide": false,
+      "pattern": [
+        "^.*:.*ruined_portal.*"
       ]
     },
     {
@@ -372,8 +399,7 @@
       "hide": false,
       "pattern": [
         "^.*:.*woodland_mansion.*",
-        "^.*:.*illager_mansion.*",
-        "^.*:.*illager_manor.*"
+        "^.*:.*illager_mansion.*"
       ]
     },
     {
@@ -485,6 +511,15 @@
       ]
     },
     {
+      "key": "lc:ali/ns/illager_manor",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:deepslate_tile_stairs",
+      "hide": false,
+      "pattern": [
+        "^.*:.*illager_manor.*"
+      ]
+    },
+    {
       "key": "lc:ali/ns/lone_citadel",
       "type": "GAMEPLAY",
       "icon": "minecraft:packed_ice",
@@ -494,9 +529,18 @@
       ]
     },
     {
+      "key": "lc:ali/mc/nether_fortress",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chiseled_nether_bricks",
+      "hide": false,
+      "pattern": [
+        "^.*:.*keep.*"     
+      ]
+    },
+    {
       "key": "lc:ali/ns/nether_port",
       "type": "GAMEPLAY",
-      "icon": "minecraft:blaze_powder",
+      "icon": "artifacts:strider_shoes",
       "hide": false,
       "pattern": [
         "^.*:.*nether_port.*"

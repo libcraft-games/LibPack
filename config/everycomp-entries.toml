@@ -30,15 +30,6 @@
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
-		[types.wood_type.eternal_starlight]
-			lunar = true
-			northland = true
-			starlight_mangrove = true
-			scarlet = true
-			torreya = true
-			jinglestem = true
-			cradlewood = true
-
 		[types.wood_type.biomesoplenty]
 			fir = true
 			pine = true
@@ -82,12 +73,13 @@
 			mining = true
 			sorting = true
 
-		[types.leaves_type.eternal_starlight]
+		[types.wood_type.eternal_starlight]
 			lunar = true
 			northland = true
 			starlight_mangrove = true
 			scarlet = true
 			torreya = true
+			jinglestem = true
 			cradlewood = true
 
 		[types.leaves_type.biomesoplenty]
@@ -219,6 +211,14 @@
 			red_spruce = true
 			white_flower_spruce = true
 
+		[types.leaves_type.eternal_starlight]
+			lunar = true
+			northland = true
+			starlight_mangrove = true
+			scarlet = true
+			torreya = true
+			cradlewood = true
+
 		[types.stone_type.create]
 			limestone = true
 			asurine = true
@@ -233,19 +233,6 @@
 			orange_sandstone = true
 			white_sandstone = true
 			brimstone = true
-
-		[types.stone_type.eternal_starlight]
-			grimstone = true
-			voidstone = true
-			nebulaite = true
-			radianite = true
-			stellagmite = true
-			abysslate = true
-			thermabysslate = true
-			cryobysslate = true
-			toxite = true
-			springstone = true
-			flowglaze = true
 
 		[types.stone_type.aether]
 			holystone = true
@@ -264,6 +251,19 @@
 		[types.stone_type.twilightforest]
 			deadrock = true
 			mazestone = true
+
+		[types.stone_type.eternal_starlight]
+			grimstone = true
+			voidstone = true
+			nebulaite = true
+			radianite = true
+			stellagmite = true
+			abysslate = true
+			thermabysslate = true
+			cryobysslate = true
+			springstone = true
+			flowglaze = true
+			toxite = true
 
 		[types.mud_type.eternal_starlight]
 			nightfall_mud = true
@@ -292,11 +292,6 @@
 			shelf = true
 			fancy_armor_stand = false
 			fancy_sign = true
-
-		[entries.wood_type.beautify]
-			trellis = true
-			blinds = true
-			picture_frame = true
 
 		[entries.wood_type.create]
 			window = true
