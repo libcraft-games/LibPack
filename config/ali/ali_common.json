@@ -47,7 +47,8 @@
         "^petrolpark:badge.*",
         "^lc:tables/general/.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
-        "^supplementaries:inject/.*mineshaft.*"
+        "^supplementaries:inject/.*mineshaft.*",
+        "^lc:autogen/.*"
       ]
     },
     {

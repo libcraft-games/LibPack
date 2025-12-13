@@ -6,6 +6,7 @@ LootJS.lootTables(e => {
     table.print()
     table.clear()
     table.createPool(pool => {
+        pool.rolls([2, 5])
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/lighting').withWeight(15))
         pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/explosives').withWeight(5))
@@ -15,8 +16,6 @@ LootJS.lootTables(e => {
             // planks
             // iron ingots
             // fence
-            // leather
-            // tough cloth
             // rope
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/rails').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/minecarts').withWeight(4))
@@ -30,15 +29,11 @@ LootJS.lootTables(e => {
                 // glowworm silk
                 // spider egg, hanging cobweb, webbing
             // slimeballs
-            // bricks
-            // ash bricks
             // bones
         // equipment
             // storage
-                // sack (all colors)
-                // bundle (all colors)
+                // sack
                 // storage crate
-        pool.rolls([2, 5])
     })
     table.createPool(pool => {
         pool.rolls([1, 3]).addEntry(LootEntry.reference('lc:tables/general/mining/ores'))

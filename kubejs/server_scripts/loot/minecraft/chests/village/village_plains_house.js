@@ -15,20 +15,19 @@ LootJS.lootTables(e => {
     // tools            (RL, int)[]         tools which may spawn in the village and their weights
     assembleVillageLoot(e, e.getLootTable('minecraft:chests/village/village_plains_house'),
         'plains',
-        [`${mc}:carrot`, `${fd}:onion`, `${vd}:dandelion_leaf`, `${mc}:wheat`, `${vd}:cauliflower`, `${vd}:garlic`, `${ie}:seed`],
+        [`${mc}:carrot`, `${fd}:onion`, `${vd}:dandelion_leaf`, `${mc}:wheat`, `${vd}:broccoli`, `${vd}:garlic`, `${ie}:seed`],
         [[`${mc}:dandelion`,    5], 
          [`${mc}:poppy`,        2], 
          [`${mc}:cornflower`,   1], [`${mc}:azure_bluet`, 1], [`${mc}:oxeye_daisy`, 1],
          [`${mc}:oak_sapling`,  3]],
         [[`${mc}:bread`, 6], [`${mc}:cooked_beef`, 2], [`${mc}:cooked_porkchop`, 3], [`${mc}:cooked_mutton`, 4]], // todo: more
-        [[`supplementaries:rope`, 8], [`${mc}:lead`, 3]], // todo: products
+        [[`supplementaries:rope`, 8], [`${mc}:lead`, 3], [`${mc}:egg`, 4], [`${fd}:milk_bottle`, 2]], // todo: products
         ['green', 'blue', 'brown', 'light_blue'],
-        [[`${af}:everlasting_beef`, 4], 
-         [`${af}:villager_hat`, 5], 
+        [[`${af}:villager_hat`, 5], 
          [`${af}:superstitious_hat`, 2], 
          [`${af}:cowboy_hat`, 2], 
          [`${af}:lucky_scarf`, 1],
          [`${af}:running_shoes`, 1]],
-        [[`${mc}:shears`, 5], [`${mc}:stone_hoe`, 4]]
+        [[`${mc}:stone_hoe`, 4], [`${mc}:iron_hoe`, 2], [`${mc}:fishing_rod`, 1], [`basicweapons:iron_quarterstaff`, 1]]
     )
 })

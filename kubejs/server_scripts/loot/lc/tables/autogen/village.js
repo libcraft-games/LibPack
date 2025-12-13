@@ -24,17 +24,13 @@ function create_group(items) {
     return LootEntry.group(entries)
 }
 function create_subtreasure_subtable(e, village_name, colors, tools) {
-    let table_path = `lc:tables/autogen/village/${village_name}/colorful`
+    let table_path = `lc:tables/autogen/village/${village_name}/tools`
     e.create(table_path)
      .createPool(pool => {
-        let chalks = [], sacks = [LootEntry.of('supplementaries:sack')], bundles = [LootEntry.of('minecraft:bundle').withWeight(2)]
+        let bundles = [LootEntry.of('minecraft:bundle').withWeight(2)]
         for(let color of colors) {
-            chalks.push(LootEntry.of(`chalk:${color}_chalk`).withWeight(3))
-            bundles.push(LootEntry.of(`minecraft:${color}_bundle`).withWeight(2))
-            sacks.push(LootEntry.of(`suppsquared:sack_${color}`).withWeight(1))
+            bundles.push(LootEntry.of(`minecraft:${color}_bundle`).withWeight(1))
         }
-        pool.addEntry(LootEntry.group(chalks))
-        pool.addEntry(LootEntry.group(sacks))
         pool.addEntry(LootEntry.group(bundles))
         let tool_grp = []
         for(let [tool, weight] of tools) {
