@@ -1,8 +1,8 @@
 {
-  "generationRate": 8,
+  "generationRate": 128,
   "transferRate": 256,
   "consumptionRate": 1,
-  "previousTier": "gold",
-  "bufferCapacity": 100000,
-  "fuelType": "FOOD"
+  "bufferCapacity": 1024,
+  "fuelType": "FOOD",
+  "hasChargeSlot": false
 }

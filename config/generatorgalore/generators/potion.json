@@ -1,8 +1,8 @@
 {
-  "generationRate": 8,
-  "transferRate": 512,
+  "generationRate": 256,
+  "transferRate": 4096,
   "consumptionRate": 1,
-  "previousTier": "culinary",
-  "bufferCapacity": 250000,
-  "fuelType": "POTION"
+  "bufferCapacity": 32678,
+  "fuelType": "POTION",
+  "hasChargeSlot": false
 }

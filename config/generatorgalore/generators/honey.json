@@ -1,9 +1,10 @@
 {
-  "generationRate": 64,
-  "transferRate": 512,
-  "consumptionRate": 0.5,
-  "previousTier": "culinary",
-  "bufferCapacity": 500000,
-  "fuelType": "FLUID",
-  "fuelTag": "c:honey"
+  "generationRate": 1,
+  "transferRate": 1,
+  "consumptionRate": 1,
+  "bufferCapacity": 1,
+  "fuelType": "SOLID",
+  "has8x": false,
+  "has64x": false,
+  "hasChargeSlot": false
 }

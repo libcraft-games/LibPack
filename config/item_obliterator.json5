@@ -1157,6 +1157,13 @@
     "supplementaries:stone_tile_stairs",
     "supplementaries:stone_tile_slab",
     "supplementaries:stone_tile_wall",
+    "generatorgalore:copper_generator",
+    "generatorgalore:diamond_generator",
+    "generatorgalore:emerald_generator",
+    "generatorgalore:ender_generator",
+    "generatorgalore:gold_generator",
+    "generatorgalore:halitosis_generator",
+    "generatorgalore:honey_generator"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

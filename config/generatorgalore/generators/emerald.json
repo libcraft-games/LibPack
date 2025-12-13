@@ -1,9 +1,10 @@
 {
-  "generationRate": 256,
-  "transferRate": 512,
-  "consumptionRate": 0.4,
-  "previousTier": "diamond",
-  "bufferCapacity": 500000,
+  "generationRate": 1,
+  "transferRate": 1,
+  "consumptionRate": 1,
+  "bufferCapacity": 1,
   "fuelType": "SOLID",
-  "has64x": false
+  "has8x": false,
+  "has64x": false,
+  "hasChargeSlot": false
 }

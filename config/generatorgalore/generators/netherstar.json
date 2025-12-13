@@ -1,9 +1,11 @@
 {
-  "generationRate": 4092,
-  "transferRate": 16384,
+  "generationRate": 4096,
+  "transferRate": 32768,
   "consumptionRate": 2400,
-  "previousTier": "netherite",
-  "bufferCapacity": 9800000,
+  "bufferCapacity": 655360,
   "fuelType": "SOLID",
-  "fuelTag": "c:nether_stars"
+  "fuelTag": "c:nether_stars",
+  "hasChargeSlot": false,
+  "has8x": false,
+  "has64x": false
 }

@@ -1,8 +1,7 @@
 {
-  "generationRate": 40,
-  "transferRate": 1024,
+  "generationRate": 256,
+  "transferRate": 4096,
   "consumptionRate": 1,
-  "previousTier": "obsidian",
-  "bufferCapacity": 1000000,
+  "bufferCapacity": 32768,
   "fuelType": "ENCHANTMENT"
 }
