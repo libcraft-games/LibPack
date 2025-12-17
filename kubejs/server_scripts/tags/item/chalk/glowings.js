@@ -1,15 +1,12 @@
 ServerEvents.tags('item', e => {
     
     let tag = 'chalk:glowings'
-    let bop = 'biomesoplenty', 
-        es = 'eternal_starlight', 
+    let bop = 'biomesoplenty',  
         tf = 'twilightforest'
     let items = [
         'aether:ambrosium_shard',
         `${bop}:glowshroom`,
         `${bop}:glowworm_silk`,
-        `${es}:glowing_mushroom`,
-        `${es}:marimold`,
         'minecraft:glow_berries',
         `${tf}:firefly`,
         `${tf}:mushgloom`,
