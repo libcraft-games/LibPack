@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
             'GCG'
         ], 
         {
-            A: 'bibliocraft:disc_rack',
+            A: 'minecraft:hopper',
             G: '#c:plates/gold',
             C: 'minecraft:comparator',
             U: `${sb}:jukebox_upgrade`,
