@@ -1,11 +1,7 @@
-
-
-let fd = 'farmersdelight'
-let safety_net = `${fd}:safety_net`
-
-// use ropes tag instead of just FD rope
-// uncrafting means this can convert straw into hemp fiber, but idrc
 ServerEvents.recipes(e => {
+    let fd = 'farmersdelight', su = 'supplementaries'
+    let safety_net = `${fd}:safety_net`
+
     e.remove({output: safety_net})
     e.shaped(safety_net,
         [
@@ -16,5 +12,7 @@ ServerEvents.recipes(e => {
             R: '#c:ropes'
         }
     )
+    e.shapeless(`4x ${su}:rope`, [safety_net])
+
     console.log(`applied all changes successfully!`);
 });
