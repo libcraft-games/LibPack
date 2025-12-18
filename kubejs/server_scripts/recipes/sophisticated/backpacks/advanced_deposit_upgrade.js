@@ -7,9 +7,9 @@ ServerEvents.recipes(e => {
     e.shaped(
         item,
         [
-            'GFG',
+            'GCG',
             'IUI',
-            'GCG'
+            'GFG'
         ], 
         {
             G: '#c:ingots/gold',

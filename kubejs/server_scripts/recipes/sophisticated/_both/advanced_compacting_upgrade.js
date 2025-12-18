@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
                 G: `#c:ingots/${corners}`,
                 P: 'create:mechanical_press',
                 U: `${namespace}:compacting_upgrade`,
-                I: '#c:plates/steel'
+                I: `${ie}:sheetmetal_steel`
             }
         )
     }
