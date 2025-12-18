@@ -1,14 +1,14 @@
-
-let elevatorid = 'elevatorid';
-function magnia_sprout(type) {
-    return `enderscape:${type}_magnia_sprout`;
-}
-
 ServerEvents.recipes(e => {
+    let elevatorid = 'elevatorid'
+
+    function magnia_sprout(type) {
+        return `enderscape:${type}_magnia_sprout`
+    }
+
     global.libcraft.colors.forEach(color => {
-        let elevator = `${elevatorid}:elevator_${color}`;
-        let wool = `minecraft:${color}_wool`;
-        e.remove({output: elevator});
+        let elevator = `${elevatorid}:elevator_${color}`
+        let wool = `minecraft:${color}_wool`
+        e.remove({output: elevator})
         e.shaped(
             Item.of(elevator),
             [
@@ -27,6 +27,5 @@ ServerEvents.recipes(e => {
         e.shapeless(elevator,
             [`#${elevatorid}:elevators`, `#c:dyes/${color}`]
         )
-    });
-    console.log(`applied all changes successfully!`);
-});
+    })
+})
