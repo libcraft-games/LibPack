@@ -1,22 +1,22 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
-    let item = `${sb}:advanced_magnet_upgrade`
+    let item = `${sb}:advanced_restock_upgrade`
     
 
     e.remove({output: item})
     e.shaped(
         item,
         [
-            'GCG',
-            'EUE',
-            'GNG'
+            'GAG',
+            'IUI',
+            'GCG'
         ], 
         {
-            G: '#c:plates/gold',
+            G: '#c:ingots/gold',
             C: `${ie}:component_electronic`,
-            U: `${sb}:magnet_upgrade`,
-            E: 'minecraft:ender_eye',
-            N: '#c:ingots/netherite'
+            I: `${ie}:plate_duroplast`,
+            U: `${sb}:restock_upgrade`,
+            A: 'create:mechanical_arm'
         }
     )
 

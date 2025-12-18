@@ -1,7 +1,6 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
-    let item = `${sb}:alchemy_upgrade`
-    
+    let item = `${sb}:refill_upgrade`    
 
     let upgrade_base = `${sb}:upgrade_base`
 
@@ -9,15 +8,15 @@ ServerEvents.recipes(e => {
     e.shaped(
         item,
         [
-            ' A ',
-            'BUB',
-            ' C '
+            ' C ',
+            'SBS',
+            ' H '
         ], 
         {
-            U: upgrade_base,
-            A: 'minecraft:brewing_stand',
-            B: '#c:rods/blaze',
-            C: 'createaddition:straw'
+            C: 'minecraft:comparator',
+            S: 'minecraft:smooth_stone',
+            B: upgrade_base,
+            H: 'minecraft:hopper'
         }
     )
 

@@ -1,22 +1,22 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
-    let item = `${sb}:advanced_pickup_upgrade`
+    let item = `${sb}:advanced_deposit_upgrade`
     
 
     e.remove({output: item})
     e.shaped(
         item,
         [
-            'GCG',
+            'GFG',
             'IUI',
-            'GDG'
+            'GCG'
         ], 
         {
-            G: '#c:plates/gold',
+            G: '#c:ingots/gold',
             C: `${ie}:component_electronic`,
-            I: '#c:plates/steel',
-            U: `${sb}:pickup_upgrade`,
-            D: '#c:gems/diamond'
+            I: '#c:storage_blocks/cardboard',
+            U: `${sb}:deposit_upgrade`,
+            F: 'create:brass_funnel'
         }
     )
 

@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
             'GCG'
         ], 
         {
-            G: '#c:plates/gold',
+            G: '#c:ingots/gold',
             C: 'create:andesite_funnel',
             I: '#c:plates/brass',
             U: `${sb}:refill_upgrade`,

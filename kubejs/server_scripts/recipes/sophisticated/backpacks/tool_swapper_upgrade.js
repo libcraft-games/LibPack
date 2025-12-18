@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     let sb = 'sophisticatedbackpacks'
-    let item = `${sb}:compacting_upgrade`
+    let item = `${sb}:tool_swapper_upgrade`
     
 
     let upgrade_base = `${sb}:upgrade_base`
@@ -9,13 +9,16 @@ ServerEvents.recipes(e => {
     e.shaped(
         item,
         [
-            ' P ',
-            'PBP',
-            ' P '
+            ' A ',
+            'DUB',
+            ' C '
         ], 
         {
-            P: 'minecraft:piston',
-            B: upgrade_base
+            U: upgrade_base,
+            A: '#create:toolboxes',
+            B: `${ie}:pickaxe_steel`,
+            C: 'minecraft:tripwire_hook',
+            D: `${ie}:axe_steel`
         }
     )
 

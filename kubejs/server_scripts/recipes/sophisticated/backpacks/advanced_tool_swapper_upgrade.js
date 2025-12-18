@@ -14,7 +14,7 @@ ServerEvents.recipes(e => {
         ], 
         {
             A: `${ie}:toolbox`,
-            G: '#c:plates/gold',
+            G: '#c:ingots/gold',
             D: 'enchanted:tool_poppet',
             U: `${sb}:tool_swapper_upgrade`,
             C: 'create:wrench',
