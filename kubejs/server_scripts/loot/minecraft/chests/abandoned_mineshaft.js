@@ -3,7 +3,6 @@ LootJS.lootTables(e => {
     let table = e.getLootTable(path)
     let mc = 'minecraft', ie = 'immersiveengineering', su = 'supplementaries'
     let ex = 'exposure', ee = 'exposure_expanded'
-    table.print()
     table.clear()
     table.createPool(pool => {
         pool.rolls([2, 5])
@@ -60,7 +59,6 @@ LootJS.lootTables(e => {
             // drill heads
             // excavator, hammer templates
     })
-    table.print()
 })
 LootJS.modifiers(e => {
     // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
