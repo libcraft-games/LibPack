@@ -8,7 +8,7 @@ all_llama_attributes = false
 low_value_percentage = 0.25
 #Only show statistics tooltips while sneaking (still requires a monocle to be worn).
 #Default Value: false
-requires_sneaking = false
+requires_sneaking = true
 #Offset on x-axis for statistics tooltips from original position.
 #Default Value: 0
 # Default: 0
@@ -38,4 +38,4 @@ low_value_color = "RED"
 medium_value_color = "GOLD"
 #Must the mount be tamed for any statistics to show.
 #Default Value: true
-must_be_tamed = true
+must_be_tamed = false
