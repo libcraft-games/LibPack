@@ -10,5 +10,4 @@ LootJS.lootTables(e => {
     for(let weapon of weapons) {
         pool.addEntry(LootEntry.of(weapon))
     }
-    table.print()
 })
