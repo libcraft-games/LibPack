@@ -124,7 +124,6 @@ deimos-1.21.1-neoforge-2.5.jar
 disguiseheads-neoforge-1.3.1-mc1.21.jar
 distractingtrims-neoforge-1.21.1-21.1.1.jar
 dungeons-and-taverns-ancient-city-overhaul-v2.jar
-dungeons-and-taverns-nether-fortress-overhaul-v2.4.jar
 dungeons-and-taverns-swamp-hut-overhaul-v2.jar
 dungeons-and-taverns-v4.4.4.jar
 dyed-neoforge-1.21.1-1.2.1.jar
