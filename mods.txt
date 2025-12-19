@@ -143,7 +143,6 @@ endersdelight-neoforge-1.21.1-1.1.0.jar
 engineeredcompatibility-4.3.0.jar
 escalated-1.2.0+create.6.0.8-mc.1.21.1-neoforge.jar
 everycomp-1.21-2.11.20-neoforge.jar
-explore_ruins_aether-1.0.0-neoforge-1.21.1.jar
 exposure-neoforge-1.21.1-1.9.12.jar
 exposure_expanded-neoforge-1.0.1.jar
 exposure_polaroid-neoforge-1.21.1-1.1.2.jar
