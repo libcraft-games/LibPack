@@ -199,7 +199,7 @@
 		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
 		[functional.soap.special_blocks]
 			"quark:dirty_glass" = "minecraft:glass"
-			"minecraft:wither_rose" = "minecraft:poppy"
+			"minecraft:wither_rose" = "biomesoplenty:rose"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
@@ -272,7 +272,7 @@
 			glowing_duration = 200
 
 [building]
-	lapis_bricks = true
+	lapis_bricks = false
 	deepslate_lamp = true
 	end_stone_lamp = true
 	blackstone_lamp = true
@@ -297,7 +297,7 @@
 	[building.blackboard]
 		enabled = true
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
+		colored_blackboard = true
 		#Interaction mode for blackboards
 		#Allowed Values: BOTH, GUI, MANUAL
 		interaction_mode = "BOTH"
@@ -317,7 +317,7 @@
 	[building.timber_frame]
 		enabled = true
 		#Allow placing a timber frame directly on a block by holding shift
-		swap_on_shift = false
+		swap_on_shift = true
 		#Allows axes to remove a framed block leaving the contained block intact
 		axes_strip = true
 		#Replace a timber frame with wattle and daub block when daub is placed in it
@@ -450,7 +450,7 @@
 		unbreakable = false
 
 	[building.spider_head]
-		enabled = true
+		enabled = false
 
 	[building.barnacles]
 		enabled = true
