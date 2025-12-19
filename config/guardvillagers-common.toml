@@ -55,7 +55,7 @@
 	"Have Guards raise their shield all the time?" = false
 	# Default: 1.0
 	# Range: -999.9000244140625 ~ 999.0
-	"Chance for guards to lose durability" = 1.0
+	"Chance for guards to lose durability" = 0.5
 	"Allow guards to teleport if following the player" = false
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
