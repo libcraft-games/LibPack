@@ -95,6 +95,7 @@ cloth-config-15.0.140-neoforge.jar
 cobweb-neoforge-1.21-1.4.0.jar
 collective-1.21.1-8.13.jar
 comforts-neoforge-9.0.4+1.21.1.jar
+configurable-3.3.0+1.21.1-neoforge.jar
 copycats-3.0.4+mc.1.21.1-neoforge.jar
 coroutil-neoforge-1.21.0-1.3.8.jar
 corpse-neoforge-1.21.1-1.1.13.jar
@@ -186,6 +187,7 @@ moonlight-1.21-2.27.1-neoforge.jar
 moreculling-neoforge-1.21.1-1.0.6.jar
 morejs-neoforge-1.21.1-0.16.0.jar
 neoforge-runiclib-1.21.1-4.3.9.jar
+neruina-3.1.4+1.21.1-neoforge.jar
 netherite_horse_armor-neoforge-1.21.1-2.0a.jar
 netherportalfix-neoforge-1.21.1-21.1.1.jar
 noisium-neoforge-2.3.0+mc1.21-1.21.1.jar
