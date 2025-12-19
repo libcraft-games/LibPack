@@ -453,7 +453,7 @@
 		enabled = false
 
 	[building.barnacles]
-		enabled = true
+		enabled = false
 
 	[building.gold_bars]
 		enabled = true
