@@ -425,7 +425,7 @@
 	[building.flower_box]
 		enabled = true
 		#Makes so flower boxes can only contain one tall flower item per block
-		simple_mode = true
+		simple_mode = false
 
 	[building.netherite_doors]
 		door = true
@@ -569,15 +569,15 @@
 		# Range: 0.0 ~ 100.0
 		damageable_damage = 0.5
 		#Allows splash potions to be thrown by slingshots
-		allow_splash_potions = false
+		allow_splash_potions = true
 		#Allows bombs to be thrown by slingshots
-		allow_bombs = false
+		allow_bombs = true
 		#Allows fire charges to be thrown by slingshots
-		allow_fire_charges = false
+		allow_fire_charges = true
 		#Allows snowballs to be thrown by slingshots
-		allow_snowballs = false
+		allow_snowballs = true
 		#Allows enderpearls to be thrown by slingshots
-		allow_enderpearls = false
+		allow_enderpearls = true
 
 	[tools.antique_ink]
 		enabled = true
@@ -685,7 +685,7 @@
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
 		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
+		mixed_books = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
