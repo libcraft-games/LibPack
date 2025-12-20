@@ -5,6 +5,7 @@
 # allow metadata files
 !LICENSE
 !README.md
+!CHANGELOG.md
 !.gitattributes
 
 # allow workflows
