@@ -10,7 +10,7 @@ Controlling-neoforge-1.21.1-19.0.5.jar
 CutThrough-v21.1.0-1.21.1-NeoForge.jar
 DeathFinder-v21.1.1-1.21.1-NeoForge.jar
 DisplayNotches-1.21.1-1.0.3.jar
-DistantHorizons-2.4.2-b-1.21.1-fabric-neoforge.jar
+DistantHorizons-2.4.2-b-1.21.1-fabric-neoforge.jar.disabled
 DungeonCrawl-NeoForge-1.21-2.3.15.jar
 EMIProfessions-neoforge-1.21.1-1.0.3.jar
 EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
@@ -110,7 +110,7 @@ create_vibrant_vaults-0.3.2.jar
 createaddition-1.5.9.jar
 createcontraptionterminals-1.21-1.2.0.jar
 createdeco-2.1.2-1.21.1-neo.jar
-createfood-neoforge-1.21.1-2.0.0.jar
+createfood-neoforge-1.21.1-2.0.0a.jar
 createtransmission-1.0.4+neoforge-create6-1.21.1.jar
 cristellib-neoforge-1.21.1-3.0.2.1.jar
 crittersandcompanions-neoforge-1.21.1-2.3.4.jar
