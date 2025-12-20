@@ -1,5 +1,4 @@
-ServerEvents.recipes(e => {
-    
+ServerEvents.recipes(e => {    
     e.replaceInput(
         {input: 'minecraft:leather'},
         'minecraft:leather',

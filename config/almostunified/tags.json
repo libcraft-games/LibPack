@@ -3,6 +3,14 @@
     "lc:unify/garlic": [
       "enchanted:garlic",
       "veggiesdelight:garlic_clove"
+    ],
+    "c:sheetmetal/iron": [
+      "createdeco:iron_sheet_metal",
+      "immersiveengineering:sheetmetal_iron"
+    ],
+    "c:sheetmetal/copper": [
+      "createdeco:copper_sheet_metal",
+      "immersiveengineering:sheetmetal_copper"
     ]
   },
   "tag_substitutions": {},

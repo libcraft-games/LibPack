@@ -1,19 +1,19 @@
-
-
-let yellow_dye = 'minecraft:yellow_dye';
-let wolfsbane = 'enchanted:wolfsbane_flower';
-
 ServerEvents.recipes(e => {
+    let yellow_dye = 'minecraft:yellow_dye'
+    let wolfsbane = 'enchanted:wolfsbane_flower'
+    
     e.shapeless(
         Item.of(yellow_dye),
         [wolfsbane]
     )
+
     e.custom({
         type: 'farmersdelight:cutting',
         ingredients: [{item: wolfsbane}],
         tool: {tag: 'c:tools/knife'},
         result: [{item: Item.of(yellow_dye), count: 2}]
     })
+
     e.custom({
         type: 'create:milling',
         processing_time: 50,
@@ -25,6 +25,4 @@ ServerEvents.recipes(e => {
             {id: 'enchanted:wolfsbane_seeds', chance: 0.05}
         ]
     })
-
-    console.log(`applied all changes successfully!`);
-});
+})

@@ -1,0 +1,24 @@
+ServerEvents.recipes(e => {
+    let sb = 'sophisticatedbackpacks'
+    let item = `${sb}:advanced_refill_upgrade`
+    
+
+    e.remove({output: item})
+    e.shaped(
+        item,
+        [
+            'GSG',
+            'IUI',
+            'GCG'
+        ], 
+        {
+            G: '#c:ingots/gold',
+            C: 'create:andesite_funnel',
+            I: '#c:plates/brass',
+            U: `${sb}:refill_upgrade`,
+            S: 'create:stockpile_switch'
+        }
+    )
+
+    console.log(`applied all changes successfully!`);
+});

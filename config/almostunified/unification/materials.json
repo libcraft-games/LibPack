@@ -30,7 +30,8 @@
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
     "c:wires/{material}",
-    "lc:unify/garlic"
+    "lc:unify/garlic",
+    "c:sheetmetal/{material}"
   ],
   "ignored_tags": [],
   "ignored_items": [],

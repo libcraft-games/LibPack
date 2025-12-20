@@ -8,4 +8,8 @@ ItemEvents.modifyTooltips(e => {
             x.insert(1, Text.red('Uses vanilla anvil mechanics, not the improved ones!'))
         }
     )
+    e.modify(
+        'minecraft:tripwire_hook',
+        x => x.insert(1, 'Sneak-right-click with a tool to hang it on this hook.')
+    )
 })

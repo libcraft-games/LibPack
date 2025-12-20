@@ -28,13 +28,14 @@
     {
       "version": 8,
       "enabled": true,
-      "checkOwnMode": "OFF",
+      "checkOwnMode": "DEFER",
+      "cooldown": 0,
       "inclusionEnabled": true,
       "exclusionEnabled": true,
       "responseEnabled": true,
       "sound": {
         "version": 1,
-        "enabled": false,
+        "enabled": true,
         "id": "block.note_block.bell",
         "volume": 1.0,
         "pitch": 1.0
@@ -42,8 +43,8 @@
       "textStyle": {
         "version": 2,
         "doColor": true,
-        "color": 15624448,
-        "bold": "ON",
+        "color": 16761856,
+        "bold": "DISABLED",
         "italic": "DISABLED",
         "underlined": "DISABLED",
         "strikethrough": "DISABLED",
@@ -74,7 +75,7 @@
         {
           "version": 4,
           "enabled": true,
-          "string": "d9_m_5",
+          "string": "Profile name",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -86,19 +87,7 @@
         {
           "version": 4,
           "enabled": true,
-          "string": "d9_m_5",
-          "styleTarget": {
-            "version": 2,
-            "enabled": false,
-            "string": "",
-            "type": "NORMAL"
-          },
-          "type": "NORMAL"
-        },
-        {
-          "version": 4,
-          "enabled": true,
-          "string": "d9",
+          "string": "Display name",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -109,44 +98,7 @@
         }
       ],
       "inclusionTriggers": [],
-      "exclusionTriggers": [
-        {
-          "version": 4,
-          "enabled": true,
-          "string": "multiplayer.player.joined",
-          "styleTarget": {
-            "version": 2,
-            "enabled": false,
-            "string": "",
-            "type": "NORMAL"
-          },
-          "type": "NORMAL"
-        },
-        {
-          "version": 4,
-          "enabled": true,
-          "string": "multiplayer.player.left",
-          "styleTarget": {
-            "version": 2,
-            "enabled": false,
-            "string": "",
-            "type": "NORMAL"
-          },
-          "type": "NORMAL"
-        },
-        {
-          "version": 4,
-          "enabled": true,
-          "string": "commands.",
-          "styleTarget": {
-            "version": 2,
-            "enabled": false,
-            "string": "",
-            "type": "NORMAL"
-          },
-          "type": "NORMAL"
-        }
-      ],
+      "exclusionTriggers": [],
       "responses": []
     }
   ]

@@ -1,32 +1,6 @@
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 
-		[types.cake.veggiesdelight]
-			carrot_cake = true
-
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
-
-		[types.cake.createfood]
-			cream_cake_chorus_fruit = true
-			cream_cake_glow_berry = true
-			berry_cream_cake_sweet_berry = true
-			berry_cream_cake_chorus_fruit = true
-			berry_cream_cake_glow_berry = true
-			chocolate_cream_cake_butterscotch = true
-			chocolate_cream_cake_caramel = true
-			chocolate_cream_cake_chocolate = true
-			chocolate_cream_cake_dark_chocolate = true
-			chocolate_cream_cake_toffee = true
-			chocolate_cream_cake_white_chocolate = true
-			chorus_fruit_cream_cake_sweet_berry = true
-			chorus_fruit_cream_cake_chorus_fruit = true
-			chorus_fruit_cream_cake_glow_berry = true
-			glow_berry_cream_cake_sweet_berry = true
-			glow_berry_cream_cake_chorus_fruit = true
-			glow_berry_cream_cake_glow_berry = true
-
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
@@ -72,15 +46,6 @@
 			transformation = true
 			mining = true
 			sorting = true
-
-		[types.wood_type.eternal_starlight]
-			lunar = true
-			northland = true
-			starlight_mangrove = true
-			scarlet = true
-			torreya = true
-			jinglestem = true
-			cradlewood = true
 
 		[types.leaves_type.biomesoplenty]
 			null = true
@@ -211,14 +176,6 @@
 			red_spruce = true
 			white_flower_spruce = true
 
-		[types.leaves_type.eternal_starlight]
-			lunar = true
-			northland = true
-			starlight_mangrove = true
-			scarlet = true
-			torreya = true
-			cradlewood = true
-
 		[types.stone_type.create]
 			limestone = true
 			asurine = true
@@ -252,46 +209,42 @@
 			deadrock = true
 			mazestone = true
 
-		[types.stone_type.eternal_starlight]
-			grimstone = true
-			voidstone = true
-			nebulaite = true
-			radianite = true
-			stellagmite = true
-			abysslate = true
-			thermabysslate = true
-			cryobysslate = true
-			springstone = true
-			flowglaze = true
-			toxite = true
+		[types.cake.createfood]
+			berry_cream_cake = true
+			apple_cream_cake = true
+			melon_cream_cake = true
+			chocolate_cream_cake = true
+			chorus_fruit_cream_cake = true
+			cream_cake = true
+			glow_berry_cream_cake = true
+			ube_cream_ube_cake = true
+			cream_cake_chorus_fruit = true
+			cream_cake_glow_berry = true
+			berry_cream_cake_sweet_berry = true
+			berry_cream_cake_chorus_fruit = true
+			berry_cream_cake_glow_berry = true
+			chocolate_cream_cake_butterscotch = true
+			chocolate_cream_cake_caramel = true
+			chocolate_cream_cake_chocolate = true
+			chocolate_cream_cake_dark_chocolate = true
+			chocolate_cream_cake_toffee = true
+			chocolate_cream_cake_white_chocolate = true
+			chorus_fruit_cream_cake_sweet_berry = true
+			chorus_fruit_cream_cake_chorus_fruit = true
+			chorus_fruit_cream_cake_glow_berry = true
+			glow_berry_cream_cake_sweet_berry = true
+			glow_berry_cream_cake_chorus_fruit = true
+			glow_berry_cream_cake_glow_berry = true
 
-		[types.mud_type.eternal_starlight]
-			nightfall_mud = true
+		[types.cake.veggiesdelight]
+			carrot_cake = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
 
 #Disables specific entries
 [entries]
-
-		[entries.wood_type.storagedrawers]
-			full_drawers_2 = true
-			half_drawers_1 = true
-			full_drawers_4 = true
-			half_drawers_4 = true
-			trim = true
-			half_drawers_2 = true
-			full_drawers_1 = true
-
-		[entries.wood_type.bibliocraft]
-			fancy_crafter = false
-			label = true
-			grandfather_clock = true
-			potion_shelf = true
-			table = true
-			bookcase = true
-			tool_rack = true
-			fancy_clock = true
-			shelf = true
-			fancy_armor_stand = false
-			fancy_sign = true
 
 		[entries.wood_type.create]
 			window = true
@@ -442,6 +395,20 @@
 			damaged_log = true
 			golden_barred_trapdoor = true
 			nailed_log = true
+
+		[entries.wood_type.unusual_furniture]
+			celling_lamp = true
+			table = true
+			chair = true
+			railing = true
+			carved = true
+			bench = true
+			coffee_table = true
+			beam = true
+			shelf = true
+			stool = true
+			drawer = true
+			open_riser_stairs = true
 
 		[entries.stone_type.create]
 			small_brick_wall = true

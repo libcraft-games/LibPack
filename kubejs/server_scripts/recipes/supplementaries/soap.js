@@ -1,7 +1,3 @@
-// Ash Bricks from wood ash
-// soap crafting:
-// - ash + quicklime + pork + water
-// - ash + quicklime + seed oil/plant oil/vegetable oil
 ServerEvents.recipes(ev => {
     let s = 'supplementaries', 
         e = 'enchanted',
@@ -9,7 +5,7 @@ ServerEvents.recipes(ev => {
         ca = 'createaddition',
         ie = 'immersiveengineering'
     let ash = `${s}:ash`, 
-        wood_ash = `${e}:wood_ash`,
+        ashes = `c:dusts/ash`,
         quicklime = `${e}:quicklime`,
         soap = `${s}:soap`,
         vegetable_oil = `${cf}:vegetable_oil`
@@ -26,7 +22,7 @@ ServerEvents.recipes(ev => {
 
     ev.shapeless(`4x ${soap}`,
         [
-            `4x ${wood_ash}`,
+            `4x #${ashes}`,
             `2x ${quicklime}`,            
             veg_oil_buckets
         ]
@@ -35,8 +31,10 @@ ServerEvents.recipes(ev => {
         "type": "create:mixing",
         "ingredients": [
             {
-                "item": wood_ash,
-                "count": 2
+                "tag": ashes
+            },
+            {
+                "tag": ashes
             },
             {
                 "item": quicklime
@@ -58,8 +56,10 @@ ServerEvents.recipes(ev => {
         "type": "create:mixing",
         "ingredients": [
             {
-                "item": wood_ash,
-                "count": 2
+                "tag": ashes
+            },
+            {
+                "tag": ashes
             },
             {
                 "item": quicklime
@@ -77,6 +77,4 @@ ServerEvents.recipes(ev => {
             }
         ]
     })
-
-    console.log(`applied all changes successfully!`);
-});
+})
