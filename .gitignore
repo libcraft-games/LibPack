@@ -36,6 +36,7 @@ config/voicechat/voicechat-client.properties
 config/scriptor_cost.cfg
 config/scalablelux.properties
 config/forgeendertech/Biomes/
+config/forgeendertech/cached.dat
 
 # spam
 *.bak

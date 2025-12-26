@@ -390,7 +390,7 @@ _version = 3
 				# Skips loading adjacent LODs to significantly reduce load times (~5x)
 				# but causes lighting on LOD borders to appear as full-bright
 				# and other graphical bugs.
-				onlyLoadCenterLods = true
+				onlyLoadCenterLods = false
 
 		[client.advanced.multiplayer]
 			#
