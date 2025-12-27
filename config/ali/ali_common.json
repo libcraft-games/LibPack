@@ -45,10 +45,9 @@
         "^supplementaries:inject/test",
         "^supplementaries:blocks/urn_loot.*",
         "^petrolpark:badge.*",
-        "^lc:tables/general/.*",
+        "^lc:tables/.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
-        "^supplementaries:inject/.*mineshaft.*",
-        "^lc:autogen/.*"
+        "^supplementaries:inject/.*mineshaft.*"
       ]
     },
     {
@@ -94,15 +93,6 @@
       "hide": false,
       "pattern": [
         "^dungeoncrawl:.*"
-      ]
-    },
-    {
-      "key": "lc:ali/es/mirestone_ruins",
-      "type": "GAMEPLAY",
-      "icon": "enderscape:chiseled_mirestone",
-      "hide": false,
-      "pattern": [
-        "^.*:.*mirestone_ruins.*"
       ]
     },
     {
