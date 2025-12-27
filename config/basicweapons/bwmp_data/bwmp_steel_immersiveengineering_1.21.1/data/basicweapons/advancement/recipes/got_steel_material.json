@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_steel_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersiveengineering:ingot_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_steel_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:steel_dagger",
+      "basicweapons:steel_hammer",
+      "basicweapons:steel_club",
+      "basicweapons:steel_club_alt",
+      "basicweapons:steel_spear",
+      "basicweapons:steel_quarterstaff",
+      "basicweapons:steel_glaive"
+    ]
+  }
+}

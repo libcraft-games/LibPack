@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "basicweapons:steel_dagger"
+    },
+    {
+      "item": "basicweapons:steel_hammer"
+    },
+    {
+      "item": "basicweapons:steel_club"
+    },
+    {
+      "item": "basicweapons:steel_spear"
+    },
+    {
+      "item": "basicweapons:steel_quarterstaff"
+    },
+    {
+      "item": "basicweapons:steel_glaive"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:nugget_steel",
+    "count": 1
+  }
+}
