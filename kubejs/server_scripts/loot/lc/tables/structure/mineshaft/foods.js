@@ -9,11 +9,11 @@ LootJS.lootTables(e => {
     e.create('lc:tables/structure/mineshaft/foods').createPool(pool => {
         // root vegetables
         pool.addEntry(LootEntry.group(
-            LootEntry.of(`${mc}:carrot`, [2, 5]).withWeight(7),
-            LootEntry.of(`${fd}:onion`, [3, 7]).withWeight(10),
-            LootEntry.of(`${vd}:turnip`, [3, 5]).withWeight(6),
-            LootEntry.of(`${mc}:beetroot`, [4, 6]).withWeight(6),
-            LootEntry.of(`${mc}:golden_carrot`, [1, 4]).withWeight(1)
+            LootEntry.of(`${mc}:carrot`, [2, 5])        .withWeight(7),
+            LootEntry.of(`${fd}:onion`, [3, 7])         .withWeight(10),
+            LootEntry.of(`${vd}:turnip`, [3, 5])        .withWeight(6),
+            LootEntry.of(`${mc}:beetroot`, [4, 6])      .withWeight(6),
+            LootEntry.of(`${mc}:golden_carrot`, [1, 4]) .withWeight(2)
         ))
         // baked stuff idk
         pool.addEntry(LootEntry.group(
@@ -30,11 +30,9 @@ LootJS.lootTables(e => {
             LootEntry.of(`${fd}:brown_mushroom_colony`, 1).withWeight(1),
             LootEntry.of(`${mc}:red_mushroom`, [3, 7]).withWeight(5),
             LootEntry.of(`${fd}:red_mushroom_colony`, [0, 1]).withWeight(1),
-            // todo: biome check
-            LootEntry.of(`${bop}:glowshroom`, [2, 4]).withWeight(3),
+            LootEntry.of(`${bop}:glowshroom`, [2, 4]).withWeight(3).matchBiome('biomesoplenty:glowing_grotto'),
             LootEntry.of(`${mc}:glow_berries`, [3, 5]).withWeight(6)
         ))
-        // meats which preserve well (and the consequences of them not preserving)
         pool.addEntry(LootEntry.group(
             LootEntry.of(`${fd}:cooked_bacon`, [5, 8]).withWeight(10),
             LootEntry.of(`${cf}:rabbit_jerky`, [7, 12]).withWeight(8),
