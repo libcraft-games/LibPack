@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_cloggrum_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              ""
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_cloggrum_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:cloggrum_dagger",
+      "basicweapons:cloggrum_hammer",
+      "basicweapons:cloggrum_club",
+      "basicweapons:cloggrum_club_alt",
+      "basicweapons:cloggrum_spear",
+      "basicweapons:cloggrum_quarterstaff",
+      "basicweapons:cloggrum_glaive"
+    ]
+  }
+}

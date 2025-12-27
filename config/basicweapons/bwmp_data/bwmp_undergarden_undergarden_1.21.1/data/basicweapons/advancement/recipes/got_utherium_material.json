@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_utherium_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergarden:utherium_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_utherium_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:utherium_dagger",
+      "basicweapons:utherium_hammer",
+      "basicweapons:utherium_club",
+      "basicweapons:utherium_club_alt",
+      "basicweapons:utherium_spear",
+      "basicweapons:utherium_quarterstaff",
+      "basicweapons:utherium_glaive"
+    ]
+  }
+}

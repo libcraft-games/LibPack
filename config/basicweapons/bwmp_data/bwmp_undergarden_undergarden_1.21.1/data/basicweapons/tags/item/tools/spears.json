@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "basicweapons:cloggrum_spear",
+    "basicweapons:forgotten_spear",
+    "basicweapons:utherium_spear",
+    "basicweapons:froststeel_spear"
+  ]
+}
