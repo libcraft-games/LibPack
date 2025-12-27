@@ -102,7 +102,7 @@
       "icon": "enderscape:chiseled_mirestone",
       "hide": false,
       "pattern": [
-        "^.*:.*mirestone.*"
+        "^.*:.*mirestone_ruins.*"
       ]
     },
     {
