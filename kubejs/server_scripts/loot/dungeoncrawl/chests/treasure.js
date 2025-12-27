@@ -42,7 +42,6 @@
 // arthana
 // bibliocraft clocks
 // heads
-// gold chain, lantern from bibliocraft
 // cuckoo clock
 // brass hand
 // artifacts:
@@ -75,3 +74,4 @@
     // feeding
 // very valuables
     // enchanted gapple
+// brittle potion flask
