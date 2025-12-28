@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
 
     function replaceUpgradeBase(e, item, material1, material2) {
         e.remove({output: item})
-        e.shaped(item,
+        e.shaped(`2x ${item}`,
             [
                 'ABA',
                 'IRI',
@@ -20,6 +20,4 @@ ServerEvents.recipes(e => {
 
     replaceUpgradeBase(e, `${sb}:upgrade_base`, '#c:strings', '#c:leathers')
     replaceUpgradeBase(e, `${ss}:upgrade_base`, '#minecraft:planks', '#c:stripped_logs')
-
-    console.log(`applied all changes successfully!`);
-});
+})
