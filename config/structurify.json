@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.9b",
-  "config_datetime": "2025-12-28_14-57-51",
+  "config_datetime": "2025-12-28_15-03-07",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -197,6 +197,14 @@
       ]
     },
     {
+      "name": "nova_structures:deepslate_camp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
       "name": "nova_structures:end_castle",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -265,7 +273,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_birch",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -281,7 +289,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_cherry",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -297,7 +305,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_dark_oak",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -313,7 +321,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_forest",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -329,7 +337,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_jungle",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -345,7 +353,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_mangrove",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -361,7 +369,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_savanna",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -393,7 +401,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_taiga",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1270,6 +1278,14 @@
       ]
     },
     {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
       "name": "nova_structures:well_birch",
       "is_disabled": true,
       "whitelisted_biomes": [],
@@ -1518,7 +1534,7 @@
     },
     {
       "name": "towns_and_towers:exclusives/village_wandering_trader_camp",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "#c:is_sparse_vegetation/overworld"
       ],
