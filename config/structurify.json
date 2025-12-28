@@ -1,13 +1,28 @@
 {
   "config_version": "2.0.9b",
-  "config_datetime": "2025-12-19_13-45-01",
+  "config_datetime": "2025-12-28_14-57-51",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.5
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "illagerinvasion",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    }
+  ],
   "structures": [
     {
       "name": "minecraft:igloo",
