@@ -38,7 +38,25 @@ schematicVersion = 5
 			#Range: 0.0 ~ 600.0
 			shipGeneralDespawnTimeSunken = 15.0
 			#Entities in this list won't be able to mount a ship, for example: ["minecraft:creeper", "minecraft:sheep", ...]
-			mountBlackList = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:wither", "minecraft:ghast", "minecraft:warden", "minecraft:ravager", "alexmobs:cachalot_whale"]
+			mountBlackList = ["minecraft:ender_dragon", 
+                        "minecraft:wither", 
+                        "minecraft:ghast", 
+                        "minecraft:warden", 
+                        "minecraft:ravager", 
+                        "crittersandcompanions:dragonfly",
+                        "fowlplay:blue_jay",
+                        "fowlplay:cardinal",
+                        "fowlplay:chickadee",
+                        "fowlplay:crow",
+                        "fowlplay:duck",
+                        "fowlplay:goose",
+                        "fowlplay:gull",
+                        "fowlplay:hawk",
+                        "fowlplay:penguin",
+                        "fowlplay:pigeon",
+                        "fowlplay:raven",
+                        "fowlplay:robin",
+                        "fowlplay:sparrow"]
 			#Amount of damage a cannonball does on hit.
 			#Range: 0.0 ~ 100.0
 			shipGeneralCannonDamage = 25.0

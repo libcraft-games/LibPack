@@ -10,29 +10,10 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/explosives').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/foods').withWeight(12))
-        // general materials
-            // sticks
-            // planks
-            // iron ingots
-            // fence
-            // rope
+        pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/materials').withWeight(15))        
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/rails').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/minecarts').withWeight(4))
-        // junk
-            // spider eye
-            // string
-            // cobwebs
-            // based on underground biomes:
-                // pointed dripstone
-                // clay
-                // glowworm silk
-                // spider egg, hanging cobweb, webbing
-            // slimeballs
-            // bones
-        // equipment
-            // storage
-                // sack
-                // storage crate
+        pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/junk').withWeight(15))
     })
     table.createPool(pool => {
         pool.rolls([1, 3]).addEntry(LootEntry.reference('lc:tables/general/mining/ores'))
@@ -47,17 +28,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/enchanted_books').withWeight(1))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/artifacts').withWeight(1))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/exposure').withWeight(1))
-        // potions
-            // haste
-            // night vision
-            // miner's brew
-        // misc
-            // climbing axe
-            // golden apple
-            // enchanted golden apple
-            // name tag
-            // drill heads
-            // excavator, hammer templates
+        pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/potions').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/misc_treasure').withWeight(1))
     })
 })
 LootJS.modifiers(e => {

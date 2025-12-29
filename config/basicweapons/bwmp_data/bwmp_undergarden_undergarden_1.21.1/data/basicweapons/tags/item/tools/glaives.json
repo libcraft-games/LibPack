@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "basicweapons:cloggrum_glaive",
+    "basicweapons:forgotten_glaive",
+    "basicweapons:utherium_glaive",
+    "basicweapons:froststeel_glaive"
+  ]
+}

@@ -29,4 +29,16 @@ ServerEvents.recipes(e => {
             }
         ]
     })
+    let c = `${bop}:null_plant`
+    e.shaped(
+        `1x ${output}`,
+        [
+            'cc ',
+            'c c',
+            ' cc'
+        ],
+        {
+            c: c
+        }
+    )
 })

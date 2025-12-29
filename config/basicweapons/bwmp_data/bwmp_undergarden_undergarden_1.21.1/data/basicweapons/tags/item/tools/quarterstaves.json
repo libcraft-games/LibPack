@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "basicweapons:cloggrum_quarterstaff",
+    "basicweapons:forgotten_quarterstaff",
+    "basicweapons:utherium_quarterstaff",
+    "basicweapons:froststeel_quarterstaff"
+  ]
+}

@@ -498,3 +498,16 @@
 			cracked_disordered_bricks = true
 			carved = true
 			ornate_pillar = true
+
+		[entries.leaves_type.chipped]
+			frosted_leaves = true
+			orange_leaves = true
+			red_leaves = true
+			magenta_flower_leaves = true
+			cherry_leaves = true
+			golden_cherry_leaves = true
+			golden_leaves = true
+			dead_leaves = true
+			apple_leaves = true
+			golden_apple_leaves = true
+			white_flower_leaves = true

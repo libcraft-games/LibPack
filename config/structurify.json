@@ -1,13 +1,21 @@
 {
   "config_version": "2.0.9b",
-  "config_datetime": "2025-12-19_13-45-01",
+  "config_datetime": "2025-12-28_21-04-07",
   "general": {
     "disable_all_structures": false,
-    "prevent_structure_overlap": false,
+    "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.5
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    }
+  ],
   "structures": [
     {
       "name": "minecraft:igloo",
@@ -27,6 +35,64 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:lush_desert"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:forest"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:grassland"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:lush_desert"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:dryland"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:snowy_coniferous_forest"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:jade_cliffs",
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:old_growth_dead_forest",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:old_growth_pine_taiga"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "endersdelight:end_house",
@@ -182,6 +248,14 @@
       ]
     },
     {
+      "name": "nova_structures:deepslate_camp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
       "name": "nova_structures:end_castle",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -250,7 +324,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_birch",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -266,7 +340,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_cherry",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -282,7 +356,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_dark_oak",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -298,7 +372,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_forest",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -314,7 +388,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_jungle",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -330,7 +404,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_mangrove",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -346,7 +420,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_savanna",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -378,7 +452,7 @@
     },
     {
       "name": "nova_structures:firewatch_tower_taiga",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1240,11 +1314,18 @@
     },
     {
       "name": "nova_structures:village_birch",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:coniferous_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:birch_forest"
+      ],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
       "biome_check_mode": "BLACKLIST",
@@ -1253,6 +1334,30 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:rocky_rainforest",
+        "biomesoplenty:rainforest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:sparse_jungle"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "nova_structures:well_birch",
@@ -1416,6 +1521,25 @@
       ]
     },
     {
+      "name": "towns_and_towers:exclusives/pillager_outpost_iberian",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:rocky_shrubland",
+        "biomesoplenty:shrubland"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:exclusives/pillager_outpost_nilotic",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "none"
+    },
+    {
       "name": "towns_and_towers:exclusives/pillager_outpost_oriental",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -1473,6 +1597,49 @@
       ]
     },
     {
+      "name": "towns_and_towers:exclusives/village_classic",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:wintry_origin_valley"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:exclusives/village_iberian",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:scrubland",
+        "biomesoplenty:rocky_shrubland",
+        "biomesoplenty:dryland"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:exclusives/village_mediterranean",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:woodland",
+        "biomesoplenty:lavender_field",
+        "biomesoplenty:jacaranda_glade"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:rocky_shrubland",
+        "biomesoplenty:scrubland"
+      ],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
       "name": "towns_and_towers:exclusives/village_nilotic",
       "is_disabled": false,
       "whitelisted_biomes": [
@@ -1480,7 +1647,34 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
+      "terrain_adaptation": "beard_box",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:exclusives/village_piglin",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:basalt_deltas"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
       "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:exclusives/village_rustic",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:pumpkin_patch",
+        "biomesoplenty:aspen_glade"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:exclusives/village_swedish",
@@ -1502,8 +1696,23 @@
       ]
     },
     {
-      "name": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "name": "towns_and_towers:exclusives/village_tudor",
       "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:overgrown_greens",
+        "biomesoplenty:moor",
+        "biomesoplenty:grassland"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "is_disabled": true,
       "whitelisted_biomes": [
         "#c:is_sparse_vegetation/overworld"
       ],
@@ -1625,9 +1834,26 @@
       ]
     },
     {
+      "name": "towns_and_towers:village_badlands",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:eroded_badlands"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
       "name": "towns_and_towers:village_beach",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "minecraft:stony_shore",
+        "minecraft:snowy_beach",
+        "biomesoplenty:gravel_beach"
+      ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
@@ -1642,6 +1868,38 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "towns_and_towers:village_birch_forest",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:tundra",
+        "biomesoplenty:orchard"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:old_growth_birch_forest"
+      ],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:village_flower_forest",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:snowy_maple_woods",
+        "biomesoplenty:snowblossom_grove",
+        "biomesoplenty:maple_woods",
+        "biomesoplenty:jade_cliffs"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_forest",
@@ -1660,12 +1918,53 @@
       ]
     },
     {
-      "name": "towns_and_towers:village_jungle",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
+      "name": "towns_and_towers:village_grove",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:stony_peaks",
+        "biomesoplenty:old_growth_dead_forest"
+      ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:village_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:jungle",
+        "biomesoplenty:rainforest",
+        "biomesoplenty:rocky_rainforest"
+      ],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:village_meadow",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:windswept_hills",
+        "biomesoplenty:forested_field"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:village_mushroom_fields",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:mystic_grove",
+        "biomesoplenty:fungal_jungle"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_ocean",
@@ -1684,9 +1983,48 @@
       ]
     },
     {
+      "name": "towns_and_towers:village_old_growth_taiga",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:ominous_woods"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:village_savanna_plateau",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:wasteland_steppe",
+        "biomesoplenty:dead_forest"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:village_snowy_slopes",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:windswept_forest",
+        "minecraft:jagged_peaks",
+        "biomesoplenty:hot_springs",
+        "biomesoplenty:crag"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
       "name": "towns_and_towers:village_snowy_taiga",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "biomesoplenty:snowy_coniferous_forest"
+      ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
@@ -1703,10 +2041,25 @@
       ]
     },
     {
+      "name": "towns_and_towers:village_sparse_jungle",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:volcanic_plains"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
       "name": "towns_and_towers:village_sunflower_plains",
       "is_disabled": false,
       "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:pumpkin_patch"
+      ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
       "override_global_flatness_check": true,
@@ -1720,6 +2073,33 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "towns_and_towers:village_swamp",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:marsh",
+        "biomesoplenty:bayou"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:village_wooded_badlands",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:muskeg"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:wreckage_ocean",

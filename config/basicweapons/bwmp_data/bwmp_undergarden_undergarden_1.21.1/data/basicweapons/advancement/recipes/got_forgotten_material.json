@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_forgotten_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergarden:forgotten_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_forgotten_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:forgotten_dagger_smithing",
+      "basicweapons:forgotten_hammer_smithing",
+      "basicweapons:forgotten_club_smithing",
+      "basicweapons:forgotten_spear_smithing",
+      "basicweapons:forgotten_quarterstaff_smithing",
+      "basicweapons:forgotten_glaive_smithing"
+    ]
+  }
+}

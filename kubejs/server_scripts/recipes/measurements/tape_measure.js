@@ -1,18 +1,15 @@
-ServerEvents.recipes(e => {
-    
+ServerEvents.recipes(e => {    
     let item = 'measurements:tape_measure'
     e.remove({output: item})
     e.shaped(item,
         [
-            ' IY',
-            'INI',
-            ' IN'
+            ' I ',
+            'IGI',
+            ' IG'
         ],
         {
             I: '#c:ingots/iron',
-            N: '#c:ingots/nickel',
-            Y: '#minecraft:dyes/yellow'
+            G: '#c:ingots/gold'
         }
     )
-    console.log(`applied all changes successfully!`);
-});
+})

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "basicweapons:cloggrum_club",
+    "basicweapons:forgotten_club",
+    "basicweapons:utherium_club",
+    "basicweapons:froststeel_club"
+  ]
+}

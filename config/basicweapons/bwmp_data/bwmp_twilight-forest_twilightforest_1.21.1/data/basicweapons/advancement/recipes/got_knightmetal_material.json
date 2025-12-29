@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_knightmetal_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twilightforest:knightmetal_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_knightmetal_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:knightmetal_dagger",
+      "basicweapons:knightmetal_hammer",
+      "basicweapons:knightmetal_club",
+      "basicweapons:knightmetal_club_alt",
+      "basicweapons:knightmetal_spear",
+      "basicweapons:knightmetal_quarterstaff",
+      "basicweapons:knightmetal_glaive"
+    ]
+  }
+}

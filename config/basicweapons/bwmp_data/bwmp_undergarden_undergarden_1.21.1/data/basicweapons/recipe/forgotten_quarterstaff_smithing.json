@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "undergarden:forgotten_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "basicweapons:cloggrum_quarterstaff"
+  },
+  "addition": {
+    "item": "undergarden:forgotten_ingot"
+  },
+  "result": {
+    "id": "basicweapons:forgotten_quarterstaff",
+    "count": 1
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "undergarden"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "got_froststeel_material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              ""
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "got_froststeel_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "basicweapons:froststeel_dagger",
+      "basicweapons:froststeel_hammer",
+      "basicweapons:froststeel_club",
+      "basicweapons:froststeel_club_alt",
+      "basicweapons:froststeel_spear",
+      "basicweapons:froststeel_quarterstaff",
+      "basicweapons:froststeel_glaive"
+    ]
+  }
+}

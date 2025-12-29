@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.1+1.21.1] - 2025-12-28
+
+### Added
+
+#### Items
+
+- [Basic Weapons](https://modrinth.com/mod/basicweapons) support for several modded steel types (#226):
+  - [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) Steel;
+  - [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) Knightmetal (courtesy of d9) and others TBA;
+  - [Undergarden](https://modrinth.com/mod/the-undergarden) Cloggrum, Froststeel, Utherium, and Forgotten Metal.
+
+#### Mods
+
+- [Better Combat](https://modrinth.com/mod/better-combat)
+
+### Changed
+
+- Some loot tables (#77):
+  - Abandoned Mineshaft (finished up);
+  - Buried Treasure;
+  - [Enderscape](https://modrinth.com/mod/enderscape) Mirestone Ruins.
+- Added multiple Curios belt slots so you can use multiple such items at once (#251)
+- Added flatness checks for many structures (#270)
+- holistically assigned village types to biomes (#271)
+- [Measurements](https://modrinth.com/mod/measurements) measuring tape recipe now requires Gold instead of Nickel (#273)
+- [Vanilla Backport](https://modrinth.com/mod/vanillabackport) dyed bundles and [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) upgraded shulker boxes now support [Easy Shulker Box]() mechanics (#274)
+- made base upgrade templates for [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) and [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage) cheaper (#275)
+- disabled [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) Firewatch Towers and [Towns and Towers](https://modrinth.com/mod/towns-and-towers) Wandering Villager Camps to reduce structure clutter (#278)
+- disabled [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) Swamp Villages as the witches all got stuck in cobwebs anyway (#278)
+- substantially nerfed the [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) ersatz leather recipe (#280)
+- Hid [Farmer's Delight](https://modrinth.com/mod/farmers-delight) rope (removed as part of #236) from the `#c:ropes` and `#supplementaries:ropes` tags (#281)
+- Flying mobs ([Fowl Play](https://modrinth.com/mod/fowlplay) birds and [Critters & Companions](https://modrinth.com/mod/critters-and-companions) dragonflies) can no longer mount ships (#283)
+- can now craft ����� from 6 ��� ����� to make the [elevator](https://modrinth.com/mod/elevatormod) crafting tree less annoying (#286)
+- Various modifications to the ALI config for loot table debug purposes
+
+### Removed
+
+- [Shelves](https://modrinth.com/mod/shelf-mod), since i am skeptical about the technical quality of the mod and it's not super useful tbh
+
 ## [0.8.0+1.21.1] - 2025-12-19
 
 ### Added
