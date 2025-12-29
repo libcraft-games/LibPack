@@ -76,17 +76,12 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ADVANCED_TOOLTIPS",
     "block_properties": false,
     "mod_name": true
   },
   "balm": {
     "jade": true
-  },
-  "workshop_for_handsome_adventurer": {
-    "jade_plugin2": true,
-    "jade_plugin3": true,
-    "jade_plugin1": true
   },
   "exposure": {
     "lightroom": true,
@@ -108,11 +103,5 @@
   },
   "corpse": {
     "corpse": true
-  },
-  "storagedrawers": {
-    "display.stacklimit": true,
-    "main": true,
-    "display.content": true,
-    "display.status": true
   }
 }

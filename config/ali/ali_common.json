@@ -40,14 +40,16 @@
         "^chalk:chests/abandoned_mineshaft_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
-        "^sophisticated_backpacks:inject/chests/abandoned_mineshaft$",
+        "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
         "^artifacts:inject/chests/abandoned_mineshaft$",
         "^supplementaries:inject/test",
         "^supplementaries:blocks/urn_loot.*",
         "^petrolpark:badge.*",
         "^lc:tables/.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
-        "^supplementaries:inject/.*mineshaft.*"
+        "^supplementaries:inject/.*mineshaft.*",
+        "^artifacts:inject/chests/buried_treasure$",
+        "^exposure_expanded:chests/buried_treasure$"
       ]
     },
     {
@@ -96,24 +98,6 @@
       ]
     },
     {
-      "key": "lc:ali/et/cursed_garden",
-      "type": "GAMEPLAY",
-      "icon": "eternal_starlight:glowing_crescent_grass",
-      "hide": false,
-      "pattern": [
-        "^.*:.*cursed_garden.*"
-      ]
-    },
-    {
-      "key": "lc:ali/et/golem_forge",
-      "type": "GAMEPLAY",
-      "icon": "eternal_starlight:golem_steel_crate",
-      "hide": false,
-      "pattern": [
-        "^.*:.*golem_forge.*"
-      ]
-    },
-    {
       "key": "lc:ali/ii/illager_fort",
       "type": "GAMEPLAY",
       "icon": "illagerinvasion:platinum_infused_hatchet",
@@ -143,19 +127,10 @@
     {
       "key": "lc:ali/ii/sorcerer_hut",
       "type": "GAMEPLAY",
-      "icon": "illagerinvasion:hallowed_gem",
+      "icon": "illagerinvasion:unusual_dust",
       "hide": false,
       "pattern": [
         "^illagerinvasion:.*sorcerer_hut.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/abandoned_mineshaft",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:chest_minecart",
-      "hide": false,
-      "pattern": [
-        "^.*:.*abandoned_mineshaft.*"
       ]
     },
     {
@@ -165,15 +140,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*ancient_city.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/buried_treasure",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:heart_of_the_sea",
-      "hide": false,
-      "pattern": [
-        "^.*:.*buried_treasure.*"
       ]
     },
     {
