@@ -40,6 +40,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - can now craft ����� from 6 ��� ����� to make the [elevator](https://modrinth.com/mod/elevatormod) crafting tree less annoying (#286)
 - Various modifications to the ALI config for loot table debug purposes
 
+### Removed
+
+- [Shelves](https://modrinth.com/mod/shelf-mod), since i am skeptical about the technical quality of the mod and it's not super useful tbh
+
 ## [0.8.0+1.21.1] - 2025-12-19
 
 ### Added
