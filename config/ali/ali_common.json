@@ -37,19 +37,28 @@
       "icon": "twilightforest:emperors_cloth",
       "hide": false,
       "pattern": [
+        "^artifacts:chests/campsite.*$",
+        "^artifacts:inject/chests/abandoned_mineshaft$",
+        "^artifacts:inject/chests/buried_treasure$",
         "^chalk:chests/abandoned_mineshaft_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
-        "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
-        "^artifacts:inject/chests/abandoned_mineshaft$",
-        "^supplementaries:inject/test",
-        "^supplementaries:blocks/urn_loot.*",
-        "^petrolpark:badge.*",
+        "^exposure_expanded:chests/buried_treasure$",
+        "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
-        "^sweety_archaeology:blocks/mineshaft_map$",
+        "^nova_structures:.*bunker.*",
+        "^nova_structures:.*end_lighthouse.*",
+        "^nova_structures:.*firewatch_tower.*",
+        "^nova_structures:.*illager_camp.*",
+        "^nova_structures:.*shrine.*",
+        "^nova_structures:.*skeleton_tower.*",
+        "^nova_structures:.*stray_fort.*",
+        "^petrolpark:badge.*",
+        "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
+        "^supplementaries:blocks/urn_loot.*",
         "^supplementaries:inject/.*mineshaft.*",
-        "^artifacts:inject/chests/buried_treasure$",
-        "^exposure_expanded:chests/buried_treasure$"
+        "^supplementaries:inject/test",
+        "^sweety_archaeology:blocks/mineshaft_map$"
       ]
     },
     {
@@ -341,12 +350,57 @@
       ]
     },
     {
+      "key": "lc:ali/tt/village/piglin",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:cooked_porkchop",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*piglin.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tt/village/mushroom",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:red_mushroom_block",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*village_mushroom.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tt/village/classic",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:apple",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*village_classic.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tt/village/mediterranean",
+      "type": "GAMEPLAY",
+      "icon": "createfood:mutton_wrap_lettuce_tomato",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*village_medit.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tt/village/badlands",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:jungle_trapdoor",
+      "hide": false,
+      "pattern": [
+        "^kaisyn:.*village_badlands.*"
+      ]
+    },
+    {
       "key": "lc:ali/mc/village/misc",
       "type": "GAMEPLAY",
       "icon": "artifacts:villager_hat",
       "hide": false,
       "pattern": [
-        "^.*:.*village.*"
+        "^.*:chests.*village.*"
       ]
     },
     {
@@ -366,15 +420,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*badland_miner.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/bunker",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:iron_trapdoor",
-      "hide": true,
-      "pattern": [
-        "^.*:.*bunker.*"
       ]
     },
     {
@@ -414,24 +459,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/end_lighthouse",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:elytra",
-      "hide": false,
-      "pattern": [
-        "^.*:.*end_lighthouse.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/firewatch_tower",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:spyglass",
-      "hide": false,
-      "pattern": [
-        "^.*:.*firewatch_tower.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/hamlet",
       "type": "GAMEPLAY",
       "icon": "minecraft:piglin_head",
@@ -447,15 +474,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*jungle_ruin.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/illager_camp",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:light_gray_wool",
-      "hide": false,
-      "pattern": [
-        "^.*:.*illager_camp.*"
       ]
     },
     {
@@ -528,33 +546,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*piglin_outstation.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/shrine",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:copper_bulb",
-      "hide": false,
-      "pattern": [
-        "^.*:.*shrine.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/skeleton_tower",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:coal",
-      "hide": false,
-      "pattern": [
-        "^.*:.*skeleton_tower.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/stray_fort",
-      "type": "GAMEPLAY",
-      "icon": "heads:stray_head",
-      "hide": true,
-      "pattern": [
-        "^.*:.*stray_fort.*"
       ]
     },
     {
