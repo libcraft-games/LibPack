@@ -1,24 +1,17 @@
 {
   "config_version": "2.0.9b",
-  "config_datetime": "2025-12-28_20-25-49",
+  "config_datetime": "2025-12-28_21-04-07",
   "general": {
     "disable_all_structures": false,
-    "prevent_structure_overlap": false,
+    "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.5
   },
   "structure_namespaces": [
     {
-      "name": "illagerinvasion",
+      "name": "global",
       "is_disabled": false,
       "override_global_flatness_check": false,
-      "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false
-    },
-    {
-      "name": "towns_and_towers",
-      "is_disabled": false,
-      "override_global_flatness_check": true,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     }
@@ -1330,6 +1323,9 @@
       ],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
       "biome_check_mode": "BLACKLIST",
@@ -1630,7 +1626,6 @@
       "is_disabled": false,
       "whitelisted_biomes": [
         "biomesoplenty:woodland",
-        "biomesoplenty:overgrown_greens",
         "biomesoplenty:lavender_field",
         "biomesoplenty:jacaranda_glade"
       ],
@@ -1704,6 +1699,7 @@
       "name": "towns_and_towers:exclusives/village_tudor",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "biomesoplenty:overgrown_greens",
         "biomesoplenty:moor",
         "biomesoplenty:grassland"
       ],
@@ -1927,8 +1923,6 @@
       "whitelisted_biomes": [
         "minecraft:windswept_gravelly_hills",
         "minecraft:stony_peaks",
-        "minecraft:pale_garden",
-        "minecraft:dark_forest",
         "biomesoplenty:old_growth_dead_forest"
       ],
       "blacklisted_biomes": [],
@@ -1996,7 +1990,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_savanna_plateau",
@@ -2099,7 +2096,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:wreckage_ocean",
