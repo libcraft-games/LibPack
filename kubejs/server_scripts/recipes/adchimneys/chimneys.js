@@ -13,14 +13,13 @@ ServerEvents.recipes(e => {
                 'M M',
             ],
             {
-                M: `minecraft:${material}`
+                M: material
             }
         )
     }
-    registerChimneyOf('stone')
-    registerChimneyOf('cobblestone')
-    registerChimneyOf('brick', 'small_brick')
-    registerChimneyOf('stone_bricks', 'large_brick')
-    registerChimneyOf('glass_pane', 'glass')
-    console.log(`applied all changes successfully!`);
-});
+    registerChimneyOf('#c:stones',                  'stone')
+    registerChimneyOf('#c:cobblestones',            'cobblestone')
+    registerChimneyOf('#c:bricks',                  'small_brick')
+    registerChimneyOf('#c:bricks/large',            'large_brick')
+    registerChimneyOf('#c:glass_panes/colorless',   'glass')
+})
