@@ -38,6 +38,9 @@ config/scalablelux.properties
 config/forgeendertech/Biomes/
 config/forgeendertech/cached.dat
 
+# irrelevant files (#282)
+config/DistantHorizons.toml
+
 # spam
 *.bak
 config/structurify/
