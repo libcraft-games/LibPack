@@ -20,10 +20,10 @@ As of 0.8.1, these are:
 - [Villager Trading Plus](https://modrinth.com/mod/trading+), which allows you to shift-click to perform as many trades as a villager can;
 - and [Distant Horizons](https://modrinth.com/mod/distanthorizons), which massively increases Minecraft's render distance at the cost of substantially increased performance requirements.
 
-> [!IMPORANT]
+> [!IMPORTANT]
 > Distant Horizons should only be enabled if you have plenty of RAM, VRAM, and CPU capacity to handle the increased load.
 
 Once it's installed, make sure to allocate enough RAM! In Prism, you can do this by clicking the instance and selecting `Edit...` > `Settings` > `Memory`.
 
-> [!INFO]
+> [!NOTE]
 > The modpack was designed to use **8GB** (8192 MiB), but you *might* be able to get away with less.
