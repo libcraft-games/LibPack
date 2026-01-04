@@ -409,8 +409,7 @@
       "icon": "minecraft:totem_of_undying",
       "hide": false,
       "pattern": [
-        "^.*:.*woodland_mansion.*",
-        "^.*:.*illager_mansion.*"
+        "^.*:.*woodland_mansion.*"
       ]
     },
     {
@@ -491,7 +490,8 @@
       "icon": "minecraft:deepslate_tile_stairs",
       "hide": false,
       "pattern": [
-        "^.*:.*illager_manor.*"
+        "^.*:.*illager_manor.*",
+        "^.*:.*illager_mansion.*"
       ]
     },
     {
