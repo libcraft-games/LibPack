@@ -23,7 +23,3 @@
     // obsidian skull
 // spell scrap (tier 1)
 // identify scroll
-// music discs?
-// shaders
-    // StormFlower
-    // ancient
