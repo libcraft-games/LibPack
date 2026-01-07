@@ -7,7 +7,7 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([2, 5])
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/lighting').withWeight(15))
-        pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk').withWeight(5))
+        pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk_with_box').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/explosives').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/foods').withWeight(12))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/materials').withWeight(15))        

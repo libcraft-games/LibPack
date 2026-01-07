@@ -9,13 +9,17 @@ LootJS.lootTables(e => {
             id: `chalk:${global.libcraft.colors[index]}_chalk`
         }
     }
-    e.create("lc:tables/general/navigation/chalk").createPool(pool => {
+    e.create('lc:tables/general/navigation/chalk').createPool(pool => {
+        for(let color of global.libcraft.colors)
+            pool.addEntry(LootEntry.of(`chalk:${color}_chalk`).damage([0.5, 1]))
+    })
+    e.create("lc:tables/general/navigation/chalk_with_box").createPool(pool => {
         // all chalk colors with equal chance
+        pool.addEntry(LootEntry.of('chalk:chalk_box').withWeight(1))
         for(let color of global.libcraft.colors) {
-            pool.addEntry(LootEntry.of(`chalk:${color}_chalk`).withWeight(1))
+            pool.addEntry(LootEntry.of(`chalk:${color}_chalk`).withWeight(1).damage([0.5, 1]))
         }
-        pool.addEntry(LootEntry.of('chalk:chalk_box').withWeight(4))
-        return;
+        return
         // with lower chance (but with quality), chalk box with random chalks and glow berries
         pool.addEntry(
             LootEntry

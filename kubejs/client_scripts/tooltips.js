@@ -12,4 +12,16 @@ ItemEvents.modifyTooltips(e => {
         'minecraft:tripwire_hook',
         x => x.insert(1, 'Sneak-right-click with a tool to hang it on this hook.')
     )
+    let ie = global.ie.namespace
+    for(let [shader, rarity] in global.ie.shaders) {
+        e.modify(`${ie}:shader_${shader}`,
+            x => {                
+                // TODO: set item name to appropriate color
+                // (need to figure out how to get the current text - dynamic tooltip maybe?)
+                // replace tooltip line 1 with corrected rarity
+                x.removeLine(1)
+                x.insert(1, [Text.of('Level: ').append(Text.of(rarity).color(global.ie.rarities.colors[rarity]))])
+            }
+        )
+    }
 })
