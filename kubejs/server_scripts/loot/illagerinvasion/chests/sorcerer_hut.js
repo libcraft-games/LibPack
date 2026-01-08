@@ -14,5 +14,6 @@ LootJS.lootTables(e => {
         pool.rolls(2)
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/vaultager').withWeight(2))
         pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tiers_1_2_3').withWeight(1))
+        // todo: Scriptor artifacts
     })
 })
