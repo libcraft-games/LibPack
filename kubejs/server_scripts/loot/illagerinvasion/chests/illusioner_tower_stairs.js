@@ -13,11 +13,11 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${ii}:illusionary_dust`, [1, 3]).withWeight(2))
     })
     table.createPool(pool => {
-        pool.rolls([2, 3])
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/resourceager').withWeight(4))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/vaultager').withWeight(2))
-        pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tiers_2_3').withWeight(1))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/illusioner').withWeight(1))
+        pool.rolls([2, 4])
+        pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tiers_2_3').withWeight(3))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/illusioner').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/resourceager').withWeight(1))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/vaultager').withWeight(1))
         // todo: Scriptor artifacts
     })
 })

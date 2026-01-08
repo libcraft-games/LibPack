@@ -40,10 +40,16 @@
         "^artifacts:chests/campsite.*$",
         "^artifacts:inject/chests/abandoned_mineshaft$",
         "^artifacts:inject/chests/buried_treasure$",
+        "^artifacts:inject/chests/igloo_chest$",
+        "^artifacts:inject/chests/pillager_outpost$",
+        "^artifacts:inject/chests/woodland_mansion$",
         "^chalk:chests/abandoned_mineshaft_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/buried_treasure$",
+        "^exposure_expanded:chests/igloo_chest$",
+        "^exposure_expanded:chests/pillager_outpost$",
+        "^exposure_expanded:chests/woodland_mansion$",
         "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
         "^nova_structures:.*bunker.*",
@@ -55,6 +61,7 @@
         "^nova_structures:.*stray_fort.*",
         "^petrolpark:badge.*",
         "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
+        "^sophisticatedbackpacks:inject/chests/woodland_mansion$",
         "^supplementaries:blocks/urn_loot.*",
         "^supplementaries:inject/.*mineshaft.*",
         "^supplementaries:inject/test",
@@ -98,51 +105,6 @@
       ]
     },
     {
-      "key": "lc:ali/dc",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:iron_bars",
-      "hide": false,
-      "pattern": [
-        "^dungeoncrawl:.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ii/illager_fort",
-      "type": "GAMEPLAY",
-      "icon": "illagerinvasion:platinum_infused_hatchet",
-      "hide": false,
-      "pattern": [
-        "^illagerinvasion:.*illager_fort.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ii/illusioner_tower",
-      "type": "GAMEPLAY",
-      "icon": "illagerinvasion:illusionary_dust",
-      "hide": false,
-      "pattern": [
-        "^illagerinvasion:.*illusioner_tower.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ii/labyrinth",
-      "type": "GAMEPLAY",
-      "icon": "illagerinvasion:lost_candle",
-      "hide": false,
-      "pattern": [
-        "^illagerinvasion:.*labyrinth.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ii/sorcerer_hut",
-      "type": "GAMEPLAY",
-      "icon": "illagerinvasion:unusual_dust",
-      "hide": false,
-      "pattern": [
-        "^illagerinvasion:.*sorcerer_hut.*"
-      ]
-    },
-    {
       "key": "lc:ali/mc/ancient_city",
       "type": "GAMEPLAY",
       "icon": "minecraft:echo_shard",
@@ -179,30 +141,12 @@
       ]
     },
     {
-      "key": "lc:ali/mc/igloo",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:snow_block",
-      "hide": false,
-      "pattern": [
-        "^.*:.*igloo.*"
-      ]
-    },
-    {
       "key": "lc:ali/mc/jungle_temple",
       "type": "GAMEPLAY",
       "icon": "minecraft:dispenser",
       "hide": false,
       "pattern": [
         "^.*:.*jungle_temple.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/monster_room",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:mossy_cobblestone",
-      "hide": false,
-      "pattern": [
-        "^.*:.*simple_dungeon.*"
       ]
     },
     {
@@ -225,12 +169,40 @@
       ]
     },
     {
-      "key": "lc:ali/mc/ruined_portal",
+      "key": "lc:ali/ns/badland_miner_outpost",
       "type": "GAMEPLAY",
-      "icon": "minecraft:obsidian",
+      "icon": "minecraft:dead_bush",
       "hide": false,
       "pattern": [
-        "^.*:.*ruined_portal.*"
+        "^.*:.*badland_miner.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/illager_hideout",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:dark_oak_trapdoor",
+      "hide": false,
+      "pattern": [
+        "^.*:.*illager_hideout.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/illager_manor",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:deepslate_tile_stairs",
+      "hide": false,
+      "pattern": [
+        "^.*:.*illager_manor.*",
+        "^.*:.*illager_mansion.*"
+      ]
+    },
+    {
+      "key": "lc:ali/ns/witch_villa",
+      "type": "GAMEPLAY",
+      "icon": "heads:witch_head",
+      "hide": false,
+      "pattern": [
+        "^.*:.*witch_villa.*"
       ]
     },
     {
@@ -243,21 +215,14 @@
       ]
     },
     {
-      "key": "lc:ali/tf/stronghold",
-      "type": "GAMEPLAY",
-      "icon": "twilightforest:knightmetal_sword",
-      "hide": false,
-      "pattern": [
-        "^twilightforest:.*stronghold.*"
-      ]
-    },
-    {
       "key": "lc:ali/mc/stronghold",
       "type": "GAMEPLAY",
       "icon": "minecraft:end_portal_frame",
       "hide": false,
       "pattern": [
-        "^.*:.*stronghold.*"
+        "^minecraft:.*stronghold.*",
+        "^artifacts:.*stronghold.*",
+        "^exposure:.*stronghold.*"
       ]
     },
     {
@@ -404,24 +369,6 @@
       ]
     },
     {
-      "key": "lc:ali/mc/woodland_mansion",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:totem_of_undying",
-      "hide": false,
-      "pattern": [
-        "^.*:.*woodland_mansion.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/badland_miner_outpost",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:dead_bush",
-      "hide": false,
-      "pattern": [
-        "^.*:.*badland_miner.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/conduit_ruin",
       "type": "GAMEPLAY",
       "icon": "minecraft:conduit",
@@ -473,25 +420,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*jungle_ruin.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/illager_hideout",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:dark_oak_trapdoor",
-      "hide": false,
-      "pattern": [
-        "^.*:.*illager_hideout.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/illager_manor",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:deepslate_tile_stairs",
-      "hide": false,
-      "pattern": [
-        "^.*:.*illager_manor.*",
-        "^.*:.*illager_mansion.*"
       ]
     },
     {
@@ -576,24 +504,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/undead_crypts",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:spruce_door",
-      "hide": false,
-      "pattern": [
-        "^.*:.*undead_crypt.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/witch_villa",
-      "type": "GAMEPLAY",
-      "icon": "heads:witch_head",
-      "hide": false,
-      "pattern": [
-        "^.*:.*witch_villa.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/misc",
       "type": "GAMEPLAY",
       "icon": "minecraft:decorated_pot",
@@ -665,6 +575,15 @@
       "hide": false,
       "pattern": [
         "^twilightforest:.*quest.*"
+      ]
+    },
+    {
+      "key": "lc:ali/tf/stronghold",
+      "type": "GAMEPLAY",
+      "icon": "twilightforest:knightmetal_sword",
+      "hide": false,
+      "pattern": [
+        "^twilightforest:.*stronghold.*"
       ]
     },
     {
