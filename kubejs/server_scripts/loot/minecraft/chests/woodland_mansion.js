@@ -4,7 +4,7 @@ LootJS.lootTables(e => {
     table.clear()
     table.createPool(pool => {
         // treasure
-        pool.rolls([1, 2])
+        pool.rolls([1, 5])
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/mansion/treasure').withWeight(26))
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/vaultager').withWeight(13))
         pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tiers_2_3').withWeight(9))
@@ -14,12 +14,12 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/weaponer/marauder').withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([2, 3])
+        pool.rolls([2, 4])
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/resourceager').withWeight(24))
     })
     table.createPool(pool => {
         // filler
-        pool.rolls([1, 4])
+        pool.rolls([1, 6])
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/fillager/basic').withWeight(12))
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/vegetal').withWeight(10))
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/fillager/extra').withWeight(9))

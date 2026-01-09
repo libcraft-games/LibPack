@@ -28,6 +28,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${su}:quiver`).withWeight(2).jsonFunction({
             function: `${su}:random_arrows`
         }))
+        pool.addEntry(LootEntry.of(`${mc}:totem_of_undying`).withWeight(1))
         // todo: Scriptor artifacts
     })
 })
