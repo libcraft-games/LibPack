@@ -91,6 +91,12 @@
     "inventory_config": true,
     "inventory_connector": true
   },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
   "twilightforest": {
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,

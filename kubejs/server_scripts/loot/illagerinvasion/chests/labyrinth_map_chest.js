@@ -17,10 +17,20 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:compass`).withWeight(1))
         pool.addEntry(LootEntry.of(`${mc}:clock`).withWeight(1))
         pool.addEntry(LootEntry.of(`${su}:altimeter`).withWeight(1))
-        // todo: explorer maps
-            // villages (named as Target Map)
-            // ancient cities
-            // illager structures
-            // other structures tbd
+    })
+    table.createPool(pool => {
+        // todo: more structures
+        pool.addEntry(LootEntry.reference('nova_structures:maps/badlands_miner_outpost').withWeight(5))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/witch_villa').withWeight(5))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/illager_manor').withWeight(4))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/illager_hideout').withWeight(4))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/creeping_crypt').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/trident_trial_monument').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/jungle_ruin').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/undead_crypt').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/toxic_lair').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/desert_ruin').withWeight(3))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/ancient_city').withWeight(2))
+        pool.addEntry(LootEntry.reference('nova_structures:maps/lone_citadel').withWeight(1))
     })
 })

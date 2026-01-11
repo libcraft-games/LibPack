@@ -24,4 +24,7 @@ ItemEvents.modifyTooltips(e => {
             }
         )
     }
+    for(let animal of ['pig', 'cow', 'cat']) {
+        e.modify(`unusual_furniture:${animal}_plush`, x => { x.removeLine(1) })
+    }
 })

@@ -14,7 +14,7 @@ LootJS.lootTables(e => {
     // tier: int ∈ {1, 2, 3, 4}
     // returns: int
     function scrollWeight(tier) {
-        return (tier / 2) * (bookWeight(tier) + scrapWeight(tier))
+        return (tier / 2) * (bookWeight(tier) + scrapWeight(tier) / 2)
     }
     // tier: List<int> where each element ∈ {1, 2, 3, 4}
     // returns: object with the weights idk

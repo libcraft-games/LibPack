@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.9b",
-  "config_datetime": "2025-12-28_21-04-07",
+  "config_version": "2.0.11",
+  "config_datetime": "2026-01-09_20-04-12",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -21,7 +21,11 @@
       "name": "minecraft:igloo",
       "is_disabled": false,
       "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:snowy_taiga",
+        "biomesoplenty:snowy_coniferous_forest",
+        "biomesoplenty:snowy_maple_woods"
+      ],
       "step": "surface_structures",
       "terrain_adaptation": "none",
       "override_global_flatness_check": false,
@@ -35,6 +39,19 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:old_growth_dead_forest"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:dead_forest",
+        "biomesoplenty:woodland"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
     },
     {
       "name": "minecraft:village_desert",
@@ -1470,6 +1487,21 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "nova_structures:witch_villa",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:ominous_woods",
+        "biomesoplenty:muskeg",
+        "biomesoplenty:wetland",
+        "biomesoplenty:bayou"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:mangrove_swamp"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
     },
     {
       "name": "sweety_archaeology:desert_outpost",
