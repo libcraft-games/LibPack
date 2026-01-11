@@ -7,26 +7,28 @@ LootJS.lootTables(e => {
     let su = 'supplementaries'
     let table = e.create('lc:tables/structure/minecraft/fortress/equipment_stone_leather')
     function decorate(armor) {
-        return LootEntry.of(armor).setCustomData({
-            trim: {
-                material:   `${mc}:quartz`,
-                pattern:    `${mc}:rib`
+        return armor.jsonFunction({
+            function: `${mc}:set_components`,
+            components: {
+                trim: {
+                    material: `${mc}:quartz`,
+                    pattern: `${mc}:rib`
+                },
+                dyed_color: { rgb: 4006180 }
             }
-        }).setCustomData({
-            dyed_color: {rgb: 4006180}
         })
     }
     function enchantAndDamage(entry) {
         return entry.enchantWithLevels([25, 35]).damage([0.35, 0.85])
     }
     let weapons = [`${mc}:stone_sword`, `${bw}:stone_club`, `${bw}:stone_spear`]
-    let armors = [`${mc}:leather_helmet`, `${mc}:leather_chestplate`, `${mc}:leather_leggings`, `${mc}:leather_boots`]
+    let armors = [`${mc}:leather_helmet`, `${mc}:leather_chestplate`, `${mc}:leather_leggings`, `${mc}:leather_boots`, `${ae}:leather_gloves`]
     table.createPool(pool => {
         for(let weapon of weapons) {
             pool.addEntry(enchantAndDamage(LootEntry.of(weapon).enchantRandomly(`${ns}:wither_coated`)))
         }
         for(let armor of armors) {
-            pool.addEntry(enchantAndDamage(LootEntry.of(armor).enchantRandomly(`${ns}:antidote`)))
+            pool.addEntry(decorate(enchantAndDamage(LootEntry.of(armor).enchantRandomly(`${ns}:antidote`))))
         }
     })
 })
