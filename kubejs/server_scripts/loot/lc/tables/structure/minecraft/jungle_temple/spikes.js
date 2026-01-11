@@ -3,7 +3,7 @@ LootJS.lootTables(e => {
     let su = 'supplementaries'
     let table = e.create('lc:tables/structure/minecraft/jungle_temple/spikes')
     function spikesWithPotion(potion) {
-        return LootEntry.of(`${su}:bamboo_spikes`).addPotion(potion).jsonFunction({
+        return LootEntry.of(`${su}:bamboo_spikes_tipped`).addPotion(potion).jsonFunction({
             function: `${su}:set_charges`,
             charges: {
                 type: `${mc}:uniform`,

@@ -17,3 +17,10 @@
     // 11
     // far
 // painting - creebet
+// shaders
+    // netherforged
+    // mass fusion
+    // chloris
+    // dragon's breath
+    // locus
+    // qrow
