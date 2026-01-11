@@ -7,7 +7,6 @@ LootJS.lootTables(e => {
         [mc, 'blocks',          1, 1],
         [mc, 'chirp',           1, 1],
         [mc, 'strad',           1, 2],
-        [mc, '11',              2, 0],
     ]
     e.create('lc:tables/structure/minecraft/simple_dungeon/music_discs').createPool(pool => {
         for(let [namespace, name, weight, quality] of discs) {
