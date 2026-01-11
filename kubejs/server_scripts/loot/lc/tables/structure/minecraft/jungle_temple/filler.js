@@ -1,9 +1,5 @@
 LootJS.lootTables(e => {
-    let bop = 'biomesoplenty'
-    let ie = global.ie.namespace
     let mc = 'minecraft'
-    let sa = 'sweety_archaeology'
-    let sq = 'suppsquared'
     let table = e.create('lc:tables/structure/minecraft/jungle_temple/filler')
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${mc}:vine`, [2, 8]).withWeight(6))

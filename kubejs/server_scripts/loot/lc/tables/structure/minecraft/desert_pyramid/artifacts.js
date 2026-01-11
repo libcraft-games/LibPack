@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'    
     let mc = 'minecraft'
-    let sa = 'sweety_archaeology'
     let table = e.create('lc:tables/structure/minecraft/jungle_temple/artifacts')
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${a}:feral_claws`).withWeight(1))
