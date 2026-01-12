@@ -18,7 +18,6 @@ function assembleDungeonLoot(e, stage, fillers, shaders, treasure, potions) {
         let path = pathFor('resources', stage)
         let table = e.create(path).createPool(pool => {
             for(let [item, tier, range] of dc_loot.resources) {
-                console.info(`${item} ${tier} ${range}`)
                 if(tier > stage || (range != null && (stage < range[0] || stage > range[1])))
                     continue
                 let count = tier == stage ? 1 : [1, 1 + 2 * (stage - tier)]

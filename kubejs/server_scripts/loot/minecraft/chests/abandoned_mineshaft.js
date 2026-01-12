@@ -38,4 +38,5 @@ LootJS.modifiers(e => {
     e.removeGlobalModifiers(/chalk:.*abandoned_mineshaft.*/)
     e.removeGlobalModifiers(/exposure:.*abandoned_mineshaft.*/)
     e.removeGlobalModifiers(/exposure_expanded:.*abandoned_mineshaft.*/)
+    e.removeGlobalModifiers(/farmersdelight:.*abandoned_mineshaft.*/)
 })

@@ -17,6 +17,7 @@ function create_group_fixed_ct(items, max_ct) {
 //
 // returns: the newly-created group.
 function create_group(items) {
+    console.log(`create_group(${items})`)
     let entries = []
     for(let [item, ct] of items) {
         entries.push(LootEntry.of(item, [1, ct]))
