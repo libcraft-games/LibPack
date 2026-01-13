@@ -3,7 +3,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let sh = 'smallships'
     let su = 'supplementaries'
-    e.create('lc:tables/structure/minecraft/shipwreck/supplies').createPool(pool => {
+    e.create('lc:tables/structure/minecraft/shipwreck/supply/supplies').createPool(pool => {
         pool.addEntry(LootEntry.of(`${su}:rope`, [2, 8]).withWeight(10))
         pool.addEntry(LootEntry.of(`${mc}:leather`, [1, 3]).withWeight(9))
         pool.addEntry(LootEntry.of(`${mc}:coal`, [2, 10]).withWeight(8))

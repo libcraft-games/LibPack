@@ -7,7 +7,7 @@ LootJS.lootTables(e => {
         return entry.enchantRandomly()
     }
 
-    e.create('lc:tables/structure/minecraft/shipwreck/armor').createPool(pool => {
+    e.create('lc:tables/structure/minecraft/shipwreck/supply/armor').createPool(pool => {
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:leather_helmet`)))
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:leather_chestplate`)))
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:leather_leggings`)))

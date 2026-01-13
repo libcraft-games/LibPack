@@ -7,7 +7,7 @@ LootJS.lootTables(e => {
         return entry.enchantRandomly()
     }
 
-    e.create('lc:tables/structure/minecraft/shipwreck/tools').createPool(pool => {
+    e.create('lc:tables/structure/minecraft/shipwreck/supply/tools').createPool(pool => {
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:stone_shovel`)))
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:stone_pickaxe`)))
         pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:stone_axe`)))

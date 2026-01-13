@@ -7,10 +7,10 @@ LootJS.lootTables(e => {
     table.clear()
     table.createPool(pool => {
         pool.rolls([5, 10])
-        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/provisions').withWeight(5))
-        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/supplies').withWeight(4))
-        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/armor').withWeight(2))
-        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/tools').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/supply/provisions').withWeight(5))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/supply/supplies').withWeight(4))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/supply/armor').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/supply/tools').withWeight(2))
     })
 })
 LootJS.modifiers(e => {

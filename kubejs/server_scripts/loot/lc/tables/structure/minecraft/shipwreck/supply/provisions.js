@@ -4,7 +4,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let sh = 'smallships'
     let su = 'supplementaries'
-    e.create('lc:tables/structure/minecraft/shipwreck/provisions').createPool(pool => {
+    e.create('lc:tables/structure/minecraft/shipwreck/supply/provisions').createPool(pool => {
         // todo: suspicious stew contents
         pool.addEntry(LootEntry.of(`${mc}:suspicious_stew`).withWeight(10))
         pool.addEntry(LootEntry.of(`${mc}:moss_block`, [1, 4]).withWeight(7))
