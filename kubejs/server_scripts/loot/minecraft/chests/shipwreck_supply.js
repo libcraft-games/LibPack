@@ -12,9 +12,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/armor').withWeight(2))
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/shipwreck/tools').withWeight(2))
     })
-    table.createPool(pool => {
-        pool.addEntry(LootEntry.empty().withWeight(3))
-        pool.addEntry(LootEntry.of(`${mc}:coast_armor_trim_smithing_template`).withWeight(5))
-        pool.addEntry(LootEntry.of(`${ee}:scan_pincushion_filter`).withWeight(1))
-    })
+})
+LootJS.modifiers(e => {
+    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
+    e.removeGlobalModifiers(/exposure_expanded:.*shipwreck.*/)
 })
