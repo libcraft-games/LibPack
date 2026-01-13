@@ -47,12 +47,16 @@
         "^artifacts:inject/chests/jungle_temple$",
         "^artifacts:inject/chests/nether_bridge$",
         "^artifacts:inject/chests/pillager_outpost$",
+        "^artifacts:inject/chests/ruined_portal$",
+        "^artifacts:inject/chests/simple_dungeon$",
         "^artifacts:inject/chests/village/village_plains_house$",
         "^artifacts:inject/chests/woodland_mansion$",
         "^chalk:chests/abandoned_mineshaft_chalks$",
         "^chalk:chests/desert_pyramid_chalks$",
+        "^chalk:chests/simple_dungeon_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
         "^exposure:chests/village_plains_house$",
+        "^exposure:chests/simple_dungeon$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/buried_treasure$",
         "^exposure_expanded:chests/desert_pyramid$",
@@ -61,8 +65,11 @@
         "^exposure_expanded:chests/jungle_temple$",
         "^exposure_expanded:chests/nether_bridge$",
         "^exposure_expanded:chests/pillager_outpost$",
+        "^exposure_expanded:chests/simple_dungeon$",
+        "^exposure_expanded:chests/ruined_portal$",
         "^exposure_expanded:chests/village_plains_house$",
         "^exposure_expanded:chests/woodland_mansion$",
+        "^farmersdelight:chests/fd_abandoned_mineshaft$",
         "^farmersdelight:chests/fd_village_plains_house$",
         "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
@@ -80,12 +87,20 @@
         "^sophisticatedbackpacks:inject/chests/desert_pyramid$",
         "^sophisticatedbackpacks:inject/chests/end_city_treasure$",
         "^sophisticatedbackpacks:inject/chests/nether_bridge$",
+        "^sophisticatedbackpacks:inject/chests/simple_dungeon$",
         "^sophisticatedbackpacks:inject/chests/woodland_mansion$",
         "^supplementaries:blocks/urn_loot.*",
+        "^supplementaries:inject/.*dungeon.*",
         "^supplementaries:inject/.*end_city.*",
+        "^supplementaries:inject/.*fortress.*",
+        "^supplementaries:inject/.*mansion.*",
         "^supplementaries:inject/.*mineshaft.*",
+        "^supplementaries:inject/.*temple.*",
+        "^supplementaries:inject/.*flax.*",
         "^supplementaries:inject/test",
+        "^supplementaries:loot/urn_loot.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
+        "^sweety_archaeology:chests/archaeology_map_in_chest$",
         "^veggiesdelight:chests/vd_wagon_plains$"
       ]
     },
@@ -150,15 +165,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*bastion.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/end_city",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:shulker_box",
-      "hide": false,
-      "pattern": [
-        "^.*:.*end_city.*"
       ]
     },
     {
@@ -332,7 +338,8 @@
       "hide": false,
       "pattern": [
         "^.*:chests.*village.*$",
-        "^.*:village.*$"
+        "^.*:village.*$",
+        "^artifacts:inject/chests/village/.*"
       ]
     },
     {
@@ -635,7 +642,8 @@
         "^.*:chests/[a-z_]*$",
         "^.*:chests/village/[a-z_]*$",
         "^dungeoncrawl:chests/.*$",
-        "^enderscape:.*chest.*$"
+        "^enderscape:.*chest.*$",
+        "^supplementaries:loot/.*$"
       ]
     },
     {
@@ -645,6 +653,15 @@
       "hide": false,
       "pattern": [
         "^.*:trial_chamber.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/advancements",
+      "type": "GAMEPLAY",
+      "icon": "advancementframes:advancement_frame",
+      "hide": false,
+      "pattern": [
+        "^.*:advancements.*$"
       ]
     },
     {
@@ -672,6 +689,35 @@
       "hide": false,
       "pattern": [
         "^.*:gameplay/hero_of_the_village/.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/misfiled/entities",
+      "type": "GAMEPLAY",
+      "icon": "aether:sheepuff_spawn_egg",
+      "hide": false,
+      "pattern": [
+        "^.*:entities.*$",
+        "^artifacts:entity_equipment/.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/misfiled/blocks",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:cobblestone",
+      "hide": false,
+      "pattern": [
+        "^.*:blocks.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/gameplay/kill_bonus",
+      "type": "GAMEPLAY",
+      "icon": "enchanted:arthana",
+      "hide": false,
+      "pattern": [
+        "^enchanted:.*arthana.*$",
+        "^.*:.*kill_bonus.*$"
       ]
     },
     {
