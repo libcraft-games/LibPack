@@ -1,4 +1,6 @@
 LootJS.lootTables(e => {
+    // TODO: this needs to be completely redone, as i was designing this assuming this was the table assigned to barrels in the hold;
+    //       actually, this loot table is assigned to the chest in the crow's nest, so it should be more rewarding and themed differently.
     let c = 'create'
     let cf = 'createfood'
     let mc = 'minecraft'
