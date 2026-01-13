@@ -4,7 +4,7 @@ LootJS.lootTables(e => {
     // tier: int ∈ {1, 2, 3, 4}
     // returns: int
     function bookWeight(tier) {
-        return 4 ** (4 - tier)
+        return 2 ** (4 - tier)
     }
     // tier: int ∈ {1, 2, 3, 4}
     // returns: int

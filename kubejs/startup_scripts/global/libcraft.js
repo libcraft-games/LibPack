@@ -89,5 +89,9 @@ global.libcraft = {
     potion_fluids: [
         'immersiveengineering:potion',
         'create:potion'
-    ]
+    ],
+    // string, string aliases for complex shader table names
+    shader_tables: {
+
+    }
 }

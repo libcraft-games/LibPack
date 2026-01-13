@@ -42,25 +42,32 @@
         "^artifacts:inject/chests/abandoned_mineshaft$",
         "^artifacts:inject/chests/buried_treasure$",
         "^artifacts:inject/chests/desert_pyramid$",
+        "^artifacts:inject/chests/end_city_treasure$",
         "^artifacts:inject/chests/igloo_chest$",
         "^artifacts:inject/chests/jungle_temple$",
         "^artifacts:inject/chests/nether_bridge$",
         "^artifacts:inject/chests/pillager_outpost$",
+        "^artifacts:inject/chests/village/village_plains_house$",
         "^artifacts:inject/chests/woodland_mansion$",
         "^chalk:chests/abandoned_mineshaft_chalks$",
         "^chalk:chests/desert_pyramid_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
+        "^exposure:chests/village_plains_house$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/buried_treasure$",
         "^exposure_expanded:chests/desert_pyramid$",
+        "^exposure_expanded:chests/end_city_treasure$",
         "^exposure_expanded:chests/igloo_chest$",
         "^exposure_expanded:chests/jungle_temple$",
         "^exposure_expanded:chests/nether_bridge$",
         "^exposure_expanded:chests/pillager_outpost$",
+        "^exposure_expanded:chests/village_plains_house$",
         "^exposure_expanded:chests/woodland_mansion$",
+        "^farmersdelight:chests/fd_village_plains_house$",
         "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
         "^minecraft:chests/nether_fortress/.*$",
+        "^minecraft:chests/village/village_swamp_house$",
         "^nova_structures:.*bunker.*",
         "^nova_structures:.*end_lighthouse.*",
         "^nova_structures:.*firewatch_tower.*",
@@ -71,12 +78,15 @@
         "^petrolpark:badge.*",
         "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
         "^sophisticatedbackpacks:inject/chests/desert_pyramid$",
+        "^sophisticatedbackpacks:inject/chests/end_city_treasure$",
         "^sophisticatedbackpacks:inject/chests/nether_bridge$",
         "^sophisticatedbackpacks:inject/chests/woodland_mansion$",
         "^supplementaries:blocks/urn_loot.*",
+        "^supplementaries:inject/.*end_city.*",
         "^supplementaries:inject/.*mineshaft.*",
         "^supplementaries:inject/test",
-        "^sweety_archaeology:blocks/mineshaft_map$"
+        "^sweety_archaeology:blocks/mineshaft_map$",
+        "^veggiesdelight:chests/vd_wagon_plains$"
       ]
     },
     {
@@ -149,16 +159,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*end_city.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/nether_fortress",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:nether_brick_fence",
-      "hide": false,
-      "pattern": [
-        "^.*:.*nether_fortress.*",
-        "^.*:.*nether_bridge.*"
       ]
     },
     {
@@ -317,33 +317,6 @@
       ]
     },
     {
-      "key": "lc:ali/tt/village/mushroom",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:red_mushroom_block",
-      "hide": false,
-      "pattern": [
-        "^kaisyn:.*village_mushroom.*"
-      ]
-    },
-    {
-      "key": "lc:ali/tt/village/classic",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:apple",
-      "hide": false,
-      "pattern": [
-        "^kaisyn:.*village_classic.*"
-      ]
-    },
-    {
-      "key": "lc:ali/tt/village/mediterranean",
-      "type": "GAMEPLAY",
-      "icon": "createfood:mutton_wrap_lettuce_tomato",
-      "hide": false,
-      "pattern": [
-        "^kaisyn:.*village_medit.*"
-      ]
-    },
-    {
       "key": "lc:ali/tt/village/badlands",
       "type": "GAMEPLAY",
       "icon": "minecraft:jungle_trapdoor",
@@ -358,7 +331,8 @@
       "icon": "artifacts:villager_hat",
       "hide": false,
       "pattern": [
-        "^.*:chests.*village.*"
+        "^.*:chests.*village.*$",
+        "^.*:village.*$"
       ]
     },
     {
@@ -660,7 +634,8 @@
       "pattern": [
         "^.*:chests/[a-z_]*$",
         "^.*:chests/village/[a-z_]*$",
-        "^dungeoncrawl:chests/.*$"
+        "^dungeoncrawl:chests/.*$",
+        "^enderscape:.*chest.*$"
       ]
     },
     {
