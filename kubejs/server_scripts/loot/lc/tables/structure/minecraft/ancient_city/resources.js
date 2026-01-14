@@ -13,6 +13,5 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:glow_ink_sac`, [1, 3]).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:amethyst_shard`, [1, 15]).withWeight(3))
         pool.addEntry(LootEntry.of(`${ie}:ingot_lead`, [1, 15]).withWeight(2))
-        pool.addEntry(LootEntry.of(`${ie}:warning_sign_warden`).withWeight(1))
     })
 })

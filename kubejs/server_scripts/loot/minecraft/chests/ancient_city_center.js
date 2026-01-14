@@ -1,6 +1,6 @@
 LootJS.lootTables(e => {
     let mc = 'minecraft'
-    let table = e.getLootTable(`${mc}:chests/ancient_city`)
+    let table = e.getLootTable(`${mc}:chests/ancient_city_center`)
     table.clear()
     table.createPool(pool => {
         pool.rolls([3, 4])
