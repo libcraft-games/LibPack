@@ -8,7 +8,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:map`, [1, 2]).withWeight(24))
         pool.addEntry(LootEntry.of(`${su}:blast_armor_trim_smithing_template`).withWeight(16))
         pool.addEntry(LootEntry.of(`${su}:antique_ink`, [1, 2]).withWeight(16))
-        pool.addEntry(LootEntry.of(`${su}:antique_ink`, [1, 2]).withWeight(16))
         pool.addEntry(LootEntry.of(`${mc}:map`).withWeight(12)
             .jsonFunction({
                 function: `${mc}:exploration_map`,
