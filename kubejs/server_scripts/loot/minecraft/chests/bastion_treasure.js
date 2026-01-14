@@ -16,8 +16,7 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([2, 4])
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/food/golden_carrot').withWeight(6))
-        pool.addEntry(LootEntry.reference('lc:tables/general/piglin/decor').withWeight(4))
-        pool.addEntry(LootEntry.reference('lc:tables/general/piglin/food/hoglin').withWeight(3))
+        pool.addEntry(LootEntry.reference('lc:tables/general/piglin/decor').withWeight(2))
     })
 })
 LootJS.modifiers(e => {

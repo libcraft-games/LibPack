@@ -5,6 +5,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${nd}:hoglin_loin`,     [1, 4]).withWeight(16))
         pool.addEntry(LootEntry.of(`${nd}:hoglin_sausage`,  [2, 5]).withWeight(8))
         pool.addEntry(LootEntry.of(`${mc}:leather`,         [1, 2]).withWeight(4))
+        pool.addEntry(LootEntry.of(`${mc}:saddle`)                 .withWeight(3))
         pool.addEntry(LootEntry.of(`${nd}:hoglin_hide`)            .withWeight(2))
         pool.addEntry(LootEntry.of(`heads:hoglin_head`)            .withWeight(1))
     })
