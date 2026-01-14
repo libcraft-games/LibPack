@@ -10,8 +10,7 @@ LootJS.lootTables(e => {
                 trim: {
                     material: `${mc}:gold`,
                     pattern: `${mc}:snout`
-                },
-                // dyed_color: { rgb: 4006180 }
+                }
             }
         })
     }
