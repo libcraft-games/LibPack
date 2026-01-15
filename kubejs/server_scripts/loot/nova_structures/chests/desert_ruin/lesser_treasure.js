@@ -18,5 +18,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.empty().withWeight(80))
         pool.addEntry(LootEntry.of(`${mc}:book`).withWeight(19).enchantRandomly('nova_structures:outreach'))
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/desert_pyramid/artifacts_2').withWeight(1))
+        pool.addEntry(LootEntry.reference('lc:tables/structure/nova_structures/desert_ruin/shaders').withWeight(1))
     })
 })
