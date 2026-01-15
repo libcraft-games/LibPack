@@ -40,7 +40,11 @@
         "^artifacts:chests/campsite.*$",
         "^artifacts:inject/archaeology/desert_pyramid$",
         "^artifacts:inject/chests/abandoned_mineshaft$",
+        "^artifacts:inject/chests/ancient_city$",
+        "^artifacts:inject/chests/ancient_city_ice_box$",
         "^artifacts:inject/chests/buried_treasure$",
+        "^artifacts:inject/chests/bastion_treasure$",
+        "^artifacts:inject/chests/bastion_hoglin_stable$",
         "^artifacts:inject/chests/desert_pyramid$",
         "^artifacts:inject/chests/end_city_treasure$",
         "^artifacts:inject/chests/igloo_chest$",
@@ -48,7 +52,9 @@
         "^artifacts:inject/chests/nether_bridge$",
         "^artifacts:inject/chests/pillager_outpost$",
         "^artifacts:inject/chests/ruined_portal$",
+        "^artifacts:inject/chests/shipwreck_treasure$",
         "^artifacts:inject/chests/simple_dungeon$",
+        "^artifacts:inject/chests/underwater_ruin_big$",
         "^artifacts:inject/chests/village/village_plains_house$",
         "^artifacts:inject/chests/woodland_mansion$",
         "^chalk:chests/abandoned_mineshaft_chalks$",
@@ -56,8 +62,11 @@
         "^chalk:chests/simple_dungeon_chalks$",
         "^exposure:chests/abandoned_mineshaft$",
         "^exposure:chests/village_plains_house$",
+        "^exposure:chests/shipwreck_map$",
         "^exposure:chests/simple_dungeon$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
+        "^exposure_expanded:chests/ancient_city$",
+        "^exposure_expanded:chests/bastion_other$",
         "^exposure_expanded:chests/buried_treasure$",
         "^exposure_expanded:chests/desert_pyramid$",
         "^exposure_expanded:chests/end_city_treasure$",
@@ -65,16 +74,21 @@
         "^exposure_expanded:chests/jungle_temple$",
         "^exposure_expanded:chests/nether_bridge$",
         "^exposure_expanded:chests/pillager_outpost$",
+        "^exposure_expanded:chests/shipwreck_supply$",
         "^exposure_expanded:chests/simple_dungeon$",
         "^exposure_expanded:chests/ruined_portal$",
+        "^exposure_expanded:chests/underwater_ruin_small$",
         "^exposure_expanded:chests/village_plains_house$",
         "^exposure_expanded:chests/woodland_mansion$",
         "^farmersdelight:chests/fd_abandoned_mineshaft$",
         "^farmersdelight:chests/fd_village_plains_house$",
         "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
+        "^minecraft:chests/ancient_city$",
+        "^minecraft:chests/ancient_city_ice_box$",
         "^minecraft:chests/nether_fortress/.*$",
         "^minecraft:chests/village/village_swamp_house$",
+        "^nova_structures:keys/all_keys",
         "^nova_structures:.*bunker.*",
         "^nova_structures:.*end_lighthouse.*",
         "^nova_structures:.*firewatch_tower.*",
@@ -84,9 +98,11 @@
         "^nova_structures:.*stray_fort.*",
         "^petrolpark:badge.*",
         "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
+        "^sophisticatedbackpacks:inject/chests/bastion_treasure$",
         "^sophisticatedbackpacks:inject/chests/desert_pyramid$",
         "^sophisticatedbackpacks:inject/chests/end_city_treasure$",
         "^sophisticatedbackpacks:inject/chests/nether_bridge$",
+        "^sophisticatedbackpacks:inject/chests/shipwreck_treasure$",
         "^sophisticatedbackpacks:inject/chests/simple_dungeon$",
         "^sophisticatedbackpacks:inject/chests/woodland_mansion$",
         "^supplementaries:blocks/urn_loot.*",
@@ -101,7 +117,7 @@
         "^supplementaries:loot/urn_loot.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
         "^sweety_archaeology:chests/archaeology_map_in_chest$",
-        "^veggiesdelight:chests/vd_wagon_plains$"
+        "^veggiesdelight:chests/vd_wagon_.*$"
       ]
     },
     {
@@ -150,24 +166,6 @@
       ]
     },
     {
-      "key": "lc:ali/mc/ancient_city",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:echo_shard",
-      "hide": false,
-      "pattern": [
-        "^.*:.*ancient_city.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/bastion",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:gilded_blackstone",
-      "hide": false,
-      "pattern": [
-        "^.*:.*bastion.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/badland_miner_outpost",
       "type": "GAMEPLAY",
       "icon": "minecraft:dead_bush",
@@ -205,15 +203,6 @@
       ]
     },
     {
-      "key": "lc:ali/mc/shipwreck",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:map",
-      "hide": false,
-      "pattern": [
-        "^.*:.*shipwreck.*"
-      ]
-    },
-    {
       "key": "lc:ali/mc/stronghold",
       "type": "GAMEPLAY",
       "icon": "minecraft:end_portal_frame",
@@ -225,109 +214,18 @@
       ]
     },
     {
-      "key": "lc:ali/mc/underwater_ruin",
+      "key": "lc:ali/village",
       "type": "GAMEPLAY",
-      "icon": "heads:drowned_head",
-      "hide": false,
-      "pattern": [
-        "^.*:.*underwater_ruin.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/village/birch",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:birch_sapling",
+      "icon": "minecraft:oak_stairs",
       "hide": false,
       "pattern": [
         "^.*:.*village.*birch.*",
-        "veggiesdelight:.*birch.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/desert",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:cactus",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*desert.*",
-        "veggiesdelight:.*desert.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/jungle",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:jungle_sapling",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*jungle.*",
-        "veggiesdelight:.*jungle.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/plains",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:short_grass",
-      "hide": false,
-      "pattern": [
-        "^.*:.*village.*plains.*",
-        "veggiesdelight:.*plains.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/savanna",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:acacia_sapling",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*savanna.*",
-        "veggiesdelight:.*savanna.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/snowy",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:snow",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*snowy.*",
-        "veggiesdelight:.*snowy.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/swamp",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:blue_orchid",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*swamp.*",
-        "veggiesdelight:.*swamp.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/village/taiga",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:spruce_sapling",
-      "hide": false,
-      "pattern": [
         "^.*:.*village.*taiga.*",
-        "veggiesdelight:.*taiga.*"
-      ]
-    },
-    {
-      "key": "lc:ali/tt/village/piglin",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:cooked_porkchop",
-      "hide": false,
-      "pattern": [
-        "^kaisyn:.*piglin.*"
-      ]
-    },
-    {
-      "key": "lc:ali/tt/village/badlands",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:jungle_trapdoor",
-      "hide": false,
-      "pattern": [
         "^kaisyn:.*village_badlands.*"
       ]
     },
@@ -379,24 +277,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/hamlet",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:piglin_head",
-      "hide": false,
-      "pattern": [
-        "^.*:.*hamlet.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/jungle_ruins",
-      "type": "GAMEPLAY",
-      "icon": "chipped:creeper_mossy_cobblestone_carving",
-      "hide": false,
-      "pattern": [
-        "^.*:.*jungle_ruin.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/lone_citadel",
       "type": "GAMEPLAY",
       "icon": "minecraft:packed_ice",
@@ -421,15 +301,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*nether_port.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/piglin_camp",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:respawn_anchor",
-      "hide": false,
-      "pattern": [
-        "^.*:.*piglin_camp.*"
       ]
     },
     {
