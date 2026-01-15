@@ -10,7 +10,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/equipment/iron').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tiers_1_2').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/treasure/artifacts').withWeight(5))
-        pool.addEntry(LootEntry.reference(global.libcraft.shader_tables['piglin']).withWeight(5))
+        pool.addEntry(LootEntry.reference('lc:tables/general/piglin/treasure/shaders').withWeight(5))
         pool.addEntry(LootEntry.of(`artifacts:cowboy_hat`).withWeight(1))
         // todo: scriptor artifacts
     })

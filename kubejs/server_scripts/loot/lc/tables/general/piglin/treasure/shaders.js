@@ -1,5 +1,5 @@
 LootJS.lootTables(e => {
-    global.libcraft.shader_tables['piglin'] = ie_generateShaderTable(e,
+    ie_generateShaderTableNamed(e, 'lc:tables/general/piglin/treasure/shaders'
         ['kindled',
          'erruption', 'netherforged', 
          'waaagh', 

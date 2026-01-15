@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
-    global.libcraft.shader_tables['end'] = ie_generateShaderTable(e,
+    ie_generateShaderTableNamed(e, 'lc:tables/general/end/treasure/shaders', 
         ['darkfire',
-        'enbypride', 'angelsthesis', 'acepride', 'taken']
-    )
+         'enbypride', 'angelsthesis', 'acepride', 'taken'])
 })
