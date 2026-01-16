@@ -166,15 +166,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/illager_hideout",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:dark_oak_trapdoor",
-      "hide": false,
-      "pattern": [
-        "^.*:.*illager_hideout.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/witch_villa",
       "type": "GAMEPLAY",
       "icon": "heads:witch_head",

@@ -6,8 +6,8 @@ LootJS.lootTables(e => {
     table.clear()
     table.createPool(pool => {
         pool.rolls([3, 5])
-        pool.addEntry(LootEntry.reference('nc:tables/general/illager/treasurer/resourceager').withWeight(5))
-        pool.addEntry(LootEntry.reference('nc:tables/general/illager/treasurer/musicker').withWeight(2))
-        pool.addEntry(LootEntry.reference('nc:tables/general/illager/treasurer/vaultager').withWeight(1))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/resourceager').withWeight(5))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/musicker').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/vaultager').withWeight(1))
     })
 })
