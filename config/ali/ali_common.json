@@ -166,15 +166,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/badland_miner_outpost",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:dead_bush",
-      "hide": false,
-      "pattern": [
-        "^.*:.*badland_miner.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/illager_hideout",
       "type": "GAMEPLAY",
       "icon": "minecraft:dark_oak_trapdoor",
@@ -199,6 +190,7 @@
       "hide": false,
       "pattern": [
         "^minecraft:.*stronghold.*",
+        "^nova_structures:.*stronghold.*",
         "^artifacts:.*stronghold.*",
         "^exposure:.*stronghold.*"
       ]
@@ -491,8 +483,7 @@
       "icon": "minecraft:chest",
       "hide": false,
       "pattern": [
-        "^.*:chests/[a-z_]*$",
-        "^.*:chests/village/[a-z_]*$",
+        "^.*:chests/.*$",
         "^dungeoncrawl:chests/.*$",
         "^enderscape:.*chest.*$",
         "^supplementaries:loot/.*$"
