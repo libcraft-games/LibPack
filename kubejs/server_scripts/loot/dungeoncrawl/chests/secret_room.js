@@ -19,11 +19,18 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:book`).enchantWithLevels([10, 40]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:map`, [1, 3]).withWeight(5))
         pool.addEntry(LootEntry.of(`${su}:slice_map`, [1, 2]).withWeight(4))
-        // TODO: exploration map to other structures
         pool.addEntry(LootEntry.reference('lc:tables/general/scriptor/tier_2'))
     })
     table.createPool(pool => {
         pool.rolls([0, 3])
         pool.addEntry(LootEntry.of(`${mc}:cobweb`, [4, 8]))
+    })
+    table.createPool(pool => {
+        pool.addEntry(CreateExplorationMapEntryFromData('creeping_crypt').withWeight(5))
+        pool.addEntry(CreateExplorationMapEntryFromData('undead_crypt').withWeight(5))
+        pool.addEntry(CreateExplorationMapEntryFromData('desert_ruins').withWeight(4))
+        pool.addEntry(CreateExplorationMapEntryFromData('jungle_ruins').withWeight(4))
+        pool.addEntry(CreateExplorationMapEntryFromData('toxic_lair').withWeight(4))
+        pool.addEntry(CreateExplorationMapEntryFromData('trident_trial_monument').withWeight(3))
     })
 })
