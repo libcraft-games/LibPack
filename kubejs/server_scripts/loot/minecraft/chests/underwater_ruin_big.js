@@ -9,9 +9,13 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([3, 5])
         pool.addEntry(LootEntry.reference('lc:tables/general/underwater/resources').withWeight(10))
-        pool.addEntry(LootEntry.reference('lc:tables/general/underwater/equipment').withWeight(6))
+        pool.addEntry(LootEntry.reference('lc:tables/general/underwater/equipment').withWeight(4))
         pool.addEntry(LootEntry.reference('lc:tables/general/underwater/treasure').withWeight(2))
         pool.addEntry(LootEntry.reference('lc:tables/general/underwater/artifacts').withWeight(1))
+    })
+    table.createPool(pool => {
+        pool.addEntry(LootEntry.empty().withWeight(1))
+        pool.addEntry(LootEntry.reference('lc:tables/general/underwater/buried_treasure_map').withWeight(2))
     })
 })
 LootJS.modifiers(e => {

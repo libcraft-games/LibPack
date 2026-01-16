@@ -90,8 +90,9 @@ global.libcraft = {
         'immersiveengineering:potion',
         'create:potion'
     ],
-    // string, string aliases for complex shader table names
-    shader_tables: {
-
-    }
+    // Dict<string, LootEntry> 
+    //explorationMaps: 
+    //{
+    //    buried_treasure: CreateExplorationMapEntry('minecraft:on_treasure_maps', {translate: 'filled_map.buried_treasure'}, 'red_x', null, 1)
+    //}
 }

@@ -259,15 +259,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/desert_ruins",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:chiseled_sandstone",
-      "hide": false,
-      "pattern": [
-        "^.*:.*desert_ruin.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/end_castle",
       "type": "GAMEPLAY",
       "icon": "minecraft:end_crystal",

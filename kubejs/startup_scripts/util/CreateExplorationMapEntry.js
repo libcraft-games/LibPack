@@ -10,27 +10,39 @@
 //                                                                  see https://minecraft.wiki/w/Explorer_Map#Item_data for a calculator.
 //      skipExistingChunks  bool = false                        whether structures in existing chunks should be skipped when the map is generated
 //      zoom                int = 4                             the zoom level of the generated map
-function explorerMap(structure, decoration, name, color, skipExistingChunks, zoom) {
+//
+//  returns                 LootEntry
+function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
+    // data validation    
     if((typeof name) === 'string')
         name = {
             translate: 'item.lc.filled_map.missing_key',
             fallback: name
         }
-    if(skipExistingChunks === null)
-        skipExistingChunks = false
+    if(color != null && (typeof color) === 'string')
+        color = parseInt(Number(`0x${color}`), 10)
     if(zoom === null)
         zoom = 4
-    return LootEntry.of('minecraft:map').jsonFunction({
-        function:               'minecraft:exploration_map',
-        decoration:             decoration,
-        destination:            structure,
-        zoom:                   zoom,
-        skip_existing_chunks:   skipExistingChunks
+
+    let result = LootEntry.of('minecraft:map').jsonFunction({
+        function: 'minecraft:exploration_map',
+        decoration: decoration,
+        destination: structure,
+        zoom: zoom,
+        skip_existing_chunks: false
     }).jsonFunction({
-        function:               'minecraft:set_components',
+        function: 'minecraft:set_components',
         components: {
-            'minecraft:map_color': color,
             'minecraft:item_name': name
         }
     })
+    if(color != null) {
+        result = result.jsonFunction({
+            function: 'minecraft:set_components',
+            components: {
+                'minecraft:map_color': color
+            }
+        })
+    }
+    return result
 }
