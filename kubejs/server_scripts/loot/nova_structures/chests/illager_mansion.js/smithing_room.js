@@ -5,6 +5,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let se = 'simplest_excavators'
     let sh = 'simplest_hammers'
+    let su = 'supplementaries'
     let table = e.getLootTable(`${mc}:chests/illager_mansion/smithing_room`)
     table.clear()
     table.createPool(pool => {
@@ -22,11 +23,11 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${bw}:steel_glaive`).withWeight(5).damage([0.8, 1]))
         pool.addEntry(LootEntry.of(`${ie}:axe_steel`).withWeight(4).damage([0.8, 1]))
         pool.addEntry(LootEntry.of(`${ie}:pickaxe_steel`).withWeight(3).damage([0.8, 1]))
-        pool.addEntry(LootEntry.of(`${bw}:steel_quarterstaff`).withWeight(2).damage([0.8, 1]))
     })
     table.createPool(pool => {
         pool.rolls([1, 3])
         pool.addEntry(LootEntry.of(`${mc}:coal`, [2, 8]).withWeight(4))
+        pool.addEntry(LootEntry.of(`${su}:bellows`, [1, 3]).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:bucket`, [1, 2]).withWeight(2))
         pool.addEntry(LootEntry.of(`${ie}:coal_coke`, [2, 5]).withWeight(1))
         pool.addEntry(LootEntry.of(`${mc}:lava_bucket`).withWeight(1))

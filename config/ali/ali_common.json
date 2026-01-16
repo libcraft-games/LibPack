@@ -89,6 +89,7 @@
         "^minecraft:chests/nether_fortress/.*$",
         "^minecraft:chests/village/village_swamp_house$",
         "^nova_structures:keys/all_keys",
+        "^nova_structures:maps/.*$",
         "^nova_structures:.*bunker.*",
         "^nova_structures:.*end_lighthouse.*",
         "^nova_structures:.*firewatch_tower.*",
@@ -126,7 +127,6 @@
       "icon": "minecraft:map",
       "hide": false,
       "pattern": [
-        "^nova_structures:maps/.*$"
       ]
     },
     {
@@ -181,16 +181,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*illager_hideout.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/illager_manor",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:deepslate_tile_stairs",
-      "hide": false,
-      "pattern": [
-        "^.*:.*illager_manor.*",
-        "^.*:.*illager_mansion.*"
       ]
     },
     {

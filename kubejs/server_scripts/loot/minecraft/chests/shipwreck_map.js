@@ -26,20 +26,7 @@ LootJS.lootTables(e => {
 
     table.clear()
     table.createPool(pool => {
-        pool.addEntry(LootEntry.of(`${mc}:map`)
-            .jsonFunction({
-                function: `${mc}:exploration_map`,
-                decoration: `${mc}:red_x`,
-                skip_existing_chunks: false,
-                zoom: 1
-            })
-            .jsonFunction({
-                function: `${mc}:set_name`,
-                name: {
-                    translate: "filled_map.buried_treasure"
-                },
-                target: "item_name"
-            }))
+        pool.addEntry(CreateExplorationMapEntryFromData('buried_treasure').withWeight(4))
     })
     table.createPool(pool => {
         pool.rolls(3)

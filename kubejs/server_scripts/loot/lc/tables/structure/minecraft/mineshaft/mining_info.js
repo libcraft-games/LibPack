@@ -6,16 +6,6 @@ LootJS.lootTables(e => {
         // survey tools appear not to actually do anything at the moment...
         // pool.addEntry(LootEntry.of(`${ie}:survey_tools`).damage([0.5, 1]).withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:clock`))
-        pool.addEntry(
-            LootEntry.of(`${mc}:map`)
-                     .setName(Component.translatable('item.sweety_archaeology.buried_mineshaft_map').italic(false))
-                     .jsonFunction({
-                        function: `${mc}:exploration_map`,
-                        search_radius: 30,
-                        destination: `sweety_archaeology:on_mineshaft_maps`,
-                        decoration: 'red_x',
-                        skip_existing_chunks: false,
-                        zoom: 1
-                     }))
+        pool.addEntry(CreateExplorationMapEntryFromData('buried_mineshaft').withWeight(1))
     })
 })

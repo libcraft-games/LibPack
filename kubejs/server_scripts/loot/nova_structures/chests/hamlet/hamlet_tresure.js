@@ -13,5 +13,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/treasure/general').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/equipment/gold').withWeight(2))
     })
-    // todo: explorer maps to piglin outstation (red x, 5973037) and bastion (red x, 3679277)
+    table.createPool(pool => {        
+        pool.addEntry(CreateExplorationMapEntryFromData('piglin_outstation').withWeight(1))
+        pool.addEntry(CreateExplorationMapEntryFromData('bastion').withWeight(1))
+    })
 })

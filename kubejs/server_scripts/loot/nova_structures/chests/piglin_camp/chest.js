@@ -8,4 +8,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/equipment/ranged').withWeight(1))
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/equipment/iron').withWeight(1))
     })
+    table.createPool(pool => {        
+        pool.addEntry(CreateExplorationMapEntryFromData('piglin_outstation').withWeight(1))
+        pool.addEntry(CreateExplorationMapEntryFromData('hamlet').withWeight(1))
+    })
 })

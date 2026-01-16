@@ -2,7 +2,7 @@
     "include": [
         "./**/*.js",
         "./**/*.ts"
-    ],
+, "../server_scripts/loot/lc/util/CreateExplorationMapEntry.js"    ],
     "compilerOptions": {
         "module": "none",
         "moduleResolution": "node",

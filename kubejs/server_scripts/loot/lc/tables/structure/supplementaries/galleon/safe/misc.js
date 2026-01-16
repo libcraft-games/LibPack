@@ -8,20 +8,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:map`, [1, 2]).withWeight(24))
         pool.addEntry(LootEntry.of(`${su}:blast_armor_trim_smithing_template`).withWeight(16))
         pool.addEntry(LootEntry.of(`${su}:antique_ink`, [1, 2]).withWeight(16))
-        pool.addEntry(LootEntry.of(`${mc}:map`).withWeight(12)
-            .jsonFunction({
-                function: `${mc}:exploration_map`,
-                decoration: `${mc}:red_x`,
-                skip_existing_chunks: false,
-                zoom: 1
-            })
-            .jsonFunction({
-                function: `${mc}:set_name`,
-                name: {
-                    translate: "filled_map.buried_treasure"
-                },
-                target: "item_name"
-            }))
+        pool.addEntry(CreateExplorationMapEntryFromData('buried_treasure').withWeight(12))
         pool.addEntry(LootEntry.of(`${su}:bomb_blue`, [2, 4]).withWeight(12))
         pool.addEntry(LootEntry.of(`${mc}:fire_charge`, [1, 3]).withWeight(8))
         pool.addEntry(LootEntry.of(`${su}:globe`).withWeight(8))

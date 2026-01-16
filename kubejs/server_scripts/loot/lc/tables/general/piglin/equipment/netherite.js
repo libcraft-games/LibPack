@@ -16,23 +16,23 @@ LootJS.lootTables(e => {
         })
     }
 
-    function enchantAndDamage(entry) {
+    function damage(entry) {
         return entry.damage([0.01, 0.15])
     }
 
     e.create('lc:tables/general/piglin/equipment/netherite').createPool(pool => {
-        pool.addEntry(decorate(enchantAndDamage(LootEntry.of(`${mc}:netherite_helmet`))))
-        pool.addEntry(decorate(enchantAndDamage(LootEntry.of(`${mc}:netherite_chestplate`))))
-        pool.addEntry(decorate(enchantAndDamage(LootEntry.of(`${mc}:netherite_leggings`))))
-        pool.addEntry(decorate(enchantAndDamage(LootEntry.of(`${mc}:netherite_boots`))))
-        pool.addEntry(decorate(enchantAndDamage(LootEntry.of(`${ae}:netherite_gloves`))))
+        pool.addEntry(decorate(damage(LootEntry.of(`${mc}:netherite_helmet`))))
+        pool.addEntry(decorate(damage(LootEntry.of(`${mc}:netherite_chestplate`))))
+        pool.addEntry(decorate(damage(LootEntry.of(`${mc}:netherite_leggings`))))
+        pool.addEntry(decorate(damage(LootEntry.of(`${mc}:netherite_boots`))))
+        pool.addEntry(decorate(damage(LootEntry.of(`${ae}:netherite_gloves`))))
         
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:netherite_pickaxe`)))
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:netherite_axe`)))
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${mc}:netherite_sword`)))
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${bw}:netherite_club`)))
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${bw}:netherite_spear`)))
-        pool.addEntry(enchantAndDamage(LootEntry.of(`${bw}:netherite_glaive`)))
+        pool.addEntry(damage(LootEntry.of(`${mc}:netherite_pickaxe`)))
+        pool.addEntry(damage(LootEntry.of(`${mc}:netherite_axe`)))
+        pool.addEntry(damage(LootEntry.of(`${mc}:netherite_sword`)))
+        pool.addEntry(damage(LootEntry.of(`${bw}:netherite_club`)))
+        pool.addEntry(damage(LootEntry.of(`${bw}:netherite_spear`)))
+        pool.addEntry(damage(LootEntry.of(`${bw}:netherite_glaive`)))
 
         pool.addEntry(LootEntry.of(`${nh}:netherite_horse_armor`))
     })

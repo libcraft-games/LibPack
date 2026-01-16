@@ -15,7 +15,7 @@ LootJS.lootTables(e => {
     })
     table.createPool(pool => {
         pool.addEntry(LootEntry.empty().withWeight(1))
-        pool.addEntry(LootEntry.reference('lc:tables/general/underwater/buried_treasure_map').withWeight(2))
+        pool.addEntry(CreateExplorationMapEntryFromData('buried_treasure').withWeight(2))
     })
 })
 LootJS.modifiers(e => {

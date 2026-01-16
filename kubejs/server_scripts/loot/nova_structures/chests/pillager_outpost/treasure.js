@@ -22,9 +22,10 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/illager/treasurer/artificer').withWeight(1))
     })
     table.createPool(pool => {
-        pool.addEntry(LootEntry.reference('nova_structures:maps/badlands_miner_outpost').withWeight(3))
-        pool.addEntry(LootEntry.reference('nova_structures:maps/witch_villa').withWeight(3))
-        pool.addEntry(LootEntry.reference('nova_structures:maps/illager_manor').withWeight(1))
-        pool.addEntry(LootEntry.reference('nova_structures:maps/illager_hideout').withWeight(1))
+        // todo: illager invasion stuff
+        pool.addEntry(CreateExplorationMapEntryFromData('badlands_miner_outpost').withWeight(3))
+        pool.addEntry(CreateExplorationMapEntryFromData('witch_villa').withWeight(3))
+        pool.addEntry(CreateExplorationMapEntryFromData('illager_manor').withWeight(1))
+        pool.addEntry(CreateExplorationMapEntryFromData('illager_hideout').withWeight(4))
     })
 })

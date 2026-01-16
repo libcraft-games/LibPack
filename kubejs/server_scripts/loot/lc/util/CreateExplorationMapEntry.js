@@ -20,7 +20,7 @@ function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
             fallback: name
         }
     if(color != null && (typeof color) === 'string')
-        color = parseInt(Number(`0x${color}`), 10)
+        color = parseInt(Number(`0x${color.substring(1)}`), 10)
     if(zoom === null)
         zoom = 4
 
@@ -31,10 +31,9 @@ function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
         zoom: zoom,
         skip_existing_chunks: false
     }).jsonFunction({
-        function: 'minecraft:set_components',
-        components: {
-            'minecraft:item_name': name
-        }
+        function: 'minecraft:set_name',
+        name: name,
+        target: 'item_name'
     })
     if(color != null) {
         result = result.jsonFunction({
@@ -45,4 +44,8 @@ function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
         })
     }
     return result
+}
+function CreateExplorationMapEntryFromData(key) {
+    let obj = global.libcraft.explorationMapData[key]
+    return CreateExplorationMapEntry(obj.destination, obj.name, obj.decoration, obj.color, obj.zoom)
 }
