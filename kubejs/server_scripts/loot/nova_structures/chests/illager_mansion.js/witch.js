@@ -54,10 +54,7 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([1, 2])
         pool.addEntry(LootEntry.of(`${mc}:glass_bottle`, [1, 3]).withWeight(11))
-        pool.addEntry(LootEntry.of(`modopedia:book`).withWeight(9).jsonFunction({
-            function: `${mc}:set_components`, 
-            components: {'modopedia:book': `${ew}:art_of_witchcraft`}
-        }))
+        pool.addEntry(global.enchanted.items.art_of_witchcraft().withWeight(9))
         pool.addEntry(LootEntry.of(`${ew}:arthana`).withWeight(5).damage([0.5, 0.9]))
         pool.addEntry(LootEntry.of(`${tf}:brittle_potion_flask`).withWeight(4))
         pool.addEntry(LootEntry.of(`${a}:antidote_vessel`).withWeight(1))

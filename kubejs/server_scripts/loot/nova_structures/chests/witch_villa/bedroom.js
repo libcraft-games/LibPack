@@ -26,12 +26,7 @@ LootJS.lootTables(e => {
     })
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${mc}:writable_book`).withWeight(4))
-        pool.addEntry(LootEntry.of(`modopedia:book`).withWeight(3).jsonFunction({
-            function: `${mc}:set_components`,
-            components: {
-                'modopedia:book': 'enchanted:art_of_witchcraft'
-            }
-        }))
+        pool.addEntry(global.enchanted.items.art_of_witchcraft().withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:book`).withWeight(2).enchantRandomly([
             `${mc}:respiration`,
             `${mc}:silk_touch`,
