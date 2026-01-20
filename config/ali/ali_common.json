@@ -214,15 +214,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/conduit_ruin",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:conduit",
-      "hide": false,
-      "pattern": [
-        "^.*:.*conduit_ruin.*"
-      ]
-    },
-    {
       "key": "lc:ali/ns/creeping_crypt",
       "type": "GAMEPLAY",
       "icon": "minecraft:creeper_head",

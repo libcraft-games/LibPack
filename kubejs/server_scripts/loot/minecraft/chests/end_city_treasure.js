@@ -3,7 +3,7 @@ LootJS.lootTables(e => {
     let table = e.getLootTable(`${mc}:chests/end_city_treasure`)
     table.clear()
     table.createPool(pool => {
-        pool.rolls([2, 6])
+        pool.rolls([4, 6])
         pool.addEntry(LootEntry.reference('lc:tables/general/end/treasure/resources').withWeight(21))
         pool.addEntry(LootEntry.reference('lc:tables/general/end/treasure/misc').withWeight(14))
         pool.addEntry(LootEntry.reference('lc:tables/general/end/treasure/dragon').withWeight(7))
