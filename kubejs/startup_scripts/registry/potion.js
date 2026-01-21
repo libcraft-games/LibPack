@@ -26,27 +26,36 @@ StartupEvents.registry('potion', e => {
             return ''
         return `${key}_`
     }
-    function registerPotions(potionId, effectId, durationGroup, name) {
+    function registerPotions(potionId, effectId, durationGroup) {
+        registerPotionsOfVariants(potionId, effectId, durationGroup, null)
+    }
+    function registerPotionsOfVariants(potionId, effectId, durationGroup, variants) {
         for(let [key, duration] in potionDurationGroups[durationGroup]) {
+            if(variants != null && !variants.includes(key))
+                continue
             let specificId = `${pref(key)}${potionId}`
-            let asdf = e.create(`libcraft:${specificId}`)
+            e.create(`libcraft:${specificId}`)
              .effect(effectId, duration, key === 'strong' ? 1 : 0)
-             .displayName(name)
-            console.log(`${asdf.getBuilderTranslationKey()}: ${name} / ${Component.translatableWithFallback('fuck', name).toString()}`)
         }
     }
     // ======= FUNCTIONS =======
 
-    let customPotions = [
-        ['resistance',      'general',  'Resistance'],
-        ['mining_fatigue',  'general',  "Elder's Curse"],
-        ['levitation',      'short',    'Levitation'],
-        ['blindness',       'short',    'Blindness'],
-        ['dolphins_grace',  'middle',   "Dolphin's Grace"],
-        ['nausea',          'short',    'Dizziness'],
-        ['wither',          'short',    'Decay']
+    let customVanillaPotions = [
+        ['resistance',      'general'],
+        ['mining_fatigue',  'general'],
+        ['levitation',      'short'],
+        ['blindness',       'short'],
+        ['dolphins_grace',  'middle'],
+        ['nausea',          'short'],
+        ['wither',          'short']
     ]
-    for(let [id, group, name] of customPotions) {
-        registerPotions(id, `minecraft:${id}`, group, name)
+    for(let [id, group] of customVanillaPotions) {
+        registerPotions(id, `minecraft:${id}`, group)
+    }
+    let customOtherPotions = [
+        ['runiclib', 'confusion', 'middle', ['base', 'long']]
+    ]
+    for(let [namespace, id, group, variants] of customOtherPotions) {
+        registerPotionsOfVariants(id, `${namespace}:${id}`, group, variants)
     }
 })
