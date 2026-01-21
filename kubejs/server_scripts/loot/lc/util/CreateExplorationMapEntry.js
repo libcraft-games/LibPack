@@ -20,7 +20,7 @@ function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
             fallback: name
         }
     if(color != null && (typeof color) === 'string')
-        color = parseInt(Number(`0x${color.substring(1)}`), 10)
+        color = HexToDec(color)
     if(zoom === null)
         zoom = 4
 
