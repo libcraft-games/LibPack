@@ -15,8 +15,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:emerald`, [3, 8]).withWeight(3))
         pool.addEntry(LootEntry.of(`${su}:bomb`, [2, 3]).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:tnt`, [2, 3]).withWeight(3))
-        pool.addEntry(LootEntry.of(`${ie}:nugget_uranium`, [7, 12]).withWeight(2))
-        pool.addEntry(LootEntry.of(`${ie}:gunpowder_barrel`, [1, 3]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:redstone`, [2, 7]).withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:diamond`, [1, 4]).withWeight(1))
     })
     table.createPool(pool => {
