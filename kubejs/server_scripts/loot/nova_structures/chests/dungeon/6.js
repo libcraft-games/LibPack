@@ -1,4 +1,4 @@
-// spotted in: illager manor ravager courtyard
+// spotted in: illager manor ravager courtyard, big remnant, remnant bunny base
 // by default consists of bow (1, guaranteed) + 3-6 arrows + simple dungeon loot
 LootJS.lootTables(e => {
     return

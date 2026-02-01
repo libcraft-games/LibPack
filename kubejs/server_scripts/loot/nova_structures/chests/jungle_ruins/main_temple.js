@@ -10,12 +10,12 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference(ie_generateShaderTable(e, ['ancient', 'stormflower', 'locus'])).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([4, 6])
+        pool.rolls([2, 4])
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/treasure').withWeight(6))
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/redstone_components').withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([2, 3])
+        pool.rolls([1, 2])
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/filler').withWeight(10))
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/flora').withWeight(2))
     })

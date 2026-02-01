@@ -17,7 +17,7 @@ function create_group_fixed_ct(items, max_ct) {
 //
 // returns: the newly-created group.
 function create_group(items) {
-    console.log(`create_group(${items})`)
+    // console.log(`create_group(${items})`)
     let entries = []
     for(let [item, ct] of items) {
         entries.push(LootEntry.of(item, [1, ct]))
@@ -77,8 +77,8 @@ function assembleVillageLoot(e, table, name, crops, flora, food, products, color
     })
     table.createPool(pool => {
         pool.rolls([1, 2])
-        pool.addEntry(LootEntry.empty()                                                         .withWeight(12))
-        pool.addEntry(LootEntry.reference(create_subtreasure_subtable(e, name, colors, tools))  .withWeight(5))
+        pool.addEntry(LootEntry.empty()                                                         .withWeight(14))
+        pool.addEntry(LootEntry.reference(create_subtreasure_subtable(e, name, colors, tools))  .withWeight(9))
         pool.addEntry(LootEntry.reference(create_artifacts_subtable(e, name, artifacts))        .withWeight(1))
     })
     return table

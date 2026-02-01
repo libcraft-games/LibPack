@@ -27,9 +27,9 @@ function GeneratePotPoolWithSpecifics(table, count, emptyChance, items) {
         let wt = 0
         for(let [item, weight] of items) {
             pool.addEntry(LootEntry.of(item, count).withWeight(weight))
-            wt += wt
+            wt += weight
         }
         if(emptyChance > 0)
-            pool.addEntry(LootEntry.empty().withWeight(emptyChance * wt))
+            pool.addEntry(LootEntry.empty().withWeight(Math.ceil(emptyChance * wt)))
     })
 }

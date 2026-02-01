@@ -12,6 +12,8 @@
 //      zoom                int = 4                             the zoom level of the generated map
 //
 //  returns                 LootEntry
+
+// TODO: automatically add check to prevent map from generating with target structure of same ID
 function CreateExplorationMapEntry(structure, name, decoration, color, zoom) {
     // data validation    
     if((typeof name) === 'string')

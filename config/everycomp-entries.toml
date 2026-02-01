@@ -410,6 +410,10 @@
 			drawer = true
 			open_riser_stairs = true
 
+		[entries.wood_type.dramaticdoors]
+			short_door = true
+			tall_door = true
+
 		[entries.stone_type.create]
 			small_brick_wall = true
 			cut_wall = true

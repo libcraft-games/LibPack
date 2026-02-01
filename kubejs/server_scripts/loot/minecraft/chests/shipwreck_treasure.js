@@ -3,6 +3,7 @@ LootJS.lootTables(e => {
     let bw = 'basicweapons'
     let ee = 'exposure_expanded'
     let mc = 'minecraft'
+    // TODO: towns & towers uses this chest as treasure loot in villages, so add structure checks for shipwreck-specific items
     let table = e.getLootTable(`${mc}:chests/shipwreck_treasure`)
     table.clear()
     table.createPool(pool => {

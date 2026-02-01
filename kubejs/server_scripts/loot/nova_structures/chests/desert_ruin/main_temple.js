@@ -5,11 +5,11 @@ LootJS.lootTables(e => {
     table.clear()
     table.createPool(pool => {
         pool.rolls([4, 6])
-        pool.addEntry(LootEntry.of(`${mc}:emerald`, [8, 12]).withWeight(10))
-        pool.addEntry(LootEntry.of(`${mc}:lapis_lazuli`, [8, 10]).withWeight(10))
+        pool.addEntry(LootEntry.of(`${mc}:emerald`, [8, 12]).withWeight(7))
+        pool.addEntry(LootEntry.of(`${mc}:lapis_lazuli`, [8, 10]).withWeight(7))
         pool.addEntry(LootEntry.of(`${mc}:gold_ingot`, [6, 12]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:golden_apple`, [1, 2]).withWeight(3))
-        pool.addEntry(LootEntry.of(`${mc}:diamond`, [1, 3]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:diamond`, [2, 4]).withWeight(2))
     })
     table.createPool(pool => {
         pool.rolls([2, 4])

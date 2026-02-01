@@ -25,3 +25,8 @@ function exposure_addPhoto(entry, image_name) {
         }
     })
 }
+function exposure_AgedPhoto(imageName) {
+    let mc = 'minecraft', ex = 'exposure'
+    let result = LootEntry.of(`${ex}:aged_photograph`)
+    return exposure_addPhoto(result, imageName)
+}

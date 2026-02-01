@@ -1,14 +1,8 @@
 LootJS.lootTables(e => {
-    let bp = 'biomesoplenty'
     let cd = 'culturaldelights'
     let cf = 'createfood'
-    let ch = 'chipped'
-    let ew = 'enchanted'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
-    let su = 'supplementaries'
-    let ns = 'nova_structures'
-    let uf = 'unusual_furniture'
     let vd = 'veggiesdelight'
 
     let table = e.getLootTable('nova_structures:chests/witch_villa/kitchen')
@@ -63,7 +57,7 @@ LootJS.lootTables(e => {
         }
     })
     table.createPool(pool => {
-        pool.rolls(2)
+        pool.rolls(1)
         pool.addEntry(LootEntry.empty().withWeight(3))
         pool.addEntry(LootEntry.of(`${fd}:iron_knife`).withWeight(2).damage([0.5, 0.7]))
         pool.addEntry(LootEntry.of(`${fd}:cutting_board`).withWeight(1))

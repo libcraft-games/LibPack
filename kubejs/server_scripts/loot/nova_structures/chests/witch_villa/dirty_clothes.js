@@ -13,7 +13,7 @@ LootJS.lootTables(e => {
                             components: { dyed_color: { rgb: HexToDec(color) } }
                         })
                         .enchantRandomly(`${ns}:conductivity_curse`)
-                        .enchantWithLevels([10, 25])
+                        .enchantWithLevels([5, 15])
                         .damage([0.15, 0.85])
                         .setName(Component.of(`Witch ${name}`).italic(false))
     }

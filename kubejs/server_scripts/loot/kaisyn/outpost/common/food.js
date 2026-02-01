@@ -3,9 +3,9 @@ LootJS.lootTables(e => {
     table.clear()
     table.createPool(pool => {
         pool.rolls([2, 10])
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/simple').withWeight(4))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/sandwich').withWeight(3))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/soup').withWeight(2))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/sweets').withWeight(1))
+        pool.addEntry(LootEntry.reference('lc:tables/general/villager/food/simple').withWeight(4))
+        pool.addEntry(LootEntry.reference('lc:tables/general/villager/food/sandwich').withWeight(3))
+        pool.addEntry(LootEntry.reference('lc:tables/general/villager/food/soup').withWeight(2))
+        pool.addEntry(LootEntry.reference('lc:tables/general/villager/food/sweets').withWeight(1))
     })
 })

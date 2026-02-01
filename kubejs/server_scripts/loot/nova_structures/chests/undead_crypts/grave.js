@@ -24,7 +24,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${a}:shock_pendant`).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([1, 4])
+        pool.rolls(1)
         pool.addEntry(LootEntry.group([
             LootEntry.of(`${mc}:iron_sword`).damage([0.45, 0.95]).enchantWithLevels([5, 20]).withWeight(5),
             LootEntry.of(`${bw}:iron_dagger`).damage([0.45, 0.95]).enchantWithLevels([5, 20]).withWeight(5),
@@ -32,10 +32,10 @@ LootJS.lootTables(e => {
             LootEntry.of(`${bw}:iron_hammer`).damage([0.45, 0.95]).enchantWithLevels([5, 20]).withWeight(5),
         ]))
         pool.addEntry(LootEntry.group([
-            LootEntry.of(`${ie}:sword_steel`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(4),
-            LootEntry.of(`${bw}:steel_dagger`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(4),
-            LootEntry.of(`${ie}:axe_steel`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(4),
-            LootEntry.of(`${bw}:steel_hammer`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(4),
+            LootEntry.of(`${ie}:sword_steel`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(2),
+            LootEntry.of(`${bw}:steel_dagger`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(2),
+            LootEntry.of(`${ie}:axe_steel`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(2),
+            LootEntry.of(`${bw}:steel_hammer`).damage([0.45, 0.95]).enchantWithLevels([-15, 10]).withWeight(2),
         ]))
         pool.addEntry(LootEntry.group([
             LootEntry.of(`${mc}:chainmail_helmet`).damage([0.45, 0.95]).enchantWithLevels([10, 25]).withWeight(4),

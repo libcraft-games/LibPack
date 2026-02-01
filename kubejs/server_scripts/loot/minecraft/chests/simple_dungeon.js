@@ -49,7 +49,6 @@ LootJS.lootTables(e => {
 LootJS.modifiers(e => {
     // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
     e.removeGlobalModifiers(/artifacts:.*simple_dungeon.*/)
-    e.removeGlobalModifiers(/chalk:.*simple_dungeon.*/)
     e.removeGlobalModifiers(/exposure:.*simple_dungeon.*/)
     e.removeGlobalModifiers(/exposure_expanded:.*simple_dungeon.*/)
 })

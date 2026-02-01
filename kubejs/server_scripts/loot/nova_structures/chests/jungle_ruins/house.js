@@ -11,7 +11,7 @@ LootJS.lootTables(e => {
     table.clear()
 
     table.createPool(pool => {
-        pool.rolls([3, 6])
+        pool.rolls([1, 5])
         pool.addEntry(LootEntry.of(`${fd}:rice_panicle`, [3, 13]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:sugar_cane`, [3, 7]).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:melon`, [1, 3]).withWeight(3))
@@ -32,7 +32,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${a}:rooted_boots`).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([2, 3])
+        pool.rolls([1, 3])
         pool.addEntry(LootEntry.of(`${mc}:vine`, [4, 8]).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:jungle_log`, [3, 5]).withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:bamboo`, [2, 3]).withWeight(1))

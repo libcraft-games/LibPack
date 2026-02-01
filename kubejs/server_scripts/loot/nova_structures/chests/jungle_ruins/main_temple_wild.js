@@ -19,7 +19,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/treasure').withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([2, 4])
+        pool.rolls([1, 3])
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/filler').withWeight(10))
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/flora').withWeight(2))
     })

@@ -25,7 +25,7 @@ LootJS.lootTables(e => {
     }
 
     table.createPool(pool => {
-        pool.rolls([1, 2])
+        pool.rolls([0, 2])
         pool.addEntry(LootEntry.of(`${ie}:hammer`).withWeight(8).damage([0.6, 1]))
         pool.addEntry(LootEntry.of(`${ie}:wirecutter`).withWeight(8).damage([0.6, 1]))
         pool.addEntry(LootEntry.of(`${ie}:screwdriver`).withWeight(5))
@@ -42,8 +42,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${ie}:speedloader`).withWeight(1))
     })
     table.createPool(pool => {
+        pool.addEntry(LootEntry.empty().withWeight(24))
         pool.addEntry(blueprint('components').withWeight(24))
-        pool.addEntry(LootEntry.empty().withWeight(18))
         pool.addEntry(blueprint('bullet').withWeight(16))
         pool.addEntry(blueprint('molds').withWeight(16))
         pool.addEntry(blueprint('warning_sign').withWeight(12))
@@ -52,13 +52,13 @@ LootJS.lootTables(e => {
     })
     table.createPool(pool => {
         pool.rolls(2)
-        pool.addEntry(LootEntry.of(`${ie}:component_iron`, [1, 3]).withWeight(8))
-        pool.addEntry(LootEntry.empty().withWeight(5))
-        pool.addEntry(LootEntry.of(`${ie}:component_steel`, [1, 2]).withWeight(4))
+        pool.addEntry(LootEntry.empty().withWeight(12))
+        pool.addEntry(LootEntry.of(`${ie}:component_iron`, [1, 2]).withWeight(8))
+        pool.addEntry(LootEntry.of(`${ie}:component_steel`).withWeight(4))
         pool.addEntry(LootEntry.of(`${ie}:component_electronic`).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([3, 5])
+        pool.rolls([1, 3])
         pool.addEntry(LootEntry.of(`${ie}:hemp_fabric`, [3, 5]).withWeight(8))
         pool.addEntry(LootEntry.of(`${ie}:coal_coke`, [4, 6]).withWeight(8))
         pool.addEntry(LootEntry.of(`${ie}:stick_treated`, [3, 7]).withWeight(8))
@@ -70,16 +70,17 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${ie}:ersatz_leather`, [4, 11]).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([2, 4])
-        pool.addEntry(LootEntry.of(`${ie}:wirecoil_structure_rope`, [1, 3]))
-        pool.addEntry(LootEntry.of(`${ie}:wirecoil_copper`, [1, 4]))
-        pool.addEntry(LootEntry.of(`${ie}:wirecoil_redstone`, [1, 3]))
-        pool.addEntry(LootEntry.of(`${ie}:connector_structural`, [2, 4]))
-        pool.addEntry(LootEntry.of(`${ie}:connector_lv`, [2, 4]))
-        pool.addEntry(LootEntry.of(`${ie}:connector_redstone`, [2, 4]))
+        pool.rolls(3)
+        pool.addEntry(LootEntry.empty().withWeight(24))
+        pool.addEntry(LootEntry.of(`${ie}:wirecoil_copper`, [1, 4]).withWeight(8))
+        pool.addEntry(LootEntry.of(`${ie}:wirecoil_structure_rope`, [1, 3]).withWeight(4))
+        pool.addEntry(LootEntry.of(`${ie}:connector_lv`, [2, 4]).withWeight(4))
+        pool.addEntry(LootEntry.of(`${ie}:wirecoil_redstone`, [1, 3]).withWeight(2))
+        pool.addEntry(LootEntry.of(`${ie}:connector_structural`, [2, 4]).withWeight(2))
+        pool.addEntry(LootEntry.of(`${ie}:connector_redstone`, [2, 4]).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls(2)
+        pool.rolls(1)
         pool.addEntry(LootEntry.empty().withWeight(12))
         pool.addEntry(LootEntry.of(`${ie}:conveyor_basic`, [1, 8]).withWeight(9))
         pool.addEntry(LootEntry.of(`${ie}:balloon`, [2, 4]).withWeight(6))

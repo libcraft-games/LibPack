@@ -37,4 +37,5 @@ LootJS.modifiers(e => {
     // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
     e.removeGlobalModifiers(/artifacts:.*woodland_mansion.*/)
     e.removeGlobalModifiers(/exposure_expanded:.*woodland_mansion.*/)
+    e.removeGlobalModifiers(/promotional_music_discs:add_creakstep_disc/)
 })

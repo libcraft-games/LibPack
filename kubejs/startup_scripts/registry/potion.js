@@ -45,7 +45,7 @@ StartupEvents.registry('potion', e => {
         ['mining_fatigue',  'general'],
         ['levitation',      'short'],
         ['blindness',       'short'],
-        ['dolphins_grace',  'middle'],
+        ['dolphins_grace',  'short'],
         ['nausea',          'short'],
         ['wither',          'short']
     ]

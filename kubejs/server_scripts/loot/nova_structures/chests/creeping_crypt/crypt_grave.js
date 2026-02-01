@@ -33,7 +33,7 @@ LootJS.lootTables(e => {
     })
     table.createPool(pool => {
         pool.rolls([2, 4])
-        pool.addEntry(LootEntry.of(`${mc}:gunpowder`, [9, 13]).withWeight(7))
+        pool.addEntry(LootEntry.of(`${mc}:gunpowder`, [4, 7]).withWeight(7))
         pool.addEntry(LootEntry.of(`${mc}:moss_block`, [3, 9]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:bone`, [6, 15]).withWeight(3))
     })
