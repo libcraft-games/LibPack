@@ -4,6 +4,7 @@ LootJS.lootTables(e => {
     let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
+    let uf = 'unusual_furniture'
     let vd = 'veggiesdelight'
     let table = assembleVillageLoot(e, e.getLootTable('minecraft:chests/village/village_taiga_house'),
         'taiga',
@@ -18,6 +19,8 @@ LootJS.lootTables(e => {
         [[`${a}:villager_hat`, 2], [`${a}:steadfast_spikes`, 1], [`${a}:lucky_scarf`, 1]],
         [[`${mc}:stone_axe`, 4], [`${mc}:shears`, 1], [`${bw}:stone_dagger`, 1]]
     )
+    let treasure_pool = table.pools[table.pools.length - 1]
+    treasure_pool.addEntry(LootEntry.of(`${uf}:pig_plush`))
 })
 LootJS.modifiers(e => {
     // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible

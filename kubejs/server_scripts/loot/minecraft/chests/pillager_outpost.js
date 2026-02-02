@@ -31,8 +31,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${ee}:scan_pincushion_filter`).withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*pillager_outpost.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*pillager_outpost.*/)
-}) 

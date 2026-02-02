@@ -29,7 +29,3 @@ LootJS.lootTables(e => {
         })
     }
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*ancient_city_ice_box.*/)
-})

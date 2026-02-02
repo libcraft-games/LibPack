@@ -19,7 +19,3 @@ LootJS.lootTables(e => {
         [LootEntry.of(`${su}:quiver`), 1],
     ])
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:inject.chests.village.village_fletcher/)
-})

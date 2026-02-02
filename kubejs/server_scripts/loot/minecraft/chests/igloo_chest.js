@@ -41,8 +41,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:enchanted_golden_apple`).withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*igloo.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*igloo.*/)
-})

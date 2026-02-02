@@ -43,8 +43,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/buried_treasure/misc'))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*buried_treasure.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*buried_treasure.*/)
-})

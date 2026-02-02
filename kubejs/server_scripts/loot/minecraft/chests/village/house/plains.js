@@ -32,10 +32,3 @@ LootJS.lootTables(e => {
     treasure_pool.addEntry(LootEntry.reference('exposure:chests/village_plains_house'))
     treasure_pool.addEntry(LootEntry.reference('exposure_expanded:chests/village_plains_house'))
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*village_plains_house.*/)
-    e.removeGlobalModifiers(/exposure:chests.village_plains_house/)
-    e.removeGlobalModifiers(/exposure_expanded:.*village_plains_house.*/)
-    e.removeGlobalModifiers(/farmersdelight:.*village_plains_house.*/)
-})

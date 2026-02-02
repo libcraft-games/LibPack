@@ -191,7 +191,7 @@ global.libcraft = {
         bastion: {
             decoration: 'target_point',
             destination: 'minecraft:bastion_remnant',
-            name: {translate: 'item.dnt.filled_map.bastion_remnant'},
+            name: {translate: 'item.dnt.filled_map.bastion'},
             color: '#38242d'
         },
         hamlet: {

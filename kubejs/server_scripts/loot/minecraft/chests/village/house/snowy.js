@@ -20,8 +20,3 @@ LootJS.lootTables(e => {
     let treasure_pool = table.pools[table.pools.length - 1]
     treasure_pool.addEntry(LootEntry.reference('exposure_expanded:chests/village_snowy_house'))
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*village_snowy_house.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*village_snowy_house.*/)
-})

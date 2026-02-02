@@ -6,6 +6,7 @@ LootJS.lootTables(e => {
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let su = 'supplementaries'
+    let uf = 'unusual_furniture'
     let vd = 'veggiesdelight'
     // e                LootTableEventJS    the event to create tables in
     // table            MutableLootTable    the parent table to modify
@@ -24,7 +25,7 @@ LootJS.lootTables(e => {
          [`${mc}:sunflower`,    2],
          [`${mc}:oak_sapling`, 1]],
         [[`${cf}:corn_stick`, 8], [`${cd}:elote`, 4], [`${cd}:chicken_taco`, 1], [`${cd}:beef_burrito`, 1]],
-        [[`${mc}:terracotta`, 6], [`${mc}:red_sandstone`, 6], [`${cf}:corn_flour`, 4], [`${mc}:armadillo_scute`, 2], [`${mc}:gold_nugget`, 13], [`${mc}:gold_ingot`, 1]],
+        [[`${mc}:terracotta`, 6], [`${mc}:red_sandstone`, 6], [`${cf}:corn_flour`, 4], [`${mc}:armadillo_scute`, 2], [`${mc}:gold_nugget`, 13], [`${mc}:gold_ingot`, 1], [`${uf}:huge_pot`, 2]],
         ['orange', 'brown', 'red'],
         [[`${af}:villager_hat`, 2], 
          [`${af}:onion_ring`, 1],

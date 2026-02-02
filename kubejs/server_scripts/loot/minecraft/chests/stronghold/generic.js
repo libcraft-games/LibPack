@@ -3,6 +3,7 @@ LootJS.lootTables(e => {
     let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
+    let su = 'supplementaries'
     let table = e.getLootTable('minecraft:chests/stronghold/generic')
     table.clear()
     table.createPool(pool => {
@@ -27,6 +28,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:iron_chestplate`).withWeight(2).damage([0.45, 0.85]).enchantWithLevels(15))
         pool.addEntry(LootEntry.of(`${mc}:iron_leggings`).withWeight(2).damage([0.45, 0.85]).enchantWithLevels(15))
         pool.addEntry(LootEntry.of(`${mc}:iron_boots`).withWeight(2).damage([0.45, 0.85]).enchantWithLevels(15))
+        for(let i = 1; i <= 4; i++)
+            pool.addEntry(exposure_AgedPhoto(`stronghold/corridor_1`).withWeight(2))
         pool.addEntry(LootEntry.of(`${a}:night_vision_goggles`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:warp_drive`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:crystal_heart`).withWeight(1))

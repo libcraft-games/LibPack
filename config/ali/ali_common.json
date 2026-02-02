@@ -54,6 +54,7 @@
         "^artifacts:inject/chests/ruined_portal$",
         "^artifacts:inject/chests/shipwreck_treasure$",
         "^artifacts:inject/chests/simple_dungeon$",
+        "^artifacts:inject/chests/stronghold_corridor$",
         "^artifacts:inject/chests/underwater_ruin_big$",
         "^artifacts:inject/chests/village/village_desert_house$",
         "^artifacts:inject/chests/village/village_plains_house$",
@@ -75,6 +76,7 @@
         "^exposure:chests/village_plains_house$",
         "^exposure:chests/shipwreck_map$",
         "^exposure:chests/simple_dungeon$",
+        "^exposure:chests/stronghold_crossing$",
         "^exposure_expanded:chests/abandoned_mineshaft$",
         "^exposure_expanded:chests/ancient_city$",
         "^exposure_expanded:chests/bastion_other$",
@@ -103,6 +105,8 @@
         "^minecraft:chests/ancient_city_ice_box$",
         "^minecraft:chests/nether_fortress/.*$",
         "^minecraft:chests/village/village_swamp_house$",
+        "^minecraft:chests/stronghold_corridor$",
+        "^minecraft:chests/stronghold_crossing$",
         "^nova_structures:keys/all_keys",
         "^nova_structures:maps/.*$",
         "^nova_structures:.*bunker.*",
@@ -113,14 +117,8 @@
         "^nova_structures:.*skeleton_tower.*",
         "^nova_structures:.*stray_fort.*",
         "^petrolpark:badge.*",
-        "^sophisticatedbackpacks:inject/chests/abandoned_mineshaft$",
-        "^sophisticatedbackpacks:inject/chests/bastion_treasure$",
-        "^sophisticatedbackpacks:inject/chests/desert_pyramid$",
-        "^sophisticatedbackpacks:inject/chests/end_city_treasure$",
-        "^sophisticatedbackpacks:inject/chests/nether_bridge$",
-        "^sophisticatedbackpacks:inject/chests/shipwreck_treasure$",
-        "^sophisticatedbackpacks:inject/chests/simple_dungeon$",
-        "^sophisticatedbackpacks:inject/chests/woodland_mansion$",
+        "^promotional_music_discs:woodland_mansion_extra$",
+        "^sophisticatedbackpacks:inject/chests/*$",
         "^supplementaries:blocks/urn_loot.*",
         "^supplementaries:inject/.*dungeon.*",
         "^supplementaries:inject/.*end_city.*",
@@ -169,27 +167,6 @@
       "hide": false,
       "pattern": [
         "^aether:.*gold.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ae/ruined_portal",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:water_bucket",
-      "hide": false,
-      "pattern": [
-        "^aether:.*ruined_portal.*"
-      ]
-    },
-    {
-      "key": "lc:ali/mc/stronghold",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:end_portal_frame",
-      "hide": false,
-      "pattern": [
-        "^minecraft:.*stronghold.*",
-        "^nova_structures:.*stronghold.*",
-        "^artifacts:.*stronghold.*",
-        "^exposure:.*stronghold.*"
       ]
     },
     {
@@ -262,15 +239,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*trident_trial_monument.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/misc",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:decorated_pot",
-      "hide": false,
-      "pattern": [
-        "nova_structures:.*"
       ]
     },
     {
@@ -367,48 +335,21 @@
       ]
     },
     {
-      "key": "lc:ali/tt/outpost",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:beehive",
-      "hide": false,
-      "pattern": [
-        "^kaisyn:.*outpost.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ug/catacombs",
-      "type": "GAMEPLAY",
-      "icon": "undergarden:forgotten_nugget",
-      "hide": false,
-      "pattern": [
-        "^undergarden:.*catacomb.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ug/denizen_camp",
-      "type": "GAMEPLAY",
-      "icon": "undergarden:denizen_mask",
-      "hide": false,
-      "pattern": [
-        "^.*:.*denizen_camp.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ug/depleted_mine",
-      "type": "GAMEPLAY",
-      "icon": "undergarden:cloggrum_pickaxe",
-      "hide": false,
-      "pattern": [
-        "^.*:.*depleted_mine.*"
-      ]
-    },
-    {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
       "icon": "minecraft:trial_key",
       "hide": false,
       "pattern": [
         "^.*:.*trial_chamber.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/pot_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:decorated_pot",
+      "hide": false,
+      "pattern": [
+        "^.*:pots/.*$"
       ]
     },
     {
@@ -420,7 +361,28 @@
         "^.*:chests/.*$",
         "^dungeoncrawl:chests/.*$",
         "^enderscape:.*chest.*$",
+        "^kaisyn:outpost/.*$",
+        "^kaisyn:village/.*$",
         "^supplementaries:loot/.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/vault_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:vault",
+      "hide": false,
+      "pattern": [
+        "^.*:vault/.*$",
+        "^enderscape:.*vault.*$"
+      ]
+    },
+    {
+      "key": "lc:ali/equipment",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:armor_stand",
+      "hide": false,
+      "pattern": [
+        "^.*:equipment/.*$"
       ]
     },
     {

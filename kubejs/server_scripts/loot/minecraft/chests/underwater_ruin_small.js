@@ -18,7 +18,3 @@ LootJS.lootTables(e => {
         pool.addEntry(CreateExplorationMapEntryFromData('buried_treasure').withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/exposure_expanded:.*underwater_ruin_small.*/)
-})

@@ -20,8 +20,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/jungle_temple/treasure').withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*jungle_temple.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*jungle_temple.*/)
-})

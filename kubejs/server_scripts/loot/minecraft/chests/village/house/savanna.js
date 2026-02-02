@@ -2,6 +2,7 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let af = 'artifacts'
+    let uf = 'unusual_furniture'
     let vd = 'veggiesdelight'
     // e                LootTableEventJS    the event to create tables in
     // table            MutableLootTable    the parent table to modify
@@ -30,9 +31,5 @@ LootJS.lootTables(e => {
     )
     let treasure_pool = table.pools[table.pools.length - 1]
     treasure_pool.addEntry(LootEntry.reference('exposure_expanded:chests/village_savanna_house'))
-})
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*village_savanna_house.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*village_savanna_house.*/)
+    treasure_pool.addEntry(LootEntry.of(`${uf}:cow_plush`))
 })

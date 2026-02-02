@@ -1,18 +1,16 @@
 // spotted in: illager manor ravager courtyard, big remnant, remnant bunny base
-// by default consists of bow (1, guaranteed) + 3-6 arrows + simple dungeon loot
+// by default consists of bow + 3-6 arrows + simple dungeon loot
 LootJS.lootTables(e => {
-    return
-    let cf = 'createfood'
-    let fd = 'farmersdelight'
     let mc = 'minecraft'
-    let table = e.getLootTable('nova_structures:chests/dungeon_4')
+    let su = 'supplementaries'
+    let table = e.getLootTable('nova_structures:chests/dungeon_6')
     table.clear()
     table.createPool(pool => {
-        pool.rolls([3, 4])
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/vegetal').withWeight(4))
-        pool.addEntry(LootEntry.reference('lc:tables/general/illager/victualer/simple').withWeight(2))
-        pool.addEntry(LootEntry.of(`${mc}:brown_mushroom`, [1, 4]).withWeight(1))
-        pool.addEntry(LootEntry.of(`${mc}:red_mushroom`, [1, 3]).withWeight(1))
-        pool.addEntry(LootEntry.of(`${mc}:bowl`, [1, 4]).withWeight(1))
+        pool.rolls([2, 3])
+        pool.addEntry(LootEntry.of(`${mc}:arrow`, [3, 6]).withWeight(15))
+        pool.addEntry(LootEntry.of(`${mc}:bow`).withWeight(10).damage([0.45, 0.85]))
+        pool.addEntry(LootEntry.of(`${su}:quiver`).withWeight(5).jsonFunction({ function: `${su}:random_arrows` }))
+        pool.addEntry(LootEntry.of(`${mc}:crossbow`).withWeight(1).damage([0.45, 0.85]))
+        pool.addEntry(LootEntry.of(`${mc}:bow`).withWeight(1).damage([0.25, 0.65]).enchantWithLevels(10))
     })
 })

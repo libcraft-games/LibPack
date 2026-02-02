@@ -32,10 +32,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/misc_treasure').withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/exposure:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/farmersdelight:.*abandoned_mineshaft.*/)
-})

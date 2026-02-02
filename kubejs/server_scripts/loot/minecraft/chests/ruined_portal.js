@@ -57,8 +57,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${af}:strider_shoes`).withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*ruined_portal.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*ruined_portal.*/)
-})

@@ -16,7 +16,7 @@
 	#Sets the Aether Temporary Freezing data pack to be added to new worlds automatically
 	"Add Temporary Freezing automatically" = false
 	#Sets the Aether Ruined Portals data pack to be added to new worlds automatically
-	"Add Ruined Portals automatically" = false
+	"Add Ruined Portals automatically" = true
 
 [Modpack]
 	#Enables code and data pack features used for modifying Aether Portals when Immersive Portals is installed

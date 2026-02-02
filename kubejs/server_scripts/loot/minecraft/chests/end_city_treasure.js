@@ -19,7 +19,5 @@ LootJS.lootTables(e => {
 })
 LootJS.modifiers(e => {
     // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*end_city_treasure.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*end_city_treasure.*/)
     e.removeGlobalModifiers(/supplementaries:.*end_city.*/)
 })

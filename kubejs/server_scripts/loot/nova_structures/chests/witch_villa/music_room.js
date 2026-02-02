@@ -1,8 +1,7 @@
 LootJS.lootTables(e => {
-    let ch = 'chipped'
     let mc = 'minecraft'
+    let pd = 'promotional_music_discs'
     let su = 'supplementaries'
-    let ns = 'nova_structures'
     let table = e.getLootTable('nova_structures:chests/witch_villa/music_room')
     table.clear()
     table.createPool(pool => {
@@ -11,7 +10,6 @@ LootJS.lootTables(e => {
             ['wait',            5],
             ['mall',            4],
             ['blocks',          4],
-            ['chirp',           4],
             ['strad',           4],
             ['lava_chicken',    1],
             ['otherside',       1]
@@ -19,6 +17,7 @@ LootJS.lootTables(e => {
         for(let [song, weight] of musicDiscs) {
             pool.addEntry(LootEntry.of(`${mc}:music_disc_${song}`).withWeight(weight))
         }
+        pool.addEntry(LootEntry.of(`${pd}:music_disc_minecraft_live_2022`).withWeight(5))
     })
     table.createPool(pool => {
         pool.rolls([1, 6])
