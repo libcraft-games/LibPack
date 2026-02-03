@@ -37,6 +37,21 @@
       "icon": "twilightforest:emperors_cloth",
       "hide": false,
       "pattern": [
+        "^aether:chests/dungeon/bronze/bronze_dungeon_disc$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_gummies$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_loot$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_neptune$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_trash$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_treasure$",
+        "^aether:chests/dungeon/silver/silver_dungeon_cape_config$",
+        "^aether:chests/dungeon/silver/silver_dungeon_disc$",
+        "^aether:chests/dungeon/silver/silver_dungeon_gravitite$",
+        "^aether:chests/dungeon/silver/silver_dungeon_gummies$",
+        "^aether:chests/dungeon/silver/silver_dungeon_loot$",
+        "^aether:chests/dungeon/silver/silver_dungeon_trash$",
+        "^aether:chests/dungeon/silver/silver_dungeon_treasure$",
+        "^aether:chests/dungeon/silver/silver_dungeon_valkyrie$",
+        "^aether:chests/dungeon/gold/gold_dungeon_treasure$",
         "^artifacts:chests/campsite.*$",
         "^artifacts:inject/archaeology/desert_pyramid$",
         "^artifacts:inject/chests/abandoned_mineshaft$",
@@ -97,8 +112,7 @@
         "^exposure_expanded:chests/village_snowy_house$",
         "^exposure_expanded:chests/village_temple$",
         "^exposure_expanded:chests/woodland_mansion$",
-        "^farmersdelight:chests/fd_abandoned_mineshaft$",
-        "^farmersdelight:chests/fd_village_plains_house$",
+        "^farmersdelight:.*$",
         "^kaisyn:.*village_wandering_trader.*",
         "^lc:tables/.*",
         "^minecraft:chests/ancient_city$",
@@ -109,6 +123,7 @@
         "^minecraft:chests/stronghold_crossing$",
         "^nova_structures:keys/all_keys",
         "^nova_structures:maps/.*$",
+        "^nova_structures:special_items/.*",
         "^nova_structures:.*bunker.*",
         "^nova_structures:.*end_lighthouse.*",
         "^nova_structures:.*firewatch_tower.*",
@@ -117,8 +132,8 @@
         "^nova_structures:.*skeleton_tower.*",
         "^nova_structures:.*stray_fort.*",
         "^petrolpark:badge.*",
-        "^promotional_music_discs:woodland_mansion_extra$",
-        "^sophisticatedbackpacks:inject/chests/*$",
+        "^promotional_music_discs:.*$",
+        "^sophisticatedbackpacks:inject/chests/.*$",
         "^supplementaries:blocks/urn_loot.*",
         "^supplementaries:inject/.*dungeon.*",
         "^supplementaries:inject/.*end_city.*",
@@ -131,51 +146,20 @@
         "^supplementaries:loot/urn_loot.*",
         "^sweety_archaeology:blocks/mineshaft_map$",
         "^sweety_archaeology:chests/archaeology_map_in_chest$",
-        "^veggiesdelight:chests/vd_wagon_.*$"
+        "^veggiesdelight:.*$"
       ]
     },
     {
-      "key": "lc:ali/ns/explorer_maps",
+      "key": "lc:ali/ae/aether",
       "type": "GAMEPLAY",
-      "icon": "minecraft:map",
+      "icon": "aether:book_of_lore",
       "hide": false,
       "pattern": [
-      ]
-    },
-    {
-      "key": "lc:ali/ae/bronze_dungeon",
-      "type": "GAMEPLAY",
-      "icon": "aether:boss_doorway_carved_stone",
-      "hide": false,
-      "pattern": [
-        "^aether:.*bronze.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ae/silver_dungeon",
-      "type": "GAMEPLAY",
-      "icon": "aether:holystone_sword",
-      "hide": false,
-      "pattern": [
-        "^aether:.*silver.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ae/gold_dungeon",
-      "type": "GAMEPLAY",
-      "icon": "aether:phoenix_helmet",
-      "hide": false,
-      "pattern": [
-        "^aether:.*gold.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/creeping_crypt",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:creeper_head",
-      "hide": false,
-      "pattern": [
-        "^.*:.*creeping_crypt.*"
+        "^aether:chests/dungeon/bronze/bronze_dungeon$",
+        "^aether:chests/dungeon/bronze/bronze_dungeon_reward$",
+        "^aether:chests/dungeon/silver/silver_dungeon$",
+        "^aether:chests/dungeon/silver/silver_dungeon_reward$",
+        "^aether:chests/dungeon/gold/gold_dungeon_reward$"
       ]
     },
     {
@@ -194,33 +178,6 @@
       "hide": false,
       "pattern": [
         "^.*:.*lone_citadel.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/nether_keep",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:chiseled_nether_bricks",
-      "hide": false,
-      "pattern": [
-        "^.*:.*keep.*"     
-      ]
-    },
-    {
-      "key": "lc:ali/ns/nether_port",
-      "type": "GAMEPLAY",
-      "icon": "artifacts:strider_shoes",
-      "hide": false,
-      "pattern": [
-        "^.*:.*nether_port.*"
-      ]
-    },
-    {
-      "key": "lc:ali/ns/piglin_outstation",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:lodestone",
-      "hide": false,
-      "pattern": [
-        "^.*:.*piglin_outstation.*"
       ]
     },
     {
@@ -326,12 +283,12 @@
       ]
     },
     {
-      "key": "lc:ali/tf/treehouses",
+      "key": "lc:ali/tf/misc",
       "type": "GAMEPLAY",
-      "icon": "twilightforest:canopy_sapling",
+      "icon": "twilightforest:block_and_chain",
       "hide": false,
       "pattern": [
-        "^twilight_treehouses:.*"
+        "^twilightforest:.*"
       ]
     },
     {
@@ -367,12 +324,22 @@
       ]
     },
     {
+      "key": "lc:ali/spawner_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:trial_spawner",
+      "hide": false,
+      "pattern": [
+        "^.*:spawners?/.*$"
+      ]
+    },
+    {
       "key": "lc:ali/vault_loot",
       "type": "GAMEPLAY",
       "icon": "minecraft:vault",
       "hide": false,
       "pattern": [
         "^.*:vault/.*$",
+        "^nova_structures:.*vault$",
         "^enderscape:.*vault.*$"
       ]
     },
@@ -418,7 +385,7 @@
       "icon": "minecraft:brush",
       "hide": false,
       "pattern": [
-        "^.*:arch.{2,3}logy/.*$"
+        "^.*arch.{2,3}logy.*$"
       ]
     },
     {

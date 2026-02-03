@@ -1,4 +1,5 @@
 LootJS.lootTables(e => {
+    let a  = 'artifacts'
     let ch = 'chipped'
     let ee = 'exposure_expanded'
     let ex = 'exposure'
@@ -30,6 +31,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${ee}:telescopic_lens`).withWeight(2))
         pool.addEntry(LootEntry.of(`${ie}:manual`).withWeight(2))
         pool.addEntry(LootEntry.of(`${ex}:camera`).withWeight(1))
+        pool.addEntry(LootEntry.of(`${a}:shock_pendant`).withWeight(1))
     })
     table.createPool(pool => {
         pool.rolls([2, 3])

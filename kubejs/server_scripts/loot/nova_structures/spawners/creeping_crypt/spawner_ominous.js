@@ -1,6 +1,7 @@
 LootJS.lootTables(e => {
     let fd = 'farmersdelight'
     let ie = global.ie.namespace
+    let lc = 'libcraft'
     let mc = 'minecraft'
     let su = 'supplementaries'
 
@@ -12,7 +13,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${su}:bomb_blue`,       [2, 3]).withWeight(1))
         pool.addEntry(LootEntry.of(`${fd}:egg_sandwich`,    [2, 4]).withWeight(1))
         pool.addEntry(LootEntry.of(`${mc}:golden_carrot`,   [1, 3]).withWeight(1))
-        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:long_swiftness`))
+        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:long_resistance`))
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:strong_healing`))
+        pool.addEntry(NovaStructuresKeys.creeping_crypt.withWeight(3))
     })
 })

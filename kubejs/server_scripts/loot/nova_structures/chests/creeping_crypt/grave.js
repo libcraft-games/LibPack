@@ -6,7 +6,7 @@ LootJS.lootTables(e => {
     let ie = global.ie.namespace
     let mc = 'minecraft'
     let su = 'supplementaries'
-    let ec = 'enchanted'
+    let ew = 'enchanted'
     let table = e.getLootTable('nova_structures:chests/creeping_crypt/crypt_grave')
     table.clear()
     table.createPool(pool => {
@@ -22,14 +22,13 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.empty().withWeight(45))
         pool.addEntry(LootEntry.of(`${mc}:creeper_banner_pattern`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:kitty_slippers`).withWeight(1))
-        pool.addEntry(LootEntry.of(`${a}:shock_pendant`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:pocket_piston`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:panic_necklace`).withWeight(1))
     })
     table.createPool(pool => {
         pool.addEntry(LootEntry.empty().withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:creeper_head`).withWeight(2))
-        pool.addEntry(LootEntry.of(`${ec}:creeper_heart`).withWeight(1))        
+        pool.addEntry(LootEntry.of(`${ew}:creeper_heart`).withWeight(1))        
     })
     table.createPool(pool => {
         pool.rolls([2, 4])
