@@ -3,7 +3,8 @@ const NovaStructuresKeys = {
         basic: CustomTrialKey('trial_key', 711, 'Shrine Key'),
         ominous: CustomTrialKey('ominous_trial_key', 711, 'Ominous Shrine Key')
     },
-    creeping_crypt: CustomTrialKey('trial_key', 712, 'Creeping Key'),
+    creeping_crypt: CustomTrialKey('trial_key', 712,
+            {translate: 'item.dnt.creeper_key', fallback: 'Creeping Key'}),
     lone_citadel: {
         basic: CustomTrialKey('trial_key', 713, 'Citadel Key'),
         ominous: CustomTrialKey('ominous_trial_key', 714, 'Citadel Boss Key')

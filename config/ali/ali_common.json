@@ -190,15 +190,6 @@
       ]
     },
     {
-      "key": "lc:ali/ns/trident_trial_monument",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:trident",
-      "hide": false,
-      "pattern": [
-        "^.*:.*trident_trial_monument.*"
-      ]
-    },
-    {
       "key": "lc:ali/tf/aurora",
       "type": "GAMEPLAY",
       "icon": "twilightforest:aurora_block",
@@ -339,7 +330,7 @@
       "hide": false,
       "pattern": [
         "^.*:vault/.*$",
-        "^nova_structures:.*vault$",
+        "^nova_structures:.*vault.*$",
         "^enderscape:.*vault.*$"
       ]
     },
