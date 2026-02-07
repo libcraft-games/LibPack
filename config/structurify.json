@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2026-01-30_18-01-45",
+  "config_datetime": "2026-02-04_16-46-27",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -278,7 +278,9 @@
     {
       "name": "nova_structures:end_castle",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "#enderscape:enderscape_biomes"
+      ],
       "blacklisted_biomes": [
         "minecraft:the_end",
         "minecraft:end_highlands",
@@ -288,6 +290,10 @@
       ],
       "step": "surface_structures",
       "terrain_adaptation": "none",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
       "biome_check_mode": "BLACKLIST",

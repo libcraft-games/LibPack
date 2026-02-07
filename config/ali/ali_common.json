@@ -301,20 +301,6 @@
       ]
     },
     {
-      "key": "ali:chest_loot",
-      "type": "GAMEPLAY",
-      "icon": "minecraft:chest",
-      "hide": false,
-      "pattern": [
-        "^.*:chests/.*$",
-        "^dungeoncrawl:chests/.*$",
-        "^enderscape:.*chest.*$",
-        "^kaisyn:outpost/.*$",
-        "^kaisyn:village/.*$",
-        "^supplementaries:loot/.*$"
-      ]
-    },
-    {
       "key": "lc:ali/spawner_loot",
       "type": "GAMEPLAY",
       "icon": "minecraft:trial_spawner",
@@ -332,6 +318,20 @@
         "^.*:vault/.*$",
         "^nova_structures:.*vault.*$",
         "^enderscape:.*vault.*$"
+      ]
+    },
+    {
+      "key": "ali:chest_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chest",
+      "hide": false,
+      "pattern": [
+        "^.*:chests/.*$",
+        "^dungeoncrawl:chests/.*$",
+        "^enderscape:.*chest.*$",
+        "^kaisyn:outpost/.*$",
+        "^kaisyn:village/.*$",
+        "^supplementaries:loot/.*$"
       ]
     },
     {
