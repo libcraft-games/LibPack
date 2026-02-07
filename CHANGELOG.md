@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-02-07
+
+### Added
+- [Create: Factory Logistics](), which allows fluids to be accounted for in complex factories more easily
+- [Create: New Age](), which adds some interesting methods of power and will in the future be modified to mostly (but not entirely) replace [Create Crafts & Additions]()
+- [Dramatic Doors](), which adds 1- and 3-block tall variants of doors
+- [Etched](), which lets you make custom music discs from links to e.g. Bandcamp and Soundcloud
+- [Patchouli](), which provides guidebooks for several mods which were already in the pack
+
+### Changed 
+
+- Remade nearly all loot tables from scratch (#77)
+  - Redid [Dungeon Crawl]() loot tables to integrate modded items, be more varied, and encourage more interesting play (#289)
+  - Removed [Advanced Loot Info]() tabs for completed structures; added tabs for different kinds of loot tables (e.g. trial vaults, pots)
+  - Hid many tables which don't generate directly, greatly cleaning up the ALI tabs
+- [Twilight Forest]() death tomes now occasionally drop [Scriptor Magicae]() scraps when damaged and tomes when defeated (#146)
+- Organized [Immersive Engineering]() shaders into custom rarity tiers, and made the tooltips accurately represent their rarity instead of always calling them Common (#167)
+- Made [Supplementaries]() and [Supplementaries Squared]() sacks compatible with [Easy Shulker Boxes]()
+- Adjusted structure spawning
+- Added several custom potions, mostly for otherwise-unused potion effects
+
+### Removed
+
+
+
 ## [0.8.1+1.21.1] - 2025-12-28
 
 ### Added
