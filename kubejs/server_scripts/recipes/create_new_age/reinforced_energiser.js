@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
     let ie = global.ie.namespace
     let mc = 'minecraft'
 
-    let item = `${cn}:advanced_energiser`
+    let item = `${cn}:reinforced_energiser`
     e.remove({output: item})
     e.shaped(
         Item.of(item),
