@@ -5,7 +5,8 @@
     "create",
     "immersiveengineering",
     "veggiesdelight",
-    "enchanted"
+    "enchanted",
+    "expandeddelight"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -31,7 +32,8 @@
     "c:storage_blocks/{material}",
     "c:wires/{material}",
     "lc:unify/garlic",
-    "c:sheetmetal/{material}"
+    "c:sheetmetal/{material}",
+    "c:foods/sweet_potato"
   ],
   "ignored_tags": [],
   "ignored_items": [],
