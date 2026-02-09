@@ -14,7 +14,7 @@ ServerEvents.recipes(e => {
         ], 
         {
             A: `${mc}:gunpowder`,
-            B: `#minecraft:sand`
+            B: `#c:sands`
         }
     )
 })
