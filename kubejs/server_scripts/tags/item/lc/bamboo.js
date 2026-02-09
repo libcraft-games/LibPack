@@ -5,7 +5,7 @@ ServerEvents.tags('item', e => {
     let nd = 'mynethersdelight'
     let items = [
         `${mc}:bamboo`,
-        `${nd}:powdery_cannon`,
+        `${nd}:powder_cannon`,
     ]
     for(let item of items)
         e.add(tag, item)

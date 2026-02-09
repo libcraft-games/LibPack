@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
             'AAA'
         ], 
         {
-            S: '#lc:roots'
+            A: '#lc:roots'
         }
     )
 })
