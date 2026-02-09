@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] - 2026-02-07
+
+### Added
+- [Create: Factory Logistics](https://modrinth.com/mod/create_factory_logistics), which allows fluids to be accounted for in complex factories more easily
+- [Create: New Age](https://modrinth.com/mod/create-new-age), which adds some interesting methods of power and will in the future be modified to mostly (but not entirely) replace [Create Crafts & Additions](https://modrinth.com/mod/createaddition)
+- [Dramatic Doors](https://modrinth.com/mod/dramatic-doors), which adds 1- and 3-block tall variants of doors
+- [Etched](https://modrinth.com/mod/etched), which lets you make custom music discs from links to e.g. Bandcamp and Soundcloud
+- [Patchouli](https://modrinth.com/mod/patchouli), which provides guidebooks for several mods which were already in the pack
+
+### Changed 
+
+- Remade nearly all loot tables from scratch (#77)
+  - Redid [Dungeon Crawl](https://modrinth.com/mod/dungeoncrawl) loot tables to integrate modded items, be more varied, and encourage more interesting play (#289)
+  - Removed [Advanced Loot Info](https://modrinth.com/mod/advanced-loot-info) tabs for completed structures; added tabs for different kinds of loot tables (e.g. trial vaults, pots)
+  - Hid many tables which don't generate directly, greatly cleaning up the ALI tabs
+- [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest) death tomes now occasionally drop [Scriptor Magicae](https://modrinth.com/mod/scriptor-magicae) scraps when damaged and tomes when defeated (#146)
+- Organized [Immersive Engineering](https://modrinth.com/mod/immersiveengineering) shaders into custom rarity tiers, and made the tooltips accurately represent their rarity instead of always calling them Common (#167)
+- Made [Supplementaries](https://modrinth.com/mod/supplementaries) and [Supplementaries Squared](https://modrinth.com/mod/supplementaries-squared) sacks compatible with [Easy Shulker Boxes](https://modrinth.com/mod/easy-shulker-boxes)
+- Adjusted structure spawning
+- Added several custom potions, mostly for otherwise-unused potion effects
+- Disabled [Fowl Play](https://modrinth.com/mod/fowlplay) pigeon spawning, since they seemed to pretty regularly cause insane lag
+- Similarly reduced numbers of birds per spawn attempt, especially penguins
+
+### Removed
+
+- [Twilight Treehouses](https://modrinth.com/mod/twilight-treehouses)
+
+
 ## [0.8.1+1.21.1] - 2025-12-28
 
 ### Added
