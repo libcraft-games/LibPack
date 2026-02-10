@@ -1,9 +1,5 @@
 {
   "feature": "scriptor:engraving",
   "placement": [
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 0
-    }
   ]
 }
