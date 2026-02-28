@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2026-02-04_16-46-27",
+  "config_datetime": "2026-02-27_14-16-04",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -17,6 +17,19 @@
     }
   ],
   "structures": [
+    {
+      "name": "minecraft:desert_pyramid",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:lush_desert"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
     {
       "name": "minecraft:igloo",
       "is_disabled": false,
@@ -100,7 +113,10 @@
     {
       "name": "minecraft:village_taiga",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "biomesoplenty:snowy_maple_woods",
+        "biomesoplenty:maple_woods"
+      ],
       "blacklisted_biomes": [
         "biomesoplenty:jade_cliffs",
         "biomesoplenty:dead_forest",
@@ -175,7 +191,7 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "bury",
-      "override_global_flatness_check": false,
+      "override_global_flatness_check": true,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
@@ -1756,7 +1772,7 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_box",
-      "override_global_flatness_check": false,
+      "override_global_flatness_check": true,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
@@ -2066,6 +2082,26 @@
       "terrain_adaptation": "beard_box"
     },
     {
+      "name": "supplementaries:galleon",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:tropics"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:deep_frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:ocean",
+        "minecraft:cold_ocean"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": true
+    },
+    {
       "name": "sweety_archaeology:desert_outpost",
       "is_disabled": false,
       "whitelisted_biomes": [],
@@ -2122,7 +2158,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:exclusives/pillager_outpost_iberian",
@@ -2148,7 +2187,10 @@
         "biomesoplenty:scrubland"
       ],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:exclusives/pillager_outpost_nilotic",
@@ -2238,12 +2280,16 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:exclusives/village_iberian",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "biomesoplenty:woodland",
         "biomesoplenty:scrubland",
         "biomesoplenty:rocky_shrubland",
         "biomesoplenty:dryland"
@@ -2251,15 +2297,24 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": false,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "",
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
     },
     {
       "name": "towns_and_towers:exclusives/village_mediterranean",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "biomesoplenty:woodland",
         "biomesoplenty:lavender_field",
         "biomesoplenty:jacaranda_glade"
       ],
@@ -2269,8 +2324,8 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2294,7 +2349,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:exclusives/village_rustic",
@@ -2306,8 +2364,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2317,9 +2375,6 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
-      "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
       "biome_check_mode": "BLACKLIST",
@@ -2340,8 +2395,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2355,6 +2410,19 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "towns_and_towers:mimic_desert",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "biomesoplenty:lush_desert"
+      ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "none",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:pillager_outpost_badlands",
@@ -2372,6 +2440,17 @@
       "whitelisted_biomes": [
         "biomesoplenty:gravel_beach"
       ],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "towns_and_towers:pillager_outpost_birch_forest",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
@@ -2408,7 +2487,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:pillager_outpost_forest",
@@ -2498,8 +2580,8 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2537,7 +2619,10 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:pillager_outpost_snowy_slopes",
@@ -2640,7 +2725,7 @@
         "biomesoplenty:gravel_beach"
       ],
       "blacklisted_biomes": [],
-      "step": "fluid_springs",
+      "step": "vegetal_decoration",
       "terrain_adaptation": "beard_thin",
       "override_global_flatness_check": true,
       "enable_flatness_check": true,
@@ -2666,24 +2751,22 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_flower_forest",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "biomesoplenty:snowy_maple_woods",
         "biomesoplenty:snowblossom_grove",
-        "biomesoplenty:maple_woods",
         "biomesoplenty:jade_cliffs"
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2699,6 +2782,9 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
       "biome_check_mode": "BLACKLIST",
@@ -2736,12 +2822,16 @@
       "name": "towns_and_towers:village_meadow",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "minecraft:windswept_hills",
-        "biomesoplenty:forested_field"
+        "minecraft:windswept_hills"
       ],
-      "blacklisted_biomes": [],
+      "blacklisted_biomes": [
+        "biomesoplenty:field"
+      ],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_mushroom_fields",
@@ -2753,8 +2843,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2784,8 +2874,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2810,19 +2900,24 @@
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
-      "terrain_adaptation": "beard_thin"
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
+      "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "towns_and_towers:village_snowy_taiga",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "biomesoplenty:field",
+        "biomesoplenty:forested_field",
         "biomesoplenty:snowy_coniferous_forest"
       ],
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
@@ -2842,8 +2937,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2855,8 +2950,8 @@
       ],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false,
       "override_global_biome_check": false,
       "enable_biome_check": false,
@@ -2877,8 +2972,8 @@
       "blacklisted_biomes": [],
       "step": "fluid_springs",
       "terrain_adaptation": "beard_thin",
-      "override_global_flatness_check": true,
-      "enable_flatness_check": true,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": false,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
@@ -2913,6 +3008,14 @@
   ],
   "structure_sets": [
     {
+      "spacing": 42,
+      "separation": 32,
+      "name": "dungeoncrawl:dungeons",
+      "salt": 10387313,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false
+    },
+    {
       "spacing": 300,
       "separation": 190,
       "name": "minecraft:ocean_monuments",
@@ -2925,7 +3028,7 @@
       "separation": 15,
       "name": "minecraft:ruined_portals",
       "salt": 34222645,
-      "frequency": 0.5,
+      "frequency": 0.25,
       "override_global_spacing_and_separation_modifier": false
     },
     {
@@ -2933,7 +3036,7 @@
       "separation": 4,
       "name": "minecraft:shipwrecks",
       "salt": 165745295,
-      "frequency": 0.5,
+      "frequency": 0.25,
       "override_global_spacing_and_separation_modifier": false
     },
     {

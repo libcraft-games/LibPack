@@ -30,7 +30,7 @@ schematicVersion = 5
 			shipGeneralPaddlingModifier = 35.0
 			#Maximum speed bonus and penalty depending on the ship biome type in percent.
 			#Range: 0.0 ~ 500.0
-			shipGeneralBiomeModifier = 20.0
+			shipGeneralBiomeModifier = 10.0
 			#Damage reduction per shield in percent.
 			#Range: -500.0 ~ 500.0
 			shipGeneralShieldDamageReduction = 3.0
