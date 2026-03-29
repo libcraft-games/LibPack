@@ -19,9 +19,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/minecraft/desert_pyramid/artifacts_2').withWeight(1))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*desert_pyramid.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*desert_pyramid.*/)
-    e.removeGlobalModifiers(/sophisticatedbackpacks:.*desert_pyramid.*/)
-})

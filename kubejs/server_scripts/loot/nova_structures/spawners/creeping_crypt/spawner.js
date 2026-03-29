@@ -13,6 +13,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:carrot`,      [1, 3]).withWeight(1))
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:resistance`))
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:healing`))
-        pool.addEntry(NovaStructuresKeys.creeping_crypt.withWeight(3))
+        pool.addEntry(NovaStructuresKeys.creeping_crypt.withWeight(1))
     })
 })

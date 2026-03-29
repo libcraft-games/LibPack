@@ -22,7 +22,3 @@ LootJS.lootTables(e => {
     let treasure_pool = table.pools[table.pools.length - 1]
     treasure_pool.addEntry(LootEntry.of(`${uf}:pig_plush`))
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*village_taiga_house.*/)
-})

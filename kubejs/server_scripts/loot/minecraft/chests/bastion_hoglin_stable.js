@@ -29,7 +29,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/decor').withWeight(2))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*bastion_hoglin_stable.*/)
-})

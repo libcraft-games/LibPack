@@ -21,7 +21,3 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/general/piglin/food/golden_carrot').withWeight(3))
     })
 })
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/exposure_expanded:.*bastion_other.*/)
-})
