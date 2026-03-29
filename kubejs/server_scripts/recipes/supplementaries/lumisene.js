@@ -8,7 +8,8 @@ ServerEvents.recipes(e => {
     e.remove({output: lumisene_bucket})
     e.remove({output: lumisene_bottle})
     e.remove({id: `${s}:integration/lumisene_mixing`})
-
+    // todo: replace glow berry juice with potion of glowing
+    // also, maybe change shimmerpearl to something from another dimension?
     e.custom({
         type: `${ie}:refinery`,
         energy: 600,
