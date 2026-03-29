@@ -1,38 +1,15 @@
 ServerEvents.recipes(e => {
+    let ie = 'immersiveengineering'
+    let mc = 'minecraft'
     e.remove({
         output: 'create:andesite_alloy',
         type: 'minecraft:crafting_shaped',
         input: 'minecraft:andesite'
     })
-    e.custom({
-        "type": "immersiveengineering:alloy",
-        "input0": {
-            "item": "minecraft:andesite"
-        },
-        "input1": {
-            "tag": "c:nuggets/iron"
-        },
-        "result": {
-            "basePredicate": {
-                "item": "create:andesite_alloy"
-            },
-            "count": 1
-        }
-    })
-    e.custom({
-        "type": "immersiveengineering:alloy",
-        "input0": {
-            "item": "minecraft:andesite"
-        },
-        "input1": {
-            "tag": "c:nuggets/zinc"
-        },
-        "result": {
-            "basePredicate": {
-                "item": "create:andesite_alloy"
-            },
-            "count": 1
-        }
-    })
-    console.log(`applied all changes successfully!`)
-});
+    let iron_nugget = `#c:nuggets/iron`
+    let zinc_nugget = `#c:nuggets/zinc`
+    let andesite = `${mc}:andesite`
+    let alloy = `create:andesite_alloy`
+    ie_AddAlloy(e, ie_BP(zinc_nugget), ie_BP(andesite), ie_BP(alloy))
+    ie_AddAlloy(e, ie_BP(iron_nugget), ie_BP(andesite), ie_BP(alloy))
+})

@@ -194,7 +194,7 @@
 		#Colors tall grass same color as grass
 		tall_grass_color = true
 		#Makes colored maps a bit more accurate. Might affect performance
-		accurate_colors = false
+		accurate_colors = true
 
 	[items.slingshot]
 		#Adds an overlay to slingshots in gui displaying currently selected ammo
