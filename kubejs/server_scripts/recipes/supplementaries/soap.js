@@ -6,8 +6,7 @@ ServerEvents.recipes(e => {
     let ash = `${su}:ash`, 
         ashes = `c:dusts/ash`,
         quicklime = `${ew}:quicklime`,
-        soap = `${su}:soap`,
-        vegetable_oil = `${cf}:vegetable_oil`
+        soap = `${su}:soap`
 
     let veg_oil_buckets 
         = Ingredient.of(`${ie}:plantoil_bucket`)
