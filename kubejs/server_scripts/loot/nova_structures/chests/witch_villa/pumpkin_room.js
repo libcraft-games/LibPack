@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let ch = 'chipped'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
@@ -10,7 +9,6 @@ LootJS.lootTables(e => {
             LootEntry.of(`${mc}:pumpkin`).withWeight(5),
             LootEntry.of(`${fd}:pumpkin_slice`, [1, 4]).withWeight(4),
             LootEntry.of(`${mc}:pumpkin_seeds`, [1, 5]).withWeight(4),
-            LootEntry.of(`${cf}:pumpkin_puree_bucket`).withWeight(2),
             LootEntry.of(`${fd}:stuffed_pumpkin_block`).withWeight(1)
         ]))
         pool.addEntry(LootEntry.group([
