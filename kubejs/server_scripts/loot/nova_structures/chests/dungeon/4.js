@@ -1,7 +1,6 @@
 // spotted in: badlands miner outpost kitchen
 // by default consists of bowl (1, guaranteed) + random wheat/mushroom/bread type food + simple dungeon loot
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let table = e.getLootTable('nova_structures:chests/dungeon_4')

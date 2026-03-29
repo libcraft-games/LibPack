@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let bp = 'biomesoplenty'
-    let cf = 'createfood'
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let af = 'artifacts'
@@ -22,7 +21,7 @@ LootJS.lootTables(e => {
          [`${mc}:oxeye_daisy`,        2], [`${mc}:cornflower`,        2], 
          [`${bp}:toadstool`,   1], [`${mc}:fern`, 1], [`${mc}:peony`, 1],
          [`${mc}:birch_sapling`,  4], [`${bp}:fir_sapling`,  1]],
-        [[`${mc}:baked_potato`, 6], [`${cf}:mixed_salad_beetroot_carrot`, 3], [`${fd}:vegetable_soup`, 2], [`${vd}:dandelion_and_eggs`, 1]],
+        [[`${mc}:baked_potato`, 6], [`${fd}:mixed_salad`, 3], [`${fd}:vegetable_soup`, 2], [`${vd}:dandelion_and_eggs`, 1]],
         [[`${mc}:birch_log`, 4], [`${bp}:fir_log`, 3], [`${mc}:feather`, 4], [`${mc}:egg`, 4], [`${mc}:flint`, 4]],
         ['green', 'white', 'gray', 'lime'],
         [[`${af}:villager_hat`, 2], 

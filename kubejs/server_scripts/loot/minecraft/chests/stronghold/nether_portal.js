@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let table = e.getLootTable('minecraft:chests/stronghold/nether_portal')

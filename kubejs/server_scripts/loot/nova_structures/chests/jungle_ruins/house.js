@@ -2,7 +2,6 @@ LootJS.lootTables(e => {
     let a = 'artifacts'
     let bop = 'biomesoplenty'
     let cd = 'culturaldelights'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let uf = 'unusual_furniture'
@@ -16,8 +15,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:sugar_cane`, [3, 7]).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:melon`, [1, 3]).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:cocoa_beans`, [1, 5]).withWeight(3))
-        pool.addEntry(LootEntry.of(`${cf}:bar_of_dark_chocolate`, [1, 5]).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:dark_chocolate_bottle`, [1, 3]).withWeight(2))
+        pool.addEntry(LootEntry.of(`create:bar_of_chocolate`, [1, 5]).withWeight(2))
         pool.addEntry(LootEntry.of(`${cd}:avocado`, [1, 2]).withWeight(1))
     })
     table.createPool(pool => {

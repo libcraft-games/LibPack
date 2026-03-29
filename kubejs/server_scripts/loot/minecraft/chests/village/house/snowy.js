@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'
     let bw = 'basicweapons'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let vd = 'veggiesdelight'
@@ -11,7 +10,7 @@ LootJS.lootTables(e => {
         [[`${mc}:dandelion`,    2], [`${mc}:poppy`,   2], 
          [`${mc}:sugar_cane`,   1], [`${mc}:pumpkin`, 1],
          [`${mc}:spruce_sapling`, 2]],
-        [[`${mc}:bread`, 6], [`${mc}:cooked_rabbit`, 5], [`${mc}:beetroot_soup`, 3], [`${vd}:turnip_salad`, 3], [`${cf}:rabbit_meatball_sandwich`, 1]],
+        [[`${mc}:bread`, 6], [`${mc}:cooked_rabbit`, 5], [`${mc}:beetroot_soup`, 3], [`${vd}:turnip_salad`, 3], [`${mc}:rabbit_stew`, 1]],
         [[`${mc}:snowball`, 7], [`${mc}:ice`, 5], [`${mc}:coal`, 4], [`${mc}:rabbit_hide`, 2]],
         ['white', 'light_blue', 'light_gray'],
         [[`${a}:snowshoes`, 4], [`${a}:lucky_scarf`, 3], [`${a}:villager_hat`, 2], [`${a}:scarf_of_invisibility`, 1]],

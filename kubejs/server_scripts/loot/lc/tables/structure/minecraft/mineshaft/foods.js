@@ -1,11 +1,10 @@
 LootJS.lootTables(e => {
     let bop = 'biomesoplenty'
-    let cd = 'culturaldelights'
-    let cf = 'createfood'
-    let mc = 'minecraft'
     let fd = 'farmersdelight'
-    let vd = 'veggiesdelight'
+    let mc = 'minecraft'
     let su = 'supplementaries'
+    let tf = 'twilightforest'
+    let vd = 'veggiesdelight'
     e.create('lc:tables/structure/mineshaft/foods').createPool(pool => {
         // root vegetables
         pool.addEntry(LootEntry.group(
@@ -21,8 +20,7 @@ LootJS.lootTables(e => {
             LootEntry.of(`${vd}:cauliflower_bread`, [2, 5]).withWeight(8),
             LootEntry.of(`${mc}:cookie`, [8, 16]).withWeight(9),
             LootEntry.of(`${su}:pancake`, [3, 8]).withWeight(6),
-            LootEntry.of(`${cf}:breakfast_bar`, [1, 3]).withWeight(2),
-            LootEntry.of(`${cf}:bar_of_dark_chocolate`, [2, 4]).withWeight(3),
+            LootEntry.of(`create:bar_of_chocolate`, [2, 4]).withWeight(3),
         ))
         // underground foods
         pool.addEntry(LootEntry.group(
@@ -34,10 +32,9 @@ LootJS.lootTables(e => {
             LootEntry.of(`${mc}:glow_berries`, [3, 5]).withWeight(6)
         ))
         pool.addEntry(LootEntry.group(
-            LootEntry.of(`${fd}:cooked_bacon`, [5, 8]).withWeight(10),
-            LootEntry.of(`${cf}:rabbit_jerky`, [7, 12]).withWeight(8),
             LootEntry.of(`${mc}:rotten_flesh`, [5, 16]).withWeight(20),
-            LootEntry.of(`${cf}:sausages`, [3, 6]).withWeight(5)
+            LootEntry.of(`${fd}:cooked_bacon`, [5, 8]).withWeight(10),
+            LootEntry.of(`${tf}:beef_jerky`, [2, 3]).withWeight(8),
         ))
     })
 })

@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let ca = 'createaddition'
     let cc = 'crittersandcompanions'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let su = 'supplementaries'

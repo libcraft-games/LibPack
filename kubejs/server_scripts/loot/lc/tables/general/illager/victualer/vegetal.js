@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let vd = 'veggiesdelight'
