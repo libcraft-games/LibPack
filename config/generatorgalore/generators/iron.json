@@ -1,8 +1,0 @@
-{
-  "generationRate": 32,
-  "transferRate": 32,
-  "consumptionRate": 0.9,
-  "bufferCapacity": 256,
-  "fuelType": "SOLID",
-  "hasChargeSlot": false
-}

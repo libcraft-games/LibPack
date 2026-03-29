@@ -32,7 +32,8 @@ global.libcraft = {
             "cherry",
             "bamboo",
             "crimson",
-            "warped"
+            "warped",
+            "pale_oak"
         ],
         biomesoplenty: [
             "maple",
@@ -73,11 +74,6 @@ global.libcraft = {
             "smogstem",
             "grongle",
             "wigglewood",
-        ],
-        // needs to be manually converted to minecraft namespace at end user
-        // due to everycomp adding most instances
-        vanillabackport: [
-            "pale_oak"
         ],
         mynethersdelight: [
             "powdery"
