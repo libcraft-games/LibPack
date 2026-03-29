@@ -1,10 +1,7 @@
 LootJS.lootTables(e => {
     let cc = 'crittersandcompanions'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
-    let lc = 'libcraft'
     let mc = 'minecraft'
-    let su = 'supplementaries'
 
     let table = e.getLootTable('nova_structures:spawners/trident_trial_monument/ttm_drowned_ominous')
     table.clear()
@@ -14,7 +11,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:oxidized_copper`, 3).withWeight(4))
         pool.addEntry(LootEntry.of(`${cc}:clam`, 4).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:prismarine_crystals`, 2).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:fishcake`).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:water_breathing`))
     })
     table.createPool(pool => {
         pool.addEntry(NovaStructuresKeys.trident_trial_monument.basic.withWeight(3))
