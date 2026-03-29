@@ -47,6 +47,13 @@ syncChiseledBookshelves = true
 
 	#.
 	[compatibility.create]
+		#.
+		#[Must be enabled by a dependent]
+		#Whether Mechanical Arms can take from and place on Chain Conveyors
+		armsTargetChainConveyors = false
+		#.
+		#Whether Drying Recipes can be done on Chain Conveyors
+		chainConveyorDrying = true
 
 		#.
 		[compatibility.create.contamination]
@@ -85,3 +92,25 @@ syncChiseledBookshelves = true
 			# Default: 2
 			# Range: 1 ~ 20
 			minTicksPerBeat = 2
+
+		#.
+		[compatibility.create.centrifuge]
+			#.
+			# Default: 2000
+			# Range: > 0
+			"Capacity of each Centrifuge tank" = 2000
+			#.
+			"Centrifuges can separate Potions into their Ingredients" = true
+			#.
+			#Centrifugation Recipes will propagate the Contaminants of the inputs to the outputs
+			propagateContaminants = true
+
+#.
+[stressValues]
+
+	#.
+	#.
+	#[in Stress Units]
+	#Individual coefficients of stress impact of kinetic blocks.
+	[stressValues.impact]
+		centrifuge = 2.0
