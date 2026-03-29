@@ -80,6 +80,9 @@ global.libcraft = {
         ],
         aether: [
             "skyroot",
+        ],
+        expandeddelight: [
+            'cinnamon'
         ]
     },
     potion_fluids: [
