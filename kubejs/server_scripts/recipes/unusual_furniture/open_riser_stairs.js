@@ -19,7 +19,7 @@ ServerEvents.recipes(e => {
             let item = itemId(ns, wood)
             e.remove({output: item})
             e.shaped(
-                item,
+                `6x ${item}`,
                 [
                     'S  ',
                     'sS ',
