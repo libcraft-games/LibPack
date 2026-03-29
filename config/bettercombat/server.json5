@@ -85,11 +85,11 @@
 		"minecraft:undead": "HOSTILE"
 	},
 	// Relation to self, and self owned pets (tamed entities), changing this to `FRIENDLY` will make it impossible to hit pets with weapons
-	"player_relation_to_self_and_pets": "NEUTRAL",
+	"player_relation_to_self_and_pets": "FRIENDLY",
 	// Relation to teammates (entities in the same team), changing this to `FRIENDLY` will automatically disable friendly fire for all teams
 	"player_relation_to_teammates": "NEUTRAL",
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
-	"player_relation_to_passives": "HOSTILE",
+	"player_relation_to_passives": "NEUTRAL",
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
 	// Fallback relation
@@ -97,7 +97,7 @@
 	// Try to guess and apply a preset for items without weapon attributes data file
 	"fallback_compatibility_enabled": true,
 	// Allow printing the content of weapon attributes registry
-	"weapon_registry_logging": false,
+	"weapon_registry_logging": true,
 	// Compress the weapon attributes registry for transmission
 	"weapon_registry_compression": true
 }

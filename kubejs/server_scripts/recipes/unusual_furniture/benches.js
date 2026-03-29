@@ -3,12 +3,10 @@ ServerEvents.recipes(e => {
     
     function itemId(ns, wood) {
         let name = 'bench'
-        if(ns == 'minecraft') {            
+        if(ns === 'minecraft' && wood != 'pale_oak') {            
             return `${uf}:${wood}_${name}`
         }
         else {
-            if(ns == 'vanillabackport')
-                ns = 'minecraft'
             return `everycomp:uf/${ns}/${wood}_${name}`
         }
     }

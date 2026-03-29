@@ -7,7 +7,7 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([2, 5])
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/lighting').withWeight(15))
-        pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk').withWeight(5))
+        pool.addEntry(LootEntry.reference('lc:tables/general/navigation/chalk_with_box').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/general/mining/explosives').withWeight(5))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/foods').withWeight(12))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/materials').withWeight(15))        
@@ -31,11 +31,4 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/potions').withWeight(2))
         pool.addEntry(LootEntry.reference('lc:tables/structure/mineshaft/misc_treasure').withWeight(1))
     })
-})
-LootJS.modifiers(e => {
-    // todo: replace each of these with just disabling the corresponding feature in the mod's settings, if possible
-    e.removeGlobalModifiers(/artifacts:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/chalk:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/exposure:.*abandoned_mineshaft.*/)
-    e.removeGlobalModifiers(/exposure_expanded:.*abandoned_mineshaft.*/)
 })

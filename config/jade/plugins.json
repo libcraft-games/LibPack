@@ -88,6 +88,7 @@
     "photograph_frame": true
   },
   "toms_storage": {
+    "inventory_hopper": true,
     "inventory_config": true,
     "inventory_connector": true
   },
@@ -100,6 +101,7 @@
     "hat_stand": true
   },
   "petrolpark": {
+    "drying_rack": true,
     "contamination": true
   },
   "corpse": {

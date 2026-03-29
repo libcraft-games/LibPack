@@ -10,7 +10,7 @@
 	# Range: 0.0 ~ 20.0
 	scale = 2.0
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
-	enabled = true
+	enabled = false
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
 	# Default: 1.0
 	# Range: 0.001 ~ 100.0
@@ -68,6 +68,8 @@
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
 	automatic_slice_change = true
+	#Hides minimap when inventory is open
+	hide_when_inventory_is_open = false
 
 [world_map]
 	#Adds a shear button to the atlas screen which allows you to cut maps
@@ -89,7 +91,7 @@
 	#Global scale of the entire world map GUI. Keep at 1 for pixel perfect consistency
 	# Default: 1.25
 	# Range: 0.0 ~ 20.0
-	scale = 1.0
+	scale = 2.0
 	#Global scale of the entire world map GUI when opening from lectern. Keep at 1 for pixel perfect consistency
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
