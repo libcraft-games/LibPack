@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'
     let bw = 'basicweapons'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let lc = 'libcraft'
     let mc = 'minecraft'

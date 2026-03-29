@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let af = 'artifacts'
     let bp = 'biomesoplenty'
-    let cf = 'createfood'
     let ed = 'endersdelight'
     let es = 'enderscape'
     let mc = 'minecraft'
