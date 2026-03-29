@@ -1,5 +1,6 @@
 ServerEvents.recipes(e => {
-    let ss = 'sophisticatedstorage', ie = 'immersiveengineering'
+    let ss = 'sophisticatedstorage'
+    let ie = global.ie.namespace
     let item = `${ss}:controller`    
 
     e.remove({output: item})
@@ -13,10 +14,8 @@ ServerEvents.recipes(e => {
         {
             U: `#c:chests/wooden`,
             c: '#c:stones',
-            A: `${ie}:component_electronic_adv`,
+            A: `${ie}:component_electronic`,
             B: `${ie}:sorter`
         }
     )
-
-    console.log(`applied all changes successfully!`)
 })

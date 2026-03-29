@@ -1,0 +1,30 @@
+LootJS.lootTables(e => {
+    let ii = 'illagerinvasion'
+    let mc = 'minecraft'
+    let table = e.getLootTable(`${mc}:chests/illager_mansion/wool`)
+    table.clear()
+    table.createPool(pool => {
+        pool.rolls([4, 5])
+        pool.addEntry(LootEntry.of(`${mc}:black_wool`,          [3, 6]).withWeight(12))
+        pool.addEntry(LootEntry.of(`${mc}:gray_wool`,           [3, 6]).withWeight(6))
+        pool.addEntry(LootEntry.of(`${mc}:light_gray_wool`,     [3, 6]).withWeight(11))
+        pool.addEntry(LootEntry.of(`${mc}:white_wool`,          [3, 6]).withWeight(5))
+        pool.addEntry(LootEntry.of(`${mc}:purple_wool`,         [3, 6]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:magenta_wool`,        [3, 6]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:pink_wool`,           [3, 6]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:red_wool`,            [3, 6]).withWeight(2))
+        pool.addEntry(LootEntry.of(`${mc}:orange_wool`,         [3, 6]).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:yellow_wool`,         [3, 6]).withWeight(2))
+        pool.addEntry(LootEntry.of(`${mc}:green_wool`,          [3, 6]).withWeight(5))
+        pool.addEntry(LootEntry.of(`${mc}:lime_wool`,           [3, 6]).withWeight(7))
+        pool.addEntry(LootEntry.of(`${mc}:cyan_wool`,           [3, 6]).withWeight(3))
+        pool.addEntry(LootEntry.of(`${mc}:light_blue_wool`,     [3, 6]).withWeight(3))
+        pool.addEntry(LootEntry.of(`${mc}:blue_wool`,           [3, 6]).withWeight(5))
+        pool.addEntry(LootEntry.of(`${mc}:brown_wool`,          [3, 6]).withWeight(1))
+    })
+    table.createPool(pool => {
+        pool.rolls(1)
+        pool.addEntry(LootEntry.of(`${mc}:shears`).enchantRandomly().withWeight(3))
+        pool.addEntry(LootEntry.of(`chipped:needles`).withWeight(1))
+    })
+})

@@ -1,10 +1,11 @@
 
 
-let ie = 'immersiveengineering'
-let brimstone = 'biomesoplenty:brimstone'
-let sulfur = `${ie}:dust_sulfur`
+
 
 ServerEvents.recipes(e => {
+    let ie = global.ie.namespace
+    let brimstone = 'biomesoplenty:brimstone'
+    let sulfur = `${ie}:dust_sulfur`
     e.custom({
         type: 'create:milling',
         processing_time: 200,
@@ -23,6 +24,4 @@ ServerEvents.recipes(e => {
             {output: {id: sulfur}, chance: 0.1}
         ]
     })
-    
-    console.log(`applied all changes successfully!`);
-}); 
+})

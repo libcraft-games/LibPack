@@ -10,7 +10,7 @@
 
 	["Structure Settings"."Village Settings"]
 		#Enable generation of Veggies Delight structures in Vanilla villages
-		generateVanillaVillageStructures = true
+		generateVanillaVillageStructures = false
 
 	["Structure Settings"."Compat Settings"]
 		#Enable generation of Veggies Delight structures in Atmospheric villages

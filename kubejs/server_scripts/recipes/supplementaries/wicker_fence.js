@@ -4,7 +4,7 @@ ServerEvents.recipes(e => {
 
     e.remove({output: item})
     e.shaped(
-        item,
+        `3x ${item}`,
         [
             'SSS',
             'SSS'
@@ -13,6 +13,14 @@ ServerEvents.recipes(e => {
             S: '#c:rods/wooden'
         }
     )
-
-    console.log(`applied all changes successfully!`);
-});
+    e.shaped(
+        `6x ${item}`,
+        [
+            'SSS',
+            'SSS'
+        ], 
+        {
+            S: '#lc:roots'
+        }
+    )
+})

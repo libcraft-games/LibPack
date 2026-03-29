@@ -1,1 +1,0 @@
-Short for LibCraft, obviously. Abbreviated to reduce tag names in-game.

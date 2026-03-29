@@ -21,9 +21,7 @@ LootJS.lootTables(e => {
     function book_with_enchants(enchant_counts) {
         let result = LootEntry.of('minecraft:book')
         for(let [list, count] of enchant_counts) {
-            console.log(`list: ${list}, count: ${count}`)
             for(let i = 0; i < count; i++) {
-                console.log(`\t${i}`)
                 result = result.enchantRandomly(list)
             }
         }

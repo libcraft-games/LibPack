@@ -403,15 +403,15 @@
 			nailed_log = true
 
 		[entries.wood_type.unusual_furniture]
-			celling_lamp = true
-			table = true
+			celling_lamp = false
+			table = false
 			chair = true
-			railing = true
-			carved = true
+			railing = false
+			carved = false
 			bench = true
-			coffee_table = true
-			beam = true
-			shelf = true
+			coffee_table = false
+			beam = false
+			shelf = false
 			stool = true
 			drawer = true
 			open_riser_stairs = true

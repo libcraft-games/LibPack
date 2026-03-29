@@ -3,12 +3,10 @@ ServerEvents.recipes(e => {
 
     function itemId(ns, wood) {
         let name = 'open_riser_stairs'
-        if(ns == 'minecraft') {            
+        if(ns === 'minecraft' && wood != 'pale_oak') {            
             return `${uf}:${wood}_${name}`
         }
         else {
-            if(ns == 'vanillabackport')
-                ns = 'minecraft'
             return `everycomp:uf/${ns}/${wood}_${name}`
         }
     }
@@ -16,12 +14,12 @@ ServerEvents.recipes(e => {
     for(let [ns, woods] in global.libcraft.woods) {
         for(let wood of woods) {
             // missing item     
-            if(wood == 'powdery')
-                continue;       
+            if(wood === 'powdery')
+                continue
             let item = itemId(ns, wood)
             e.remove({output: item})
             e.shaped(
-                item,
+                `6x ${item}`,
                 [
                     'S  ',
                     'sS ',

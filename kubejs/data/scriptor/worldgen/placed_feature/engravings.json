@@ -1,0 +1,9 @@
+{
+  "feature": "scriptor:engraving",
+  "placement": [
+    {
+        "type": "minecraft:count",
+        "count": 0
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "generationRate": 128,
-  "transferRate": 16,
-  "consumptionRate": 0.4,
-  "bufferCapacity": 1024,
-  "fuelType": "FLUID",
-  "fuelTag": "minecraft:lava",
-  "hasChargeSlot": false
-}
