@@ -8,14 +8,17 @@ ServerEvents.recipes(e => {
     e.shaped(
         Item.of(item),
         [
-            'ABA',
-            'BCB',
-            'ABA'
+            'ABCBA',
+            'BDBDB',
+            'CBDBC',
+            'BDBDB',
+            'ABCBA'
         ],
         {
             A: `#c:gems/diamond`,
-            B: `#c:rods/netherite`,
-            C: `${ce}:super_experience_block`
+            B: `${cn}:magnetite_block`,
+            C: `${ce}:super_experience_block`,
+            D: `#c:nuggets/netherite`
         }
     )
 })
