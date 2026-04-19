@@ -11,8 +11,6 @@ ServerEvents.recipes(e => {
     e.remove({output: lumisene_bucket})
     e.remove({output: lumisene_bottle})
     e.remove({id: `${su}:integration/lumisene_mixing`})
-    // todo: replace glow berry juice with potion of glowing
-    // also, maybe change shimmerpearl to something from another dimension?
     ie_AddRefineryRecipe(e, 
         {
             type: 'neoforge:components',

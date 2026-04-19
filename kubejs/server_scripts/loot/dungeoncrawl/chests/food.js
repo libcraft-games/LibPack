@@ -3,30 +3,22 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let dc = 'dungeoncrawl'
     let su = `supplementaries`
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let vd = 'veggiesdelight'
+    let xd = 'expandeddelight'
 
     let table = e.getLootTable(`${dc}:chests/food`)
     
     table.clear()
     table.createPool(pool => {
         pool.rolls([4, 6])
-        // weights are equal to 26 - sum of potion effects in 30-second increments
-        // counts are based vaguely on saturation and food
         pool.addEntry(LootEntry.group([
-            LootEntry.of(`${cf}:cream_pie_graham_cracker_slice`, [4, 6]).withWeight(25),
-            LootEntry.of(`${cf}:glow_berry_pie_slice`, [4, 8]).withWeight(24),
-            LootEntry.of(`${cf}:meat_pie_slice`, [3, 4]).withWeight(24),
+            LootEntry.of(`${xd}:sweet_roll`, [2, 3]).withWeight(25),
+            LootEntry.of(`${vd}:sweet_potato_cupcake`, [2, 3]).withWeight(24),
+            LootEntry.of(`create:bar_of_chocolate`, [1, 3]).withWeight(24),
         ]))
         pool.addEntry(LootEntry.group([
-            LootEntry.of(`${cf}:apple_cream_sweet_roll`, [4, 5]).withWeight(25),
-            LootEntry.of(`${cf}:cream_sweet_roll_glow_berry`, [2, 3]).withWeight(25),
-            LootEntry.of(`${cf}:cream_sweet_roll_sweet_berry`, [2, 4]).withWeight(25),
-            LootEntry.of(`${cf}:berry_cream_chocolate_sweet_roll_sweet_berry`, [2, 4]).withWeight(22),
-        ]))
-        pool.addEntry(LootEntry.group([
-            LootEntry.of(`${mc}:apple`, [4, 9]).withWeight(26),
+            LootEntry.of(`${mc}:apple`, [1, 9]).withWeight(26),
             LootEntry.of(`${mc}:golden_apple`, [1, 2]).withWeight(22),
             LootEntry.of(`${mc}:enchanted_golden_apple`).withWeight(1),
         ]))
@@ -37,23 +29,12 @@ LootJS.lootTables(e => {
             LootEntry.of(`${fd}:chicken_soup`).withWeight(16),
             LootEntry.of(`${fd}:pumpkin_soup`).withWeight(16),
         ]))
-        pool.addEntry(LootEntry.group([
-            LootEntry.of(`${cf}:berry_milkshake_bottle`, [1, 5]).withWeight(24),
-            LootEntry.of(`${cf}:melon_milkshake_bottle`, [1, 4]).withWeight(24),
-            LootEntry.of(`${cf}:caramel_chip_milkshake_bottle`, [1, 3]).withWeight(24),
-            LootEntry.of(`${cf}:fruit_smoothie_bottle`, [1, 2]).withWeight(8),
-        ]))
-        pool.addEntry(LootEntry.group([
-            LootEntry.of(`${cf}:apple_cream_mini_waffle`, [1, 6]).withWeight(24),
-            LootEntry.of(`${cf}:berry_cream_mini_waffle_sweet_berry`, [1, 5]).withWeight(23),
-            LootEntry.of(`${cf}:cream_mini_waffle_sweet_berry`, [1, 5]).withWeight(23),
-        ]))
     })
     table.createPool(pool => {        
-        pool.rolls([1, 2])        
+        pool.rolls(2)
+        pool.addEntry(LootEntry.empty().withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:cake`))
         pool.addEntry(LootEntry.of(`${vd}:carrot_cake`))
-        pool.addEntry(LootEntry.of(`${cf}:chocolate_cream_cake_dark_chocolate`))
-        pool.addEntry(LootEntry.of(`${cf}:cream_pie_graham_cracker`))
+        pool.addEntry(LootEntry.of(`${fd}:shepherds_pie_block`))
     })
 })
