@@ -4,7 +4,7 @@ ServerEvents.recipes(e => {
 
     let item = `${cn}:reactor_rod`
     e.remove({output: item})
-    create_AddMechanicalCraftingRecipe(e,
+    c_AddMechanicalCraftingRecipe(e,
         {
             A: create_recipeItem(`${cn}:reactor_casing`),
             B: create_recipeItem(`#c:plates/lead`),

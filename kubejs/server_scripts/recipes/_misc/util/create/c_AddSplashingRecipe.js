@@ -1,4 +1,4 @@
-function create_AddSplashingRecipe(e, ingredients, results) {
+function c_AddSplashingRecipe(e, ingredients, results) {
     e.custom({
         type: 'create:splashing',
         ingredients: ingredients,

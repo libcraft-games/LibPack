@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
 
     let result = `${cn}:netherite_magnet`
     e.remove({output: result})
-    create_AddMechanicalCraftingRecipe(e,
+    c_AddMechanicalCraftingRecipe(e,
         {
             A: diamond,
             B: super_xp,

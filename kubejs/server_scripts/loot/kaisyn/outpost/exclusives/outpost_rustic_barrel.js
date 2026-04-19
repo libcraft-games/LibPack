@@ -1,5 +1,6 @@
 LootJS.lootTables(e => {
     let bp = 'biomesoplenty'
+    let fd = 'farmersdelight'
     let mc = 'minecraft'
     let table = e.getLootTable('kaisyn:outpost/exclusives/outpost_rustic_barrel')
     table.clear()

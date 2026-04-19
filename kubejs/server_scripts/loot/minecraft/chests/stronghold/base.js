@@ -1,4 +1,5 @@
 LootJS.lootTables(e => {
+    let fd = 'farmersdelight'
     let mc = 'minecraft'
     let table = e.getLootTable('minecraft:chests/stronghold/base')
     table.clear()

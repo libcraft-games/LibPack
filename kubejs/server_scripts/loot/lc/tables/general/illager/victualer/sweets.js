@@ -1,4 +1,5 @@
 LootJS.lootTables(e => {
+    let fd = 'farmersdelight'
     let mc = 'minecraft'
     let xd = 'expandeddelight'
     e.create('lc:tables/general/illager/victualer/sweets').createPool(pool => {
