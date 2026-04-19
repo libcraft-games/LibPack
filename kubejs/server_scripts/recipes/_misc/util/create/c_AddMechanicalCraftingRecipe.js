@@ -42,9 +42,9 @@ function c_AddMechanicalCraftingRecipe(e, items, pattern, result, category, acce
         acceptMirrored = false
     if(showNotification == null)
         showNotification = false
-    let processedItems = new Map()
-    for(let [key, item] of items) {
-        processedItems.set(key, ItemOrTag(item))
+    let processedItems = {}
+    for(let [key, item] in items) {
+        processedItems[key] = ItemOrTag(item)
     }
     e.custom({
         type: `create:mechanical_crafting`,

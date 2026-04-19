@@ -1,6 +1,7 @@
 ServerEvents.recipes(e => {
     let ie = global.ie.namespace
     let su = 'supplementaries'
+    let tf = 'twilightforest'
     let ug = 'undergarden'
     
     let lumisene_bucket = `${su}:lumisene_bucket`
@@ -12,23 +13,21 @@ ServerEvents.recipes(e => {
     e.remove({id: `${su}:integration/lumisene_mixing`})
     // todo: replace glow berry juice with potion of glowing
     // also, maybe change shimmerpearl to something from another dimension?
-    e.custom({
-        type: `${ie}:refinery`,
-        energy: 600,
-        input0: {
+    ie_AddRefineryRecipe(e, 
+        {
             type: 'neoforge:components',
             amount: 15,
             components: {
-                "minecraft:potion_contents": {
+                'minecraft:potion_contents': {
                     potion: `${ug}:glowing`
                 }
             },
             fluids: `${ie}:potion`
         },
-        input1: {fluid: `${ie}:acetaldehyde`,          amount: 10},
-        catalyst: {item: "undergardendelight:shimmerpearl"},
-        result: {id: lumisene, amount: 25}
-    })
+        { fluid: `${ie}:acetaldehyde`, amount: 10},
+        { item: `${tf}:carminite_block` },
+        {id: lumisene, amount: 25}
+    )
     // bottling recipes bc there aren't default bottle-filling recipes
     let glass_bottle = 'minecraft:glass_bottle'
     e.custom({
