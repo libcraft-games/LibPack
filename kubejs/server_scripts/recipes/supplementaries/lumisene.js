@@ -1,19 +1,30 @@
 ServerEvents.recipes(e => {
-    let s = 'supplementaries'
+    let ie = global.ie.namespace
+    let su = 'supplementaries'
+    let ug = 'undergarden'
     
-    let lumisene_bucket = `${s}:lumisene_bucket`
-    let lumisene_bottle = `${s}:lumisene_bottle`
-    let lumisene = `${s}:lumisene`
+    let lumisene_bucket = `${su}:lumisene_bucket`
+    let lumisene_bottle = `${su}:lumisene_bottle`
+    let lumisene = `${su}:lumisene`
 
     e.remove({output: lumisene_bucket})
     e.remove({output: lumisene_bottle})
-    e.remove({id: `${s}:integration/lumisene_mixing`})
+    e.remove({id: `${su}:integration/lumisene_mixing`})
     // todo: replace glow berry juice with potion of glowing
     // also, maybe change shimmerpearl to something from another dimension?
     e.custom({
         type: `${ie}:refinery`,
         energy: 600,
-        input0: {fluid: 'createfood:glow_berry_juice', amount: 15},
+        input0: {
+            type: 'neoforge:components',
+            amount: 15,
+            components: {
+                "minecraft:potion_contents": {
+                    potion: `${ug}:glowing`
+                }
+            },
+            fluids: `${ie}:potion`
+        },
         input1: {fluid: `${ie}:acetaldehyde`,          amount: 10},
         catalyst: {item: "undergardendelight:shimmerpearl"},
         result: {id: lumisene, amount: 25}
@@ -34,6 +45,4 @@ ServerEvents.recipes(e => {
         fluid: {fluid: lumisene, amount: 250},
         results: [{id: lumisene_bottle}]
     })
-
-    console.log(`applied all changes successfully!`);
-});
+})
