@@ -8,13 +8,12 @@ ServerEvents.recipes(e => {
         Item.of(item),
         [
             'ABA',
-            'CDC'
+            'CCC'
         ],
         {
             A: `#c:ingots/nickel`,
             B: `#c:sheetmetals/constantan`,
-            C: `${cn}:heat_pipe`,
-            D: `${cn}:heat_pump`,
+            C: `${cn}:heat_pipe`
         }
     )
 })

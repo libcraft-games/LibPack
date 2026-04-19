@@ -4,8 +4,14 @@ ServerEvents.recipes(e => {
 
     let item = `${cn}:reactor_rod`
     e.remove({output: item})
-    e.shaped(
-        Item.of(item),
+    create_AddMechanicalCraftingRecipe(e,
+        {
+            A: create_recipeItem(`${cn}:reactor_casing`),
+            B: create_recipeItem(`#c:plates/lead`),
+            C: create_recipeItem(`${cn}:heat_pipe`),
+            D: create_recipeItem(`${cn}:reactor_glass`),
+            E: create_recipeItem(`#c:plates/hop_graphite`)
+        },
         [
             'ABCBA',
             ' DED ',
@@ -14,11 +20,8 @@ ServerEvents.recipes(e => {
             'ABCBA',
         ],
         {
-            A: `${cn}:reactor_casing`,
-            B: `#c:plates/lead`,
-            C: `${cn}:heat_pipe`,
-            D: `${cn}:reactor_glass`,
-            E: `#c:plates/hop_graphite`
+            id: item,
+            count: 1
         }
     )
 })

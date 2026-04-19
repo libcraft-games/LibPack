@@ -3,19 +3,30 @@ ServerEvents.recipes(e => {
     let cn = 'create_new_age'
     let ie = global.ie.namespace
 
-    let item = `${cn}:netherite_magnet`
-    e.remove({output: item})
-    e.shaped(
-        Item.of(item),
+    let diamond   = create_recipeItem(`#c:gems/diamond`) 
+    let super_xp  = create_recipeItem(`${ce}:super_experience_nugget`) 
+    let netherite = create_recipeItem(`#c:nuggets/netherite`) 
+    let magnetite = create_recipeItem(`${cn}:magnetite_block`) 
+
+    let result = `${cn}:netherite_magnet`
+    e.remove({output: result})
+    create_AddMechanicalCraftingRecipe(e,
+        {
+            A: diamond,
+            B: super_xp,
+            C: netherite,
+            D: magnetite
+        },
         [
-            'ABA',
-            'BCB',
-            'ABA'
+            'ABCBA',
+            'BDBDB',
+            'CBCBC',
+            'BDBDB',
+            'ABCBA'
         ],
         {
-            A: `#c:gems/diamond`,
-            B: `#c:rods/netherite`,
-            C: `${ce}:super_experience_block`
+            id: result,
+            count: 1
         }
     )
 })
