@@ -2,7 +2,6 @@ LootJS.lootTables(e => {
     let af = 'artifacts'
     let bp = 'biomesoplenty'
     let cd = 'culturaldelights'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let su = 'supplementaries'
@@ -24,8 +23,8 @@ LootJS.lootTables(e => {
         [[`${mc}:dead_bush`,    2], [`${mc}:tall_dry_grass`,    2],  [`${mc}:short_dry_grass`,    2], 
          [`${mc}:sunflower`,    2],
          [`${mc}:oak_sapling`, 1]],
-        [[`${cf}:corn_stick`, 8], [`${cd}:elote`, 4], [`${cd}:chicken_taco`, 1], [`${cd}:beef_burrito`, 1]],
-        [[`${mc}:terracotta`, 6], [`${mc}:red_sandstone`, 6], [`${cf}:corn_flour`, 4], [`${mc}:armadillo_scute`, 2], [`${mc}:gold_nugget`, 13], [`${mc}:gold_ingot`, 1], [`${uf}:huge_pot`, 2]],
+        [[`${cd}:popcorn`, 8], [`${cd}:elote`, 4], [`${cd}:chicken_taco`, 1], [`${cd}:beef_burrito`, 1]],
+        [[`${mc}:terracotta`, 6], [`${mc}:red_sandstone`, 6], [`${mc}:armadillo_scute`, 2], [`${mc}:gold_nugget`, 13], [`${mc}:gold_ingot`, 1], [`${uf}:huge_pot`, 2]],
         ['orange', 'brown', 'red'],
         [[`${af}:villager_hat`, 2], 
          [`${af}:onion_ring`, 1],

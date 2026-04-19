@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let ed = 'endersdelight'
     let es = 'enderscape'
     let mc = 'minecraft'
@@ -8,6 +7,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${es}:chorus_cake_roll`).withWeight(2))
         pool.addEntry(LootEntry.of(`${ed}:chorus_pie`).withWeight(2))
         pool.addEntry(LootEntry.of(`${ed}:chorus_stew`).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:chorus_fruit_milkshake_bottle`).withWeight(1))
+        pool.addEntry(LootEntry.of(`${ed}:chorus_juice`).withWeight(1))
     })
 })
