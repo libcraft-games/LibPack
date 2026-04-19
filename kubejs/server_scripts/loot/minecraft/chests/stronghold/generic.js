@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let su = 'supplementaries'
@@ -9,10 +8,6 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.rolls([3, 6])
         pool.addEntry(LootEntry.reference('minecraft:chests/stronghold/base').withWeight(20))
-        pool.addEntry(LootEntry.of(`${cf}:apple_jam_sandwich`, [1, 6]).withWeight(3))
-        pool.addEntry(LootEntry.of(`${cf}:caramel_apple_slice`, [2, 6]).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:caramel_fudge`).withWeight(1))
-        pool.addEntry(LootEntry.of(`${fd}:apple_pie`).withWeight(1))
     })
     table.createPool(pool => {
         pool.rolls(4)
@@ -29,7 +24,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:iron_leggings`).withWeight(2).damage([0.45, 0.85]).enchantWithLevels(15))
         pool.addEntry(LootEntry.of(`${mc}:iron_boots`).withWeight(2).damage([0.45, 0.85]).enchantWithLevels(15))
         for(let i = 1; i <= 4; i++)
-            pool.addEntry(exposure_AgedPhoto(`stronghold/corridor_1`).withWeight(2))
+            pool.addEntry(exposure_AgedPhoto(`stronghold/corridor_${i}`).withWeight(2))
         pool.addEntry(LootEntry.of(`${a}:night_vision_goggles`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:warp_drive`).withWeight(1))
         pool.addEntry(LootEntry.of(`${a}:crystal_heart`).withWeight(1))

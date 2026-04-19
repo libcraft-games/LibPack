@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let mc = 'minecraft'
     let ns = 'nova_structures'
     let table = e.getLootTable(`${mc}:chests/illager_mansion/evoker_chest`)
@@ -14,7 +13,7 @@ LootJS.lootTables(e => {
     })
     table.createPool(pool => {
         pool.rolls([2, 3])
-        pool.addEntry(LootEntry.of(`${cf}:honeyed_berries`, [5, 8]).withWeight(4))
+        pool.addEntry(LootEntry.of(`${mc}:glow_berries`, [5, 8]).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:golden_apple`).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:iron_ingot`, [6, 8]).withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:gold_ingot`, [5, 7]).withWeight(2))

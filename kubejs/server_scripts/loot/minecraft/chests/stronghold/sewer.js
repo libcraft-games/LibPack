@@ -1,7 +1,6 @@
 LootJS.lootTables(e => {
     let a  = 'artifacts'
     let bw = 'basicweapons'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let table = e.getLootTable('minecraft:chests/stronghold/sewer')
@@ -11,8 +10,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.reference('minecraft:chests/stronghold/base').withWeight(20))
     })
     table.createPool(pool => {
-        pool.rolls([2, 4])
-        pool.addEntry(LootEntry.of(`${cf}:fishcake`, [2, 5]).withWeight(6))
+        pool.rolls([1, 2])
         pool.addEntry(LootEntry.of(`${mc}:prismarine_crystals`, [3, 6]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:prismarine_shard`, [2, 4]).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:diamond`, [1, 2]).withWeight(4))

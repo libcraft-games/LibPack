@@ -1,33 +1,30 @@
-ServerEvents.recipes(ev => {
-    let s = 'supplementaries', 
-        e = 'enchanted',
-        cf = 'createfood',
+ServerEvents.recipes(e => {
+    let su = 'supplementaries', 
+        ew = 'enchanted',
         ca = 'createaddition',
-        ie = 'immersiveengineering'
-    let ash = `${s}:ash`, 
+        ie = global.ie.namespace
+    let ash = `${su}:ash`, 
         ashes = `c:dusts/ash`,
-        quicklime = `${e}:quicklime`,
-        soap = `${s}:soap`,
-        vegetable_oil = `${cf}:vegetable_oil`
+        quicklime = `${ew}:quicklime`,
+        soap = `${su}:soap`
 
     let veg_oil_buckets 
-        = Ingredient.of(`${vegetable_oil}_bucket`)
-                    .or(`${ie}:plantoil_bucket`)
+        = Ingredient.of(`${ie}:plantoil_bucket`)
                     .or(`${ca}:seed_oil_bucket`)
                         
-    ev.remove({
+    e.remove({
         input: ash,
         output: soap
     })
 
-    ev.shapeless(`4x ${soap}`,
+    e.shapeless(`4x ${soap}`,
         [
             `4x #${ashes}`,
             `2x ${quicklime}`,            
             veg_oil_buckets
         ]
     ) 
-    ev.custom({
+    e.custom({
         "type": "create:mixing",
         "ingredients": [
             {
@@ -43,31 +40,6 @@ ServerEvents.recipes(ev => {
                 "type": "neoforge:tag",
                 "amount": 500,
                 "tag": "c:plantoil"
-            }
-        ],
-        "results": [
-            {
-                "id": soap,
-                count: 2
-            }
-        ]
-    })
-    ev.custom({
-        "type": "create:mixing",
-        "ingredients": [
-            {
-                "tag": ashes
-            },
-            {
-                "tag": ashes
-            },
-            {
-                "item": quicklime
-            },
-            {
-                "type": "neoforge:single",
-                "amount": 500,
-                fluid: "createfood:vegetable_oil"
             }
         ],
         "results": [

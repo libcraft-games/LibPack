@@ -3,7 +3,6 @@ LootJS.lootTables(e => {
     let mc = 'minecraft'
     let dc = 'dungeoncrawl'
     let su = `supplementaries`
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let vd = 'veggiesdelight'
     let ie = global.ie.namespace

@@ -1,10 +1,6 @@
 LootJS.lootTables(e => {
-    let cc = 'crittersandcompanions'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
-    let lc = 'libcraft'
     let mc = 'minecraft'
-    let su = 'supplementaries'
 
     let table = e.getLootTable('nova_structures:spawners/trident_trial_monument/ttm_generic_ominous')
     table.clear()

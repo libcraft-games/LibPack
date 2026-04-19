@@ -2,7 +2,6 @@ LootJS.lootTables(e => {
     let af = 'artifacts'
     let bp = 'biomesoplenty'
     let cd = 'culturaldelights'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let su = 'supplementaries'
@@ -24,11 +23,11 @@ LootJS.lootTables(e => {
          [`${bp}:orange_cosmos`, 3], 
          [`${mc}:fern`,   1], [`${mc}:big_dripleaf`, 1], [`${mc}:small_dripleaf`, 1],
          [`${bp}:mahogany_sapling`,  3], [`${mc}:jungle_sapling`, 3]],
-        [[`${fd}:cooked_rice`, 4], [`${cf}:bar_of_dark_chocolate`, 4], [`${fd}:melon_juice`, 2], [`${fd}:fried_rice`, 1]],
+        [[`${fd}:cooked_rice`, 4], [`create:bar_of_chocolate`, 4], [`${fd}:melon_juice`, 2], [`${fd}:fried_rice`, 1]],
         [[`${bp}:mahogany_log`, 4], [`${mc}:jungle_log`, 3], [`${mc}:scaffolding`, 6], [`${mc}:feather`, 3], [`${bp}:orange_sand`, 4], [`${su}:lunch_basket`, 1]],
         ['lime', 'red', 'blue', 'yellow'],
-        [[`${af}:villager_hat`, 2], 
-         [`${af}:feral_claws`, 1],
+        [[`${af}:villager_hat`, 1], 
+         [`${af}:feral_claws`, 2],
          [`${af}:rooted_boots`, 1]],
         [[`${mc}:stone_axe`, 4], [`${mc}:fishing_rod`, 2], [`basicweapons:stone_spear`, 1]]
     )

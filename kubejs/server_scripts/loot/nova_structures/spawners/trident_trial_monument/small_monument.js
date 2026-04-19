@@ -1,10 +1,7 @@
 LootJS.lootTables(e => {
-    let cc = 'crittersandcompanions'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let lc = 'libcraft'
     let mc = 'minecraft'
-    let su = 'supplementaries'
 
     let table = e.getLootTable('nova_structures:spawners/trident_trial_monument/ttm_small_monument')
     table.clear()
@@ -14,6 +11,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:emerald`, 3).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(3).addPotion(`${mc}:strength`))
         pool.addEntry(LootEntry.of(`${mc}:nautilus_shell`).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:fishcake`).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:water_breathing`))
     })
 })

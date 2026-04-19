@@ -1,9 +1,9 @@
 LootJS.lootTables(e => {
     let cd = 'culturaldelights'
-    let cf = 'createfood'
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let af = 'artifacts'
+    let tf = 'twilightforest'
     let uf = 'unusual_furniture'
     let vd = 'veggiesdelight'
     // e                LootTableEventJS    the event to create tables in
@@ -23,7 +23,7 @@ LootJS.lootTables(e => {
          [`${mc}:sugar_cane`,        2], 
          [`${mc}:cactus_flower`, 1],
          [`${mc}:dead_bush`,  3]],
-        [[`${cd}:tortilla`, 6], [`${mc}:cooked_rabbit`, 5], [`${cf}:rabbit_jerky`, 2], [`${vd}:mhadjeb`, 1]],
+        [[`${cd}:tortilla`, 6], [`${mc}:cooked_rabbit`, 5], [`${tf}:rabbit_jerky`, 2], [`${vd}:mhadjeb`, 1]],
         [[`${mc}:rabbit_hide`, 4], [`${mc}:paper`, 3], [`${mc}:clay_ball`, 3], [`${mc}:green_dye`, 2], [`${mc}:rabbit_foot`, 1], [`${uf}:tall_clay_pot`, 2]],
         ['yellow', 'light_blue'],
         [[`${af}:villager_hat`, 2], 

@@ -1,11 +1,11 @@
 LootJS.lootTables(e => {
     let a = 'artifacts'
     let bop = 'biomesoplenty'
-    let cf = 'createfood'
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let vd = 'veggiesdelight'
     let uf = 'unusual_furniture'
+    let xd = 'expandeddelight'
     // e                LootTableEventJS    the event to create tables in
     // table            MutableLootTable    the parent table to modify
     // name             string              the village name used to create identifiers
@@ -18,11 +18,11 @@ LootJS.lootTables(e => {
     // tools            (RL, int)[]         tools which may spawn in the village and their weights
     let table = assembleVillageLoot(e, e.getLootTable('kaisyn:village/exclusives/village_mediterranean_house'),
         'mediterranean',
-        [`${fd}:tomato`, `${vd}:broccoli`, `${vd}:cauliflower`, `${mc}:wheat`, `${fd}:onion`, `${mc}:sugar_cane`],
+        [`${fd}:tomato`, `${vd}:broccoli`, `${vd}:cauliflower`, `${mc}:wheat`, `${fd}:onion`, `${mc}:sugar_cane`, `${xd}:asparagus`],
         [[`${bop}:sprout`,          3], [`${bop}:lavender`,             3], 
          [`${bop}:white_lavender`,  2], [`${mc}:peony`,    1], [`${mc}:lily_of_the_valley`,    1], [`${mc}:blue_orchid`, 1],
          [`${mc}:oak_sapling`,  2], [`${bop}:cypress_sapling`, 1], [`${bop}:jacaranda_sapling`, 1]],
-        [[`${cf}:pita_bread`, 4], [`${mc}:cooked_mutton`, 4], [`${cf}:gyro_meat_slice`, 5], [`${fd}:mutton_wrap`, 1], [`${cf}:mutton_wrap_lettuce_tomato`, 1]],
+        [[`${mc}:bread`, 4], [`${fd}:raw_pasta`, 4], [`${mc}:cooked_mutton`, 3], [`${fd}:mutton_wrap`, 1], [`${xd}:asparagus_mushroom_pasta`, 1]],
         [[`${mc}:white_wool`, 6], [`${mc}:clay_ball`, 4], [`${mc}:brick`, 6], [`${mc}:painting`, 2], [`${mc}:flower_pot`, 3], [`${uf}:greek_pot`, 2]],
         ['red', 'white', 'blue'],
         [[`${a}:villager_hat`, 2], 

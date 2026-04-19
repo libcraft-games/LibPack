@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let vd = 'veggiesdelight'
@@ -8,7 +7,6 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:suspicious_stew`, [1, 3]).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:mushroom_stew`, [1, 2]).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:beetroot_soup`, [1, 2]).withWeight(4))
-        pool.addEntry(LootEntry.of(`${cf}:mutton_stew_bowl`).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:rabbit_stew`).withWeight(2))
         pool.addEntry(LootEntry.of(`${fd}:roasted_mutton_chops`).withWeight(1))
     })

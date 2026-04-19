@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let cc = 'crittersandcompanions'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let lc = 'libcraft'
     let mc = 'minecraft'
@@ -14,7 +13,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:copper_ingot`, 3).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:dried_kelp`, 4).withWeight(3))
         pool.addEntry(LootEntry.of(`${mc}:wet_sponge`, 2).withWeight(2))
-        pool.addEntry(LootEntry.of(`${cf}:fishcake`).withWeight(1))
+        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${mc}:water_breathing`))
     })
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${mc}:potion`).addPotion(`${mc}:water_breathing`).withWeight(1))

@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let ae = 'aether'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let ie = global.ie.namespace
     let mc = 'minecraft'

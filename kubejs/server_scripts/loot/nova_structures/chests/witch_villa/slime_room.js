@@ -1,5 +1,4 @@
 LootJS.lootTables(e => {
-    let cf = 'createfood'
     let ch = 'chipped'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
@@ -13,11 +12,8 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`heads:slime_head`).withWeight(1))
     })
     table.createPool(pool => {
-        pool.rolls([1, 3])
-        pool.addEntry(LootEntry.of(`${cf}:lime_gelatin_dessert_slice`, [1, 4]).withWeight(5))
-        pool.addEntry(LootEntry.of(`${cf}:lime_gelatin_dessert_block`, [1, 2]).withWeight(3))
+        pool.rolls([1, 2])
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(3).addPotion(`${mc}:oozing`))
-        pool.addEntry(LootEntry.of(`${cf}:slime_bucket`).withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:splash_potion`).withWeight(1).addPotion(`${mc}:oozing`))
     })
 })

@@ -2,7 +2,6 @@ LootJS.lootTables(e => {
     let a = 'artifacts'
     let bw = 'basicweapons'
     let cd = 'culturaldelights'
-    let cf = 'createfood'
     let ch = 'chipped'
     let ew = 'enchanted'
     let fd = 'farmersdelight'

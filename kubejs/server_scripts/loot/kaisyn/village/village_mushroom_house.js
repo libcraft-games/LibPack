@@ -1,10 +1,10 @@
 LootJS.lootTables(e => {
     let a = 'artifacts'
     let bop = 'biomesoplenty'
-    let cf = 'createfood'
     let mc = 'minecraft'
     let fd = 'farmersdelight'
     let vd = 'veggiesdelight'
+    let xd = 'expandeddelight'
     // e                LootTableEventJS    the event to create tables in
     // table            MutableLootTable    the parent table to modify
     // name             string              the village name used to create identifiers
@@ -18,8 +18,8 @@ LootJS.lootTables(e => {
     let table = assembleVillageLoot(e, e.getLootTable('kaisyn:village/village_mushroom_house'),
         'mushroom',
         [`${mc}:red_mushroom_block`, `${mc}:brown_mushroom_block`, `${mc}:mushroom_stem`, `${mc}:brown_mushroom`, `${mc}:red_mushroom`],
-        [[`${fd}:red_mushroom_colony`, 3], [`${fd}:brown_mushroom_colony`, 3], [`${mc}:mycelium`, 2], [`${mc}:sugar_cane`, 1]],
-        [[`${cf}:sliced_red_mushroom`, 8], [`${cf}:sliced_brown_mushroom`, 8], [`${mc}:mushroom_stew`, 4], [`${cf}:mushroom_pizza_slice`, 2], [`${cf}:baked_potato_butter_mushroom`, 5]],
+        [[`${fd}:red_mushroom_colony`, 3], [`${fd}:brown_mushroom_colony`, 3], [`${mc}:mycelium`, 2]],
+        [[`${mc}:mushroom_stew`, 4], [`${vd}:garlic_stuffed_mushrooms`, 2], [`${xd}:asparagus_mushroom_pasta`, 1]],
         [[`${mc}:shroomlight`, 6], [`${mc}:leather`, 4]],
         ['red', 'white', 'brown', 'light_gray', 'purple'],
         [[`${a}:villager_hat`, 2], 

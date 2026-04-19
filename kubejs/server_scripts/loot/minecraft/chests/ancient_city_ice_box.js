@@ -1,6 +1,5 @@
 LootJS.lootTables(e => {
     let a = 'artifacts'
-    let cf = 'createfood'
     let fd = 'farmersdelight'
     let mc = 'minecraft'
     let ns = 'nova_structures'
@@ -17,13 +16,12 @@ LootJS.lootTables(e => {
             pool.addEntry(LootEntry.of(`${mc}:powder_snow_bucket`, [1, 2]).withWeight(1))
         })
         table.createPool(pool => {
-            pool.rolls([2, 4])
-            pool.addEntry(LootEntry.of(`${cf}:glow_berry_popsicle`, [3, 9]).withWeight(30))
-            pool.addEntry(LootEntry.of(`${fd}:milk_bottle`, [2, 4]).withWeight(30))
-            pool.addEntry(LootEntry.of(`${cf}:chocolate_milk_bottle`, [2, 4]).withWeight(24))
-            pool.addEntry(LootEntry.of(`${cf}:chocolate_milkshake_bottle`, [1, 4]).withWeight(18))
-            pool.addEntry(LootEntry.of(`${cf}:glow_berry_milkshake_bottle`, [1, 3]).withWeight(12))
-            pool.addEntry(LootEntry.of(`${cf}:fruit_smoothie_bottle`, [1, 3]).withWeight(6))
+            pool.rolls([1, 2])
+            pool.addEntry(LootEntry.of(`${fd}:melon_popsicle`, [3, 9]).withWeight(60))
+            pool.addEntry(LootEntry.of(`${fd}:milk_bottle`, [2, 4]).withWeight(60))
+        })
+        table.createPool(pool => {
+            pool.rolls(1)
             pool.addEntry(LootEntry.of(`${a}:snowshoes`).withWeight(1))
             pool.addEntry(LootEntry.of(`${a}:steadfast_spikes`).withWeight(1))
         })
