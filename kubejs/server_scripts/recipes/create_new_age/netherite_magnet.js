@@ -12,10 +12,10 @@ ServerEvents.recipes(e => {
     e.remove({output: result})
     c_AddMechanicalCraftingRecipe(e,
         {
-            A: diamond,
-            B: super_xp,
-            C: netherite,
-            D: magnetite
+            A: `#c:gems/diamond`,
+            B: `${ce}:super_experience_nugget`,
+            C: `#c:nuggets/netherite`,
+            D: `${cn}:magnetite_block`
         },
         [
             'ABCBA',

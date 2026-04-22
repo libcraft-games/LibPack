@@ -5,14 +5,7 @@ ServerEvents.recipes(e => {
 
     let item = `${cn}:reinforced_energiser`
     e.remove({output: item})
-    e.shaped(
-        Item.of(item),
-        [
-            'ABA',
-            'CDC',
-            'AEA',
-            ' F '
-        ],
+    c_AddMechanicalCraftingRecipe(e,
         {
             A: `#c:gems/diamond`,
             B: `create:electron_tube`,
@@ -20,6 +13,16 @@ ServerEvents.recipes(e => {
             D: `${ie}:coil_hv`,
             E: `${ie}:capacitor_hv`,
             F: `${mc}:lightning_rod`
+        },
+        [
+            'ABA',
+            'CDC',
+            'AEA',
+            ' F '
+        ],
+        {
+            id: item,
+            count: 1
         }
     )
 })

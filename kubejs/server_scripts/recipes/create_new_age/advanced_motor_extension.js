@@ -4,13 +4,7 @@ ServerEvents.recipes(e => {
 
     let item = `${cn}:advanced_motor_extension`
     e.remove({output: item})
-    e.shaped(
-        Item.of(item),
-        [
-            'ABACC',
-            'DEFGH',
-            'ABACC'
-        ],
+    c_AddMechanicalCraftingRecipe(e,
         {
             A: `#c:plates/andesite_alloy`,
             B: `#c:ingots/electrum`,
@@ -20,6 +14,15 @@ ServerEvents.recipes(e => {
             F: `${ie}:coil_hv`,
             G: `${ie}:component_electronic_adv`,
             H: `create:electron_tube`
+        },
+        [
+            'ABACC',
+            'DEFGH',
+            'ABACC'
+        ],
+        {
+            id: item,
+            count: 1
         }
     )
 })

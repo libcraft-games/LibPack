@@ -6,11 +6,11 @@ ServerEvents.recipes(e => {
     e.remove({output: item})
     c_AddMechanicalCraftingRecipe(e,
         {
-            A: create_recipeItem(`${cn}:reactor_casing`),
-            B: create_recipeItem(`#c:plates/lead`),
-            C: create_recipeItem(`${cn}:heat_pipe`),
-            D: create_recipeItem(`${cn}:reactor_glass`),
-            E: create_recipeItem(`#c:plates/hop_graphite`)
+            A: `${cn}:reactor_casing`,
+            B: `#c:plates/lead`,
+            C: `${cn}:heat_pipe`,
+            D: `${cn}:reactor_glass`,
+            E: `#c:plates/hop_graphite`
         },
         [
             'ABCBA',
