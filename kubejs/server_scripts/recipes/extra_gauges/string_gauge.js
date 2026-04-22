@@ -1,10 +1,10 @@
 ServerEvents.recipes(e => {
-    let cl = 'create_factory_logistics'
+    let eg = 'extra_gauges'
 
-    let item = `${cl}:factory_fluid_gauge`
+    let item = `${eg}:string_gauge`
     e.remove({output: item})
     e.shapeless(`2x ${item}`, [
         `create:precision_mechanism`,
-        `create:fluid_pipe`
+        `minecraft:name_tag`
     ])
 })
