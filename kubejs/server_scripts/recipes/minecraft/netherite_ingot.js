@@ -8,5 +8,5 @@ ServerEvents.recipes(e => {
         input: netherite_scrap,
         output: netherite_ingot
     })
-    ie_AddAlloy(e, ie_BP(netherite_scrap, 4), ie_BP(gold_ingot, 4), ie_BP(netherite_ingot))
+    ie_AddAlloy(e, ie_BP(gold_ingot, 4), ie_BP(netherite_scrap, 4), ie_BP(netherite_ingot))
 })

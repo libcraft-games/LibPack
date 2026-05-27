@@ -2,7 +2,7 @@
 	#The maximum number of Maps (Filled & Empty combined) allowed to be inside an Atlas.
 	# Default: 512
 	# Range: 0 ~ 1000000
-	max_map_count = 512
+	max_map_count = 256
 	#If enabled, you can increase the Empty Map count by inserting Paper
 	accept_paper_for_empty_maps = false
 	#If true, the Atlas is required to have spare Empty Maps stored to expand the Filled Map size
@@ -31,11 +31,11 @@
 	#Max of maps to update each tick. Increase to make maps update faster
 	# Default: 1
 	# Range: 0 ~ 100
-	map_updates_per_tick = 1
+	map_updates_per_tick = 4
 	#Range multiplier of the map update. Logic affects all maps, atlas or not. Change to make the range smaller or bigger
 	# Default: 1.0
 	# Range: 1.0E-4 ~ 10.0
-	map_range_multiplier = 1.0
+	map_range_multiplier = 1.6
 	#Makes map update on different threads, speeding up the process. Disable if it causes issues. Especially on servers. Try turning on for a big performance improvement regarding map atlas update
 	#Allowed Values: OFF, SINGLE_PLAYER_ONLY, ALWAYS_ON
 	multithreaded_update = "SINGLE_PLAYER_ONLY"

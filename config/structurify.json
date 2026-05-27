@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.11",
-  "config_datetime": "2026-03-05_14-00-15",
+  "config_version": "2.0.20",
+  "config_datetime": "2026-05-13_08-57-26",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -321,7 +321,7 @@
     },
     {
       "name": "nova_structures:end_lighthouse",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "minecraft:small_end_islands",
         "enderscape:void_sky_islands",
@@ -1682,7 +1682,7 @@
     },
     {
       "name": "nova_structures:tavern_acacia",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "#c:is_savanna"
       ],
@@ -1709,7 +1709,7 @@
     },
     {
       "name": "nova_structures:tavern_birch",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "biomesoplenty:coniferous_forest"
       ],
@@ -1730,7 +1730,7 @@
     },
     {
       "name": "nova_structures:tavern_cherry",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "biomesoplenty:snowblossom_grove"
       ],
@@ -1748,7 +1748,7 @@
     },
     {
       "name": "nova_structures:tavern_dark_oak",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1767,7 +1767,7 @@
     },
     {
       "name": "nova_structures:tavern_desert",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1786,7 +1786,7 @@
     },
     {
       "name": "nova_structures:tavern_jungle",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1805,7 +1805,7 @@
     },
     {
       "name": "nova_structures:tavern_mangrove",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [
         "biomesoplenty:bog"
       ],
@@ -1825,7 +1825,7 @@
     },
     {
       "name": "nova_structures:tavern_oak",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1844,7 +1844,7 @@
     },
     {
       "name": "nova_structures:tavern_snowy",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1863,7 +1863,7 @@
     },
     {
       "name": "nova_structures:tavern_spruce",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -1879,6 +1879,14 @@
         "#is_ocean",
         "#is_beach"
       ]
+    },
+    {
+      "name": "nova_structures:tavern_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
     },
     {
       "name": "nova_structures:toxic_lair",
@@ -3022,60 +3030,209 @@
   ],
   "structure_sets": [
     {
-      "spacing": 42,
-      "separation": 32,
+      "spacing": 56,
+      "separation": 42,
       "name": "dungeoncrawl:dungeons",
+      "is_disabled": false,
       "salt": 10387313,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "dungeoncrawl:dungeon": 1
+      }
     },
     {
       "spacing": 300,
       "separation": 190,
       "name": "minecraft:ocean_monuments",
+      "is_disabled": false,
       "salt": 69846574,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:monument": 1
+      }
     },
     {
       "spacing": 40,
       "separation": 15,
       "name": "minecraft:ruined_portals",
+      "is_disabled": false,
       "salt": 34222645,
       "frequency": 0.25,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:ruined_portal": 1,
+        "minecraft:ruined_portal_nether": 1,
+        "minecraft:ruined_portal_swamp": 1,
+        "minecraft:ruined_portal_mountain": 1,
+        "minecraft:ruined_portal_jungle": 1,
+        "minecraft:ruined_portal_ocean": 1,
+        "minecraft:ruined_portal_desert": 1
+      }
     },
     {
       "spacing": 24,
       "separation": 4,
       "name": "minecraft:shipwrecks",
+      "is_disabled": false,
       "salt": 165745295,
       "frequency": 0.25,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:shipwreck_beached": 1,
+        "minecraft:shipwreck": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 10,
+      "name": "nova_structures:bunker",
+      "is_disabled": true,
+      "salt": 6798544,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:bunker": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 22,
+      "name": "nova_structures:end_lighthouses",
+      "is_disabled": true,
+      "salt": 435656543,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:end_lighthouse": 1
+      }
+    },
+    {
+      "spacing": 50,
+      "separation": 15,
+      "name": "nova_structures:firewatch_towers",
+      "is_disabled": true,
+      "salt": 123,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:firewatch_tower_cherry": 1,
+        "nova_structures:firewatch_tower_mangrove": 1,
+        "nova_structures:firewatch_tower_dark_oak": 1,
+        "nova_structures:firewatch_tower_forest": 1,
+        "nova_structures:firewatch_tower_birch": 1,
+        "nova_structures:firewatch_tower_taiga": 1,
+        "nova_structures:firewatch_tower_jungle": 1,
+        "nova_structures:firewatch_tower_savanna": 1,
+        "nova_structures:firewatch_tower_swamp": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 20,
+      "name": "nova_structures:nether_skeleton_towers",
+      "is_disabled": true,
+      "salt": 940354935,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:nether_skeleton_tower_waste": 1,
+        "nova_structures:nether_skeleton_tower_crimson": 1,
+        "nova_structures:nether_skeleton_tower_soul": 1,
+        "nova_structures:nether_skeleton_tower_warped": 1
+      }
     },
     {
       "spacing": 119,
       "separation": 52,
       "name": "nova_structures:shrines",
+      "is_disabled": false,
       "salt": 78409300,
       "frequency": 1.0,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:shrine_combat_tier_1": 20,
+        "nova_structures:shrine_combat_tier_2": 20,
+        "nova_structures:shrine_combat_tier_3": 50,
+        "nova_structures:shrine_combat_tier_4": 40,
+        "nova_structures:shrine_combat_tier_5": 30
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 15,
+      "name": "nova_structures:taverns",
+      "is_disabled": true,
+      "salt": 783,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:tavern_cherry": 1,
+        "nova_structures:tavern_oak": 1,
+        "nova_structures:tavern_birch": 1,
+        "nova_structures:tavern_acacia": 1,
+        "nova_structures:tavern_jungle": 1,
+        "nova_structures:tavern_mangrove": 1,
+        "nova_structures:tavern_swamp": 1,
+        "nova_structures:tavern_dark_oak": 1,
+        "nova_structures:tavern_desert": 1,
+        "nova_structures:tavern_snowy": 1,
+        "nova_structures:tavern_spruce": 1
+      }
+    },
+    {
+      "spacing": 20,
+      "separation": 10,
+      "name": "nova_structures:underground_house",
+      "is_disabled": true,
+      "salt": 23094,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:underground_house": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 15,
+      "name": "nova_structures:wells",
+      "is_disabled": true,
+      "salt": 430930,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "nova_structures:well_birch": 1,
+        "nova_structures:well_dark_oak": 1,
+        "nova_structures:well_savana": 1,
+        "nova_structures:well_spruce": 1,
+        "nova_structures:well_oak": 1,
+        "nova_structures:well_jungle": 1
+      }
     },
     {
       "spacing": 50,
       "separation": 42,
       "name": "supplementaries:galleons",
+      "is_disabled": false,
       "salt": 121047156,
       "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "supplementaries:galleon": 1
+      }
     },
     {
       "spacing": 32,
       "separation": 16,
       "name": "supplementaries:road_signs",
+      "is_disabled": false,
       "salt": 431041526,
       "frequency": 0.5,
-      "override_global_spacing_and_separation_modifier": false
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "supplementaries:road_sign": 1
+      }
     }
   ]
 }

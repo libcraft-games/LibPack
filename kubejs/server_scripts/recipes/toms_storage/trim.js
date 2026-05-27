@@ -2,7 +2,7 @@ ServerEvents.recipes(e => {
     let ie = 'immersiveengineering', ts = 'toms_storage'
     let item = `${ts}:trim`
     e.remove({output: item})
-    e.shaped(item,
+    e.shaped(`4x ${item}`,
         [
             ' A ',
             'ABA',
