@@ -9,8 +9,10 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${ed}:strange_eclair`).withWeight(5))
         pool.addEntry(LootEntry.of(`${mc}:phantom_membrane`, 4).withWeight(4))
-        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(3).addPotion(`${mc}:long_slow_falling`))
-        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:strong_retaliation`))
-        pool.addEntry(LootEntry.of(`${mc}:lingering_potion`).withWeight(1).addPotion(`${lc}:strong_venom`))
+        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(3).addPotion(`${mc}:long_slow_falling`))        
+        // todo: poison aura?
+        // pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:strong_retaliation`))
+        // todo: wither?
+        // pool.addEntry(LootEntry.of(`${mc}:lingering_potion`).withWeight(1).addPotion(`${lc}:strong_venom`))
     })
 })

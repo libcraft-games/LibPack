@@ -24,6 +24,7 @@
         "typeRoots": [
             "../../.probe/packages",
             "../../.probe/startup"
-        ]
+        ],
+        "ignoreDeprecations": "6.0"
     }
 }

@@ -9,7 +9,9 @@ LootJS.lootTables(e => {
     table.createPool(pool => {
         pool.addEntry(LootEntry.of(`${mc}:phantom_membrane`, 2).withWeight(4))
         pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(3).addPotion(`${mc}:slow_falling`))
-        pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:retaliation`))
-        pool.addEntry(LootEntry.of(`${mc}:lingering_potion`).withWeight(1).addPotion(`${lc}:venom`))
+        // todo: poison aura?
+        // pool.addEntry(LootEntry.of(`${mc}:potion`).withWeight(1).addPotion(`${lc}:retaliation`))
+        // todo: wither?
+        // pool.addEntry(LootEntry.of(`${mc}:lingering_potion`).withWeight(1).addPotion(`${lc}:venom`))
     })
 })

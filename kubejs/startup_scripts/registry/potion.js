@@ -53,27 +53,5 @@ StartupEvents.registry('potion', e => {
     for(let [id, group] of customVanillaPotions) {
         registerPotions(id, `minecraft:${id}`, group)
     }
-    // todo: pyromaniac, brimstone vision, and heartbreak look too similar to
-    //       instant health. give their potions custom colors
-    let customRunicPotions = [
-        ['confusion',       'middle',   false],
-        ['perception',      'general',  true],
-        ['retaliation',     'general',  true],
-        ['water_walking',   'general',  false],
-        ['lava_walking',    'general',  false],
-        ['trail_blazing',   'middle',   false],
-        ['pyromaniac',      'short',    true],
-        ['burning_thorns',  'middle',   true],
-        // ['bleeding',        'short',    true],
-        ['brimstone_vision','general',  false],
-        ['creative_shock',  'short',    true],
-        ['venom',           'short',    true],
-        // ['shatterspleen',   'short',    true],
-        // ['heartbreak',      'short',    true]
-    ]
-    for(let [id, group, hasStrong] of customRunicPotions) {
-        let variants = hasStrong ? null : ['base', 'long']
-        registerPotionsOfVariants(id, `runiclib:${id}`, group, variants)
-    }
     registerPotionsOfVariants('ender_phasing', 'endersdelight:phasing', 'middle', ['base', 'long'])
 })
