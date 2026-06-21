@@ -64,12 +64,12 @@ StartupEvents.registry('potion', e => {
         ['trail_blazing',   'middle',   false],
         ['pyromaniac',      'short',    true],
         ['burning_thorns',  'middle',   true],
-        ['bleeding',        'short',    true],
+        // ['bleeding',        'short',    true],
         ['brimstone_vision','general',  false],
         ['creative_shock',  'short',    true],
         ['venom',           'short',    true],
-        ['shatterspleen',   'short',    true],
-        ['heartbreak',      'short',    true]
+        // ['shatterspleen',   'short',    true],
+        // ['heartbreak',      'short',    true]
     ]
     for(let [id, group, hasStrong] of customRunicPotions) {
         let variants = hasStrong ? null : ['base', 'long']

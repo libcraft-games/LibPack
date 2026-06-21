@@ -237,6 +237,7 @@
 			hollow_log_vertical = true
 			banister = true
 			hollow_log_climbable = true
+			hollow_log = true
 
 		[entries.wood_type.chipped]
 			fine_planks = true
@@ -381,7 +382,7 @@
 			chair = true
 			railing = false
 			carved = false
-			bench = true
+			bench = false
 			coffee_table = false
 			beam = false
 			shelf = false

@@ -60,7 +60,7 @@ LootJS.lootTables(e => {
             [base,      `${mc}:healing`,        5],
             [base,      `${mc}:luck`,           5],
             [splash,    `${mc}:harming`,        5],
-            [splash,    `${lc}:shatterspleen`,  5],
+            // [splash,    `${lc}:shatterspleen`,  5],
             [splash,    `${lc}:unluck`,         5],
             [base,      `${mc}:night_vision`,   4],
             [base,      `${mc}:swiftness`,      4],
@@ -83,10 +83,10 @@ LootJS.lootTables(e => {
             [base,      `${lc}:retaliation`,    2],
             [splash,    `${lc}:creative_shock`, 2],
             [splash,    `${lc}:wither`,         2],
-            [splash,    `${lc}:bleeding`,       2],
+            // [splash,    `${lc}:bleeding`,       2],
             [splash,    `${mc}:invisibility`,   1],
             [splash,    `${mc}:weaving`,        1],
-            [splash,    `${lc}:heartbreak`,     1],
+            // [splash,    `${lc}:heartbreak`,     1],
         ]
         for(let [type, id, weight] of potions) {
             pool.addEntry(LootEntry.of(`${mc}:${type}potion`).addPotion(id).withWeight(weight))

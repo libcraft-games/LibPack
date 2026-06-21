@@ -25,15 +25,15 @@ high_value_percentage = 0.75
 # Range: > -2147483648
 offset_y = 0
 #Color used for highlighting high attribute values on statistics tooltips.
-#Default Value: §a
+#Default Value: GREEN
 #Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
 high_value_color = "GREEN"
 #Color used for highlighting low attribute values on statistics tooltips.
-#Default Value: §c
+#Default Value: RED
 #Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
 low_value_color = "RED"
 #Color used for highlighting medium attribute values on statistics tooltips.
-#Default Value: §6
+#Default Value: GOLD
 #Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
 medium_value_color = "GOLD"
 #Must the mount be tamed for any statistics to show.
