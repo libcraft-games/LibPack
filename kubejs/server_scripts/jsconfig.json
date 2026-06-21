@@ -24,6 +24,7 @@
         "typeRoots": [
             "../../.probe/packages",
             "../../.probe/server"
-        ]
+        ],
+        "ignoreDeprecations": "6.0"
     }
 }
