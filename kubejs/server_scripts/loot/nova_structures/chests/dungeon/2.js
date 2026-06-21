@@ -15,7 +15,7 @@ LootJS.lootTables(e => {
         pool.addEntry(LootEntry.of(`${mc}:candle`, [1, 3])                      .withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:feather`, [1, 3])                     .withWeight(2))
         pool.addEntry(LootEntry.of(`${mc}:ink_sac`, [1, 4])                     .withWeight(2))
-        pool.addEntry(LootEntry.of(`${mc}:book`)                                .withWeight(1).enchantWithLevels(`#${ns}:shrine`))
+        pool.addEntry(LootEntry.of(`${mc}:book`)                                .withWeight(1).enchantWithLevels(30)) // `#${ns}:shrine`))
         pool.addEntry(LootEntry.of(`${mc}:book`)                                .withWeight(1).enchantRandomly())
         pool.addEntry(LootEntry.reference(`lc:tables/general/scriptor/tier_1`)  .withWeight(1))
     })
